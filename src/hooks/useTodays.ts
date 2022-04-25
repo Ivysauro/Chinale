@@ -86,8 +86,8 @@ function getCountry(dayString: string) {
   do {
     smallCountryCooldown--;
 
-    //const pickingDateString = pickingDate.toFormat("yyyy-MM-dd");
-    const pickingDateString = Math.random().toString(); // for test
+    const pickingDateString = pickingDate.toFormat("yyyy-MM-dd");
+    //const pickingDateString = Math.random().toString(); // for test
 
     const forcedCountryCode = forcedCountries[dayString];
     const forcedCountry =

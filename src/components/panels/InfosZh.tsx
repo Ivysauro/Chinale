@@ -2,7 +2,7 @@
  * @Author: dx3906
  * @Date: 2022-04-22 15:40:35
  * @LastEditors: dx3906
- * @LastEditTime: 2022-04-25 11:25:48
+ * @LastEditTime: 2022-04-25 13:29:57
  */
 import { Guesses } from "../Guesses";
 import { Panel } from "./Panel";
@@ -22,7 +22,7 @@ export function InfosZh({ isOpen, close, settingsData }: InfosProps) {
   return (
     <Panel title="玩法说明" isOpen={isOpen} close={close}>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <div>在 6 次尝试以内猜出给定的地点，它是一个随机的地级或县级行政区。</div>
+        <div>在 6 次尝试以内猜出给定的地点，它是一个随机的中国地级行政区。</div>
         <div>每次猜测都需要是一个有效的行政区名称。</div>
         <div>
           每次尝试后，你可以看到本次尝试与给定地点之行政中心的距离、相对方位和接近程度。
@@ -89,7 +89,7 @@ export function InfosZh({ isOpen, close, settingsData }: InfosProps) {
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3 font-bold">
-        <Chinale /> 挑战会在每天凌晨 0 点刷新。<br></br>你可以在设置中打开“猜测县级单位”，增加猜测的难度。
+        <Chinale /> 挑战会在每天凌晨 0 点刷新，以你的设备时间为准。<br></br>你可以在设置中打开“猜测县级单位”，增加猜测的难度。
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div className="font-bold">有疑问或是建议？</div>
@@ -101,14 +101,13 @@ export function InfosZh({ isOpen, close, settingsData }: InfosProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Chinale FAQ
+            <Chinale /> 问题汇报
           </a>{" "}
           !
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <Chinale /> 是 <Worldle /> 的一个本地化版本，绝大多数工作由 <Worldle />
-        的原作者完成，而 <Worldle /> 的灵感则来源于由{" "}
+        <Chinale /> 是 <Worldle /> 的一个本地化版本，绝大多数工作由 <Worldle /> 的原作者完成，而 <Worldle /> 的灵感则来源于由{" "}
         <a
           className="underline"
           href="https://twitter.com/powerlanguish"

@@ -37,7 +37,7 @@ const resources = {
       install: {
         title: "舆鉴",
         descritpionTitle: "安装APP：",
-        description: "将志舆添加到主界面，更方便游玩",
+        description: "将舆鉴添加到主界面",
         instructionTitle: "Instructions:",
         instructionActionOk: "OK",
         instructionActionCancel: "Cancel",

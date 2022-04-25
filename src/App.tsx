@@ -130,7 +130,7 @@ function App({
           </header>
           <Game settingsData={settingsData} updateSettings={updateSettings} />
           <footer className="flex justify-center items-center text-sm mt-8 mb-1">
-            <Chinale />{" "}MADE BY 欧琳的吟颂
+            <Chinale />&nbsp;MADE BY 欧琳的吟颂
           </footer>
         </div>
       </div>

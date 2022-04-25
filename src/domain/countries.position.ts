@@ -3832,8 +3832,8 @@ export const countries: Country[] = [{
   name: "海伦市"
 }, {
   code: "232700",
-  latitude: 52.335262,
-  longitude: 124.711526,
+  latitude: 50.411164,
+  longitude: 124.117773,
   name: "大兴安岭地区"
 }, {
   code: "232701",
