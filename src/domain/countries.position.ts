@@ -1,1474 +1,15978 @@
 import { Country } from "./countries";
 
-export const countries: Country[] = [
-  {
-    code: "AD",
-    latitude: 42.546245,
-    longitude: 1.601554,
-    name: "Andorra",
-  },
-  {
-    code: "AE",
-    latitude: 23.424076,
-    longitude: 53.847818,
-    name: "United Arab Emirates",
-  },
-  {
-    code: "AF",
-    latitude: 33.93911,
-    longitude: 67.709953,
-    name: "Afghanistan",
-  },
-  {
-    code: "AG",
-    latitude: 17.060816,
-    longitude: -61.796428,
-    name: "Antigua and Barbuda",
-  },
-  {
-    code: "AI",
-    latitude: 18.220554,
-    longitude: -63.068615,
-    name: "Anguilla",
-  },
-  {
-    code: "AL",
-    latitude: 41.153332,
-    longitude: 20.168331,
-    name: "Albania",
-  },
-  {
-    code: "AM",
-    latitude: 40.069099,
-    longitude: 45.038189,
-    name: "Armenia",
-  },
-  {
-    code: "AN",
-    latitude: 12.226079,
-    longitude: -69.060087,
-    name: "Netherlands Antilles",
-  },
-  {
-    code: "AO",
-    latitude: -11.202692,
-    longitude: 17.873887,
-    name: "Angola",
-  },
-  {
-    code: "AQ",
-    latitude: -75.250973,
-    longitude: -0.071389,
-    name: "Antarctica",
-  },
-  {
-    code: "AR",
-    latitude: -38.416097,
-    longitude: -63.616672,
-    name: "Argentina",
-  },
-  {
-    code: "AS",
-    latitude: -14.270972,
-    longitude: -170.132217,
-    name: "American Samoa",
-  },
-  {
-    code: "AT",
-    latitude: 47.516231,
-    longitude: 14.550072,
-    name: "Austria",
-  },
-  {
-    code: "AU",
-    latitude: -25.274398,
-    longitude: 133.775136,
-    name: "Australia",
-  },
-  {
-    code: "AW",
-    latitude: 12.52111,
-    longitude: -69.968338,
-    name: "Aruba",
-  },
-  {
-    code: "AZ",
-    latitude: 40.143105,
-    longitude: 47.576927,
-    name: "Azerbaijan",
-  },
-  {
-    code: "BA",
-    latitude: 43.915886,
-    longitude: 17.679076,
-    name: "Bosnia and Herzegovina",
-  },
-  {
-    code: "BB",
-    latitude: 13.193887,
-    longitude: -59.543198,
-    name: "Barbados",
-  },
-  {
-    code: "BD",
-    latitude: 23.684994,
-    longitude: 90.356331,
-    name: "Bangladesh",
-  },
-  {
-    code: "BE",
-    latitude: 50.503887,
-    longitude: 4.469936,
-    name: "Belgium",
-  },
-  {
-    code: "BF",
-    latitude: 12.238333,
-    longitude: -1.561593,
-    name: "Burkina Faso",
-  },
-  {
-    code: "BG",
-    latitude: 42.733883,
-    longitude: 25.48583,
-    name: "Bulgaria",
-  },
-  {
-    code: "BH",
-    latitude: 25.930414,
-    longitude: 50.637772,
-    name: "Bahrain",
-  },
-  {
-    code: "BI",
-    latitude: -3.373056,
-    longitude: 29.918886,
-    name: "Burundi",
-  },
-  {
-    code: "BJ",
-    latitude: 9.30769,
-    longitude: 2.315834,
-    name: "Benin",
-  },
-  {
-    code: "BM",
-    latitude: 32.321384,
-    longitude: -64.75737,
-    name: "Bermuda",
-  },
-  {
-    code: "BN",
-    latitude: 4.535277,
-    longitude: 114.727669,
-    name: "Brunei",
-  },
-  {
-    code: "BO",
-    latitude: -16.290154,
-    longitude: -63.588653,
-    name: "Bolivia",
-  },
-  {
-    code: "BR",
-    latitude: -14.235004,
-    longitude: -51.92528,
-    name: "Brazil",
-  },
-  {
-    code: "BS",
-    latitude: 25.03428,
-    longitude: -77.39628,
-    name: "Bahamas",
-  },
-  {
-    code: "BT",
-    latitude: 27.514162,
-    longitude: 90.433601,
-    name: "Bhutan",
-  },
-  {
-    code: "BV",
-    latitude: -54.423199,
-    longitude: 3.413194,
-    name: "Bouvet Island",
-  },
-  {
-    code: "BW",
-    latitude: -22.328474,
-    longitude: 24.684866,
-    name: "Botswana",
-  },
-  {
-    code: "BY",
-    latitude: 53.709807,
-    longitude: 27.953389,
-    name: "Belarus",
-  },
-  {
-    code: "BZ",
-    latitude: 17.189877,
-    longitude: -88.49765,
-    name: "Belize",
-  },
-  {
-    code: "CA",
-    latitude: 56.130366,
-    longitude: -106.346771,
-    name: "Canada",
-  },
-  {
-    code: "CC",
-    latitude: -12.164165,
-    longitude: 96.870956,
-    name: "Cocos Islands",
-  },
-  {
-    code: "CD",
-    latitude: -4.038333,
-    longitude: 21.758664,
-    name: "Democratic Republic of the Congo",
-  },
-  {
-    code: "CF",
-    latitude: 6.611111,
-    longitude: 20.939444,
-    name: "Central African Republic",
-  },
-  {
-    code: "CG",
-    latitude: -0.228021,
-    longitude: 15.827659,
-    name: "Congo",
-  },
-  {
-    code: "CH",
-    latitude: 46.818188,
-    longitude: 8.227512,
-    name: "Switzerland",
-  },
-  {
-    code: "CI",
-    latitude: 7.539989,
-    longitude: -5.54708,
-    name: "Côte d'Ivoire",
-  },
-  {
-    code: "CK",
-    latitude: -21.236736,
-    longitude: -159.777671,
-    name: "Cook Islands",
-  },
-  {
-    code: "CL",
-    latitude: -35.675147,
-    longitude: -71.542969,
-    name: "Chile",
-  },
-  {
-    code: "CM",
-    latitude: 7.369722,
-    longitude: 12.354722,
-    name: "Cameroon",
-  },
-  {
-    code: "CN",
-    latitude: 35.86166,
-    longitude: 104.195397,
-    name: "China",
-  },
-  {
-    code: "CO",
-    latitude: 4.570868,
-    longitude: -74.297333,
-    name: "Colombia",
-  },
-  {
-    code: "CR",
-    latitude: 9.748917,
-    longitude: -83.753428,
-    name: "Costa Rica",
-  },
-  {
-    code: "CU",
-    latitude: 21.521757,
-    longitude: -77.781167,
-    name: "Cuba",
-  },
-  {
-    code: "CV",
-    latitude: 16.002082,
-    longitude: -24.013197,
-    name: "Cape Verde",
-  },
-  {
-    code: "CX",
-    latitude: -10.447525,
-    longitude: 105.690449,
-    name: "Christmas Island",
-  },
-  {
-    code: "CY",
-    latitude: 35.126413,
-    longitude: 33.429859,
-    name: "Cyprus",
-  },
-  {
-    code: "CZ",
-    latitude: 49.817492,
-    longitude: 15.472962,
-    name: "Czechia",
-  },
-  {
-    code: "DE",
-    latitude: 51.165691,
-    longitude: 10.451526,
-    name: "Germany",
-  },
-  {
-    code: "DJ",
-    latitude: 11.825138,
-    longitude: 42.590275,
-    name: "Djibouti",
-  },
-  {
-    code: "DK",
-    latitude: 56.26392,
-    longitude: 9.501785,
-    name: "Denmark",
-  },
-  {
-    code: "DM",
-    latitude: 15.414999,
-    longitude: -61.370976,
-    name: "Dominica",
-  },
-  {
-    code: "DO",
-    latitude: 18.735693,
-    longitude: -70.162651,
-    name: "Dominican Republic",
-  },
-  {
-    code: "DZ",
-    latitude: 28.033886,
-    longitude: 1.659626,
-    name: "Algeria",
-  },
-  {
-    code: "EC",
-    latitude: -1.831239,
-    longitude: -78.183406,
-    name: "Ecuador",
-  },
-  {
-    code: "EE",
-    latitude: 58.595272,
-    longitude: 25.013607,
-    name: "Estonia",
-  },
-  {
-    code: "EG",
-    latitude: 26.820553,
-    longitude: 30.802498,
-    name: "Egypt",
-  },
-  {
-    code: "EH",
-    latitude: 24.215527,
-    longitude: -12.885834,
-    name: "Western Sahara",
-  },
-  {
-    code: "ER",
-    latitude: 15.179384,
-    longitude: 39.782334,
-    name: "Eritrea",
-  },
-  {
-    code: "ES",
-    latitude: 40.463667,
-    longitude: -3.74922,
-    name: "Spain",
-  },
-  {
-    code: "ET",
-    latitude: 9.145,
-    longitude: 40.489673,
-    name: "Ethiopia",
-  },
-  {
-    code: "FI",
-    latitude: 61.92411,
-    longitude: 25.748151,
-    name: "Finland",
-  },
-  {
-    code: "FJ",
-    latitude: -16.578193,
-    longitude: 179.414413,
-    name: "Fiji",
-  },
-  {
-    code: "FK",
-    latitude: -51.796253,
-    longitude: -59.523613,
-    name: "Falkland Islands (Malvinas)",
-  },
-  {
-    code: "FM",
-    latitude: 7.425554,
-    longitude: 150.550812,
-    name: "Micronesia",
-  },
-  {
-    code: "FO",
-    latitude: 61.892635,
-    longitude: -6.911806,
-    name: "Faroe Islands",
-  },
-  {
-    code: "FR",
-    latitude: 46.227638,
-    longitude: 2.213749,
-    name: "France",
-  },
-  {
-    code: "GA",
-    latitude: -0.803689,
-    longitude: 11.609444,
-    name: "Gabon",
-  },
-  {
-    code: "GB",
-    latitude: 55.378051,
-    longitude: -3.435973,
-    name: "United Kingdom",
-  },
-  {
-    code: "GD",
-    latitude: 12.262776,
-    longitude: -61.604171,
-    name: "Grenada",
-  },
-  {
-    code: "GE",
-    latitude: 42.315407,
-    longitude: 43.356892,
-    name: "Georgia",
-  },
-  {
-    code: "GF",
-    latitude: 3.933889,
-    longitude: -53.125782,
-    name: "French Guiana",
-  },
-  {
-    code: "GG",
-    latitude: 49.465691,
-    longitude: -2.585278,
-    name: "Guernsey",
-  },
-  {
-    code: "GH",
-    latitude: 7.946527,
-    longitude: -1.023194,
-    name: "Ghana",
-  },
-  {
-    code: "GI",
-    latitude: 36.137741,
-    longitude: -5.345374,
-    name: "Gibraltar",
-  },
-  {
-    code: "GL",
-    latitude: 71.706936,
-    longitude: -42.604303,
-    name: "Greenland",
-  },
-  {
-    code: "GM",
-    latitude: 13.443182,
-    longitude: -15.310139,
-    name: "Gambia",
-  },
-  {
-    code: "GN",
-    latitude: 9.945587,
-    longitude: -9.696645,
-    name: "Guinea",
-  },
-  {
-    code: "GP",
-    latitude: 16.995971,
-    longitude: -62.067641,
-    name: "Guadeloupe",
-  },
-  {
-    code: "GQ",
-    latitude: 1.650801,
-    longitude: 10.267895,
-    name: "Equatorial Guinea",
-  },
-  {
-    code: "GR",
-    latitude: 39.074208,
-    longitude: 21.824312,
-    name: "Greece",
-  },
-  {
-    code: "GS",
-    latitude: -54.429579,
-    longitude: -36.587909,
-    name: "South Georgia and the South Sandwich Islands",
-  },
-  {
-    code: "GT",
-    latitude: 15.783471,
-    longitude: -90.230759,
-    name: "Guatemala",
-  },
-  {
-    code: "GU",
-    latitude: 13.444304,
-    longitude: 144.793731,
-    name: "Guam",
-  },
-  {
-    code: "GW",
-    latitude: 11.803749,
-    longitude: -15.180413,
-    name: "Guinea-Bissau",
-  },
-  {
-    code: "GY",
-    latitude: 4.860416,
-    longitude: -58.93018,
-    name: "Guyana",
-  },
-  {
-    code: "GZ",
-    latitude: 31.354676,
-    longitude: 34.308825,
-    name: "Gaza Strip",
-  },
-  {
-    code: "HK",
-    latitude: 22.396428,
-    longitude: 114.109497,
-    name: "Hong Kong",
-  },
-  {
-    code: "HM",
-    latitude: -53.08181,
-    longitude: 73.504158,
-    name: "Heard Island and McDonald Islands",
-  },
-  {
-    code: "HN",
-    latitude: 15.199999,
-    longitude: -86.241905,
-    name: "Honduras",
-  },
-  {
-    code: "HR",
-    latitude: 45.1,
-    longitude: 15.2,
-    name: "Croatia",
-  },
-  {
-    code: "HT",
-    latitude: 18.971187,
-    longitude: -72.285215,
-    name: "Haiti",
-  },
-  {
-    code: "HU",
-    latitude: 47.162494,
-    longitude: 19.503304,
-    name: "Hungary",
-  },
-  {
-    code: "ID",
-    latitude: -0.789275,
-    longitude: 113.921327,
-    name: "Indonesia",
-  },
-  {
-    code: "IE",
-    latitude: 53.41291,
-    longitude: -8.24389,
-    name: "Ireland",
-  },
-  {
-    code: "IL",
-    latitude: 31.046051,
-    longitude: 34.851612,
-    name: "Israel",
-  },
-  {
-    code: "IM",
-    latitude: 54.236107,
-    longitude: -4.548056,
-    name: "Isle of Man",
-  },
-  {
-    code: "IN",
-    latitude: 20.593684,
-    longitude: 78.96288,
-    name: "India",
-  },
-  {
-    code: "IO",
-    latitude: -6.343194,
-    longitude: 71.876519,
-    name: "British Indian Ocean Territory (Diego Garcia)",
-  },
-  {
-    code: "IQ",
-    latitude: 33.223191,
-    longitude: 43.679291,
-    name: "Iraq",
-  },
-  {
-    code: "IR",
-    latitude: 32.427908,
-    longitude: 53.688046,
-    name: "Iran",
-  },
-  {
-    code: "IS",
-    latitude: 64.963051,
-    longitude: -19.020835,
-    name: "Iceland",
-  },
-  {
-    code: "IT",
-    latitude: 41.87194,
-    longitude: 12.56738,
-    name: "Italy",
-  },
-  {
-    code: "JE",
-    latitude: 49.214439,
-    longitude: -2.13125,
-    name: "Jersey",
-  },
-  {
-    code: "JM",
-    latitude: 18.109581,
-    longitude: -77.297508,
-    name: "Jamaica",
-  },
-  {
-    code: "JO",
-    latitude: 30.585164,
-    longitude: 36.238414,
-    name: "Jordan",
-  },
-  {
-    code: "JP",
-    latitude: 36.204824,
-    longitude: 138.252924,
-    name: "Japan",
-  },
-  {
-    code: "KE",
-    latitude: -0.023559,
-    longitude: 37.906193,
-    name: "Kenya",
-  },
-  {
-    code: "KG",
-    latitude: 41.20438,
-    longitude: 74.766098,
-    name: "Kyrgyzstan",
-  },
-  {
-    code: "KH",
-    latitude: 12.565679,
-    longitude: 104.990963,
-    name: "Cambodia",
-  },
-  {
-    code: "KI",
-    latitude: -3.370417,
-    longitude: -168.734039,
-    name: "Kiribati",
-  },
-  {
-    code: "KM",
-    latitude: -11.875001,
-    longitude: 43.872219,
-    name: "Comoros",
-  },
-  {
-    code: "KN",
-    latitude: 17.357822,
-    longitude: -62.782998,
-    name: "Saint Kitts and Nevis",
-  },
-  {
-    code: "KP",
-    latitude: 40.339852,
-    longitude: 127.510093,
-    name: "North Korea",
-  },
-  {
-    code: "KR",
-    latitude: 35.907757,
-    longitude: 127.766922,
-    name: "South Korea",
-  },
-  {
-    code: "KW",
-    latitude: 29.31166,
-    longitude: 47.481766,
-    name: "Kuwait",
-  },
-  {
-    code: "KY",
-    latitude: 19.513469,
-    longitude: -80.566956,
-    name: "Cayman Islands",
-  },
-  {
-    code: "KZ",
-    latitude: 48.019573,
-    longitude: 66.923684,
-    name: "Kazakhstan",
-  },
-  {
-    code: "LA",
-    latitude: 19.85627,
-    longitude: 102.495496,
-    name: "Laos",
-  },
-  {
-    code: "LB",
-    latitude: 33.854721,
-    longitude: 35.862285,
-    name: "Lebanon",
-  },
-  {
-    code: "LC",
-    latitude: 13.909444,
-    longitude: -60.978893,
-    name: "Saint Lucia",
-  },
-  {
-    code: "LI",
-    latitude: 47.166,
-    longitude: 9.555373,
-    name: "Liechtenstein",
-  },
-  {
-    code: "LK",
-    latitude: 7.873054,
-    longitude: 80.771797,
-    name: "Sri Lanka",
-  },
-  {
-    code: "LR",
-    latitude: 6.428055,
-    longitude: -9.429499,
-    name: "Liberia",
-  },
-  {
-    code: "LS",
-    latitude: -29.609988,
-    longitude: 28.233608,
-    name: "Lesotho",
-  },
-  {
-    code: "LT",
-    latitude: 55.169438,
-    longitude: 23.881275,
-    name: "Lithuania",
-  },
-  {
-    code: "LU",
-    latitude: 49.815273,
-    longitude: 6.129583,
-    name: "Luxembourg",
-  },
-  {
-    code: "LV",
-    latitude: 56.879635,
-    longitude: 24.603189,
-    name: "Latvia",
-  },
-  {
-    code: "LY",
-    latitude: 26.3351,
-    longitude: 17.228331,
-    name: "Libya",
-  },
-  {
-    code: "MA",
-    latitude: 31.791702,
-    longitude: -7.09262,
-    name: "Morocco",
-  },
-  {
-    code: "MC",
-    latitude: 43.750298,
-    longitude: 7.412841,
-    name: "Monaco",
-  },
-  {
-    code: "MD",
-    latitude: 47.411631,
-    longitude: 28.369885,
-    name: "Moldova",
-  },
-  {
-    code: "ME",
-    latitude: 42.708678,
-    longitude: 19.37439,
-    name: "Montenegro",
-  },
-  {
-    code: "MG",
-    latitude: -18.766947,
-    longitude: 46.869107,
-    name: "Madagascar",
-  },
-  {
-    code: "MH",
-    latitude: 7.131474,
-    longitude: 171.184478,
-    name: "Marshall Islands",
-  },
-  {
-    code: "MK",
-    latitude: 41.608635,
-    longitude: 21.745275,
-    name: "North Macedonia",
-  },
-  {
-    code: "ML",
-    latitude: 17.570692,
-    longitude: -3.996166,
-    name: "Mali",
-  },
-  {
-    code: "MM",
-    latitude: 21.913965,
-    longitude: 95.956223,
-    name: "Myanmar",
-  },
-  {
-    code: "MN",
-    latitude: 46.862496,
-    longitude: 103.846656,
-    name: "Mongolia",
-  },
-  {
-    code: "MO",
-    latitude: 22.198745,
-    longitude: 113.543873,
-    name: "Macau",
-  },
-  {
-    code: "MP",
-    latitude: 17.33083,
-    longitude: 145.38469,
-    name: "Northern Mariana Islands",
-  },
-  {
-    code: "MQ",
-    latitude: 14.641528,
-    longitude: -61.024174,
-    name: "Martinique",
-  },
-  {
-    code: "MR",
-    latitude: 21.00789,
-    longitude: -10.940835,
-    name: "Mauritania",
-  },
-  {
-    code: "MS",
-    latitude: 16.742498,
-    longitude: -62.187366,
-    name: "Montserrat",
-  },
-  {
-    code: "MT",
-    latitude: 35.937496,
-    longitude: 14.375416,
-    name: "Malta",
-  },
-  {
-    code: "MU",
-    latitude: -20.348404,
-    longitude: 57.552152,
-    name: "Mauritius",
-  },
-  {
-    code: "MV",
-    latitude: 3.202778,
-    longitude: 73.22068,
-    name: "Maldives",
-  },
-  {
-    code: "MW",
-    latitude: -13.254308,
-    longitude: 34.301525,
-    name: "Malawi",
-  },
-  {
-    code: "MX",
-    latitude: 23.634501,
-    longitude: -102.552784,
-    name: "Mexico",
-  },
-  {
-    code: "MY",
-    latitude: 4.040255,
-    longitude: 109.091912,
-    name: "Malaysia",
-  },
-  {
-    code: "MZ",
-    latitude: -18.665695,
-    longitude: 35.529562,
-    name: "Mozambique",
-  },
-  {
-    code: "NA",
-    latitude: -22.95764,
-    longitude: 18.49041,
-    name: "Namibia",
-  },
-  {
-    code: "NC",
-    latitude: -20.904305,
-    longitude: 165.618042,
-    name: "New Caledonia",
-  },
-  {
-    code: "NE",
-    latitude: 17.607789,
-    longitude: 8.081666,
-    name: "Niger",
-  },
-  {
-    code: "NF",
-    latitude: -29.040835,
-    longitude: 167.954712,
-    name: "Norfolk Island",
-  },
-  {
-    code: "NG",
-    latitude: 9.081999,
-    longitude: 8.675277,
-    name: "Nigeria",
-  },
-  {
-    code: "NI",
-    latitude: 12.865416,
-    longitude: -85.207229,
-    name: "Nicaragua",
-  },
-  {
-    code: "NL",
-    latitude: 52.132633,
-    longitude: 5.291266,
-    name: "Netherlands",
-  },
-  {
-    code: "NO",
-    latitude: 60.472024,
-    longitude: 8.468946,
-    name: "Norway",
-  },
-  {
-    code: "NP",
-    latitude: 28.394857,
-    longitude: 84.124008,
-    name: "Nepal",
-  },
-  {
-    code: "NR",
-    latitude: -0.522778,
-    longitude: 166.931503,
-    name: "Nauru",
-  },
-  {
-    code: "NU",
-    latitude: -19.054445,
-    longitude: -169.867233,
-    name: "Niue",
-  },
-  {
-    code: "NZ",
-    latitude: -40.900557,
-    longitude: 174.885971,
-    name: "New Zealand",
-  },
-  {
-    code: "OM",
-    latitude: 21.512583,
-    longitude: 55.923255,
-    name: "Oman",
-  },
-  {
-    code: "PA",
-    latitude: 8.537981,
-    longitude: -80.782127,
-    name: "Panama",
-  },
-  {
-    code: "PE",
-    latitude: -9.189967,
-    longitude: -75.015152,
-    name: "Peru",
-  },
-  {
-    code: "PF",
-    latitude: -17.679742,
-    longitude: -149.406843,
-    name: "French Polynesia",
-  },
-  {
-    code: "PG",
-    latitude: -6.314993,
-    longitude: 143.95555,
-    name: "Papua New Guinea",
-  },
-  {
-    code: "PH",
-    latitude: 12.879721,
-    longitude: 121.774017,
-    name: "Philippines",
-  },
-  {
-    code: "PK",
-    latitude: 30.375321,
-    longitude: 69.345116,
-    name: "Pakistan",
-  },
-  {
-    code: "PL",
-    latitude: 51.919438,
-    longitude: 19.145136,
-    name: "Poland",
-  },
-  {
-    code: "PM",
-    latitude: 46.941936,
-    longitude: -56.27111,
-    name: "Saint Pierre and Miquelon",
-  },
-  {
-    code: "PN",
-    latitude: -24.703615,
-    longitude: -127.439308,
-    name: "Pitcairn Islands",
-  },
-  {
-    code: "PR",
-    latitude: 18.220833,
-    longitude: -66.590149,
-    name: "Puerto Rico",
-  },
-  {
-    code: "PS",
-    latitude: 31.952162,
-    longitude: 35.233154,
-    name: "Palestine",
-  },
-  {
-    code: "PT",
-    latitude: 39.399872,
-    longitude: -8.224454,
-    name: "Portugal",
-  },
-  {
-    code: "PW",
-    latitude: 7.51498,
-    longitude: 134.58252,
-    name: "Palau",
-  },
-  {
-    code: "PY",
-    latitude: -23.442503,
-    longitude: -58.443832,
-    name: "Paraguay",
-  },
-  {
-    code: "QA",
-    latitude: 25.354826,
-    longitude: 51.183884,
-    name: "Qatar",
-  },
-  {
-    code: "RE",
-    latitude: -21.115141,
-    longitude: 55.536384,
-    name: "Réunion",
-  },
-  {
-    code: "RO",
-    latitude: 45.943161,
-    longitude: 24.96676,
-    name: "Romania",
-  },
-  {
-    code: "RS",
-    latitude: 44.016521,
-    longitude: 21.005859,
-    name: "Serbia",
-  },
-  {
-    code: "RU",
-    latitude: 61.52401,
-    longitude: 105.318756,
-    name: "Russia",
-  },
-  {
-    code: "RW",
-    latitude: -1.940278,
-    longitude: 29.873888,
-    name: "Rwanda",
-  },
-  {
-    code: "SA",
-    latitude: 23.885942,
-    longitude: 45.079162,
-    name: "Saudi Arabia",
-  },
-  {
-    code: "SB",
-    latitude: -9.64571,
-    longitude: 160.156194,
-    name: "Solomon Islands",
-  },
-  {
-    code: "SC",
-    latitude: -4.679574,
-    longitude: 55.491977,
-    name: "Seychelles",
-  },
-  {
-    code: "SD",
-    latitude: 15.8905231,
-    longitude: 30.7671933,
-    name: "Sudan",
-  },
-  {
-    code: "SS",
-    latitude: 6.85065,
-    longitude: 30.659016,
-    name: "South Sudan",
-  },
-  {
-    code: "SE",
-    latitude: 60.128161,
-    longitude: 18.643501,
-    name: "Sweden",
-  },
-  {
-    code: "SG",
-    latitude: 1.352083,
-    longitude: 103.819836,
-    name: "Singapore",
-  },
-  {
-    code: "SH",
-    latitude: -24.143474,
-    longitude: -10.030696,
-    name: "Saint Helena",
-  },
-  {
-    code: "SI",
-    latitude: 46.151241,
-    longitude: 14.995463,
-    name: "Slovenia",
-  },
-  {
-    code: "SJ",
-    latitude: 77.553604,
-    longitude: 23.670272,
-    name: "Svalbard and Jan Mayen",
-  },
-  {
-    code: "SK",
-    latitude: 48.669026,
-    longitude: 19.699024,
-    name: "Slovakia",
-  },
-  {
-    code: "SL",
-    latitude: 8.460555,
-    longitude: -11.779889,
-    name: "Sierra Leone",
-  },
-  {
-    code: "SM",
-    latitude: 43.94236,
-    longitude: 12.457777,
-    name: "San Marino",
-  },
-  {
-    code: "SN",
-    latitude: 14.497401,
-    longitude: -14.452362,
-    name: "Senegal",
-  },
-  {
-    code: "SO",
-    latitude: 5.152149,
-    longitude: 46.199616,
-    name: "Somalia",
-  },
-  {
-    code: "SR",
-    latitude: 3.919305,
-    longitude: -56.027783,
-    name: "Suriname",
-  },
-  {
-    code: "ST",
-    latitude: 0.18636,
-    longitude: 6.613081,
-    name: "São Tomé and Príncipe",
-  },
-  {
-    code: "SV",
-    latitude: 13.794185,
-    longitude: -88.89653,
-    name: "El Salvador",
-  },
-  {
-    code: "SY",
-    latitude: 34.802075,
-    longitude: 38.996815,
-    name: "Syria",
-  },
-  {
-    code: "SZ",
-    latitude: -26.522503,
-    longitude: 31.465866,
-    name: "Eswatini",
-  },
-  {
-    code: "TC",
-    latitude: 21.694025,
-    longitude: -71.797928,
-    name: "Turks and Caicos Islands",
-  },
-  {
-    code: "TD",
-    latitude: 15.454166,
-    longitude: 18.732207,
-    name: "Chad",
-  },
-  {
-    code: "TF",
-    latitude: -49.280366,
-    longitude: 69.348557,
-    name: "French Southern Territories - Kerguelen Islands",
-  },
-  {
-    code: "TG",
-    latitude: 8.619543,
-    longitude: 0.824782,
-    name: "Togo",
-  },
-  {
-    code: "TH",
-    latitude: 15.870032,
-    longitude: 100.992541,
-    name: "Thailand",
-  },
-  {
-    code: "TJ",
-    latitude: 38.861034,
-    longitude: 71.276093,
-    name: "Tajikistan",
-  },
-  {
-    code: "TK",
-    latitude: -8.967363,
-    longitude: -171.855881,
-    name: "Tokelau",
-  },
-  {
-    code: "TL",
-    latitude: -8.874217,
-    longitude: 125.727539,
-    name: "Timor-Leste",
-  },
-  {
-    code: "TM",
-    latitude: 38.969719,
-    longitude: 59.556278,
-    name: "Turkmenistan",
-  },
-  {
-    code: "TN",
-    latitude: 33.886917,
-    longitude: 9.537499,
-    name: "Tunisia",
-  },
-  {
-    code: "TO",
-    latitude: -21.178986,
-    longitude: -175.198242,
-    name: "Tonga",
-  },
-  {
-    code: "TR",
-    latitude: 38.963745,
-    longitude: 35.243322,
-    name: "Turkey",
-  },
-  {
-    code: "TT",
-    latitude: 10.691803,
-    longitude: -61.222503,
-    name: "Trinidad and Tobago",
-  },
-  {
-    code: "TV",
-    latitude: -7.109535,
-    longitude: 177.64933,
-    name: "Tuvalu",
-  },
-  {
-    code: "TW",
-    latitude: 23.69781,
-    longitude: 120.960515,
-    name: "Taiwan",
-  },
-  {
-    code: "TZ",
-    latitude: -6.369028,
-    longitude: 34.888822,
-    name: "Tanzania",
-  },
-  {
-    code: "UA",
-    latitude: 48.379433,
-    longitude: 31.16558,
-    name: "Ukraine",
-  },
-  {
-    code: "UG",
-    latitude: 1.373333,
-    longitude: 32.290275,
-    name: "Uganda",
-  },
-  {
-    code: "US",
-    latitude: 37.09024,
-    longitude: -95.712891,
-    name: "United States",
-  },
-  {
-    code: "UY",
-    latitude: -32.522779,
-    longitude: -55.765835,
-    name: "Uruguay",
-  },
-  {
-    code: "UZ",
-    latitude: 41.377491,
-    longitude: 64.585262,
-    name: "Uzbekistan",
-  },
-  {
-    code: "VA",
-    latitude: 41.902916,
-    longitude: 12.453389,
-    name: "Vatican City",
-  },
-  {
-    code: "VC",
-    latitude: 12.984305,
-    longitude: -61.287228,
-    name: "Saint Vincent and the Grenadines",
-  },
-  {
-    code: "VE",
-    latitude: 6.42375,
-    longitude: -66.58973,
-    name: "Venezuela",
-  },
-  {
-    code: "VG",
-    latitude: 18.420695,
-    longitude: -64.639968,
-    name: "British Virgin Islands",
-  },
-  {
-    code: "VI",
-    latitude: 18.335765,
-    longitude: -64.896335,
-    name: "U.S. Virgin Islands",
-  },
-  {
-    code: "VN",
-    latitude: 14.058324,
-    longitude: 108.277199,
-    name: "Vietnam",
-  },
-  {
-    code: "VU",
-    latitude: -15.376706,
-    longitude: 166.959158,
-    name: "Vanuatu",
-  },
-  {
-    code: "WF",
-    latitude: -13.768752,
-    longitude: -177.156097,
-    name: "Wallis and Futuna",
-  },
-  {
-    code: "WS",
-    latitude: -13.759029,
-    longitude: -172.104629,
-    name: "Samoa",
-  },
-  {
-    code: "XK",
-    latitude: 42.602636,
-    longitude: 20.902977,
-    name: "Kosovo",
-  },
-  {
-    code: "YE",
-    latitude: 15.552727,
-    longitude: 48.516388,
-    name: "Yemen",
-  },
-  {
-    code: "YT",
-    latitude: -12.8275,
-    longitude: 45.166244,
-    name: "Mayotte",
-  },
-  {
-    code: "ZA",
-    latitude: -30.559482,
-    longitude: 22.937506,
-    name: "South Africa",
-  },
-  {
-    code: "ZM",
-    latitude: -13.133897,
-    longitude: 27.849332,
-    name: "Zambia",
-  },
-  {
-    code: "ZW",
-    latitude: -19.015438,
-    longitude: 29.154857,
-    name: "Zimbabwe",
-  },
-];
+export const countries: Country[] = [{
+  code: "110101",
+  latitude: 39.917544,
+  longitude: 116.418757,
+  name: "东城区"
+}, {
+  code: "110102",
+  latitude: 39.915309,
+  longitude: 116.366794,
+  name: "西城区"
+}, {
+  code: "110105",
+  latitude: 39.921489,
+  longitude: 116.486409,
+  name: "朝阳区（北京市）"
+}, {
+  code: "110106",
+  latitude: 39.863642,
+  longitude: 116.286968,
+  name: "丰台区"
+}, {
+  code: "110107",
+  latitude: 39.914601,
+  longitude: 116.195445,
+  name: "石景山区"
+}, {
+  code: "110108",
+  latitude: 39.956074,
+  longitude: 116.310316,
+  name: "海淀区"
+}, {
+  code: "110109",
+  latitude: 39.937183,
+  longitude: 116.105381,
+  name: "门头沟区"
+}, {
+  code: "110111",
+  latitude: 39.735535,
+  longitude: 116.139157,
+  name: "房山区"
+}, {
+  code: "110112",
+  latitude: 39.902486,
+  longitude: 116.658603,
+  name: "通州区（北京市）"
+}, {
+  code: "110113",
+  latitude: 40.128936,
+  longitude: 116.653525,
+  name: "顺义区"
+}, {
+  code: "110114",
+  latitude: 40.218085,
+  longitude: 116.235906,
+  name: "昌平区"
+}, {
+  code: "110115",
+  latitude: 39.728908,
+  longitude: 116.338033,
+  name: "大兴区"
+}, {
+  code: "110116",
+  latitude: 40.324272,
+  longitude: 116.637122,
+  name: "怀柔区"
+}, {
+  code: "110117",
+  latitude: 40.144783,
+  longitude: 117.112335,
+  name: "平谷区"
+}, {
+  code: "110118",
+  latitude: 40.377362,
+  longitude: 116.843352,
+  name: "密云区"
+}, {
+  code: "110119",
+  latitude: 40.465325,
+  longitude: 115.985006,
+  name: "延庆区"
+}, {
+  code: "120101",
+  latitude: 39.118327,
+  longitude: 117.195907,
+  name: "和平区（天津市）"
+}, {
+  code: "120102",
+  latitude: 39.122125,
+  longitude: 117.226568,
+  name: "河东区"
+}, {
+  code: "120103",
+  latitude: 39.101897,
+  longitude: 117.217536,
+  name: "河西区"
+}, {
+  code: "120104",
+  latitude: 39.120474,
+  longitude: 117.164143,
+  name: "南开区"
+}, {
+  code: "120105",
+  latitude: 39.156632,
+  longitude: 117.201569,
+  name: "河北区"
+}, {
+  code: "120106",
+  latitude: 39.175066,
+  longitude: 117.163301,
+  name: "红桥区"
+}, {
+  code: "120110",
+  latitude: 39.087764,
+  longitude: 117.313967,
+  name: "东丽区"
+}, {
+  code: "120111",
+  latitude: 39.139446,
+  longitude: 117.012247,
+  name: "西青区"
+}, {
+  code: "120112",
+  latitude: 38.989577,
+  longitude: 117.382549,
+  name: "津南区"
+}, {
+  code: "120113",
+  latitude: 39.225555,
+  longitude: 117.13482,
+  name: "北辰区"
+}, {
+  code: "120114",
+  latitude: 39.376925,
+  longitude: 117.057959,
+  name: "武清区"
+}, {
+  code: "120115",
+  latitude: 39.716965,
+  longitude: 117.308094,
+  name: "宝坻区"
+}, {
+  code: "120116",
+  latitude: 39.032846,
+  longitude: 117.654173,
+  name: "滨海新区"
+}, {
+  code: "120117",
+  latitude: 39.328886,
+  longitude: 117.82828,
+  name: "宁河区"
+}, {
+  code: "120118",
+  latitude: 38.935671,
+  longitude: 116.925304,
+  name: "静海区"
+}, {
+  code: "120119",
+  latitude: 40.045342,
+  longitude: 117.407449,
+  name: "蓟州区"
+}, {
+  code: "130100",
+  latitude: 38.045474,
+  longitude: 114.502461,
+  name: "石家庄市"
+}, {
+  code: "130102",
+  latitude: 38.047501,
+  longitude: 114.548151,
+  name: "长安区（石家庄市）"
+}, {
+  code: "130104",
+  latitude: 38.028383,
+  longitude: 114.462931,
+  name: "桥西区（石家庄市）"
+}, {
+  code: "130105",
+  latitude: 38.067142,
+  longitude: 114.465974,
+  name: "新华区（石家庄市）"
+}, {
+  code: "130107",
+  latitude: 38.069748,
+  longitude: 114.058178,
+  name: "井陉矿区"
+}, {
+  code: "130108",
+  latitude: 38.027696,
+  longitude: 114.533257,
+  name: "裕华区"
+}, {
+  code: "130109",
+  latitude: 38.033767,
+  longitude: 114.849647,
+  name: "藁城区"
+}, {
+  code: "130110",
+  latitude: 38.093994,
+  longitude: 114.321023,
+  name: "鹿泉区"
+}, {
+  code: "130111",
+  latitude: 37.886911,
+  longitude: 114.654281,
+  name: "栾城区"
+}, {
+  code: "130121",
+  latitude: 38.033614,
+  longitude: 114.144488,
+  name: "井陉县"
+}, {
+  code: "130123",
+  latitude: 38.147835,
+  longitude: 114.569887,
+  name: "正定县"
+}, {
+  code: "130125",
+  latitude: 38.437422,
+  longitude: 114.552734,
+  name: "行唐县"
+}, {
+  code: "130126",
+  latitude: 38.306546,
+  longitude: 114.37946,
+  name: "灵寿县"
+}, {
+  code: "130127",
+  latitude: 37.605714,
+  longitude: 114.610699,
+  name: "高邑县"
+}, {
+  code: "130128",
+  latitude: 38.18454,
+  longitude: 115.200207,
+  name: "深泽县"
+}, {
+  code: "130129",
+  latitude: 37.660199,
+  longitude: 114.387756,
+  name: "赞皇县"
+}, {
+  code: "130130",
+  latitude: 38.176376,
+  longitude: 114.977845,
+  name: "无极县"
+}, {
+  code: "130131",
+  latitude: 38.259311,
+  longitude: 114.184144,
+  name: "平山县"
+}, {
+  code: "130132",
+  latitude: 37.762514,
+  longitude: 114.52618,
+  name: "元氏县"
+}, {
+  code: "130133",
+  latitude: 37.754341,
+  longitude: 114.775362,
+  name: "赵县"
+}, {
+  code: "130181",
+  latitude: 37.92904,
+  longitude: 115.217451,
+  name: "辛集市"
+}, {
+  code: "130183",
+  latitude: 38.027478,
+  longitude: 115.044886,
+  name: "晋州市"
+}, {
+  code: "130184",
+  latitude: 38.344768,
+  longitude: 114.68578,
+  name: "新乐市"
+}, {
+  code: "130200",
+  latitude: 39.635113,
+  longitude: 118.175393,
+  name: "唐山市"
+}, {
+  code: "130202",
+  latitude: 39.615162,
+  longitude: 118.210821,
+  name: "路南区"
+}, {
+  code: "130203",
+  latitude: 39.628538,
+  longitude: 118.174736,
+  name: "路北区"
+}, {
+  code: "130204",
+  latitude: 39.715736,
+  longitude: 118.45429,
+  name: "古冶区"
+}, {
+  code: "130205",
+  latitude: 39.676171,
+  longitude: 118.264425,
+  name: "开平区"
+}, {
+  code: "130207",
+  latitude: 39.56303,
+  longitude: 118.110793,
+  name: "丰南区"
+}, {
+  code: "130208",
+  latitude: 39.831363,
+  longitude: 118.155779,
+  name: "丰润区"
+}, {
+  code: "130209",
+  latitude: 39.278277,
+  longitude: 118.446585,
+  name: "曹妃甸区"
+}, {
+  code: "130224",
+  latitude: 39.506201,
+  longitude: 118.681552,
+  name: "滦南县"
+}, {
+  code: "130225",
+  latitude: 39.42813,
+  longitude: 118.905341,
+  name: "乐亭县"
+}, {
+  code: "130227",
+  latitude: 40.146238,
+  longitude: 118.305139,
+  name: "迁西县"
+}, {
+  code: "130229",
+  latitude: 39.887323,
+  longitude: 117.753665,
+  name: "玉田县"
+}, {
+  code: "130281",
+  latitude: 40.188616,
+  longitude: 117.965875,
+  name: "遵化市"
+}, {
+  code: "130283",
+  latitude: 40.012108,
+  longitude: 118.701933,
+  name: "迁安市"
+}, {
+  code: "130284",
+  latitude: 39.74485,
+  longitude: 118.699546,
+  name: "滦州市"
+}, {
+  code: "130300",
+  latitude: 39.942531,
+  longitude: 119.586579,
+  name: "秦皇岛市"
+}, {
+  code: "130302",
+  latitude: 39.943458,
+  longitude: 119.596224,
+  name: "海港区"
+}, {
+  code: "130303",
+  latitude: 39.998023,
+  longitude: 119.753591,
+  name: "山海关区"
+}, {
+  code: "130304",
+  latitude: 39.825121,
+  longitude: 119.486286,
+  name: "北戴河区"
+}, {
+  code: "130306",
+  latitude: 39.887053,
+  longitude: 119.240651,
+  name: "抚宁区"
+}, {
+  code: "130321",
+  latitude: 40.406023,
+  longitude: 118.954555,
+  name: "青龙满族自治县"
+}, {
+  code: "130322",
+  latitude: 39.709729,
+  longitude: 119.164541,
+  name: "昌黎县"
+}, {
+  code: "130324",
+  latitude: 39.891639,
+  longitude: 118.881809,
+  name: "卢龙县"
+}, {
+  code: "130400",
+  latitude: 36.612273,
+  longitude: 114.490686,
+  name: "邯郸市"
+}, {
+  code: "130402",
+  latitude: 36.603196,
+  longitude: 114.484989,
+  name: "邯山区"
+}, {
+  code: "130403",
+  latitude: 36.611082,
+  longitude: 114.494703,
+  name: "丛台区"
+}, {
+  code: "130404",
+  latitude: 36.615484,
+  longitude: 114.458242,
+  name: "复兴区"
+}, {
+  code: "130406",
+  latitude: 36.420487,
+  longitude: 114.209936,
+  name: "峰峰矿区"
+}, {
+  code: "130407",
+  latitude: 36.555778,
+  longitude: 114.805154,
+  name: "肥乡区"
+}, {
+  code: "130408",
+  latitude: 36.776413,
+  longitude: 114.496162,
+  name: "永年区"
+}, {
+  code: "130423",
+  latitude: 36.337604,
+  longitude: 114.610703,
+  name: "临漳县"
+}, {
+  code: "130424",
+  latitude: 36.443832,
+  longitude: 114.680356,
+  name: "成安县"
+}, {
+  code: "130425",
+  latitude: 36.283316,
+  longitude: 115.152586,
+  name: "大名县"
+}, {
+  code: "130426",
+  latitude: 36.563143,
+  longitude: 113.673297,
+  name: "涉县"
+}, {
+  code: "130427",
+  latitude: 36.367673,
+  longitude: 114.38208,
+  name: "磁县"
+}, {
+  code: "130430",
+  latitude: 36.81325,
+  longitude: 115.168584,
+  name: "邱县"
+}, {
+  code: "130431",
+  latitude: 36.914908,
+  longitude: 114.878517,
+  name: "鸡泽县"
+}, {
+  code: "130432",
+  latitude: 36.483603,
+  longitude: 114.950859,
+  name: "广平县"
+}, {
+  code: "130433",
+  latitude: 36.539461,
+  longitude: 115.289057,
+  name: "馆陶县"
+}, {
+  code: "130434",
+  latitude: 36.354248,
+  longitude: 114.93411,
+  name: "魏县"
+}, {
+  code: "130435",
+  latitude: 36.773398,
+  longitude: 114.957588,
+  name: "曲周县"
+}, {
+  code: "130481",
+  latitude: 36.696115,
+  longitude: 114.194581,
+  name: "武安市"
+}, {
+  code: "130500",
+  latitude: 37.0682,
+  longitude: 114.508851,
+  name: "邢台市"
+}, {
+  code: "130502",
+  latitude: 37.064125,
+  longitude: 114.507131,
+  name: "襄都区"
+}, {
+  code: "130503",
+  latitude: 37.068009,
+  longitude: 114.473687,
+  name: "信都区"
+}, {
+  code: "130505",
+  latitude: 37.129952,
+  longitude: 114.684469,
+  name: "任泽区"
+}, {
+  code: "130506",
+  latitude: 37.003812,
+  longitude: 114.691377,
+  name: "南和区"
+}, {
+  code: "130522",
+  latitude: 37.444009,
+  longitude: 114.506873,
+  name: "临城县"
+}, {
+  code: "130523",
+  latitude: 37.287663,
+  longitude: 114.511523,
+  name: "内丘县"
+}, {
+  code: "130524",
+  latitude: 37.483596,
+  longitude: 114.693382,
+  name: "柏乡县"
+}, {
+  code: "130525",
+  latitude: 37.350925,
+  longitude: 114.776348,
+  name: "隆尧县"
+}, {
+  code: "130528",
+  latitude: 37.618956,
+  longitude: 114.921027,
+  name: "宁晋县"
+}, {
+  code: "130529",
+  latitude: 37.21768,
+  longitude: 115.038782,
+  name: "巨鹿县"
+}, {
+  code: "130530",
+  latitude: 37.526216,
+  longitude: 115.247537,
+  name: "新河县"
+}, {
+  code: "130531",
+  latitude: 37.075548,
+  longitude: 115.142797,
+  name: "广宗县"
+}, {
+  code: "130532",
+  latitude: 37.069404,
+  longitude: 115.029218,
+  name: "平乡县"
+}, {
+  code: "130533",
+  latitude: 36.983272,
+  longitude: 115.272749,
+  name: "威县"
+}, {
+  code: "130534",
+  latitude: 37.059991,
+  longitude: 115.668999,
+  name: "清河县"
+}, {
+  code: "130535",
+  latitude: 36.8642,
+  longitude: 115.498684,
+  name: "临西县"
+}, {
+  code: "130581",
+  latitude: 37.359668,
+  longitude: 115.398102,
+  name: "南宫市"
+}, {
+  code: "130582",
+  latitude: 36.861903,
+  longitude: 114.504902,
+  name: "沙河市"
+}, {
+  code: "130600",
+  latitude: 38.867657,
+  longitude: 115.482331,
+  name: "保定市"
+}, {
+  code: "130602",
+  latitude: 38.88662,
+  longitude: 115.470659,
+  name: "竞秀区"
+}, {
+  code: "130606",
+  latitude: 38.865005,
+  longitude: 115.500934,
+  name: "莲池区"
+}, {
+  code: "130607",
+  latitude: 38.95138,
+  longitude: 115.32442,
+  name: "满城区"
+}, {
+  code: "130608",
+  latitude: 38.771012,
+  longitude: 115.492221,
+  name: "清苑区"
+}, {
+  code: "130609",
+  latitude: 39.020395,
+  longitude: 115.64941,
+  name: "徐水区"
+}, {
+  code: "130623",
+  latitude: 39.393148,
+  longitude: 115.711985,
+  name: "涞水县"
+}, {
+  code: "130624",
+  latitude: 38.847276,
+  longitude: 114.198801,
+  name: "阜平县"
+}, {
+  code: "130626",
+  latitude: 39.266195,
+  longitude: 115.796895,
+  name: "定兴县"
+}, {
+  code: "130627",
+  latitude: 38.748542,
+  longitude: 114.981241,
+  name: "唐县"
+}, {
+  code: "130628",
+  latitude: 38.690092,
+  longitude: 115.778878,
+  name: "高阳县"
+}, {
+  code: "130629",
+  latitude: 39.05282,
+  longitude: 115.866247,
+  name: "容城县"
+}, {
+  code: "130630",
+  latitude: 39.35755,
+  longitude: 114.692567,
+  name: "涞源县"
+}, {
+  code: "130631",
+  latitude: 38.707448,
+  longitude: 115.154009,
+  name: "望都县"
+}, {
+  code: "130632",
+  latitude: 38.929912,
+  longitude: 115.931979,
+  name: "安新县"
+}, {
+  code: "130633",
+  latitude: 39.35297,
+  longitude: 115.501146,
+  name: "易县"
+}, {
+  code: "130634",
+  latitude: 38.619992,
+  longitude: 114.704055,
+  name: "曲阳县"
+}, {
+  code: "130635",
+  latitude: 38.496429,
+  longitude: 115.583631,
+  name: "蠡县"
+}, {
+  code: "130636",
+  latitude: 38.845127,
+  longitude: 115.132749,
+  name: "顺平县"
+}, {
+  code: "130637",
+  latitude: 38.458271,
+  longitude: 115.461798,
+  name: "博野县"
+}, {
+  code: "130638",
+  latitude: 38.990819,
+  longitude: 116.107474,
+  name: "雄县"
+}, {
+  code: "130681",
+  latitude: 39.485765,
+  longitude: 115.973409,
+  name: "涿州市"
+}, {
+  code: "130682",
+  latitude: 38.517602,
+  longitude: 114.991389,
+  name: "定州市"
+}, {
+  code: "130683",
+  latitude: 38.421367,
+  longitude: 115.33141,
+  name: "安国市"
+}, {
+  code: "130684",
+  latitude: 39.327689,
+  longitude: 115.882704,
+  name: "高碑店市"
+}, {
+  code: "130700",
+  latitude: 40.811901,
+  longitude: 114.884091,
+  name: "张家口市"
+}, {
+  code: "130702",
+  latitude: 40.813875,
+  longitude: 114.885658,
+  name: "桥东区"
+}, {
+  code: "130703",
+  latitude: 40.824385,
+  longitude: 114.882127,
+  name: "桥西区（张家口市）"
+}, {
+  code: "130705",
+  latitude: 40.609368,
+  longitude: 115.0632,
+  name: "宣化区"
+}, {
+  code: "130706",
+  latitude: 40.488645,
+  longitude: 115.281002,
+  name: "下花园区"
+}, {
+  code: "130708",
+  latitude: 40.765136,
+  longitude: 114.736131,
+  name: "万全区"
+}, {
+  code: "130709",
+  latitude: 40.971302,
+  longitude: 115.281652,
+  name: "崇礼区"
+}, {
+  code: "130722",
+  latitude: 41.151713,
+  longitude: 114.715951,
+  name: "张北县"
+}, {
+  code: "130723",
+  latitude: 41.850046,
+  longitude: 114.615809,
+  name: "康保县"
+}, {
+  code: "130724",
+  latitude: 41.667419,
+  longitude: 115.684836,
+  name: "沽源县"
+}, {
+  code: "130725",
+  latitude: 41.080091,
+  longitude: 113.977713,
+  name: "尚义县"
+}, {
+  code: "130726",
+  latitude: 39.837181,
+  longitude: 114.582695,
+  name: "蔚县"
+}, {
+  code: "130727",
+  latitude: 40.113419,
+  longitude: 114.167343,
+  name: "阳原县"
+}, {
+  code: "130728",
+  latitude: 40.671274,
+  longitude: 114.422364,
+  name: "怀安县"
+}, {
+  code: "130730",
+  latitude: 40.405405,
+  longitude: 115.520846,
+  name: "怀来县"
+}, {
+  code: "130731",
+  latitude: 40.378701,
+  longitude: 115.219246,
+  name: "涿鹿县"
+}, {
+  code: "130732",
+  latitude: 40.912081,
+  longitude: 115.832708,
+  name: "赤城县"
+}, {
+  code: "130800",
+  latitude: 40.976204,
+  longitude: 117.939152,
+  name: "承德市"
+}, {
+  code: "130802",
+  latitude: 40.976204,
+  longitude: 117.939152,
+  name: "双桥区"
+}, {
+  code: "130803",
+  latitude: 40.959756,
+  longitude: 117.797485,
+  name: "双滦区"
+}, {
+  code: "130804",
+  latitude: 40.546956,
+  longitude: 117.661154,
+  name: "鹰手营子矿区"
+}, {
+  code: "130821",
+  latitude: 40.768637,
+  longitude: 118.172496,
+  name: "承德县"
+}, {
+  code: "130822",
+  latitude: 40.418525,
+  longitude: 117.507098,
+  name: "兴隆县"
+}, {
+  code: "130824",
+  latitude: 40.936644,
+  longitude: 117.337124,
+  name: "滦平县"
+}, {
+  code: "130825",
+  latitude: 41.316667,
+  longitude: 117.736343,
+  name: "隆化县"
+}, {
+  code: "130826",
+  latitude: 41.209903,
+  longitude: 116.65121,
+  name: "丰宁满族自治县"
+}, {
+  code: "130827",
+  latitude: 40.607981,
+  longitude: 118.488642,
+  name: "宽城满族自治县"
+}, {
+  code: "130828",
+  latitude: 41.949404,
+  longitude: 117.764086,
+  name: "围场满族蒙古族自治县"
+}, {
+  code: "130881",
+  latitude: 41.00561,
+  longitude: 118.690238,
+  name: "平泉市"
+}, {
+  code: "130900",
+  latitude: 38.310582,
+  longitude: 116.857461,
+  name: "沧州市"
+}, {
+  code: "130902",
+  latitude: 38.308273,
+  longitude: 116.873049,
+  name: "新华区（沧州市）"
+}, {
+  code: "130903",
+  latitude: 38.307405,
+  longitude: 116.840063,
+  name: "运河区"
+}, {
+  code: "130921",
+  latitude: 38.219856,
+  longitude: 117.007478,
+  name: "沧县"
+}, {
+  code: "130922",
+  latitude: 38.569646,
+  longitude: 116.838384,
+  name: "青县"
+}, {
+  code: "130923",
+  latitude: 37.88655,
+  longitude: 116.542062,
+  name: "东光县"
+}, {
+  code: "130924",
+  latitude: 38.141582,
+  longitude: 117.496606,
+  name: "海兴县"
+}, {
+  code: "130925",
+  latitude: 38.056141,
+  longitude: 117.229814,
+  name: "盐山县"
+}, {
+  code: "130926",
+  latitude: 38.427102,
+  longitude: 115.835856,
+  name: "肃宁县"
+}, {
+  code: "130927",
+  latitude: 38.042439,
+  longitude: 116.709171,
+  name: "南皮县"
+}, {
+  code: "130928",
+  latitude: 37.628182,
+  longitude: 116.391512,
+  name: "吴桥县"
+}, {
+  code: "130929",
+  latitude: 38.189661,
+  longitude: 116.123844,
+  name: "献县"
+}, {
+  code: "130930",
+  latitude: 38.057953,
+  longitude: 117.105104,
+  name: "孟村回族自治县"
+}, {
+  code: "130981",
+  latitude: 38.073479,
+  longitude: 116.570163,
+  name: "泊头市"
+}, {
+  code: "130982",
+  latitude: 38.706513,
+  longitude: 116.106764,
+  name: "任丘市"
+}, {
+  code: "130983",
+  latitude: 38.369238,
+  longitude: 117.343803,
+  name: "黄骅市"
+}, {
+  code: "130984",
+  latitude: 38.44149,
+  longitude: 116.089452,
+  name: "河间市"
+}, {
+  code: "131000",
+  latitude: 39.523927,
+  longitude: 116.704441,
+  name: "廊坊市"
+}, {
+  code: "131002",
+  latitude: 39.502569,
+  longitude: 116.694544,
+  name: "安次区"
+}, {
+  code: "131003",
+  latitude: 39.521931,
+  longitude: 116.713708,
+  name: "广阳区"
+}, {
+  code: "131022",
+  latitude: 39.436468,
+  longitude: 116.299894,
+  name: "固安县"
+}, {
+  code: "131023",
+  latitude: 39.319717,
+  longitude: 116.498089,
+  name: "永清县"
+}, {
+  code: "131024",
+  latitude: 39.757212,
+  longitude: 117.007161,
+  name: "香河县"
+}, {
+  code: "131025",
+  latitude: 38.699215,
+  longitude: 116.640735,
+  name: "大城县"
+}, {
+  code: "131026",
+  latitude: 38.866801,
+  longitude: 116.460107,
+  name: "文安县"
+}, {
+  code: "131028",
+  latitude: 39.889266,
+  longitude: 116.986501,
+  name: "大厂回族自治县"
+}, {
+  code: "131081",
+  latitude: 39.117331,
+  longitude: 116.392021,
+  name: "霸州市"
+}, {
+  code: "131082",
+  latitude: 39.982778,
+  longitude: 117.077018,
+  name: "三河市"
+}, {
+  code: "131100",
+  latitude: 37.735097,
+  longitude: 115.665993,
+  name: "衡水市"
+}, {
+  code: "131102",
+  latitude: 37.732237,
+  longitude: 115.694945,
+  name: "桃城区"
+}, {
+  code: "131103",
+  latitude: 37.542788,
+  longitude: 115.579173,
+  name: "冀州区"
+}, {
+  code: "131121",
+  latitude: 37.511512,
+  longitude: 115.726499,
+  name: "枣强县"
+}, {
+  code: "131122",
+  latitude: 37.803774,
+  longitude: 115.892415,
+  name: "武邑县"
+}, {
+  code: "131123",
+  latitude: 38.03698,
+  longitude: 115.970236,
+  name: "武强县"
+}, {
+  code: "131124",
+  latitude: 38.232671,
+  longitude: 115.726577,
+  name: "饶阳县"
+}, {
+  code: "131125",
+  latitude: 38.233511,
+  longitude: 115.519627,
+  name: "安平县"
+}, {
+  code: "131126",
+  latitude: 37.350981,
+  longitude: 115.966747,
+  name: "故城县"
+}, {
+  code: "131127",
+  latitude: 37.686622,
+  longitude: 116.258446,
+  name: "景县"
+}, {
+  code: "131128",
+  latitude: 37.869945,
+  longitude: 116.164727,
+  name: "阜城县"
+}, {
+  code: "131182",
+  latitude: 38.00347,
+  longitude: 115.554596,
+  name: "深州市"
+}, {
+  code: "140100",
+  latitude: 37.857014,
+  longitude: 112.549248,
+  name: "太原市"
+}, {
+  code: "140105",
+  latitude: 37.817974,
+  longitude: 112.564273,
+  name: "小店区"
+}, {
+  code: "140106",
+  latitude: 37.855804,
+  longitude: 112.558851,
+  name: "迎泽区"
+}, {
+  code: "140107",
+  latitude: 37.879291,
+  longitude: 112.560743,
+  name: "杏花岭区"
+}, {
+  code: "140108",
+  latitude: 37.939893,
+  longitude: 112.487122,
+  name: "尖草坪区"
+}, {
+  code: "140109",
+  latitude: 37.862653,
+  longitude: 112.522258,
+  name: "万柏林区"
+}, {
+  code: "140110",
+  latitude: 37.715619,
+  longitude: 112.477849,
+  name: "晋源区"
+}, {
+  code: "140121",
+  latitude: 37.60729,
+  longitude: 112.357961,
+  name: "清徐县"
+}, {
+  code: "140122",
+  latitude: 38.058797,
+  longitude: 112.673818,
+  name: "阳曲县"
+}, {
+  code: "140123",
+  latitude: 38.066035,
+  longitude: 111.793798,
+  name: "娄烦县"
+}, {
+  code: "140181",
+  latitude: 37.908534,
+  longitude: 112.174353,
+  name: "古交市"
+}, {
+  code: "140200",
+  latitude: 40.09031,
+  longitude: 113.295259,
+  name: "大同市"
+}, {
+  code: "140212",
+  latitude: 40.258269,
+  longitude: 113.141044,
+  name: "新荣区"
+}, {
+  code: "140213",
+  latitude: 40.075667,
+  longitude: 113.298027,
+  name: "平城区"
+}, {
+  code: "140214",
+  latitude: 40.005405,
+  longitude: 113.149693,
+  name: "云冈区"
+}, {
+  code: "140215",
+  latitude: 40.040295,
+  longitude: 113.61244,
+  name: "云州区"
+}, {
+  code: "140221",
+  latitude: 40.364927,
+  longitude: 113.749871,
+  name: "阳高县"
+}, {
+  code: "140222",
+  latitude: 40.421336,
+  longitude: 114.09112,
+  name: "天镇县"
+}, {
+  code: "140223",
+  latitude: 39.763051,
+  longitude: 114.279252,
+  name: "广灵县"
+}, {
+  code: "140224",
+  latitude: 39.438867,
+  longitude: 114.23576,
+  name: "灵丘县"
+}, {
+  code: "140225",
+  latitude: 39.699099,
+  longitude: 113.698091,
+  name: "浑源县"
+}, {
+  code: "140226",
+  latitude: 40.012873,
+  longitude: 112.70641,
+  name: "左云县"
+}, {
+  code: "140300",
+  latitude: 37.861188,
+  longitude: 113.583285,
+  name: "阳泉市"
+}, {
+  code: "140302",
+  latitude: 37.860938,
+  longitude: 113.586513,
+  name: "城区（阳泉市）"
+}, {
+  code: "140303",
+  latitude: 37.870085,
+  longitude: 113.559066,
+  name: "矿区"
+}, {
+  code: "140311",
+  latitude: 37.94096,
+  longitude: 113.58664,
+  name: "郊区（阳泉市）"
+}, {
+  code: "140321",
+  latitude: 37.800289,
+  longitude: 113.631049,
+  name: "平定县"
+}, {
+  code: "140322",
+  latitude: 38.086131,
+  longitude: 113.41223,
+  name: "盂县"
+}, {
+  code: "140400",
+  latitude: 36.191112,
+  longitude: 113.113556,
+  name: "长治市"
+}, {
+  code: "140403",
+  latitude: 36.187895,
+  longitude: 113.114107,
+  name: "潞州区"
+}, {
+  code: "140404",
+  latitude: 36.052438,
+  longitude: 113.056679,
+  name: "上党区"
+}, {
+  code: "140405",
+  latitude: 36.314072,
+  longitude: 112.892741,
+  name: "屯留区"
+}, {
+  code: "140406",
+  latitude: 36.332232,
+  longitude: 113.223245,
+  name: "潞城区"
+}, {
+  code: "140423",
+  latitude: 36.532854,
+  longitude: 113.050094,
+  name: "襄垣县"
+}, {
+  code: "140425",
+  latitude: 36.200202,
+  longitude: 113.438791,
+  name: "平顺县"
+}, {
+  code: "140426",
+  latitude: 36.502971,
+  longitude: 113.387366,
+  name: "黎城县"
+}, {
+  code: "140427",
+  latitude: 36.110938,
+  longitude: 113.206138,
+  name: "壶关县"
+}, {
+  code: "140428",
+  latitude: 36.119484,
+  longitude: 112.884656,
+  name: "长子县"
+}, {
+  code: "140429",
+  latitude: 36.834315,
+  longitude: 112.8653,
+  name: "武乡县"
+}, {
+  code: "140430",
+  latitude: 36.757123,
+  longitude: 112.70138,
+  name: "沁县"
+}, {
+  code: "140431",
+  latitude: 36.500777,
+  longitude: 112.340878,
+  name: "沁源县"
+}, {
+  code: "140500",
+  latitude: 35.497553,
+  longitude: 112.851274,
+  name: "晋城市"
+}, {
+  code: "140502",
+  latitude: 35.496641,
+  longitude: 112.853106,
+  name: "城区（晋城市）"
+}, {
+  code: "140521",
+  latitude: 35.689472,
+  longitude: 112.187213,
+  name: "沁水县"
+}, {
+  code: "140522",
+  latitude: 35.482177,
+  longitude: 112.422014,
+  name: "阳城县"
+}, {
+  code: "140524",
+  latitude: 35.775614,
+  longitude: 113.278877,
+  name: "陵川县"
+}, {
+  code: "140525",
+  latitude: 35.617221,
+  longitude: 112.899137,
+  name: "泽州县"
+}, {
+  code: "140581",
+  latitude: 35.791355,
+  longitude: 112.930691,
+  name: "高平市"
+}, {
+  code: "140600",
+  latitude: 39.331261,
+  longitude: 112.433387,
+  name: "朔州市"
+}, {
+  code: "140602",
+  latitude: 39.324525,
+  longitude: 112.428676,
+  name: "朔城区"
+}, {
+  code: "140603",
+  latitude: 39.515603,
+  longitude: 112.295227,
+  name: "平鲁区"
+}, {
+  code: "140621",
+  latitude: 39.52677,
+  longitude: 112.816396,
+  name: "山阴县"
+}, {
+  code: "140622",
+  latitude: 39.559187,
+  longitude: 113.187505,
+  name: "应县"
+}, {
+  code: "140623",
+  latitude: 39.988812,
+  longitude: 112.465588,
+  name: "右玉县"
+}, {
+  code: "140681",
+  latitude: 39.820789,
+  longitude: 113.100511,
+  name: "怀仁市"
+}, {
+  code: "140700",
+  latitude: 37.696495,
+  longitude: 112.736465,
+  name: "晋中市"
+}, {
+  code: "140702",
+  latitude: 37.6976,
+  longitude: 112.740056,
+  name: "榆次区"
+}, {
+  code: "140703",
+  latitude: 37.424595,
+  longitude: 112.554103,
+  name: "太谷区"
+}, {
+  code: "140721",
+  latitude: 37.069019,
+  longitude: 112.973521,
+  name: "榆社县"
+}, {
+  code: "140722",
+  latitude: 37.079672,
+  longitude: 113.377834,
+  name: "左权县"
+}, {
+  code: "140723",
+  latitude: 37.327027,
+  longitude: 113.572919,
+  name: "和顺县"
+}, {
+  code: "140724",
+  latitude: 37.60437,
+  longitude: 113.706166,
+  name: "昔阳县"
+}, {
+  code: "140725",
+  latitude: 37.891136,
+  longitude: 113.177708,
+  name: "寿阳县"
+}, {
+  code: "140727",
+  latitude: 37.358739,
+  longitude: 112.330532,
+  name: "祁县"
+}, {
+  code: "140728",
+  latitude: 37.195474,
+  longitude: 112.174059,
+  name: "平遥县"
+}, {
+  code: "140729",
+  latitude: 36.847469,
+  longitude: 111.772759,
+  name: "灵石县"
+}, {
+  code: "140781",
+  latitude: 37.027616,
+  longitude: 111.913857,
+  name: "介休市"
+}, {
+  code: "140800",
+  latitude: 35.022778,
+  longitude: 111.003957,
+  name: "运城市"
+}, {
+  code: "140802",
+  latitude: 35.025643,
+  longitude: 111.000627,
+  name: "盐湖区"
+}, {
+  code: "140821",
+  latitude: 35.141883,
+  longitude: 110.77493,
+  name: "临猗县"
+}, {
+  code: "140822",
+  latitude: 35.417042,
+  longitude: 110.843561,
+  name: "万荣县"
+}, {
+  code: "140823",
+  latitude: 35.353839,
+  longitude: 111.220306,
+  name: "闻喜县"
+}, {
+  code: "140824",
+  latitude: 35.600412,
+  longitude: 110.978996,
+  name: "稷山县"
+}, {
+  code: "140825",
+  latitude: 35.613697,
+  longitude: 111.225205,
+  name: "新绛县"
+}, {
+  code: "140826",
+  latitude: 35.49045,
+  longitude: 111.576182,
+  name: "绛县"
+}, {
+  code: "140827",
+  latitude: 35.298293,
+  longitude: 111.67099,
+  name: "垣曲县"
+}, {
+  code: "140828",
+  latitude: 35.140441,
+  longitude: 111.223174,
+  name: "夏县"
+}, {
+  code: "140829",
+  latitude: 34.837256,
+  longitude: 111.212377,
+  name: "平陆县"
+}, {
+  code: "140830",
+  latitude: 34.694769,
+  longitude: 110.69114,
+  name: "芮城县"
+}, {
+  code: "140881",
+  latitude: 34.865125,
+  longitude: 110.447984,
+  name: "永济市"
+}, {
+  code: "140882",
+  latitude: 35.59715,
+  longitude: 110.710268,
+  name: "河津市"
+}, {
+  code: "140900",
+  latitude: 38.41769,
+  longitude: 112.733538,
+  name: "忻州市"
+}, {
+  code: "140902",
+  latitude: 38.417743,
+  longitude: 112.734112,
+  name: "忻府区"
+}, {
+  code: "140921",
+  latitude: 38.484948,
+  longitude: 112.963231,
+  name: "定襄县"
+}, {
+  code: "140922",
+  latitude: 38.725711,
+  longitude: 113.259012,
+  name: "五台县"
+}, {
+  code: "140923",
+  latitude: 39.065138,
+  longitude: 112.962519,
+  name: "代县"
+}, {
+  code: "140924",
+  latitude: 39.188104,
+  longitude: 113.267707,
+  name: "繁峙县"
+}, {
+  code: "140925",
+  latitude: 39.001718,
+  longitude: 112.307936,
+  name: "宁武县"
+}, {
+  code: "140926",
+  latitude: 38.355947,
+  longitude: 111.940231,
+  name: "静乐县"
+}, {
+  code: "140927",
+  latitude: 39.088467,
+  longitude: 112.200438,
+  name: "神池县"
+}, {
+  code: "140928",
+  latitude: 38.912761,
+  longitude: 111.841015,
+  name: "五寨县"
+}, {
+  code: "140929",
+  latitude: 38.705625,
+  longitude: 111.56981,
+  name: "岢岚县"
+}, {
+  code: "140930",
+  latitude: 39.381895,
+  longitude: 111.146609,
+  name: "河曲县"
+}, {
+  code: "140931",
+  latitude: 39.022576,
+  longitude: 111.085688,
+  name: "保德县"
+}, {
+  code: "140932",
+  latitude: 39.442153,
+  longitude: 111.500477,
+  name: "偏关县"
+}, {
+  code: "140981",
+  latitude: 38.729186,
+  longitude: 112.713132,
+  name: "原平市"
+}, {
+  code: "141000",
+  latitude: 36.08415,
+  longitude: 111.517973,
+  name: "临汾市"
+}, {
+  code: "141002",
+  latitude: 36.080366,
+  longitude: 111.522945,
+  name: "尧都区"
+}, {
+  code: "141021",
+  latitude: 35.641387,
+  longitude: 111.475529,
+  name: "曲沃县"
+}, {
+  code: "141022",
+  latitude: 35.738621,
+  longitude: 111.713508,
+  name: "翼城县"
+}, {
+  code: "141023",
+  latitude: 35.876139,
+  longitude: 111.442932,
+  name: "襄汾县"
+}, {
+  code: "141024",
+  latitude: 36.255742,
+  longitude: 111.673692,
+  name: "洪洞县"
+}, {
+  code: "141025",
+  latitude: 36.26855,
+  longitude: 111.920207,
+  name: "古县"
+}, {
+  code: "141026",
+  latitude: 36.146032,
+  longitude: 112.251372,
+  name: "安泽县"
+}, {
+  code: "141027",
+  latitude: 35.971359,
+  longitude: 111.850039,
+  name: "浮山县"
+}, {
+  code: "141028",
+  latitude: 36.099355,
+  longitude: 110.682853,
+  name: "吉县"
+}, {
+  code: "141029",
+  latitude: 35.975402,
+  longitude: 110.857365,
+  name: "乡宁县"
+}, {
+  code: "141030",
+  latitude: 36.46383,
+  longitude: 110.751283,
+  name: "大宁县"
+}, {
+  code: "141031",
+  latitude: 36.692675,
+  longitude: 110.935809,
+  name: "隰县"
+}, {
+  code: "141032",
+  latitude: 36.760614,
+  longitude: 110.631276,
+  name: "永和县"
+}, {
+  code: "141033",
+  latitude: 36.411682,
+  longitude: 111.09733,
+  name: "蒲县"
+}, {
+  code: "141034",
+  latitude: 36.653368,
+  longitude: 111.563021,
+  name: "汾西县"
+}, {
+  code: "141081",
+  latitude: 35.620302,
+  longitude: 111.371272,
+  name: "侯马市"
+}, {
+  code: "141082",
+  latitude: 36.57202,
+  longitude: 111.723103,
+  name: "霍州市"
+}, {
+  code: "141100",
+  latitude: 37.524366,
+  longitude: 111.134335,
+  name: "吕梁市"
+}, {
+  code: "141102",
+  latitude: 37.524037,
+  longitude: 111.134462,
+  name: "离石区"
+}, {
+  code: "141121",
+  latitude: 37.436314,
+  longitude: 112.032595,
+  name: "文水县"
+}, {
+  code: "141122",
+  latitude: 37.555155,
+  longitude: 112.159154,
+  name: "交城县"
+}, {
+  code: "141123",
+  latitude: 38.464136,
+  longitude: 111.124816,
+  name: "兴县"
+}, {
+  code: "141124",
+  latitude: 37.960806,
+  longitude: 110.995963,
+  name: "临县"
+}, {
+  code: "141125",
+  latitude: 37.431664,
+  longitude: 110.89613,
+  name: "柳林县"
+}, {
+  code: "141126",
+  latitude: 36.999426,
+  longitude: 110.837119,
+  name: "石楼县"
+}, {
+  code: "141127",
+  latitude: 38.278654,
+  longitude: 111.671555,
+  name: "岚县"
+}, {
+  code: "141128",
+  latitude: 37.892632,
+  longitude: 111.238885,
+  name: "方山县"
+}, {
+  code: "141129",
+  latitude: 37.342054,
+  longitude: 111.193319,
+  name: "中阳县"
+}, {
+  code: "141130",
+  latitude: 36.983068,
+  longitude: 111.183188,
+  name: "交口县"
+}, {
+  code: "141181",
+  latitude: 37.144474,
+  longitude: 111.781568,
+  name: "孝义市"
+}, {
+  code: "141182",
+  latitude: 37.267742,
+  longitude: 111.785273,
+  name: "汾阳市"
+}, {
+  code: "150100",
+  latitude: 40.818311,
+  longitude: 111.670801,
+  name: "呼和浩特市"
+}, {
+  code: "150102",
+  latitude: 40.826225,
+  longitude: 111.685964,
+  name: "新城区（呼和浩特市）"
+}, {
+  code: "150103",
+  latitude: 40.815149,
+  longitude: 111.662162,
+  name: "回民区"
+}, {
+  code: "150104",
+  latitude: 40.799421,
+  longitude: 111.66543,
+  name: "玉泉区"
+}, {
+  code: "150105",
+  latitude: 40.807834,
+  longitude: 111.698463,
+  name: "赛罕区"
+}, {
+  code: "150121",
+  latitude: 40.720416,
+  longitude: 111.133615,
+  name: "土默特左旗"
+}, {
+  code: "150122",
+  latitude: 40.276729,
+  longitude: 111.197317,
+  name: "托克托县"
+}, {
+  code: "150123",
+  latitude: 40.380288,
+  longitude: 111.824143,
+  name: "和林格尔县"
+}, {
+  code: "150124",
+  latitude: 39.912479,
+  longitude: 111.67222,
+  name: "清水河县"
+}, {
+  code: "150125",
+  latitude: 41.094483,
+  longitude: 111.456563,
+  name: "武川县"
+}, {
+  code: "150200",
+  latitude: 40.658168,
+  longitude: 109.840405,
+  name: "包头市"
+}, {
+  code: "150202",
+  latitude: 40.587056,
+  longitude: 110.026895,
+  name: "东河区"
+}, {
+  code: "150203",
+  latitude: 40.661345,
+  longitude: 109.822932,
+  name: "昆都仑区"
+}, {
+  code: "150204",
+  latitude: 40.668558,
+  longitude: 109.880049,
+  name: "青山区（包头市）"
+}, {
+  code: "150205",
+  latitude: 40.672094,
+  longitude: 110.272565,
+  name: "石拐区"
+}, {
+  code: "150206",
+  latitude: 41.769246,
+  longitude: 109.97016,
+  name: "白云鄂博矿区"
+}, {
+  code: "150207",
+  latitude: 40.600581,
+  longitude: 109.968122,
+  name: "九原区"
+}, {
+  code: "150221",
+  latitude: 40.566434,
+  longitude: 110.526766,
+  name: "土默特右旗"
+}, {
+  code: "150222",
+  latitude: 41.030004,
+  longitude: 110.063421,
+  name: "固阳县"
+}, {
+  code: "150223",
+  latitude: 41.702836,
+  longitude: 110.438452,
+  name: "达尔罕茂明安联合旗"
+}, {
+  code: "150300",
+  latitude: 39.673734,
+  longitude: 106.825563,
+  name: "乌海市"
+}, {
+  code: "150302",
+  latitude: 39.673527,
+  longitude: 106.817762,
+  name: "海勃湾区"
+}, {
+  code: "150303",
+  latitude: 39.44153,
+  longitude: 106.884789,
+  name: "海南区"
+}, {
+  code: "150304",
+  latitude: 39.502288,
+  longitude: 106.722711,
+  name: "乌达区"
+}, {
+  code: "150400",
+  latitude: 42.275317,
+  longitude: 118.956806,
+  name: "赤峰市"
+}, {
+  code: "150402",
+  latitude: 42.269732,
+  longitude: 118.961087,
+  name: "红山区"
+}, {
+  code: "150403",
+  latitude: 42.041168,
+  longitude: 119.289877,
+  name: "元宝山区"
+}, {
+  code: "150404",
+  latitude: 42.281046,
+  longitude: 118.938958,
+  name: "松山区"
+}, {
+  code: "150421",
+  latitude: 43.87877,
+  longitude: 120.094969,
+  name: "阿鲁科尔沁旗"
+}, {
+  code: "150422",
+  latitude: 43.980715,
+  longitude: 119.391737,
+  name: "巴林左旗"
+}, {
+  code: "150423",
+  latitude: 43.528963,
+  longitude: 118.678347,
+  name: "巴林右旗"
+}, {
+  code: "150424",
+  latitude: 43.605326,
+  longitude: 118.05775,
+  name: "林西县"
+}, {
+  code: "150425",
+  latitude: 43.256233,
+  longitude: 117.542465,
+  name: "克什克腾旗"
+}, {
+  code: "150426",
+  latitude: 42.937128,
+  longitude: 119.022619,
+  name: "翁牛特旗"
+}, {
+  code: "150428",
+  latitude: 41.92778,
+  longitude: 118.708572,
+  name: "喀喇沁旗"
+}, {
+  code: "150429",
+  latitude: 41.598692,
+  longitude: 119.339242,
+  name: "宁城县"
+}, {
+  code: "150430",
+  latitude: 42.287012,
+  longitude: 119.906486,
+  name: "敖汉旗"
+}, {
+  code: "150500",
+  latitude: 43.617429,
+  longitude: 122.263119,
+  name: "通辽市"
+}, {
+  code: "150502",
+  latitude: 43.617422,
+  longitude: 122.264042,
+  name: "科尔沁区"
+}, {
+  code: "150521",
+  latitude: 44.127166,
+  longitude: 123.313873,
+  name: "科尔沁左翼中旗"
+}, {
+  code: "150522",
+  latitude: 42.954564,
+  longitude: 122.355155,
+  name: "科尔沁左翼后旗"
+}, {
+  code: "150523",
+  latitude: 43.602432,
+  longitude: 121.308797,
+  name: "开鲁县"
+}, {
+  code: "150524",
+  latitude: 42.734692,
+  longitude: 121.774886,
+  name: "库伦旗"
+}, {
+  code: "150525",
+  latitude: 42.84685,
+  longitude: 120.662543,
+  name: "奈曼旗"
+}, {
+  code: "150526",
+  latitude: 44.555294,
+  longitude: 120.905275,
+  name: "扎鲁特旗"
+}, {
+  code: "150581",
+  latitude: 45.532361,
+  longitude: 119.657862,
+  name: "霍林郭勒市"
+}, {
+  code: "150600",
+  latitude: 39.817179,
+  longitude: 109.99029,
+  name: "鄂尔多斯市"
+}, {
+  code: "150602",
+  latitude: 39.81788,
+  longitude: 109.98945,
+  name: "东胜区"
+}, {
+  code: "150603",
+  latitude: 39.607472,
+  longitude: 109.790076,
+  name: "康巴什区"
+}, {
+  code: "150621",
+  latitude: 40.404076,
+  longitude: 110.040281,
+  name: "达拉特旗"
+}, {
+  code: "150622",
+  latitude: 39.865221,
+  longitude: 111.238332,
+  name: "准格尔旗"
+}, {
+  code: "150623",
+  latitude: 38.183257,
+  longitude: 107.48172,
+  name: "鄂托克前旗"
+}, {
+  code: "150624",
+  latitude: 39.095752,
+  longitude: 107.982604,
+  name: "鄂托克旗"
+}, {
+  code: "150625",
+  latitude: 39.831789,
+  longitude: 108.736324,
+  name: "杭锦旗"
+}, {
+  code: "150626",
+  latitude: 38.596611,
+  longitude: 108.842454,
+  name: "乌审旗"
+}, {
+  code: "150627",
+  latitude: 39.604312,
+  longitude: 109.787402,
+  name: "伊金霍洛旗"
+}, {
+  code: "150700",
+  latitude: 49.215333,
+  longitude: 119.758168,
+  name: "呼伦贝尔市"
+}, {
+  code: "150702",
+  latitude: 49.213889,
+  longitude: 119.764923,
+  name: "海拉尔区"
+}, {
+  code: "150703",
+  latitude: 49.456567,
+  longitude: 117.716373,
+  name: "扎赉诺尔区"
+}, {
+  code: "150721",
+  latitude: 48.130503,
+  longitude: 123.464615,
+  name: "阿荣旗"
+}, {
+  code: "150722",
+  latitude: 48.478385,
+  longitude: 124.507401,
+  name: "莫力达瓦达斡尔族自治旗"
+}, {
+  code: "150723",
+  latitude: 50.590177,
+  longitude: 123.725684,
+  name: "鄂伦春自治旗"
+}, {
+  code: "150724",
+  latitude: 49.143293,
+  longitude: 119.754041,
+  name: "鄂温克族自治旗"
+}, {
+  code: "150725",
+  latitude: 49.328422,
+  longitude: 119.437609,
+  name: "陈巴尔虎旗"
+}, {
+  code: "150726",
+  latitude: 48.216571,
+  longitude: 118.267454,
+  name: "新巴尔虎左旗"
+}, {
+  code: "150727",
+  latitude: 48.669134,
+  longitude: 116.825991,
+  name: "新巴尔虎右旗"
+}, {
+  code: "150781",
+  latitude: 49.590788,
+  longitude: 117.455561,
+  name: "满洲里市"
+}, {
+  code: "150782",
+  latitude: 49.287024,
+  longitude: 120.729005,
+  name: "牙克石市"
+}, {
+  code: "150783",
+  latitude: 48.007412,
+  longitude: 122.744401,
+  name: "扎兰屯市"
+}, {
+  code: "150784",
+  latitude: 50.2439,
+  longitude: 120.178636,
+  name: "额尔古纳市"
+}, {
+  code: "150785",
+  latitude: 50.780454,
+  longitude: 121.532724,
+  name: "根河市"
+}, {
+  code: "150800",
+  latitude: 40.757402,
+  longitude: 107.416959,
+  name: "巴彦淖尔市"
+}, {
+  code: "150802",
+  latitude: 40.757092,
+  longitude: 107.417018,
+  name: "临河区"
+}, {
+  code: "150821",
+  latitude: 41.097639,
+  longitude: 108.270658,
+  name: "五原县"
+}, {
+  code: "150822",
+  latitude: 40.330479,
+  longitude: 107.006056,
+  name: "磴口县"
+}, {
+  code: "150823",
+  latitude: 40.725209,
+  longitude: 108.656816,
+  name: "乌拉特前旗"
+}, {
+  code: "150824",
+  latitude: 41.57254,
+  longitude: 108.515255,
+  name: "乌拉特中旗"
+}, {
+  code: "150825",
+  latitude: 41.084307,
+  longitude: 107.074941,
+  name: "乌拉特后旗"
+}, {
+  code: "150826",
+  latitude: 40.888797,
+  longitude: 107.147682,
+  name: "杭锦后旗"
+}, {
+  code: "150900",
+  latitude: 41.034126,
+  longitude: 113.114543,
+  name: "乌兰察布市"
+}, {
+  code: "150902",
+  latitude: 41.034134,
+  longitude: 113.116453,
+  name: "集宁区"
+}, {
+  code: "150921",
+  latitude: 40.89576,
+  longitude: 112.577702,
+  name: "卓资县"
+}, {
+  code: "150922",
+  latitude: 41.899335,
+  longitude: 114.01008,
+  name: "化德县"
+}, {
+  code: "150923",
+  latitude: 41.560163,
+  longitude: 113.560643,
+  name: "商都县"
+}, {
+  code: "150924",
+  latitude: 40.872437,
+  longitude: 113.834009,
+  name: "兴和县"
+}, {
+  code: "150925",
+  latitude: 40.531627,
+  longitude: 112.500911,
+  name: "凉城县"
+}, {
+  code: "150926",
+  latitude: 40.786859,
+  longitude: 113.211958,
+  name: "察哈尔右翼前旗"
+}, {
+  code: "150927",
+  latitude: 41.274212,
+  longitude: 112.633563,
+  name: "察哈尔右翼中旗"
+}, {
+  code: "150928",
+  latitude: 41.447213,
+  longitude: 113.1906,
+  name: "察哈尔右翼后旗"
+}, {
+  code: "150929",
+  latitude: 41.528114,
+  longitude: 111.70123,
+  name: "四子王旗"
+}, {
+  code: "150981",
+  latitude: 40.437534,
+  longitude: 113.163462,
+  name: "丰镇市"
+}, {
+  code: "152200",
+  latitude: 46.076268,
+  longitude: 122.070317,
+  name: "兴安盟"
+}, {
+  code: "152201",
+  latitude: 46.077238,
+  longitude: 122.068975,
+  name: "乌兰浩特市"
+}, {
+  code: "152202",
+  latitude: 47.177,
+  longitude: 119.943656,
+  name: "阿尔山市"
+}, {
+  code: "152221",
+  latitude: 46.076497,
+  longitude: 121.957544,
+  name: "科尔沁右翼前旗"
+}, {
+  code: "152222",
+  latitude: 45.059645,
+  longitude: 121.472818,
+  name: "科尔沁右翼中旗"
+}, {
+  code: "152223",
+  latitude: 46.725136,
+  longitude: 122.909332,
+  name: "扎赉特旗"
+}, {
+  code: "152224",
+  latitude: 45.380986,
+  longitude: 121.564856,
+  name: "突泉县"
+}, {
+  code: "152500",
+  latitude: 43.944018,
+  longitude: 116.090996,
+  name: "锡林郭勒盟"
+}, {
+  code: "152501",
+  latitude: 43.652895,
+  longitude: 111.97981,
+  name: "二连浩特市"
+}, {
+  code: "152502",
+  latitude: 43.944301,
+  longitude: 116.091903,
+  name: "锡林浩特市"
+}, {
+  code: "152522",
+  latitude: 44.022728,
+  longitude: 114.970618,
+  name: "阿巴嘎旗"
+}, {
+  code: "152523",
+  latitude: 43.854108,
+  longitude: 113.653412,
+  name: "苏尼特左旗"
+}, {
+  code: "152524",
+  latitude: 42.746662,
+  longitude: 112.65539,
+  name: "苏尼特右旗"
+}, {
+  code: "152525",
+  latitude: 45.510307,
+  longitude: 116.980022,
+  name: "东乌珠穆沁旗"
+}, {
+  code: "152526",
+  latitude: 44.586147,
+  longitude: 117.615249,
+  name: "西乌珠穆沁旗"
+}, {
+  code: "152527",
+  latitude: 41.895199,
+  longitude: 115.28728,
+  name: "太仆寺旗"
+}, {
+  code: "152528",
+  latitude: 42.239229,
+  longitude: 113.843869,
+  name: "镶黄旗"
+}, {
+  code: "152529",
+  latitude: 42.286807,
+  longitude: 115.031423,
+  name: "正镶白旗"
+}, {
+  code: "152530",
+  latitude: 42.245895,
+  longitude: 116.003311,
+  name: "正蓝旗"
+}, {
+  code: "152531",
+  latitude: 42.197962,
+  longitude: 116.477288,
+  name: "多伦县"
+}, {
+  code: "152900",
+  latitude: 38.844814,
+  longitude: 105.706422,
+  name: "阿拉善盟"
+}, {
+  code: "152921",
+  latitude: 38.847241,
+  longitude: 105.70192,
+  name: "阿拉善左旗"
+}, {
+  code: "152922",
+  latitude: 39.21159,
+  longitude: 101.671984,
+  name: "阿拉善右旗"
+}, {
+  code: "152923",
+  latitude: 41.958813,
+  longitude: 101.06944,
+  name: "额济纳旗"
+}, {
+  code: "210100",
+  latitude: 41.796767,
+  longitude: 123.429096,
+  name: "沈阳市"
+}, {
+  code: "210102",
+  latitude: 41.788074,
+  longitude: 123.406664,
+  name: "和平区（沈阳市）"
+}, {
+  code: "210103",
+  latitude: 41.795591,
+  longitude: 123.445696,
+  name: "沈河区"
+}, {
+  code: "210104",
+  latitude: 41.808503,
+  longitude: 123.469956,
+  name: "大东区"
+}, {
+  code: "210105",
+  latitude: 41.822336,
+  longitude: 123.405677,
+  name: "皇姑区"
+}, {
+  code: "210106",
+  latitude: 41.787808,
+  longitude: 123.350664,
+  name: "铁西区（沈阳市）"
+}, {
+  code: "210111",
+  latitude: 41.665904,
+  longitude: 123.341604,
+  name: "苏家屯区"
+}, {
+  code: "210112",
+  latitude: 41.741946,
+  longitude: 123.458981,
+  name: "浑南区"
+}, {
+  code: "210113",
+  latitude: 42.052312,
+  longitude: 123.521471,
+  name: "沈北新区"
+}, {
+  code: "210114",
+  latitude: 41.795833,
+  longitude: 123.310829,
+  name: "于洪区"
+}, {
+  code: "210115",
+  latitude: 41.512725,
+  longitude: 122.731269,
+  name: "辽中区"
+}, {
+  code: "210123",
+  latitude: 42.741533,
+  longitude: 123.352703,
+  name: "康平县"
+}, {
+  code: "210124",
+  latitude: 42.507045,
+  longitude: 123.416722,
+  name: "法库县"
+}, {
+  code: "210181",
+  latitude: 41.996508,
+  longitude: 122.828868,
+  name: "新民市"
+}, {
+  code: "210200",
+  latitude: 38.91459,
+  longitude: 121.618622,
+  name: "大连市"
+}, {
+  code: "210202",
+  latitude: 38.921553,
+  longitude: 121.64376,
+  name: "中山区"
+}, {
+  code: "210203",
+  latitude: 38.914266,
+  longitude: 121.616112,
+  name: "西岗区"
+}, {
+  code: "210204",
+  latitude: 38.912859,
+  longitude: 121.593702,
+  name: "沙河口区"
+}, {
+  code: "210211",
+  latitude: 38.975148,
+  longitude: 121.582614,
+  name: "甘井子区"
+}, {
+  code: "210212",
+  latitude: 38.812043,
+  longitude: 121.26713,
+  name: "旅顺口区"
+}, {
+  code: "210213",
+  latitude: 39.052745,
+  longitude: 121.789413,
+  name: "金州区"
+}, {
+  code: "210214",
+  latitude: 39.401555,
+  longitude: 121.9705,
+  name: "普兰店区"
+}, {
+  code: "210224",
+  latitude: 39.272399,
+  longitude: 122.587824,
+  name: "长海县"
+}, {
+  code: "210281",
+  latitude: 39.63065,
+  longitude: 122.002656,
+  name: "瓦房店市"
+}, {
+  code: "210283",
+  latitude: 39.69829,
+  longitude: 122.970612,
+  name: "庄河市"
+}, {
+  code: "210300",
+  latitude: 41.110626,
+  longitude: 122.995632,
+  name: "鞍山市"
+}, {
+  code: "210302",
+  latitude: 41.110344,
+  longitude: 122.994475,
+  name: "铁东区（鞍山市）"
+}, {
+  code: "210303",
+  latitude: 41.11069,
+  longitude: 122.971834,
+  name: "铁西区（鞍山市）"
+}, {
+  code: "210304",
+  latitude: 41.150622,
+  longitude: 123.024806,
+  name: "立山区"
+}, {
+  code: "210311",
+  latitude: 41.068909,
+  longitude: 122.949298,
+  name: "千山区"
+}, {
+  code: "210321",
+  latitude: 41.38686,
+  longitude: 122.429736,
+  name: "台安县"
+}, {
+  code: "210323",
+  latitude: 40.281509,
+  longitude: 123.28833,
+  name: "岫岩满族自治县"
+}, {
+  code: "210381",
+  latitude: 40.852533,
+  longitude: 122.752199,
+  name: "海城市"
+}, {
+  code: "210400",
+  latitude: 41.875956,
+  longitude: 123.921109,
+  name: "抚顺市"
+}, {
+  code: "210402",
+  latitude: 41.86082,
+  longitude: 123.902858,
+  name: "新抚区"
+}, {
+  code: "210403",
+  latitude: 41.866829,
+  longitude: 124.047219,
+  name: "东洲区"
+}, {
+  code: "210404",
+  latitude: 41.851803,
+  longitude: 123.801509,
+  name: "望花区"
+}, {
+  code: "210411",
+  latitude: 41.881132,
+  longitude: 123.917165,
+  name: "顺城区"
+}, {
+  code: "210421",
+  latitude: 41.922644,
+  longitude: 124.097979,
+  name: "抚顺县"
+}, {
+  code: "210422",
+  latitude: 41.732456,
+  longitude: 125.037547,
+  name: "新宾满族自治县"
+}, {
+  code: "210423",
+  latitude: 42.10135,
+  longitude: 124.927192,
+  name: "清原满族自治县"
+}, {
+  code: "210500",
+  latitude: 41.297909,
+  longitude: 123.770519,
+  name: "本溪市"
+}, {
+  code: "210502",
+  latitude: 41.291581,
+  longitude: 123.761231,
+  name: "平山区"
+}, {
+  code: "210503",
+  latitude: 41.330056,
+  longitude: 123.765226,
+  name: "溪湖区"
+}, {
+  code: "210504",
+  latitude: 41.302429,
+  longitude: 123.763288,
+  name: "明山区"
+}, {
+  code: "210505",
+  latitude: 41.104093,
+  longitude: 123.748381,
+  name: "南芬区"
+}, {
+  code: "210521",
+  latitude: 41.300344,
+  longitude: 124.126156,
+  name: "本溪满族自治县"
+}, {
+  code: "210522",
+  latitude: 41.268997,
+  longitude: 125.359195,
+  name: "桓仁满族自治县"
+}, {
+  code: "210600",
+  latitude: 40.124296,
+  longitude: 124.383044,
+  name: "丹东市"
+}, {
+  code: "210602",
+  latitude: 40.136483,
+  longitude: 124.397814,
+  name: "元宝区"
+}, {
+  code: "210603",
+  latitude: 40.102801,
+  longitude: 124.361153,
+  name: "振兴区"
+}, {
+  code: "210604",
+  latitude: 40.158557,
+  longitude: 124.427709,
+  name: "振安区"
+}, {
+  code: "210624",
+  latitude: 40.730412,
+  longitude: 124.784867,
+  name: "宽甸满族自治县"
+}, {
+  code: "210681",
+  latitude: 39.883467,
+  longitude: 124.149437,
+  name: "东港市"
+}, {
+  code: "210682",
+  latitude: 40.457567,
+  longitude: 124.071067,
+  name: "凤城市"
+}, {
+  code: "210700",
+  latitude: 41.119269,
+  longitude: 121.135742,
+  name: "锦州市"
+}, {
+  code: "210702",
+  latitude: 41.115719,
+  longitude: 121.130085,
+  name: "古塔区"
+}, {
+  code: "210703",
+  latitude: 41.114662,
+  longitude: 121.151304,
+  name: "凌河区"
+}, {
+  code: "210711",
+  latitude: 41.105378,
+  longitude: 121.107297,
+  name: "太和区"
+}, {
+  code: "210726",
+  latitude: 41.691804,
+  longitude: 122.117915,
+  name: "黑山县"
+}, {
+  code: "210727",
+  latitude: 41.537224,
+  longitude: 121.242831,
+  name: "义县"
+}, {
+  code: "210781",
+  latitude: 41.171738,
+  longitude: 121.364236,
+  name: "凌海市"
+}, {
+  code: "210782",
+  latitude: 41.598764,
+  longitude: 121.795962,
+  name: "北镇市"
+}, {
+  code: "210800",
+  latitude: 40.667432,
+  longitude: 122.235151,
+  name: "营口市"
+}, {
+  code: "210802",
+  latitude: 40.669949,
+  longitude: 122.253235,
+  name: "站前区"
+}, {
+  code: "210803",
+  latitude: 40.663086,
+  longitude: 122.210067,
+  name: "西市区"
+}, {
+  code: "210804",
+  latitude: 40.263646,
+  longitude: 122.127242,
+  name: "鲅鱼圈区"
+}, {
+  code: "210811",
+  latitude: 40.682723,
+  longitude: 122.382584,
+  name: "老边区"
+}, {
+  code: "210881",
+  latitude: 40.405234,
+  longitude: 122.355534,
+  name: "盖州市"
+}, {
+  code: "210882",
+  latitude: 40.633973,
+  longitude: 122.505894,
+  name: "大石桥市"
+}, {
+  code: "210900",
+  latitude: 42.011796,
+  longitude: 121.648962,
+  name: "阜新市"
+}, {
+  code: "210902",
+  latitude: 42.011162,
+  longitude: 121.657639,
+  name: "海州区（阜新市）"
+}, {
+  code: "210903",
+  latitude: 42.086603,
+  longitude: 121.790541,
+  name: "新邱区"
+}, {
+  code: "210904",
+  latitude: 42.011145,
+  longitude: 121.677575,
+  name: "太平区"
+}, {
+  code: "210905",
+  latitude: 41.780477,
+  longitude: 121.42018,
+  name: "清河门区"
+}, {
+  code: "210911",
+  latitude: 42.019218,
+  longitude: 121.654791,
+  name: "细河区"
+}, {
+  code: "210921",
+  latitude: 42.058607,
+  longitude: 121.743125,
+  name: "阜新蒙古族自治县"
+}, {
+  code: "210922",
+  latitude: 42.384823,
+  longitude: 122.537444,
+  name: "彰武县"
+}, {
+  code: "211000",
+  latitude: 41.269402,
+  longitude: 123.18152,
+  name: "辽阳市"
+}, {
+  code: "211002",
+  latitude: 41.26745,
+  longitude: 123.172611,
+  name: "白塔区"
+}, {
+  code: "211003",
+  latitude: 41.266765,
+  longitude: 123.188227,
+  name: "文圣区"
+}, {
+  code: "211004",
+  latitude: 41.205747,
+  longitude: 123.200461,
+  name: "宏伟区"
+}, {
+  code: "211005",
+  latitude: 41.157831,
+  longitude: 123.431633,
+  name: "弓长岭区"
+}, {
+  code: "211011",
+  latitude: 41.251682,
+  longitude: 123.185336,
+  name: "太子河区"
+}, {
+  code: "211021",
+  latitude: 41.216479,
+  longitude: 123.079674,
+  name: "辽阳县"
+}, {
+  code: "211081",
+  latitude: 41.427836,
+  longitude: 123.325864,
+  name: "灯塔市"
+}, {
+  code: "211100",
+  latitude: 41.124484,
+  longitude: 122.06957,
+  name: "盘锦市"
+}, {
+  code: "211102",
+  latitude: 41.190365,
+  longitude: 122.055733,
+  name: "双台子区"
+}, {
+  code: "211103",
+  latitude: 41.122423,
+  longitude: 122.071624,
+  name: "兴隆台区"
+}, {
+  code: "211104",
+  latitude: 40.994428,
+  longitude: 122.071708,
+  name: "大洼区"
+}, {
+  code: "211122",
+  latitude: 41.240701,
+  longitude: 121.98528,
+  name: "盘山县"
+}, {
+  code: "211200",
+  latitude: 42.290585,
+  longitude: 123.844279,
+  name: "铁岭市"
+}, {
+  code: "211202",
+  latitude: 42.292278,
+  longitude: 123.844877,
+  name: "银州区"
+}, {
+  code: "211204",
+  latitude: 42.542978,
+  longitude: 124.14896,
+  name: "清河区"
+}, {
+  code: "211221",
+  latitude: 42.223316,
+  longitude: 123.725669,
+  name: "铁岭县"
+}, {
+  code: "211223",
+  latitude: 42.738091,
+  longitude: 124.72332,
+  name: "西丰县"
+}, {
+  code: "211224",
+  latitude: 42.784441,
+  longitude: 124.11017,
+  name: "昌图县"
+}, {
+  code: "211281",
+  latitude: 42.450734,
+  longitude: 123.545366,
+  name: "调兵山市"
+}, {
+  code: "211282",
+  latitude: 42.542141,
+  longitude: 124.045551,
+  name: "开原市"
+}, {
+  code: "211300",
+  latitude: 41.576758,
+  longitude: 120.451176,
+  name: "朝阳市"
+}, {
+  code: "211302",
+  latitude: 41.579389,
+  longitude: 120.44877,
+  name: "双塔区"
+}, {
+  code: "211303",
+  latitude: 41.576749,
+  longitude: 120.413376,
+  name: "龙城区"
+}, {
+  code: "211321",
+  latitude: 41.526342,
+  longitude: 120.404217,
+  name: "朝阳县"
+}, {
+  code: "211322",
+  latitude: 41.402576,
+  longitude: 119.642363,
+  name: "建平县"
+}, {
+  code: "211324",
+  latitude: 41.125428,
+  longitude: 119.744883,
+  name: "喀喇沁左翼蒙古族自治县"
+}, {
+  code: "211381",
+  latitude: 41.803286,
+  longitude: 120.766951,
+  name: "北票市"
+}, {
+  code: "211382",
+  latitude: 41.243086,
+  longitude: 119.404789,
+  name: "凌源市"
+}, {
+  code: "211400",
+  latitude: 40.755572,
+  longitude: 120.856394,
+  name: "葫芦岛市"
+}, {
+  code: "211402",
+  latitude: 40.755143,
+  longitude: 120.85937,
+  name: "连山区"
+}, {
+  code: "211403",
+  latitude: 40.709991,
+  longitude: 120.838569,
+  name: "龙港区"
+}, {
+  code: "211404",
+  latitude: 41.098813,
+  longitude: 120.752314,
+  name: "南票区"
+}, {
+  code: "211421",
+  latitude: 40.328407,
+  longitude: 120.342112,
+  name: "绥中县"
+}, {
+  code: "211422",
+  latitude: 40.812871,
+  longitude: 119.807776,
+  name: "建昌县"
+}, {
+  code: "211481",
+  latitude: 40.619413,
+  longitude: 120.729365,
+  name: "兴城市"
+}, {
+  code: "220100",
+  latitude: 43.886841,
+  longitude: 125.3245,
+  name: "长春市"
+}, {
+  code: "220102",
+  latitude: 43.890235,
+  longitude: 125.337237,
+  name: "南关区"
+}, {
+  code: "220103",
+  latitude: 43.903823,
+  longitude: 125.342828,
+  name: "宽城区"
+}, {
+  code: "220104",
+  latitude: 43.86491,
+  longitude: 125.318042,
+  name: "朝阳区（长春市）"
+}, {
+  code: "220105",
+  latitude: 43.870824,
+  longitude: 125.384727,
+  name: "二道区"
+}, {
+  code: "220106",
+  latitude: 43.892177,
+  longitude: 125.272467,
+  name: "绿园区"
+}, {
+  code: "220112",
+  latitude: 43.525168,
+  longitude: 125.659018,
+  name: "双阳区"
+}, {
+  code: "220113",
+  latitude: 44.157155,
+  longitude: 125.844682,
+  name: "九台区"
+}, {
+  code: "220122",
+  latitude: 44.431258,
+  longitude: 125.175287,
+  name: "农安县"
+}, {
+  code: "220182",
+  latitude: 44.827642,
+  longitude: 126.550107,
+  name: "榆树市"
+}, {
+  code: "220183",
+  latitude: 44.533909,
+  longitude: 125.703327,
+  name: "德惠市"
+}, {
+  code: "220184",
+  latitude: 43.509474,
+  longitude: 124.817588,
+  name: "公主岭市"
+}, {
+  code: "220200",
+  latitude: 43.843577,
+  longitude: 126.55302,
+  name: "吉林市"
+}, {
+  code: "220202",
+  latitude: 43.851118,
+  longitude: 126.570766,
+  name: "昌邑区"
+}, {
+  code: "220203",
+  latitude: 43.909755,
+  longitude: 126.561429,
+  name: "龙潭区"
+}, {
+  code: "220204",
+  latitude: 43.843804,
+  longitude: 126.55239,
+  name: "船营区"
+}, {
+  code: "220211",
+  latitude: 43.816594,
+  longitude: 126.560759,
+  name: "丰满区"
+}, {
+  code: "220221",
+  latitude: 43.667416,
+  longitude: 126.501622,
+  name: "永吉县"
+}, {
+  code: "220281",
+  latitude: 43.720579,
+  longitude: 127.342739,
+  name: "蛟河市"
+}, {
+  code: "220282",
+  latitude: 42.972093,
+  longitude: 126.745445,
+  name: "桦甸市"
+}, {
+  code: "220283",
+  latitude: 44.410906,
+  longitude: 126.947813,
+  name: "舒兰市"
+}, {
+  code: "220284",
+  latitude: 42.942476,
+  longitude: 126.059929,
+  name: "磐石市"
+}, {
+  code: "220300",
+  latitude: 43.170344,
+  longitude: 124.370785,
+  name: "四平市"
+}, {
+  code: "220302",
+  latitude: 43.176263,
+  longitude: 124.360894,
+  name: "铁西区（四平市）"
+}, {
+  code: "220303",
+  latitude: 43.16726,
+  longitude: 124.388464,
+  name: "铁东区（四平市）"
+}, {
+  code: "220322",
+  latitude: 43.30831,
+  longitude: 124.335802,
+  name: "梨树县"
+}, {
+  code: "220323",
+  latitude: 43.345464,
+  longitude: 125.303124,
+  name: "伊通满族自治县"
+}, {
+  code: "220382",
+  latitude: 43.518275,
+  longitude: 123.505283,
+  name: "双辽市"
+}, {
+  code: "220400",
+  latitude: 42.902692,
+  longitude: 125.145349,
+  name: "辽源市"
+}, {
+  code: "220402",
+  latitude: 42.902702,
+  longitude: 125.145164,
+  name: "龙山区"
+}, {
+  code: "220403",
+  latitude: 42.920415,
+  longitude: 125.151424,
+  name: "西安区（辽源市）"
+}, {
+  code: "220421",
+  latitude: 42.675228,
+  longitude: 125.529623,
+  name: "东丰县"
+}, {
+  code: "220422",
+  latitude: 42.927724,
+  longitude: 124.991995,
+  name: "东辽县"
+}, {
+  code: "220500",
+  latitude: 41.721177,
+  longitude: 125.936501,
+  name: "通化市"
+}, {
+  code: "220502",
+  latitude: 41.721233,
+  longitude: 125.936716,
+  name: "东昌区"
+}, {
+  code: "220503",
+  latitude: 41.777564,
+  longitude: 126.045987,
+  name: "二道江区"
+}, {
+  code: "220521",
+  latitude: 41.677918,
+  longitude: 125.753121,
+  name: "通化县"
+}, {
+  code: "220523",
+  latitude: 42.683459,
+  longitude: 126.042821,
+  name: "辉南县"
+}, {
+  code: "220524",
+  latitude: 42.281484,
+  longitude: 125.740536,
+  name: "柳河县"
+}, {
+  code: "220581",
+  latitude: 42.530002,
+  longitude: 125.687336,
+  name: "梅河口市"
+}, {
+  code: "220582",
+  latitude: 41.126276,
+  longitude: 126.186204,
+  name: "集安市"
+}, {
+  code: "220600",
+  latitude: 41.942505,
+  longitude: 126.427839,
+  name: "白山市"
+}, {
+  code: "220602",
+  latitude: 41.943065,
+  longitude: 126.428035,
+  name: "浑江区"
+}, {
+  code: "220605",
+  latitude: 42.048109,
+  longitude: 126.584229,
+  name: "江源区"
+}, {
+  code: "220621",
+  latitude: 42.332643,
+  longitude: 127.273796,
+  name: "抚松县"
+}, {
+  code: "220622",
+  latitude: 42.389689,
+  longitude: 126.808386,
+  name: "靖宇县"
+}, {
+  code: "220623",
+  latitude: 41.419361,
+  longitude: 128.203384,
+  name: "长白朝鲜族自治县"
+}, {
+  code: "220681",
+  latitude: 41.810689,
+  longitude: 126.919296,
+  name: "临江市"
+}, {
+  code: "220700",
+  latitude: 45.118243,
+  longitude: 124.823608,
+  name: "松原市"
+}, {
+  code: "220702",
+  latitude: 45.176498,
+  longitude: 124.827851,
+  name: "宁江区"
+}, {
+  code: "220721",
+  latitude: 45.116288,
+  longitude: 124.826808,
+  name: "前郭尔罗斯蒙古族自治县"
+}, {
+  code: "220722",
+  latitude: 44.276579,
+  longitude: 123.985184,
+  name: "长岭县"
+}, {
+  code: "220723",
+  latitude: 45.006846,
+  longitude: 124.024361,
+  name: "乾安县"
+}, {
+  code: "220781",
+  latitude: 44.986199,
+  longitude: 126.042758,
+  name: "扶余市"
+}, {
+  code: "220800",
+  latitude: 45.619026,
+  longitude: 122.841114,
+  name: "白城市"
+}, {
+  code: "220802",
+  latitude: 45.619253,
+  longitude: 122.842499,
+  name: "洮北区"
+}, {
+  code: "220821",
+  latitude: 45.846089,
+  longitude: 123.202246,
+  name: "镇赉县"
+}, {
+  code: "220822",
+  latitude: 44.80915,
+  longitude: 123.088543,
+  name: "通榆县"
+}, {
+  code: "220881",
+  latitude: 45.339113,
+  longitude: 122.783779,
+  name: "洮南市"
+}, {
+  code: "220882",
+  latitude: 45.507648,
+  longitude: 124.291512,
+  name: "大安市"
+}, {
+  code: "222400",
+  latitude: 42.904823,
+  longitude: 129.513228,
+  name: "延边朝鲜族自治州"
+}, {
+  code: "222401",
+  latitude: 42.906964,
+  longitude: 129.51579,
+  name: "延吉市"
+}, {
+  code: "222402",
+  latitude: 42.966621,
+  longitude: 129.846701,
+  name: "图们市"
+}, {
+  code: "222403",
+  latitude: 43.366921,
+  longitude: 128.22986,
+  name: "敦化市"
+}, {
+  code: "222404",
+  latitude: 42.871057,
+  longitude: 130.365787,
+  name: "珲春市"
+}, {
+  code: "222405",
+  latitude: 42.771029,
+  longitude: 129.425747,
+  name: "龙井市"
+}, {
+  code: "222406",
+  latitude: 42.547004,
+  longitude: 129.008748,
+  name: "和龙市"
+}, {
+  code: "222424",
+  latitude: 43.315426,
+  longitude: 129.766161,
+  name: "汪清县"
+}, {
+  code: "222426",
+  latitude: 43.110994,
+  longitude: 128.901865,
+  name: "安图县"
+}, {
+  code: "230100",
+  latitude: 45.756967,
+  longitude: 126.642464,
+  name: "哈尔滨市"
+}, {
+  code: "230102",
+  latitude: 45.762035,
+  longitude: 126.612532,
+  name: "道里区"
+}, {
+  code: "230103",
+  latitude: 45.755971,
+  longitude: 126.652098,
+  name: "南岗区"
+}, {
+  code: "230104",
+  latitude: 45.78454,
+  longitude: 126.648838,
+  name: "道外区"
+}, {
+  code: "230108",
+  latitude: 45.605567,
+  longitude: 126.629257,
+  name: "平房区"
+}, {
+  code: "230109",
+  latitude: 45.814656,
+  longitude: 126.563066,
+  name: "松北区"
+}, {
+  code: "230110",
+  latitude: 45.713067,
+  longitude: 126.667049,
+  name: "香坊区"
+}, {
+  code: "230111",
+  latitude: 45.98423,
+  longitude: 126.603302,
+  name: "呼兰区"
+}, {
+  code: "230112",
+  latitude: 45.538372,
+  longitude: 126.972726,
+  name: "阿城区"
+}, {
+  code: "230113",
+  latitude: 45.377942,
+  longitude: 126.308784,
+  name: "双城区"
+}, {
+  code: "230123",
+  latitude: 46.315105,
+  longitude: 129.565594,
+  name: "依兰县"
+}, {
+  code: "230124",
+  latitude: 45.839536,
+  longitude: 128.836131,
+  name: "方正县"
+}, {
+  code: "230125",
+  latitude: 45.759369,
+  longitude: 127.48594,
+  name: "宾县"
+}, {
+  code: "230126",
+  latitude: 46.081889,
+  longitude: 127.403602,
+  name: "巴彦县"
+}, {
+  code: "230127",
+  latitude: 45.949826,
+  longitude: 128.042675,
+  name: "木兰县"
+}, {
+  code: "230128",
+  latitude: 45.977618,
+  longitude: 128.747786,
+  name: "通河县"
+}, {
+  code: "230129",
+  latitude: 45.455648,
+  longitude: 128.331886,
+  name: "延寿县"
+}, {
+  code: "230183",
+  latitude: 45.214953,
+  longitude: 127.968539,
+  name: "尚志市"
+}, {
+  code: "230184",
+  latitude: 44.919418,
+  longitude: 127.15759,
+  name: "五常市"
+}, {
+  code: "230200",
+  latitude: 47.342081,
+  longitude: 123.95792,
+  name: "齐齐哈尔市"
+}, {
+  code: "230202",
+  latitude: 47.341736,
+  longitude: 123.957338,
+  name: "龙沙区"
+}, {
+  code: "230203",
+  latitude: 47.354494,
+  longitude: 123.955888,
+  name: "建华区"
+}, {
+  code: "230204",
+  latitude: 47.339499,
+  longitude: 123.973555,
+  name: "铁锋区"
+}, {
+  code: "230205",
+  latitude: 47.156867,
+  longitude: 123.813181,
+  name: "昂昂溪区"
+}, {
+  code: "230206",
+  latitude: 47.20697,
+  longitude: 123.638873,
+  name: "富拉尔基区"
+}, {
+  code: "230207",
+  latitude: 47.51401,
+  longitude: 122.887972,
+  name: "碾子山区"
+}, {
+  code: "230208",
+  latitude: 47.311113,
+  longitude: 123.754599,
+  name: "梅里斯达斡尔族区"
+}, {
+  code: "230221",
+  latitude: 47.336388,
+  longitude: 123.187225,
+  name: "龙江县"
+}, {
+  code: "230223",
+  latitude: 47.890098,
+  longitude: 125.307561,
+  name: "依安县"
+}, {
+  code: "230224",
+  latitude: 46.39233,
+  longitude: 123.41953,
+  name: "泰来县"
+}, {
+  code: "230225",
+  latitude: 47.917838,
+  longitude: 123.506034,
+  name: "甘南县"
+}, {
+  code: "230227",
+  latitude: 47.797172,
+  longitude: 124.469106,
+  name: "富裕县"
+}, {
+  code: "230229",
+  latitude: 48.034342,
+  longitude: 125.874355,
+  name: "克山县"
+}, {
+  code: "230230",
+  latitude: 48.03732,
+  longitude: 126.249094,
+  name: "克东县"
+}, {
+  code: "230231",
+  latitude: 47.607363,
+  longitude: 126.091911,
+  name: "拜泉县"
+}, {
+  code: "230281",
+  latitude: 48.481133,
+  longitude: 124.882172,
+  name: "讷河市"
+}, {
+  code: "230300",
+  latitude: 45.300046,
+  longitude: 130.975966,
+  name: "鸡西市"
+}, {
+  code: "230302",
+  latitude: 45.30034,
+  longitude: 130.974374,
+  name: "鸡冠区"
+}, {
+  code: "230303",
+  latitude: 45.213242,
+  longitude: 130.910636,
+  name: "恒山区"
+}, {
+  code: "230304",
+  latitude: 45.348812,
+  longitude: 130.846823,
+  name: "滴道区"
+}, {
+  code: "230305",
+  latitude: 45.092195,
+  longitude: 130.697781,
+  name: "梨树区"
+}, {
+  code: "230306",
+  latitude: 45.338248,
+  longitude: 131.010501,
+  name: "城子河区"
+}, {
+  code: "230307",
+  latitude: 45.209607,
+  longitude: 130.481126,
+  name: "麻山区"
+}, {
+  code: "230321",
+  latitude: 45.250892,
+  longitude: 131.148907,
+  name: "鸡东县"
+}, {
+  code: "230381",
+  latitude: 45.767985,
+  longitude: 132.973881,
+  name: "虎林市"
+}, {
+  code: "230382",
+  latitude: 45.54725,
+  longitude: 131.874137,
+  name: "密山市"
+}, {
+  code: "230400",
+  latitude: 47.332085,
+  longitude: 130.277487,
+  name: "鹤岗市"
+}, {
+  code: "230402",
+  latitude: 47.345372,
+  longitude: 130.292478,
+  name: "向阳区（鹤岗市）"
+}, {
+  code: "230403",
+  latitude: 47.331678,
+  longitude: 130.276652,
+  name: "工农区"
+}, {
+  code: "230404",
+  latitude: 47.31324,
+  longitude: 130.275533,
+  name: "南山区（鹤岗市）"
+}, {
+  code: "230405",
+  latitude: 47.252911,
+  longitude: 130.236169,
+  name: "兴安区"
+}, {
+  code: "230406",
+  latitude: 47.337385,
+  longitude: 130.31714,
+  name: "东山区"
+}, {
+  code: "230407",
+  latitude: 47.35997,
+  longitude: 130.30534,
+  name: "兴山区"
+}, {
+  code: "230421",
+  latitude: 47.577577,
+  longitude: 130.829087,
+  name: "萝北县"
+}, {
+  code: "230422",
+  latitude: 47.289892,
+  longitude: 131.860526,
+  name: "绥滨县"
+}, {
+  code: "230500",
+  latitude: 46.643442,
+  longitude: 131.157304,
+  name: "双鸭山市"
+}, {
+  code: "230502",
+  latitude: 46.642961,
+  longitude: 131.15896,
+  name: "尖山区"
+}, {
+  code: "230503",
+  latitude: 46.591076,
+  longitude: 131.163675,
+  name: "岭东区"
+}, {
+  code: "230505",
+  latitude: 46.594347,
+  longitude: 131.333181,
+  name: "四方台区"
+}, {
+  code: "230506",
+  latitude: 46.573366,
+  longitude: 131.404294,
+  name: "宝山区（双鸭山市）"
+}, {
+  code: "230521",
+  latitude: 46.72898,
+  longitude: 131.13933,
+  name: "集贤县"
+}, {
+  code: "230522",
+  latitude: 46.775159,
+  longitude: 131.810622,
+  name: "友谊县"
+}, {
+  code: "230523",
+  latitude: 46.328781,
+  longitude: 132.206415,
+  name: "宝清县"
+}, {
+  code: "230524",
+  latitude: 46.801288,
+  longitude: 134.021162,
+  name: "饶河县"
+}, {
+  code: "230600",
+  latitude: 46.590734,
+  longitude: 125.11272,
+  name: "大庆市"
+}, {
+  code: "230602",
+  latitude: 46.596356,
+  longitude: 125.114643,
+  name: "萨尔图区"
+}, {
+  code: "230603",
+  latitude: 46.573948,
+  longitude: 125.145794,
+  name: "龙凤区"
+}, {
+  code: "230604",
+  latitude: 46.653254,
+  longitude: 124.868341,
+  name: "让胡路区"
+}, {
+  code: "230605",
+  latitude: 46.403049,
+  longitude: 124.889528,
+  name: "红岗区"
+}, {
+  code: "230606",
+  latitude: 46.034304,
+  longitude: 124.818509,
+  name: "大同区"
+}, {
+  code: "230621",
+  latitude: 45.708685,
+  longitude: 125.273254,
+  name: "肇州县"
+}, {
+  code: "230622",
+  latitude: 45.518832,
+  longitude: 125.081974,
+  name: "肇源县"
+}, {
+  code: "230623",
+  latitude: 47.186411,
+  longitude: 124.877742,
+  name: "林甸县"
+}, {
+  code: "230624",
+  latitude: 46.865973,
+  longitude: 124.446259,
+  name: "杜尔伯特蒙古族自治县"
+}, {
+  code: "230700",
+  latitude: 47.724775,
+  longitude: 128.899396,
+  name: "伊春市"
+}, {
+  code: "230717",
+  latitude: 47.728171,
+  longitude: 128.907303,
+  name: "伊美区"
+}, {
+  code: "230718",
+  latitude: 47.726728,
+  longitude: 128.669859,
+  name: "乌翠区"
+}, {
+  code: "230719",
+  latitude: 47.853778,
+  longitude: 128.84075,
+  name: "友好区"
+}, {
+  code: "230722",
+  latitude: 48.891378,
+  longitude: 130.397684,
+  name: "嘉荫县"
+}, {
+  code: "230723",
+  latitude: 48.454651,
+  longitude: 129.571108,
+  name: "汤旺县"
+}, {
+  code: "230724",
+  latitude: 48.290455,
+  longitude: 129.5336,
+  name: "丰林县"
+}, {
+  code: "230725",
+  latitude: 47.028397,
+  longitude: 129.020793,
+  name: "大箐山县"
+}, {
+  code: "230726",
+  latitude: 47.137314,
+  longitude: 129.28246,
+  name: "南岔县"
+}, {
+  code: "230751",
+  latitude: 47.413074,
+  longitude: 129.429117,
+  name: "金林区"
+}, {
+  code: "230781",
+  latitude: 46.985772,
+  longitude: 128.030561,
+  name: "铁力市"
+}, {
+  code: "230800",
+  latitude: 46.809606,
+  longitude: 130.361634,
+  name: "佳木斯市"
+}, {
+  code: "230803",
+  latitude: 46.809645,
+  longitude: 130.361786,
+  name: "向阳区（佳木斯市）"
+}, {
+  code: "230804",
+  latitude: 46.812345,
+  longitude: 130.377684,
+  name: "前进区"
+}, {
+  code: "230805",
+  latitude: 46.822476,
+  longitude: 130.403297,
+  name: "东风区"
+}, {
+  code: "230811",
+  latitude: 46.80712,
+  longitude: 130.351588,
+  name: "郊区（佳木斯市）"
+}, {
+  code: "230822",
+  latitude: 46.240118,
+  longitude: 130.570112,
+  name: "桦南县"
+}, {
+  code: "230826",
+  latitude: 47.023039,
+  longitude: 130.723713,
+  name: "桦川县"
+}, {
+  code: "230828",
+  latitude: 46.730048,
+  longitude: 129.904463,
+  name: "汤原县"
+}, {
+  code: "230881",
+  latitude: 47.651131,
+  longitude: 132.510119,
+  name: "同江市"
+}, {
+  code: "230882",
+  latitude: 47.250747,
+  longitude: 132.037951,
+  name: "富锦市"
+}, {
+  code: "230883",
+  latitude: 48.364707,
+  longitude: 134.294501,
+  name: "抚远市"
+}, {
+  code: "230900",
+  latitude: 45.771266,
+  longitude: 131.015584,
+  name: "七台河市"
+}, {
+  code: "230902",
+  latitude: 45.794258,
+  longitude: 130.889482,
+  name: "新兴区"
+}, {
+  code: "230903",
+  latitude: 45.771217,
+  longitude: 131.015848,
+  name: "桃山区"
+}, {
+  code: "230904",
+  latitude: 45.776587,
+  longitude: 131.071561,
+  name: "茄子河区"
+}, {
+  code: "230921",
+  latitude: 45.751573,
+  longitude: 130.575025,
+  name: "勃利县"
+}, {
+  code: "231000",
+  latitude: 44.582962,
+  longitude: 129.618602,
+  name: "牡丹江市"
+}, {
+  code: "231002",
+  latitude: 44.582399,
+  longitude: 129.623292,
+  name: "东安区"
+}, {
+  code: "231003",
+  latitude: 44.596328,
+  longitude: 129.634645,
+  name: "阳明区"
+}, {
+  code: "231004",
+  latitude: 44.595443,
+  longitude: 129.601232,
+  name: "爱民区"
+}, {
+  code: "231005",
+  latitude: 44.581032,
+  longitude: 129.61311,
+  name: "西安区（牡丹江市）"
+}, {
+  code: "231025",
+  latitude: 45.286645,
+  longitude: 130.268402,
+  name: "林口县"
+}, {
+  code: "231081",
+  latitude: 44.396864,
+  longitude: 131.164856,
+  name: "绥芬河市"
+}, {
+  code: "231083",
+  latitude: 44.574149,
+  longitude: 129.387902,
+  name: "海林市"
+}, {
+  code: "231084",
+  latitude: 44.346836,
+  longitude: 129.470019,
+  name: "宁安市"
+}, {
+  code: "231085",
+  latitude: 44.91967,
+  longitude: 130.527085,
+  name: "穆棱市"
+}, {
+  code: "231086",
+  latitude: 44.063578,
+  longitude: 131.125296,
+  name: "东宁市"
+}, {
+  code: "231100",
+  latitude: 50.249585,
+  longitude: 127.499023,
+  name: "黑河市"
+}, {
+  code: "231102",
+  latitude: 50.249027,
+  longitude: 127.497639,
+  name: "爱辉区"
+}, {
+  code: "231123",
+  latitude: 49.582974,
+  longitude: 128.476152,
+  name: "逊克县"
+}, {
+  code: "231124",
+  latitude: 49.423941,
+  longitude: 127.327315,
+  name: "孙吴县"
+}, {
+  code: "231181",
+  latitude: 48.245437,
+  longitude: 126.508737,
+  name: "北安市"
+}, {
+  code: "231182",
+  latitude: 48.512688,
+  longitude: 126.197694,
+  name: "五大连池市"
+}, {
+  code: "231183",
+  latitude: 49.177461,
+  longitude: 125.229904,
+  name: "嫩江市"
+}, {
+  code: "231200",
+  latitude: 46.637393,
+  longitude: 126.99293,
+  name: "绥化市"
+}, {
+  code: "231202",
+  latitude: 46.634912,
+  longitude: 126.990665,
+  name: "北林区"
+}, {
+  code: "231221",
+  latitude: 46.83352,
+  longitude: 126.484191,
+  name: "望奎县"
+}, {
+  code: "231222",
+  latitude: 46.259037,
+  longitude: 126.289315,
+  name: "兰西县"
+}, {
+  code: "231223",
+  latitude: 46.686596,
+  longitude: 126.112268,
+  name: "青冈县"
+}, {
+  code: "231224",
+  latitude: 46.879203,
+  longitude: 127.510024,
+  name: "庆安县"
+}, {
+  code: "231225",
+  latitude: 47.183527,
+  longitude: 125.907544,
+  name: "明水县"
+}, {
+  code: "231226",
+  latitude: 47.247195,
+  longitude: 127.111121,
+  name: "绥棱县"
+}, {
+  code: "231281",
+  latitude: 46.410614,
+  longitude: 125.329926,
+  name: "安达市"
+}, {
+  code: "231282",
+  latitude: 46.069471,
+  longitude: 125.991402,
+  name: "肇东市"
+}, {
+  code: "231283",
+  latitude: 47.460428,
+  longitude: 126.969383,
+  name: "海伦市"
+}, {
+  code: "232700",
+  latitude: 52.335262,
+  longitude: 124.711526,
+  name: "大兴安岭地区"
+}, {
+  code: "232701",
+  latitude: 52.972074,
+  longitude: 122.536256,
+  name: "漠河市"
+}, {
+  code: "232721",
+  latitude: 51.726998,
+  longitude: 126.662105,
+  name: "呼玛县"
+}, {
+  code: "232722",
+  latitude: 52.335229,
+  longitude: 124.710516,
+  name: "塔河县"
+}, {
+  code: "310101",
+  latitude: 31.222771,
+  longitude: 121.490317,
+  name: "黄浦区"
+}, {
+  code: "310104",
+  latitude: 31.179973,
+  longitude: 121.43752,
+  name: "徐汇区"
+}, {
+  code: "310105",
+  latitude: 31.218123,
+  longitude: 121.4222,
+  name: "长宁区"
+}, {
+  code: "310106",
+  latitude: 31.229003,
+  longitude: 121.448224,
+  name: "静安区"
+}, {
+  code: "310107",
+  latitude: 31.241701,
+  longitude: 121.392499,
+  name: "普陀区（上海市）"
+}, {
+  code: "310109",
+  latitude: 31.26097,
+  longitude: 121.491832,
+  name: "虹口区"
+}, {
+  code: "310110",
+  latitude: 31.270755,
+  longitude: 121.522797,
+  name: "杨浦区"
+}, {
+  code: "310112",
+  latitude: 31.111658,
+  longitude: 121.375972,
+  name: "闵行区"
+}, {
+  code: "310113",
+  latitude: 31.398896,
+  longitude: 121.489934,
+  name: "宝山区（上海市）"
+}, {
+  code: "310114",
+  latitude: 31.383524,
+  longitude: 121.250333,
+  name: "嘉定区"
+}, {
+  code: "310115",
+  latitude: 31.245944,
+  longitude: 121.567706,
+  name: "浦东新区"
+}, {
+  code: "310116",
+  latitude: 30.724697,
+  longitude: 121.330736,
+  name: "金山区"
+}, {
+  code: "310117",
+  latitude: 31.03047,
+  longitude: 121.223543,
+  name: "松江区"
+}, {
+  code: "310118",
+  latitude: 31.151209,
+  longitude: 121.113021,
+  name: "青浦区"
+}, {
+  code: "310120",
+  latitude: 30.912345,
+  longitude: 121.458472,
+  name: "奉贤区"
+}, {
+  code: "310151",
+  latitude: 31.626946,
+  longitude: 121.397516,
+  name: "崇明区"
+}, {
+  code: "320100",
+  latitude: 32.041544,
+  longitude: 118.767413,
+  name: "南京市"
+}, {
+  code: "320102",
+  latitude: 32.050678,
+  longitude: 118.792199,
+  name: "玄武区"
+}, {
+  code: "320104",
+  latitude: 32.033818,
+  longitude: 118.786088,
+  name: "秦淮区"
+}, {
+  code: "320105",
+  latitude: 32.004538,
+  longitude: 118.732688,
+  name: "建邺区"
+}, {
+  code: "320106",
+  latitude: 32.066966,
+  longitude: 118.769739,
+  name: "鼓楼区（南京市）"
+}, {
+  code: "320111",
+  latitude: 32.05839,
+  longitude: 118.625307,
+  name: "浦口区"
+}, {
+  code: "320113",
+  latitude: 32.102147,
+  longitude: 118.808702,
+  name: "栖霞区"
+}, {
+  code: "320114",
+  latitude: 31.995946,
+  longitude: 118.77207,
+  name: "雨花台区"
+}, {
+  code: "320115",
+  latitude: 31.953418,
+  longitude: 118.850621,
+  name: "江宁区"
+}, {
+  code: "320116",
+  latitude: 32.340655,
+  longitude: 118.85065,
+  name: "六合区"
+}, {
+  code: "320117",
+  latitude: 31.653061,
+  longitude: 119.028732,
+  name: "溧水区"
+}, {
+  code: "320118",
+  latitude: 31.327132,
+  longitude: 118.87589,
+  name: "高淳区"
+}, {
+  code: "320200",
+  latitude: 31.574729,
+  longitude: 120.301663,
+  name: "无锡市"
+}, {
+  code: "320205",
+  latitude: 31.585559,
+  longitude: 120.357298,
+  name: "锡山区"
+}, {
+  code: "320206",
+  latitude: 31.681019,
+  longitude: 120.303543,
+  name: "惠山区"
+}, {
+  code: "320211",
+  latitude: 31.550228,
+  longitude: 120.266053,
+  name: "滨湖区"
+}, {
+  code: "320213",
+  latitude: 31.575706,
+  longitude: 120.296595,
+  name: "梁溪区"
+}, {
+  code: "320214",
+  latitude: 31.550966,
+  longitude: 120.352782,
+  name: "新吴区"
+}, {
+  code: "320281",
+  latitude: 31.910984,
+  longitude: 120.275891,
+  name: "江阴市"
+}, {
+  code: "320282",
+  latitude: 31.364384,
+  longitude: 119.820538,
+  name: "宜兴市"
+}, {
+  code: "320300",
+  latitude: 34.261792,
+  longitude: 117.184811,
+  name: "徐州市"
+}, {
+  code: "320302",
+  latitude: 34.269397,
+  longitude: 117.192941,
+  name: "鼓楼区（徐州市）"
+}, {
+  code: "320303",
+  latitude: 34.254805,
+  longitude: 117.194589,
+  name: "云龙区"
+}, {
+  code: "320305",
+  latitude: 34.441642,
+  longitude: 117.450212,
+  name: "贾汪区"
+}, {
+  code: "320311",
+  latitude: 34.262249,
+  longitude: 117.182225,
+  name: "泉山区"
+}, {
+  code: "320312",
+  latitude: 34.19288,
+  longitude: 117.183894,
+  name: "铜山区"
+}, {
+  code: "320321",
+  latitude: 34.696946,
+  longitude: 116.592888,
+  name: "丰县"
+}, {
+  code: "320322",
+  latitude: 34.729044,
+  longitude: 116.937182,
+  name: "沛县"
+}, {
+  code: "320324",
+  latitude: 33.899222,
+  longitude: 117.95066,
+  name: "睢宁县"
+}, {
+  code: "320381",
+  latitude: 34.368779,
+  longitude: 118.345828,
+  name: "新沂市"
+}, {
+  code: "320382",
+  latitude: 34.314708,
+  longitude: 117.963923,
+  name: "邳州市"
+}, {
+  code: "320400",
+  latitude: 31.772752,
+  longitude: 119.946973,
+  name: "常州市"
+}, {
+  code: "320402",
+  latitude: 31.779632,
+  longitude: 119.963783,
+  name: "天宁区"
+}, {
+  code: "320404",
+  latitude: 31.78096,
+  longitude: 119.948388,
+  name: "钟楼区"
+}, {
+  code: "320411",
+  latitude: 31.824664,
+  longitude: 119.974654,
+  name: "新北区"
+}, {
+  code: "320412",
+  latitude: 31.718566,
+  longitude: 119.958773,
+  name: "武进区"
+}, {
+  code: "320413",
+  latitude: 31.744399,
+  longitude: 119.573395,
+  name: "金坛区"
+}, {
+  code: "320481",
+  latitude: 31.427081,
+  longitude: 119.487816,
+  name: "溧阳市"
+}, {
+  code: "320500",
+  latitude: 31.299379,
+  longitude: 120.619585,
+  name: "苏州市"
+}, {
+  code: "320505",
+  latitude: 31.294845,
+  longitude: 120.566833,
+  name: "虎丘区"
+}, {
+  code: "320506",
+  latitude: 31.270839,
+  longitude: 120.624621,
+  name: "吴中区"
+}, {
+  code: "320507",
+  latitude: 31.396684,
+  longitude: 120.618956,
+  name: "相城区"
+}, {
+  code: "320508",
+  latitude: 31.311414,
+  longitude: 120.622249,
+  name: "姑苏区"
+}, {
+  code: "320509",
+  latitude: 31.160404,
+  longitude: 120.641601,
+  name: "吴江区"
+}, {
+  code: "320581",
+  latitude: 31.658156,
+  longitude: 120.74852,
+  name: "常熟市"
+}, {
+  code: "320582",
+  latitude: 31.865553,
+  longitude: 120.543441,
+  name: "张家港市"
+}, {
+  code: "320583",
+  latitude: 31.381925,
+  longitude: 120.958137,
+  name: "昆山市"
+}, {
+  code: "320585",
+  latitude: 31.452568,
+  longitude: 121.112275,
+  name: "太仓市"
+}, {
+  code: "320600",
+  latitude: 32.016212,
+  longitude: 120.864608,
+  name: "南通市"
+}, {
+  code: "320602",
+  latitude: 32.015278,
+  longitude: 120.86635,
+  name: "崇川区"
+}, {
+  code: "320612",
+  latitude: 32.084287,
+  longitude: 121.073171,
+  name: "通州区（南通市）"
+}, {
+  code: "320623",
+  latitude: 32.311832,
+  longitude: 121.186088,
+  name: "如东县"
+}, {
+  code: "320681",
+  latitude: 31.810158,
+  longitude: 121.659724,
+  name: "启东市"
+}, {
+  code: "320682",
+  latitude: 32.391591,
+  longitude: 120.566324,
+  name: "如皋市"
+}, {
+  code: "320684",
+  latitude: 31.893528,
+  longitude: 121.176609,
+  name: "海门区"
+}, {
+  code: "320685",
+  latitude: 32.540288,
+  longitude: 120.465995,
+  name: "海安市"
+}, {
+  code: "320700",
+  latitude: 34.600018,
+  longitude: 119.178821,
+  name: "连云港市"
+}, {
+  code: "320703",
+  latitude: 34.739529,
+  longitude: 119.366487,
+  name: "连云区"
+}, {
+  code: "320706",
+  latitude: 34.601584,
+  longitude: 119.179793,
+  name: "海州区（连云港市）"
+}, {
+  code: "320707",
+  latitude: 34.839154,
+  longitude: 119.128774,
+  name: "赣榆区"
+}, {
+  code: "320722",
+  latitude: 34.522859,
+  longitude: 118.766489,
+  name: "东海县"
+}, {
+  code: "320723",
+  latitude: 34.298436,
+  longitude: 119.255741,
+  name: "灌云县"
+}, {
+  code: "320724",
+  latitude: 34.092553,
+  longitude: 119.352331,
+  name: "灌南县"
+}, {
+  code: "320800",
+  latitude: 33.597506,
+  longitude: 119.021265,
+  name: "淮安市"
+}, {
+  code: "320803",
+  latitude: 33.507499,
+  longitude: 119.14634,
+  name: "淮安区"
+}, {
+  code: "320804",
+  latitude: 33.622452,
+  longitude: 119.020817,
+  name: "淮阴区"
+}, {
+  code: "320812",
+  latitude: 33.603234,
+  longitude: 119.019454,
+  name: "清江浦区"
+}, {
+  code: "320813",
+  latitude: 33.294975,
+  longitude: 118.867875,
+  name: "洪泽区"
+}, {
+  code: "320826",
+  latitude: 33.771308,
+  longitude: 119.266078,
+  name: "涟水县"
+}, {
+  code: "320830",
+  latitude: 33.00439,
+  longitude: 118.493823,
+  name: "盱眙县"
+}, {
+  code: "320831",
+  latitude: 33.018162,
+  longitude: 119.016936,
+  name: "金湖县"
+}, {
+  code: "320900",
+  latitude: 33.377631,
+  longitude: 120.139998,
+  name: "盐城市"
+}, {
+  code: "320902",
+  latitude: 33.383912,
+  longitude: 120.136078,
+  name: "亭湖区"
+}, {
+  code: "320903",
+  latitude: 33.341288,
+  longitude: 120.139753,
+  name: "盐都区"
+}, {
+  code: "320904",
+  latitude: 33.199531,
+  longitude: 120.470324,
+  name: "大丰区"
+}, {
+  code: "320921",
+  latitude: 34.19996,
+  longitude: 119.579573,
+  name: "响水县"
+}, {
+  code: "320922",
+  latitude: 33.989888,
+  longitude: 119.828434,
+  name: "滨海县"
+}, {
+  code: "320923",
+  latitude: 33.78573,
+  longitude: 119.805338,
+  name: "阜宁县"
+}, {
+  code: "320924",
+  latitude: 33.773779,
+  longitude: 120.257444,
+  name: "射阳县"
+}, {
+  code: "320925",
+  latitude: 33.472621,
+  longitude: 119.793105,
+  name: "建湖县"
+}, {
+  code: "320981",
+  latitude: 32.853174,
+  longitude: 120.314101,
+  name: "东台市"
+}, {
+  code: "321000",
+  latitude: 32.393159,
+  longitude: 119.421003,
+  name: "扬州市"
+}, {
+  code: "321002",
+  latitude: 32.392154,
+  longitude: 119.442267,
+  name: "广陵区"
+}, {
+  code: "321003",
+  latitude: 32.377899,
+  longitude: 119.397777,
+  name: "邗江区"
+}, {
+  code: "321012",
+  latitude: 32.426564,
+  longitude: 119.567481,
+  name: "江都区"
+}, {
+  code: "321023",
+  latitude: 33.23694,
+  longitude: 119.321284,
+  name: "宝应县"
+}, {
+  code: "321081",
+  latitude: 32.271965,
+  longitude: 119.182443,
+  name: "仪征市"
+}, {
+  code: "321084",
+  latitude: 32.785164,
+  longitude: 119.443842,
+  name: "高邮市"
+}, {
+  code: "321100",
+  latitude: 32.204402,
+  longitude: 119.452753,
+  name: "镇江市"
+}, {
+  code: "321102",
+  latitude: 32.206191,
+  longitude: 119.454571,
+  name: "京口区"
+}, {
+  code: "321111",
+  latitude: 32.213501,
+  longitude: 119.414877,
+  name: "润州区"
+}, {
+  code: "321112",
+  latitude: 32.128972,
+  longitude: 119.433883,
+  name: "丹徒区"
+}, {
+  code: "321181",
+  latitude: 31.991459,
+  longitude: 119.581911,
+  name: "丹阳市"
+}, {
+  code: "321182",
+  latitude: 32.237266,
+  longitude: 119.828054,
+  name: "扬中市"
+}, {
+  code: "321183",
+  latitude: 31.947355,
+  longitude: 119.167135,
+  name: "句容市"
+}, {
+  code: "321200",
+  latitude: 32.484882,
+  longitude: 119.915176,
+  name: "泰州市"
+}, {
+  code: "321202",
+  latitude: 32.488406,
+  longitude: 119.920187,
+  name: "海陵区"
+}, {
+  code: "321203",
+  latitude: 32.315701,
+  longitude: 119.88166,
+  name: "高港区"
+}, {
+  code: "321204",
+  latitude: 32.508483,
+  longitude: 120.148208,
+  name: "姜堰区"
+}, {
+  code: "321281",
+  latitude: 32.938065,
+  longitude: 119.840162,
+  name: "兴化市"
+}, {
+  code: "321282",
+  latitude: 32.018168,
+  longitude: 120.26825,
+  name: "靖江市"
+}, {
+  code: "321283",
+  latitude: 32.168784,
+  longitude: 120.020228,
+  name: "泰兴市"
+}, {
+  code: "321300",
+  latitude: 33.963008,
+  longitude: 118.275162,
+  name: "宿迁市"
+}, {
+  code: "321302",
+  latitude: 33.937726,
+  longitude: 118.278984,
+  name: "宿城区"
+}, {
+  code: "321311",
+  latitude: 33.941071,
+  longitude: 118.330012,
+  name: "宿豫区"
+}, {
+  code: "321322",
+  latitude: 34.129097,
+  longitude: 118.775889,
+  name: "沭阳县"
+}, {
+  code: "321323",
+  latitude: 33.711433,
+  longitude: 118.681284,
+  name: "泗阳县"
+}, {
+  code: "321324",
+  latitude: 33.456538,
+  longitude: 118.211824,
+  name: "泗洪县"
+}, {
+  code: "330100",
+  latitude: 30.287459,
+  longitude: 120.153576,
+  name: "杭州市"
+}, {
+  code: "330102",
+  latitude: 30.250236,
+  longitude: 120.171465,
+  name: "上城区"
+}, {
+  code: "330105",
+  latitude: 30.314697,
+  longitude: 120.150053,
+  name: "拱墅区"
+}, {
+  code: "330106",
+  latitude: 30.272934,
+  longitude: 120.147376,
+  name: "西湖区（杭州市）"
+}, {
+  code: "330108",
+  latitude: 30.206615,
+  longitude: 120.21062,
+  name: "滨江区"
+}, {
+  code: "330109",
+  latitude: 30.162932,
+  longitude: 120.27069,
+  name: "萧山区"
+}, {
+  code: "330110",
+  latitude: 30.27365,
+  longitude: 119.978959,
+  name: "余杭区"
+}, {
+  code: "330111",
+  latitude: 30.049871,
+  longitude: 119.949869,
+  name: "富阳区"
+}, {
+  code: "330112",
+  latitude: 30.231153,
+  longitude: 119.715101,
+  name: "临安区"
+}, {
+  code: "330113",
+  latitude: 30.419025,
+  longitude: 120.299376,
+  name: "临平区"
+}, {
+  code: "330114",
+  latitude: 30.322904,
+  longitude: 120.493972,
+  name: "钱塘区"
+}, {
+  code: "330122",
+  latitude: 29.797437,
+  longitude: 119.685045,
+  name: "桐庐县"
+}, {
+  code: "330127",
+  latitude: 29.604177,
+  longitude: 119.044276,
+  name: "淳安县"
+}, {
+  code: "330182",
+  latitude: 29.472284,
+  longitude: 119.279089,
+  name: "建德市"
+}, {
+  code: "330200",
+  latitude: 29.868388,
+  longitude: 121.549792,
+  name: "宁波市"
+}, {
+  code: "330203",
+  latitude: 29.874452,
+  longitude: 121.539698,
+  name: "海曙区"
+}, {
+  code: "330205",
+  latitude: 29.888361,
+  longitude: 121.559282,
+  name: "江北区（宁波市）"
+}, {
+  code: "330206",
+  latitude: 29.90944,
+  longitude: 121.831303,
+  name: "北仑区"
+}, {
+  code: "330211",
+  latitude: 29.952107,
+  longitude: 121.713162,
+  name: "镇海区"
+}, {
+  code: "330212",
+  latitude: 29.831662,
+  longitude: 121.558436,
+  name: "鄞州区"
+}, {
+  code: "330213",
+  latitude: 29.662348,
+  longitude: 121.41089,
+  name: "奉化区"
+}, {
+  code: "330225",
+  latitude: 29.470206,
+  longitude: 121.877091,
+  name: "象山县"
+}, {
+  code: "330226",
+  latitude: 29.299836,
+  longitude: 121.432606,
+  name: "宁海县"
+}, {
+  code: "330281",
+  latitude: 30.045404,
+  longitude: 121.156294,
+  name: "余姚市"
+}, {
+  code: "330282",
+  latitude: 30.177142,
+  longitude: 121.248052,
+  name: "慈溪市"
+}, {
+  code: "330300",
+  latitude: 28.000575,
+  longitude: 120.672111,
+  name: "温州市"
+}, {
+  code: "330302",
+  latitude: 28.003352,
+  longitude: 120.674231,
+  name: "鹿城区"
+}, {
+  code: "330303",
+  latitude: 27.970254,
+  longitude: 120.763469,
+  name: "龙湾区"
+}, {
+  code: "330304",
+  latitude: 28.006444,
+  longitude: 120.637145,
+  name: "瓯海区"
+}, {
+  code: "330305",
+  latitude: 27.836057,
+  longitude: 121.156181,
+  name: "洞头区"
+}, {
+  code: "330324",
+  latitude: 28.153886,
+  longitude: 120.690968,
+  name: "永嘉县"
+}, {
+  code: "330326",
+  latitude: 27.6693,
+  longitude: 120.564387,
+  name: "平阳县"
+}, {
+  code: "330327",
+  latitude: 27.507743,
+  longitude: 120.406256,
+  name: "苍南县"
+}, {
+  code: "330328",
+  latitude: 27.789133,
+  longitude: 120.09245,
+  name: "文成县"
+}, {
+  code: "330329",
+  latitude: 27.557309,
+  longitude: 119.71624,
+  name: "泰顺县"
+}, {
+  code: "330381",
+  latitude: 27.779321,
+  longitude: 120.646171,
+  name: "瑞安市"
+}, {
+  code: "330382",
+  latitude: 28.116083,
+  longitude: 120.967147,
+  name: "乐清市"
+}, {
+  code: "330383",
+  latitude: 27.578156,
+  longitude: 120.553039,
+  name: "龙港市"
+}, {
+  code: "330400",
+  latitude: 30.762653,
+  longitude: 120.750865,
+  name: "嘉兴市"
+}, {
+  code: "330402",
+  latitude: 30.764652,
+  longitude: 120.749953,
+  name: "南湖区"
+}, {
+  code: "330411",
+  latitude: 30.763323,
+  longitude: 120.720431,
+  name: "秀洲区"
+}, {
+  code: "330421",
+  latitude: 30.841352,
+  longitude: 120.921871,
+  name: "嘉善县"
+}, {
+  code: "330424",
+  latitude: 30.522223,
+  longitude: 120.942017,
+  name: "海盐县"
+}, {
+  code: "330481",
+  latitude: 30.525544,
+  longitude: 120.688821,
+  name: "海宁市"
+}, {
+  code: "330482",
+  latitude: 30.698921,
+  longitude: 121.014666,
+  name: "平湖市"
+}, {
+  code: "330483",
+  latitude: 30.629065,
+  longitude: 120.551085,
+  name: "桐乡市"
+}, {
+  code: "330500",
+  latitude: 30.867198,
+  longitude: 120.102398,
+  name: "湖州市"
+}, {
+  code: "330502",
+  latitude: 30.867252,
+  longitude: 120.101416,
+  name: "吴兴区"
+}, {
+  code: "330503",
+  latitude: 30.872742,
+  longitude: 120.417195,
+  name: "南浔区"
+}, {
+  code: "330521",
+  latitude: 30.534927,
+  longitude: 119.967662,
+  name: "德清县"
+}, {
+  code: "330522",
+  latitude: 31.00475,
+  longitude: 119.910122,
+  name: "长兴县"
+}, {
+  code: "330523",
+  latitude: 30.631974,
+  longitude: 119.687891,
+  name: "安吉县"
+}, {
+  code: "330600",
+  latitude: 29.997117,
+  longitude: 120.582112,
+  name: "绍兴市"
+}, {
+  code: "330602",
+  latitude: 29.996993,
+  longitude: 120.585315,
+  name: "越城区"
+}, {
+  code: "330603",
+  latitude: 30.078038,
+  longitude: 120.476075,
+  name: "柯桥区"
+}, {
+  code: "330604",
+  latitude: 30.016769,
+  longitude: 120.874185,
+  name: "上虞区"
+}, {
+  code: "330624",
+  latitude: 29.501205,
+  longitude: 120.905665,
+  name: "新昌县"
+}, {
+  code: "330681",
+  latitude: 29.713662,
+  longitude: 120.244326,
+  name: "诸暨市"
+}, {
+  code: "330683",
+  latitude: 29.586606,
+  longitude: 120.82888,
+  name: "嵊州市"
+}, {
+  code: "330700",
+  latitude: 29.089524,
+  longitude: 119.649506,
+  name: "金华市"
+}, {
+  code: "330702",
+  latitude: 29.082607,
+  longitude: 119.652579,
+  name: "婺城区"
+}, {
+  code: "330703",
+  latitude: 29.095835,
+  longitude: 119.681264,
+  name: "金东区"
+}, {
+  code: "330723",
+  latitude: 28.896563,
+  longitude: 119.819159,
+  name: "武义县"
+}, {
+  code: "330726",
+  latitude: 29.451254,
+  longitude: 119.893363,
+  name: "浦江县"
+}, {
+  code: "330727",
+  latitude: 29.052627,
+  longitude: 120.44513,
+  name: "磐安县"
+}, {
+  code: "330781",
+  latitude: 29.210065,
+  longitude: 119.460521,
+  name: "兰溪市"
+}, {
+  code: "330782",
+  latitude: 29.306863,
+  longitude: 120.074911,
+  name: "义乌市"
+}, {
+  code: "330783",
+  latitude: 29.262546,
+  longitude: 120.23334,
+  name: "东阳市"
+}, {
+  code: "330784",
+  latitude: 28.895293,
+  longitude: 120.036328,
+  name: "永康市"
+}, {
+  code: "330800",
+  latitude: 28.941708,
+  longitude: 118.87263,
+  name: "衢州市"
+}, {
+  code: "330802",
+  latitude: 28.944539,
+  longitude: 118.873041,
+  name: "柯城区"
+}, {
+  code: "330803",
+  latitude: 28.973195,
+  longitude: 118.957683,
+  name: "衢江区"
+}, {
+  code: "330822",
+  latitude: 28.900039,
+  longitude: 118.521654,
+  name: "常山县"
+}, {
+  code: "330824",
+  latitude: 29.136503,
+  longitude: 118.414435,
+  name: "开化县"
+}, {
+  code: "330825",
+  latitude: 29.031364,
+  longitude: 119.172525,
+  name: "龙游县"
+}, {
+  code: "330881",
+  latitude: 28.734674,
+  longitude: 118.627879,
+  name: "江山市"
+}, {
+  code: "330900",
+  latitude: 30.016028,
+  longitude: 122.106863,
+  name: "舟山市"
+}, {
+  code: "330902",
+  latitude: 30.016423,
+  longitude: 122.108496,
+  name: "定海区"
+}, {
+  code: "330903",
+  latitude: 29.945614,
+  longitude: 122.301953,
+  name: "普陀区（舟山市）"
+}, {
+  code: "330921",
+  latitude: 30.242865,
+  longitude: 122.201132,
+  name: "岱山县"
+}, {
+  code: "330922",
+  latitude: 30.727166,
+  longitude: 122.457809,
+  name: "嵊泗县"
+}, {
+  code: "331000",
+  latitude: 28.661378,
+  longitude: 121.428599,
+  name: "台州市"
+}, {
+  code: "331002",
+  latitude: 28.67615,
+  longitude: 121.431049,
+  name: "椒江区"
+}, {
+  code: "331003",
+  latitude: 28.64488,
+  longitude: 121.262138,
+  name: "黄岩区"
+}, {
+  code: "331004",
+  latitude: 28.581799,
+  longitude: 121.37292,
+  name: "路桥区"
+}, {
+  code: "331022",
+  latitude: 29.118955,
+  longitude: 121.376429,
+  name: "三门县"
+}, {
+  code: "331023",
+  latitude: 29.141126,
+  longitude: 121.031227,
+  name: "天台县"
+}, {
+  code: "331024",
+  latitude: 28.849213,
+  longitude: 120.735074,
+  name: "仙居县"
+}, {
+  code: "331081",
+  latitude: 28.368781,
+  longitude: 121.373611,
+  name: "温岭市"
+}, {
+  code: "331082",
+  latitude: 28.845441,
+  longitude: 121.131229,
+  name: "临海市"
+}, {
+  code: "331083",
+  latitude: 28.12842,
+  longitude: 121.232337,
+  name: "玉环市"
+}, {
+  code: "331100",
+  latitude: 28.451993,
+  longitude: 119.921786,
+  name: "丽水市"
+}, {
+  code: "331102",
+  latitude: 28.451103,
+  longitude: 119.922293,
+  name: "莲都区"
+}, {
+  code: "331121",
+  latitude: 28.135247,
+  longitude: 120.291939,
+  name: "青田县"
+}, {
+  code: "331122",
+  latitude: 28.654208,
+  longitude: 120.078965,
+  name: "缙云县"
+}, {
+  code: "331123",
+  latitude: 28.5924,
+  longitude: 119.27589,
+  name: "遂昌县"
+}, {
+  code: "331124",
+  latitude: 28.449937,
+  longitude: 119.485292,
+  name: "松阳县"
+}, {
+  code: "331125",
+  latitude: 28.111077,
+  longitude: 119.569458,
+  name: "云和县"
+}, {
+  code: "331126",
+  latitude: 27.618231,
+  longitude: 119.067233,
+  name: "庆元县"
+}, {
+  code: "331127",
+  latitude: 27.977247,
+  longitude: 119.634669,
+  name: "景宁畲族自治县"
+}, {
+  code: "331181",
+  latitude: 28.069177,
+  longitude: 119.132319,
+  name: "龙泉市"
+}, {
+  code: "340100",
+  latitude: 31.86119,
+  longitude: 117.283042,
+  name: "合肥市"
+}, {
+  code: "340102",
+  latitude: 31.86961,
+  longitude: 117.315358,
+  name: "瑶海区"
+}, {
+  code: "340103",
+  latitude: 31.869011,
+  longitude: 117.283776,
+  name: "庐阳区"
+}, {
+  code: "340104",
+  latitude: 31.855868,
+  longitude: 117.262072,
+  name: "蜀山区"
+}, {
+  code: "340111",
+  latitude: 31.82956,
+  longitude: 117.285751,
+  name: "包河区"
+}, {
+  code: "340121",
+  latitude: 32.478548,
+  longitude: 117.164699,
+  name: "长丰县"
+}, {
+  code: "340122",
+  latitude: 31.883992,
+  longitude: 117.463222,
+  name: "肥东县"
+}, {
+  code: "340123",
+  latitude: 31.719646,
+  longitude: 117.166118,
+  name: "肥西县"
+}, {
+  code: "340124",
+  latitude: 31.251488,
+  longitude: 117.289844,
+  name: "庐江县"
+}, {
+  code: "340181",
+  latitude: 31.600518,
+  longitude: 117.874155,
+  name: "巢湖市"
+}, {
+  code: "340200",
+  latitude: 31.326319,
+  longitude: 118.376451,
+  name: "芜湖市"
+}, {
+  code: "340202",
+  latitude: 31.32559,
+  longitude: 118.376343,
+  name: "镜湖区"
+}, {
+  code: "340207",
+  latitude: 31.362716,
+  longitude: 118.400174,
+  name: "鸠江区"
+}, {
+  code: "340209",
+  latitude: 31.313394,
+  longitude: 118.377476,
+  name: "弋江区"
+}, {
+  code: "340210",
+  latitude: 31.145262,
+  longitude: 118.572301,
+  name: "湾沚区"
+}, {
+  code: "340211",
+  latitude: 31.080896,
+  longitude: 118.201349,
+  name: "繁昌区"
+}, {
+  code: "340223",
+  latitude: 30.919638,
+  longitude: 118.337104,
+  name: "南陵县"
+}, {
+  code: "340281",
+  latitude: 31.303075,
+  longitude: 117.911432,
+  name: "无为市"
+}, {
+  code: "340300",
+  latitude: 32.939667,
+  longitude: 117.363228,
+  name: "蚌埠市"
+}, {
+  code: "340302",
+  latitude: 32.950452,
+  longitude: 117.382312,
+  name: "龙子湖区"
+}, {
+  code: "340303",
+  latitude: 32.938066,
+  longitude: 117.355789,
+  name: "蚌山区"
+}, {
+  code: "340304",
+  latitude: 32.931933,
+  longitude: 117.35259,
+  name: "禹会区"
+}, {
+  code: "340311",
+  latitude: 32.963147,
+  longitude: 117.34709,
+  name: "淮上区"
+}, {
+  code: "340321",
+  latitude: 32.956934,
+  longitude: 117.200171,
+  name: "怀远县"
+}, {
+  code: "340322",
+  latitude: 33.146202,
+  longitude: 117.888809,
+  name: "五河县"
+}, {
+  code: "340323",
+  latitude: 33.318679,
+  longitude: 117.315962,
+  name: "固镇县"
+}, {
+  code: "340400",
+  latitude: 32.647574,
+  longitude: 117.018329,
+  name: "淮南市"
+}, {
+  code: "340402",
+  latitude: 32.632066,
+  longitude: 117.052927,
+  name: "大通区"
+}, {
+  code: "340403",
+  latitude: 32.644342,
+  longitude: 117.018318,
+  name: "田家庵区"
+}, {
+  code: "340404",
+  latitude: 32.598289,
+  longitude: 116.865354,
+  name: "谢家集区"
+}, {
+  code: "340405",
+  latitude: 32.628229,
+  longitude: 116.841111,
+  name: "八公山区"
+}, {
+  code: "340406",
+  latitude: 32.782117,
+  longitude: 116.816879,
+  name: "潘集区"
+}, {
+  code: "340421",
+  latitude: 32.705382,
+  longitude: 116.722769,
+  name: "凤台县"
+}, {
+  code: "340422",
+  latitude: 32.577304,
+  longitude: 116.785349,
+  name: "寿县"
+}, {
+  code: "340500",
+  latitude: 31.689362,
+  longitude: 118.507906,
+  name: "马鞍山市"
+}, {
+  code: "340503",
+  latitude: 31.69902,
+  longitude: 118.511308,
+  name: "花山区"
+}, {
+  code: "340504",
+  latitude: 31.685912,
+  longitude: 118.493104,
+  name: "雨山区"
+}, {
+  code: "340506",
+  latitude: 31.562321,
+  longitude: 118.843742,
+  name: "博望区"
+}, {
+  code: "340521",
+  latitude: 31.556167,
+  longitude: 118.489873,
+  name: "当涂县"
+}, {
+  code: "340522",
+  latitude: 31.727758,
+  longitude: 118.105545,
+  name: "含山县"
+}, {
+  code: "340523",
+  latitude: 31.716634,
+  longitude: 118.362998,
+  name: "和县"
+}, {
+  code: "340600",
+  latitude: 33.971707,
+  longitude: 116.794664,
+  name: "淮北市"
+}, {
+  code: "340602",
+  latitude: 33.991218,
+  longitude: 116.833925,
+  name: "杜集区"
+}, {
+  code: "340603",
+  latitude: 33.970916,
+  longitude: 116.790775,
+  name: "相山区"
+}, {
+  code: "340604",
+  latitude: 33.889529,
+  longitude: 116.809465,
+  name: "烈山区"
+}, {
+  code: "340621",
+  latitude: 33.916407,
+  longitude: 116.767435,
+  name: "濉溪县"
+}, {
+  code: "340700",
+  latitude: 30.929935,
+  longitude: 117.816576,
+  name: "铜陵市"
+}, {
+  code: "340705",
+  latitude: 30.927613,
+  longitude: 117.816167,
+  name: "铜官区"
+}, {
+  code: "340706",
+  latitude: 30.952338,
+  longitude: 117.792288,
+  name: "义安区"
+}, {
+  code: "340711",
+  latitude: 30.908927,
+  longitude: 117.80707,
+  name: "郊区（铜陵市）"
+}, {
+  code: "340722",
+  latitude: 30.700615,
+  longitude: 117.222027,
+  name: "枞阳县"
+}, {
+  code: "340800",
+  latitude: 30.50883,
+  longitude: 117.043551,
+  name: "安庆市"
+}, {
+  code: "340802",
+  latitude: 30.506375,
+  longitude: 117.044965,
+  name: "迎江区"
+}, {
+  code: "340803",
+  latitude: 30.505632,
+  longitude: 117.034512,
+  name: "大观区"
+}, {
+  code: "340811",
+  latitude: 30.541323,
+  longitude: 117.070003,
+  name: "宜秀区"
+}, {
+  code: "340822",
+  latitude: 30.734994,
+  longitude: 116.828664,
+  name: "怀宁县"
+}, {
+  code: "340825",
+  latitude: 30.451869,
+  longitude: 116.305225,
+  name: "太湖县"
+}, {
+  code: "340826",
+  latitude: 30.158327,
+  longitude: 116.120204,
+  name: "宿松县"
+}, {
+  code: "340827",
+  latitude: 30.12491,
+  longitude: 116.690927,
+  name: "望江县"
+}, {
+  code: "340828",
+  latitude: 30.848502,
+  longitude: 116.360482,
+  name: "岳西县"
+}, {
+  code: "340881",
+  latitude: 31.050576,
+  longitude: 116.959656,
+  name: "桐城市"
+}, {
+  code: "340882",
+  latitude: 30.638222,
+  longitude: 116.573665,
+  name: "潜山市"
+}, {
+  code: "341000",
+  latitude: 29.709239,
+  longitude: 118.317325,
+  name: "黄山市"
+}, {
+  code: "341002",
+  latitude: 29.709186,
+  longitude: 118.317354,
+  name: "屯溪区"
+}, {
+  code: "341003",
+  latitude: 30.294517,
+  longitude: 118.136639,
+  name: "黄山区"
+}, {
+  code: "341004",
+  latitude: 29.825201,
+  longitude: 118.339743,
+  name: "徽州区"
+}, {
+  code: "341021",
+  latitude: 29.867748,
+  longitude: 118.428025,
+  name: "歙县"
+}, {
+  code: "341022",
+  latitude: 29.788878,
+  longitude: 118.188531,
+  name: "休宁县"
+}, {
+  code: "341023",
+  latitude: 29.923812,
+  longitude: 117.942911,
+  name: "黟县"
+}, {
+  code: "341024",
+  latitude: 29.853472,
+  longitude: 117.717237,
+  name: "祁门县"
+}, {
+  code: "341100",
+  latitude: 32.303627,
+  longitude: 118.316264,
+  name: "滁州市"
+}, {
+  code: "341102",
+  latitude: 32.303797,
+  longitude: 118.316475,
+  name: "琅琊区"
+}, {
+  code: "341103",
+  latitude: 32.329841,
+  longitude: 118.296955,
+  name: "南谯区"
+}, {
+  code: "341122",
+  latitude: 32.450231,
+  longitude: 118.433293,
+  name: "来安县"
+}, {
+  code: "341124",
+  latitude: 32.09385,
+  longitude: 118.268576,
+  name: "全椒县"
+}, {
+  code: "341125",
+  latitude: 32.527105,
+  longitude: 117.683713,
+  name: "定远县"
+}, {
+  code: "341126",
+  latitude: 32.867146,
+  longitude: 117.562461,
+  name: "凤阳县"
+}, {
+  code: "341181",
+  latitude: 32.6815,
+  longitude: 119.011212,
+  name: "天长市"
+}, {
+  code: "341182",
+  latitude: 32.781206,
+  longitude: 117.998048,
+  name: "明光市"
+}, {
+  code: "341200",
+  latitude: 32.896969,
+  longitude: 115.819729,
+  name: "阜阳市"
+}, {
+  code: "341202",
+  latitude: 32.891238,
+  longitude: 115.813914,
+  name: "颍州区"
+}, {
+  code: "341203",
+  latitude: 32.908861,
+  longitude: 115.858747,
+  name: "颍东区"
+}, {
+  code: "341204",
+  latitude: 32.924797,
+  longitude: 115.804525,
+  name: "颍泉区"
+}, {
+  code: "341221",
+  latitude: 33.062698,
+  longitude: 115.261688,
+  name: "临泉县"
+}, {
+  code: "341222",
+  latitude: 33.16229,
+  longitude: 115.627243,
+  name: "太和县"
+}, {
+  code: "341225",
+  latitude: 32.638102,
+  longitude: 115.590534,
+  name: "阜南县"
+}, {
+  code: "341226",
+  latitude: 32.637065,
+  longitude: 116.259122,
+  name: "颍上县"
+}, {
+  code: "341282",
+  latitude: 33.26153,
+  longitude: 115.362117,
+  name: "界首市"
+}, {
+  code: "341300",
+  latitude: 33.633891,
+  longitude: 116.984084,
+  name: "宿州市"
+}, {
+  code: "341302",
+  latitude: 33.633853,
+  longitude: 116.983309,
+  name: "埇桥区"
+}, {
+  code: "341321",
+  latitude: 34.426247,
+  longitude: 116.351113,
+  name: "砀山县"
+}, {
+  code: "341322",
+  latitude: 34.183266,
+  longitude: 116.945399,
+  name: "萧县"
+}, {
+  code: "341323",
+  latitude: 33.540629,
+  longitude: 117.551493,
+  name: "灵璧县"
+}, {
+  code: "341324",
+  latitude: 33.47758,
+  longitude: 117.885443,
+  name: "泗县"
+}, {
+  code: "341500",
+  latitude: 31.752889,
+  longitude: 116.507676,
+  name: "六安市"
+}, {
+  code: "341502",
+  latitude: 31.754491,
+  longitude: 116.503288,
+  name: "金安区"
+}, {
+  code: "341503",
+  latitude: 31.750692,
+  longitude: 116.494543,
+  name: "裕安区"
+}, {
+  code: "341504",
+  latitude: 31.84768,
+  longitude: 115.913594,
+  name: "叶集区"
+}, {
+  code: "341522",
+  latitude: 32.341305,
+  longitude: 116.278875,
+  name: "霍邱县"
+}, {
+  code: "341523",
+  latitude: 31.462848,
+  longitude: 116.944088,
+  name: "舒城县"
+}, {
+  code: "341524",
+  latitude: 31.681624,
+  longitude: 115.878514,
+  name: "金寨县"
+}, {
+  code: "341525",
+  latitude: 31.402456,
+  longitude: 116.333078,
+  name: "霍山县"
+}, {
+  code: "341600",
+  latitude: 33.869338,
+  longitude: 115.782939,
+  name: "亳州市"
+}, {
+  code: "341602",
+  latitude: 33.869284,
+  longitude: 115.781214,
+  name: "谯城区"
+}, {
+  code: "341621",
+  latitude: 33.502831,
+  longitude: 116.211551,
+  name: "涡阳县"
+}, {
+  code: "341622",
+  latitude: 33.260814,
+  longitude: 116.560337,
+  name: "蒙城县"
+}, {
+  code: "341623",
+  latitude: 33.143503,
+  longitude: 116.207782,
+  name: "利辛县"
+}, {
+  code: "341700",
+  latitude: 30.656037,
+  longitude: 117.489157,
+  name: "池州市"
+}, {
+  code: "341702",
+  latitude: 30.657378,
+  longitude: 117.488342,
+  name: "贵池区"
+}, {
+  code: "341721",
+  latitude: 30.096568,
+  longitude: 117.021476,
+  name: "东至县"
+}, {
+  code: "341722",
+  latitude: 30.210324,
+  longitude: 117.482907,
+  name: "石台县"
+}, {
+  code: "341723",
+  latitude: 30.63818,
+  longitude: 117.857395,
+  name: "青阳县"
+}, {
+  code: "341800",
+  latitude: 30.945667,
+  longitude: 118.757995,
+  name: "宣城市"
+}, {
+  code: "341802",
+  latitude: 30.946003,
+  longitude: 118.758412,
+  name: "宣州区"
+}, {
+  code: "341821",
+  latitude: 31.127834,
+  longitude: 119.185024,
+  name: "郎溪县"
+}, {
+  code: "341823",
+  latitude: 30.685975,
+  longitude: 118.412397,
+  name: "泾县"
+}, {
+  code: "341824",
+  latitude: 30.065267,
+  longitude: 118.594705,
+  name: "绩溪县"
+}, {
+  code: "341825",
+  latitude: 30.288057,
+  longitude: 118.543081,
+  name: "旌德县"
+}, {
+  code: "341881",
+  latitude: 30.626529,
+  longitude: 118.983407,
+  name: "宁国市"
+}, {
+  code: "341882",
+  latitude: 30.893116,
+  longitude: 119.417521,
+  name: "广德市"
+}, {
+  code: "350100",
+  latitude: 26.075302,
+  longitude: 119.306239,
+  name: "福州市"
+}, {
+  code: "350102",
+  latitude: 26.082284,
+  longitude: 119.29929,
+  name: "鼓楼区（福州市）"
+}, {
+  code: "350103",
+  latitude: 26.058616,
+  longitude: 119.310156,
+  name: "台江区"
+}, {
+  code: "350104",
+  latitude: 26.038912,
+  longitude: 119.320988,
+  name: "仓山区"
+}, {
+  code: "350105",
+  latitude: 25.991975,
+  longitude: 119.458725,
+  name: "马尾区"
+}, {
+  code: "350111",
+  latitude: 26.078837,
+  longitude: 119.328597,
+  name: "晋安区"
+}, {
+  code: "350112",
+  latitude: 25.960583,
+  longitude: 119.510849,
+  name: "长乐区"
+}, {
+  code: "350121",
+  latitude: 26.148567,
+  longitude: 119.145117,
+  name: "闽侯县"
+}, {
+  code: "350122",
+  latitude: 26.202109,
+  longitude: 119.538365,
+  name: "连江县"
+}, {
+  code: "350123",
+  latitude: 26.487234,
+  longitude: 119.552645,
+  name: "罗源县"
+}, {
+  code: "350124",
+  latitude: 26.223793,
+  longitude: 118.868416,
+  name: "闽清县"
+}, {
+  code: "350125",
+  latitude: 25.864825,
+  longitude: 118.939089,
+  name: "永泰县"
+}, {
+  code: "350128",
+  latitude: 25.503672,
+  longitude: 119.791197,
+  name: "平潭县"
+}, {
+  code: "350181",
+  latitude: 25.720402,
+  longitude: 119.376992,
+  name: "福清市"
+}, {
+  code: "350200",
+  latitude: 24.490474,
+  longitude: 118.11022,
+  name: "厦门市"
+}, {
+  code: "350203",
+  latitude: 24.462059,
+  longitude: 118.087828,
+  name: "思明区"
+}, {
+  code: "350205",
+  latitude: 24.492512,
+  longitude: 118.036364,
+  name: "海沧区"
+}, {
+  code: "350206",
+  latitude: 24.512764,
+  longitude: 118.10943,
+  name: "湖里区"
+}, {
+  code: "350211",
+  latitude: 24.572874,
+  longitude: 118.100869,
+  name: "集美区"
+}, {
+  code: "350212",
+  latitude: 24.729333,
+  longitude: 118.150455,
+  name: "同安区"
+}, {
+  code: "350213",
+  latitude: 24.637479,
+  longitude: 118.242811,
+  name: "翔安区"
+}, {
+  code: "350300",
+  latitude: 25.431011,
+  longitude: 119.007558,
+  name: "莆田市"
+}, {
+  code: "350302",
+  latitude: 25.433737,
+  longitude: 119.001028,
+  name: "城厢区"
+}, {
+  code: "350303",
+  latitude: 25.459273,
+  longitude: 119.119102,
+  name: "涵江区"
+}, {
+  code: "350304",
+  latitude: 25.430047,
+  longitude: 119.020047,
+  name: "荔城区"
+}, {
+  code: "350305",
+  latitude: 25.316141,
+  longitude: 119.092607,
+  name: "秀屿区"
+}, {
+  code: "350322",
+  latitude: 25.356529,
+  longitude: 118.694331,
+  name: "仙游县"
+}, {
+  code: "350400",
+  latitude: 26.265444,
+  longitude: 117.635001,
+  name: "三明市"
+}, {
+  code: "350403",
+  latitude: 26.234191,
+  longitude: 117.607418,
+  name: "三元区"
+}, {
+  code: "350421",
+  latitude: 26.357375,
+  longitude: 117.201845,
+  name: "明溪县"
+}, {
+  code: "350423",
+  latitude: 26.17761,
+  longitude: 116.815821,
+  name: "清流县"
+}, {
+  code: "350424",
+  latitude: 26.259932,
+  longitude: 116.659725,
+  name: "宁化县"
+}, {
+  code: "350425",
+  latitude: 25.690803,
+  longitude: 117.849355,
+  name: "大田县"
+}, {
+  code: "350426",
+  latitude: 26.169261,
+  longitude: 118.188577,
+  name: "尤溪县"
+}, {
+  code: "350427",
+  latitude: 26.397361,
+  longitude: 117.789095,
+  name: "沙县区"
+}, {
+  code: "350428",
+  latitude: 26.728667,
+  longitude: 117.473558,
+  name: "将乐县"
+}, {
+  code: "350429",
+  latitude: 26.897995,
+  longitude: 117.177522,
+  name: "泰宁县"
+}, {
+  code: "350430",
+  latitude: 26.831398,
+  longitude: 116.845832,
+  name: "建宁县"
+}, {
+  code: "350481",
+  latitude: 25.974075,
+  longitude: 117.364447,
+  name: "永安市"
+}, {
+  code: "350500",
+  latitude: 24.908853,
+  longitude: 118.589421,
+  name: "泉州市"
+}, {
+  code: "350502",
+  latitude: 24.907645,
+  longitude: 118.588929,
+  name: "鲤城区"
+}, {
+  code: "350503",
+  latitude: 24.896041,
+  longitude: 118.605147,
+  name: "丰泽区"
+}, {
+  code: "350504",
+  latitude: 24.941153,
+  longitude: 118.670312,
+  name: "洛江区"
+}, {
+  code: "350505",
+  latitude: 25.126859,
+  longitude: 118.912285,
+  name: "泉港区"
+}, {
+  code: "350521",
+  latitude: 25.028718,
+  longitude: 118.798954,
+  name: "惠安县"
+}, {
+  code: "350524",
+  latitude: 25.056824,
+  longitude: 118.186014,
+  name: "安溪县"
+}, {
+  code: "350525",
+  latitude: 25.320721,
+  longitude: 118.29503,
+  name: "永春县"
+}, {
+  code: "350526",
+  latitude: 25.489004,
+  longitude: 118.242986,
+  name: "德化县"
+}, {
+  code: "350527",
+  latitude: 24.436417,
+  longitude: 118.323221,
+  name: "金门县"
+}, {
+  code: "350581",
+  latitude: 24.731978,
+  longitude: 118.628402,
+  name: "石狮市"
+}, {
+  code: "350582",
+  latitude: 24.807322,
+  longitude: 118.577338,
+  name: "晋江市"
+}, {
+  code: "350583",
+  latitude: 24.959494,
+  longitude: 118.387031,
+  name: "南安市"
+}, {
+  code: "350600",
+  latitude: 24.510897,
+  longitude: 117.661801,
+  name: "漳州市"
+}, {
+  code: "350602",
+  latitude: 24.509955,
+  longitude: 117.656461,
+  name: "芗城区"
+}, {
+  code: "350603",
+  latitude: 24.515656,
+  longitude: 117.671387,
+  name: "龙文区"
+}, {
+  code: "350622",
+  latitude: 23.950486,
+  longitude: 117.340946,
+  name: "云霄县"
+}, {
+  code: "350623",
+  latitude: 24.117907,
+  longitude: 117.614023,
+  name: "漳浦县"
+}, {
+  code: "350624",
+  latitude: 23.710834,
+  longitude: 117.176083,
+  name: "诏安县"
+}, {
+  code: "350625",
+  latitude: 24.621475,
+  longitude: 117.755913,
+  name: "长泰区"
+}, {
+  code: "350626",
+  latitude: 23.702845,
+  longitude: 117.427679,
+  name: "东山县"
+}, {
+  code: "350627",
+  latitude: 24.516425,
+  longitude: 117.365462,
+  name: "南靖县"
+}, {
+  code: "350628",
+  latitude: 24.366158,
+  longitude: 117.313549,
+  name: "平和县"
+}, {
+  code: "350629",
+  latitude: 25.001416,
+  longitude: 117.53631,
+  name: "华安县"
+}, {
+  code: "350681",
+  latitude: 24.445341,
+  longitude: 117.817292,
+  name: "龙海区"
+}, {
+  code: "350700",
+  latitude: 26.635627,
+  longitude: 118.178459,
+  name: "南平市"
+}, {
+  code: "350702",
+  latitude: 26.636079,
+  longitude: 118.178918,
+  name: "延平区"
+}, {
+  code: "350703",
+  latitude: 27.332067,
+  longitude: 118.12267,
+  name: "建阳区"
+}, {
+  code: "350721",
+  latitude: 26.792851,
+  longitude: 117.80771,
+  name: "顺昌县"
+}, {
+  code: "350722",
+  latitude: 27.920412,
+  longitude: 118.536822,
+  name: "浦城县"
+}, {
+  code: "350723",
+  latitude: 27.542803,
+  longitude: 117.337897,
+  name: "光泽县"
+}, {
+  code: "350724",
+  latitude: 27.525785,
+  longitude: 118.783491,
+  name: "松溪县"
+}, {
+  code: "350725",
+  latitude: 27.365398,
+  longitude: 118.858661,
+  name: "政和县"
+}, {
+  code: "350781",
+  latitude: 27.337952,
+  longitude: 117.491544,
+  name: "邵武市"
+}, {
+  code: "350782",
+  latitude: 27.751733,
+  longitude: 118.032796,
+  name: "武夷山市"
+}, {
+  code: "350783",
+  latitude: 27.03502,
+  longitude: 118.321765,
+  name: "建瓯市"
+}, {
+  code: "350800",
+  latitude: 25.091603,
+  longitude: 117.02978,
+  name: "龙岩市"
+}, {
+  code: "350802",
+  latitude: 25.0918,
+  longitude: 117.030721,
+  name: "新罗区"
+}, {
+  code: "350803",
+  latitude: 24.720442,
+  longitude: 116.732691,
+  name: "永定区"
+}, {
+  code: "350821",
+  latitude: 25.842278,
+  longitude: 116.361007,
+  name: "长汀县"
+}, {
+  code: "350823",
+  latitude: 25.050019,
+  longitude: 116.424774,
+  name: "上杭县"
+}, {
+  code: "350824",
+  latitude: 25.08865,
+  longitude: 116.100928,
+  name: "武平县"
+}, {
+  code: "350825",
+  latitude: 25.708506,
+  longitude: 116.756687,
+  name: "连城县"
+}, {
+  code: "350881",
+  latitude: 25.291597,
+  longitude: 117.42073,
+  name: "漳平市"
+}, {
+  code: "350900",
+  latitude: 26.65924,
+  longitude: 119.527082,
+  name: "宁德市"
+}, {
+  code: "350902",
+  latitude: 26.659253,
+  longitude: 119.527225,
+  name: "蕉城区"
+}, {
+  code: "350921",
+  latitude: 26.882068,
+  longitude: 120.005214,
+  name: "霞浦县"
+}, {
+  code: "350922",
+  latitude: 26.577491,
+  longitude: 118.743156,
+  name: "古田县"
+}, {
+  code: "350923",
+  latitude: 26.910826,
+  longitude: 118.987544,
+  name: "屏南县"
+}, {
+  code: "350924",
+  latitude: 27.457798,
+  longitude: 119.506733,
+  name: "寿宁县"
+}, {
+  code: "350925",
+  latitude: 27.103106,
+  longitude: 119.338239,
+  name: "周宁县"
+}, {
+  code: "350926",
+  latitude: 27.236163,
+  longitude: 119.898226,
+  name: "柘荣县"
+}, {
+  code: "350981",
+  latitude: 27.084246,
+  longitude: 119.650798,
+  name: "福安市"
+}, {
+  code: "350982",
+  latitude: 27.318884,
+  longitude: 120.219761,
+  name: "福鼎市"
+}, {
+  code: "360100",
+  latitude: 28.676493,
+  longitude: 115.892151,
+  name: "南昌市"
+}, {
+  code: "360102",
+  latitude: 28.682988,
+  longitude: 115.889675,
+  name: "东湖区"
+}, {
+  code: "360103",
+  latitude: 28.662901,
+  longitude: 115.91065,
+  name: "西湖区（南昌市）"
+}, {
+  code: "360104",
+  latitude: 28.635724,
+  longitude: 115.907292,
+  name: "青云谱区"
+}, {
+  code: "360111",
+  latitude: 28.689292,
+  longitude: 115.949044,
+  name: "青山湖区"
+}, {
+  code: "360112",
+  latitude: 28.690788,
+  longitude: 115.820806,
+  name: "新建区"
+}, {
+  code: "360113",
+  latitude: 28.69819928,
+  longitude: 115.8580521,
+  name: "红谷滩区"
+}, {
+  code: "360121",
+  latitude: 28.543781,
+  longitude: 115.942465,
+  name: "南昌县"
+}, {
+  code: "360123",
+  latitude: 28.841334,
+  longitude: 115.553109,
+  name: "安义县"
+}, {
+  code: "360124",
+  latitude: 28.365681,
+  longitude: 116.267671,
+  name: "进贤县"
+}, {
+  code: "360200",
+  latitude: 29.29256,
+  longitude: 117.214664,
+  name: "景德镇市"
+}, {
+  code: "360202",
+  latitude: 29.288465,
+  longitude: 117.195023,
+  name: "昌江区"
+}, {
+  code: "360203",
+  latitude: 29.292812,
+  longitude: 117.214814,
+  name: "珠山区"
+}, {
+  code: "360222",
+  latitude: 29.352251,
+  longitude: 117.217611,
+  name: "浮梁县"
+}, {
+  code: "360281",
+  latitude: 28.967361,
+  longitude: 117.129376,
+  name: "乐平市"
+}, {
+  code: "360300",
+  latitude: 27.622946,
+  longitude: 113.852186,
+  name: "萍乡市"
+}, {
+  code: "360302",
+  latitude: 27.625826,
+  longitude: 113.855044,
+  name: "安源区"
+}, {
+  code: "360313",
+  latitude: 27.639319,
+  longitude: 113.7456,
+  name: "湘东区"
+}, {
+  code: "360321",
+  latitude: 27.127807,
+  longitude: 113.955582,
+  name: "莲花县"
+}, {
+  code: "360322",
+  latitude: 27.877041,
+  longitude: 113.800525,
+  name: "上栗县"
+}, {
+  code: "360323",
+  latitude: 27.633633,
+  longitude: 114.041206,
+  name: "芦溪县"
+}, {
+  code: "360400",
+  latitude: 29.712034,
+  longitude: 115.992811,
+  name: "九江市"
+}, {
+  code: "360402",
+  latitude: 29.676175,
+  longitude: 115.99012,
+  name: "濂溪区"
+}, {
+  code: "360403",
+  latitude: 29.72465,
+  longitude: 115.995947,
+  name: "浔阳区"
+}, {
+  code: "360404",
+  latitude: 29.610264,
+  longitude: 115.892977,
+  name: "柴桑区"
+}, {
+  code: "360423",
+  latitude: 29.260182,
+  longitude: 115.105646,
+  name: "武宁县"
+}, {
+  code: "360424",
+  latitude: 29.032729,
+  longitude: 114.573428,
+  name: "修水县"
+}, {
+  code: "360425",
+  latitude: 29.018212,
+  longitude: 115.809055,
+  name: "永修县"
+}, {
+  code: "360426",
+  latitude: 29.327474,
+  longitude: 115.762611,
+  name: "德安县"
+}, {
+  code: "360428",
+  latitude: 29.275105,
+  longitude: 116.205114,
+  name: "都昌县"
+}, {
+  code: "360429",
+  latitude: 29.7263,
+  longitude: 116.244313,
+  name: "湖口县"
+}, {
+  code: "360430",
+  latitude: 29.898865,
+  longitude: 116.55584,
+  name: "彭泽县"
+}, {
+  code: "360481",
+  latitude: 29.676599,
+  longitude: 115.669081,
+  name: "瑞昌市"
+}, {
+  code: "360482",
+  latitude: 29.247884,
+  longitude: 115.805712,
+  name: "共青城市"
+}, {
+  code: "360483",
+  latitude: 29.456169,
+  longitude: 116.043743,
+  name: "庐山市"
+}, {
+  code: "360500",
+  latitude: 27.810834,
+  longitude: 114.930835,
+  name: "新余市"
+}, {
+  code: "360502",
+  latitude: 27.819171,
+  longitude: 114.923923,
+  name: "渝水区"
+}, {
+  code: "360521",
+  latitude: 27.811301,
+  longitude: 114.675262,
+  name: "分宜县"
+}, {
+  code: "360600",
+  latitude: 28.238638,
+  longitude: 117.033838,
+  name: "鹰潭市"
+}, {
+  code: "360602",
+  latitude: 28.239076,
+  longitude: 117.034112,
+  name: "月湖区"
+}, {
+  code: "360603",
+  latitude: 28.206177,
+  longitude: 116.822763,
+  name: "余江区"
+}, {
+  code: "360681",
+  latitude: 28.283693,
+  longitude: 117.212103,
+  name: "贵溪市"
+}, {
+  code: "360700",
+  latitude: 25.85097,
+  longitude: 114.940278,
+  name: "赣州市"
+}, {
+  code: "360702",
+  latitude: 25.851367,
+  longitude: 114.93872,
+  name: "章贡区"
+}, {
+  code: "360703",
+  latitude: 25.661721,
+  longitude: 114.756933,
+  name: "南康区"
+}, {
+  code: "360704",
+  latitude: 25.865432,
+  longitude: 115.018461,
+  name: "赣县区"
+}, {
+  code: "360722",
+  latitude: 25.38023,
+  longitude: 114.930893,
+  name: "信丰县"
+}, {
+  code: "360723",
+  latitude: 25.395937,
+  longitude: 114.362243,
+  name: "大余县"
+}, {
+  code: "360724",
+  latitude: 25.794284,
+  longitude: 114.540537,
+  name: "上犹县"
+}, {
+  code: "360725",
+  latitude: 25.687911,
+  longitude: 114.307348,
+  name: "崇义县"
+}, {
+  code: "360726",
+  latitude: 25.134591,
+  longitude: 115.392328,
+  name: "安远县"
+}, {
+  code: "360728",
+  latitude: 24.774277,
+  longitude: 115.03267,
+  name: "定南县"
+}, {
+  code: "360729",
+  latitude: 24.742651,
+  longitude: 114.531589,
+  name: "全南县"
+}, {
+  code: "360730",
+  latitude: 26.472054,
+  longitude: 116.018782,
+  name: "宁都县"
+}, {
+  code: "360731",
+  latitude: 25.955033,
+  longitude: 115.411198,
+  name: "于都县"
+}, {
+  code: "360732",
+  latitude: 26.330489,
+  longitude: 115.351896,
+  name: "兴国县"
+}, {
+  code: "360733",
+  latitude: 25.599125,
+  longitude: 115.791158,
+  name: "会昌县"
+}, {
+  code: "360734",
+  latitude: 24.954136,
+  longitude: 115.651399,
+  name: "寻乌县"
+}, {
+  code: "360735",
+  latitude: 26.326582,
+  longitude: 116.342249,
+  name: "石城县"
+}, {
+  code: "360781",
+  latitude: 25.875278,
+  longitude: 116.034854,
+  name: "瑞金市"
+}, {
+  code: "360783",
+  latitude: 24.90476,
+  longitude: 114.792657,
+  name: "龙南市"
+}, {
+  code: "360800",
+  latitude: 27.111699,
+  longitude: 114.986373,
+  name: "吉安市"
+}, {
+  code: "360802",
+  latitude: 27.112367,
+  longitude: 114.987331,
+  name: "吉州区"
+}, {
+  code: "360803",
+  latitude: 27.105879,
+  longitude: 115.016306,
+  name: "青原区"
+}, {
+  code: "360821",
+  latitude: 27.040042,
+  longitude: 114.905117,
+  name: "吉安县"
+}, {
+  code: "360822",
+  latitude: 27.213445,
+  longitude: 115.134569,
+  name: "吉水县"
+}, {
+  code: "360823",
+  latitude: 27.580862,
+  longitude: 115.319331,
+  name: "峡江县"
+}, {
+  code: "360824",
+  latitude: 27.755758,
+  longitude: 115.399294,
+  name: "新干县"
+}, {
+  code: "360825",
+  latitude: 27.321087,
+  longitude: 115.435559,
+  name: "永丰县"
+}, {
+  code: "360826",
+  latitude: 26.790164,
+  longitude: 114.901393,
+  name: "泰和县"
+}, {
+  code: "360827",
+  latitude: 26.323705,
+  longitude: 114.51689,
+  name: "遂川县"
+}, {
+  code: "360828",
+  latitude: 26.462085,
+  longitude: 114.784694,
+  name: "万安县"
+}, {
+  code: "360829",
+  latitude: 27.382746,
+  longitude: 114.61384,
+  name: "安福县"
+}, {
+  code: "360830",
+  latitude: 26.944721,
+  longitude: 114.242534,
+  name: "永新县"
+}, {
+  code: "360881",
+  latitude: 26.745919,
+  longitude: 114.284421,
+  name: "井冈山市"
+}, {
+  code: "360900",
+  latitude: 27.8043,
+  longitude: 114.391136,
+  name: "宜春市"
+}, {
+  code: "360902",
+  latitude: 27.800117,
+  longitude: 114.387379,
+  name: "袁州区"
+}, {
+  code: "360921",
+  latitude: 28.700672,
+  longitude: 115.389899,
+  name: "奉新县"
+}, {
+  code: "360922",
+  latitude: 28.104528,
+  longitude: 114.449012,
+  name: "万载县"
+}, {
+  code: "360923",
+  latitude: 28.234789,
+  longitude: 114.932653,
+  name: "上高县"
+}, {
+  code: "360924",
+  latitude: 28.388289,
+  longitude: 114.787381,
+  name: "宜丰县"
+}, {
+  code: "360925",
+  latitude: 28.86054,
+  longitude: 115.361744,
+  name: "靖安县"
+}, {
+  code: "360926",
+  latitude: 28.520956,
+  longitude: 114.37014,
+  name: "铜鼓县"
+}, {
+  code: "360981",
+  latitude: 28.191584,
+  longitude: 115.786005,
+  name: "丰城市"
+}, {
+  code: "360982",
+  latitude: 28.055898,
+  longitude: 115.543388,
+  name: "樟树市"
+}, {
+  code: "360983",
+  latitude: 28.420951,
+  longitude: 115.381527,
+  name: "高安市"
+}, {
+  code: "361000",
+  latitude: 27.98385,
+  longitude: 116.358351,
+  name: "抚州市"
+}, {
+  code: "361002",
+  latitude: 27.981919,
+  longitude: 116.361404,
+  name: "临川区"
+}, {
+  code: "361003",
+  latitude: 28.2325,
+  longitude: 116.605341,
+  name: "东乡区"
+}, {
+  code: "361021",
+  latitude: 27.55531,
+  longitude: 116.63945,
+  name: "南城县"
+}, {
+  code: "361022",
+  latitude: 27.292561,
+  longitude: 116.91457,
+  name: "黎川县"
+}, {
+  code: "361023",
+  latitude: 27.210132,
+  longitude: 116.532994,
+  name: "南丰县"
+}, {
+  code: "361024",
+  latitude: 27.760907,
+  longitude: 116.059109,
+  name: "崇仁县"
+}, {
+  code: "361025",
+  latitude: 27.420101,
+  longitude: 115.838432,
+  name: "乐安县"
+}, {
+  code: "361026",
+  latitude: 27.546512,
+  longitude: 116.223023,
+  name: "宜黄县"
+}, {
+  code: "361027",
+  latitude: 27.907387,
+  longitude: 116.778751,
+  name: "金溪县"
+}, {
+  code: "361028",
+  latitude: 27.70653,
+  longitude: 117.066095,
+  name: "资溪县"
+}, {
+  code: "361030",
+  latitude: 26.838426,
+  longitude: 116.327291,
+  name: "广昌县"
+}, {
+  code: "361100",
+  latitude: 28.44442,
+  longitude: 117.971185,
+  name: "上饶市"
+}, {
+  code: "361102",
+  latitude: 28.445378,
+  longitude: 117.970522,
+  name: "信州区"
+}, {
+  code: "361103",
+  latitude: 28.440285,
+  longitude: 118.189852,
+  name: "广丰区"
+}, {
+  code: "361104",
+  latitude: 28.453897,
+  longitude: 117.90612,
+  name: "广信区"
+}, {
+  code: "361123",
+  latitude: 28.673479,
+  longitude: 118.244408,
+  name: "玉山县"
+}, {
+  code: "361124",
+  latitude: 28.310892,
+  longitude: 117.711906,
+  name: "铅山县"
+}, {
+  code: "361125",
+  latitude: 28.415103,
+  longitude: 117.608247,
+  name: "横峰县"
+}, {
+  code: "361126",
+  latitude: 28.402391,
+  longitude: 117.435002,
+  name: "弋阳县"
+}, {
+  code: "361127",
+  latitude: 28.69173,
+  longitude: 116.691072,
+  name: "余干县"
+}, {
+  code: "361128",
+  latitude: 28.993374,
+  longitude: 116.673748,
+  name: "鄱阳县"
+}, {
+  code: "361129",
+  latitude: 28.692589,
+  longitude: 117.07015,
+  name: "万年县"
+}, {
+  code: "361130",
+  latitude: 29.254015,
+  longitude: 117.86219,
+  name: "婺源县"
+}, {
+  code: "361181",
+  latitude: 28.945034,
+  longitude: 117.578732,
+  name: "德兴市"
+}, {
+  code: "370100",
+  latitude: 36.675807,
+  longitude: 117.000923,
+  name: "济南市"
+}, {
+  code: "370102",
+  latitude: 36.664169,
+  longitude: 117.03862,
+  name: "历下区"
+}, {
+  code: "370103",
+  latitude: 36.657354,
+  longitude: 116.99898,
+  name: "市中区（济南市）"
+}, {
+  code: "370104",
+  latitude: 36.668205,
+  longitude: 116.947921,
+  name: "槐荫区"
+}, {
+  code: "370105",
+  latitude: 36.693374,
+  longitude: 116.996086,
+  name: "天桥区"
+}, {
+  code: "370112",
+  latitude: 36.681744,
+  longitude: 117.063744,
+  name: "历城区"
+}, {
+  code: "370113",
+  latitude: 36.561049,
+  longitude: 116.74588,
+  name: "长清区"
+}, {
+  code: "370114",
+  latitude: 36.71209,
+  longitude: 117.54069,
+  name: "章丘区"
+}, {
+  code: "370115",
+  latitude: 36.976771,
+  longitude: 117.176035,
+  name: "济阳区"
+}, {
+  code: "370116",
+  latitude: 36.214395,
+  longitude: 117.675808,
+  name: "莱芜区"
+}, {
+  code: "370117",
+  latitude: 36.058038,
+  longitude: 117.82033,
+  name: "钢城区"
+}, {
+  code: "370124",
+  latitude: 36.286923,
+  longitude: 116.455054,
+  name: "平阴县"
+}, {
+  code: "370126",
+  latitude: 37.310544,
+  longitude: 117.156369,
+  name: "商河县"
+}, {
+  code: "370200",
+  latitude: 36.082982,
+  longitude: 120.355173,
+  name: "青岛市"
+}, {
+  code: "370202",
+  latitude: 36.070892,
+  longitude: 120.395966,
+  name: "市南区"
+}, {
+  code: "370203",
+  latitude: 36.083819,
+  longitude: 120.355026,
+  name: "市北区"
+}, {
+  code: "370211",
+  latitude: 35.875138,
+  longitude: 119.995518,
+  name: "黄岛区"
+}, {
+  code: "370212",
+  latitude: 36.102569,
+  longitude: 120.467393,
+  name: "崂山区"
+}, {
+  code: "370213",
+  latitude: 36.160023,
+  longitude: 120.421236,
+  name: "李沧区"
+}, {
+  code: "370214",
+  latitude: 36.306833,
+  longitude: 120.389135,
+  name: "城阳区"
+}, {
+  code: "370215",
+  latitude: 36.390847,
+  longitude: 120.447352,
+  name: "即墨区"
+}, {
+  code: "370281",
+  latitude: 36.285878,
+  longitude: 120.006202,
+  name: "胶州市"
+}, {
+  code: "370283",
+  latitude: 36.788828,
+  longitude: 119.959012,
+  name: "平度市"
+}, {
+  code: "370285",
+  latitude: 36.86509,
+  longitude: 120.526226,
+  name: "莱西市"
+}, {
+  code: "370300",
+  latitude: 36.814939,
+  longitude: 118.047648,
+  name: "淄博市"
+}, {
+  code: "370302",
+  latitude: 36.647272,
+  longitude: 117.967696,
+  name: "淄川区"
+}, {
+  code: "370303",
+  latitude: 36.807049,
+  longitude: 118.053521,
+  name: "张店区"
+}, {
+  code: "370304",
+  latitude: 36.497567,
+  longitude: 117.85823,
+  name: "博山区"
+}, {
+  code: "370305",
+  latitude: 36.816657,
+  longitude: 118.306018,
+  name: "临淄区"
+}, {
+  code: "370306",
+  latitude: 36.803699,
+  longitude: 117.851036,
+  name: "周村区"
+}, {
+  code: "370321",
+  latitude: 36.959773,
+  longitude: 118.101556,
+  name: "桓台县"
+}, {
+  code: "370322",
+  latitude: 37.169581,
+  longitude: 117.829839,
+  name: "高青县"
+}, {
+  code: "370323",
+  latitude: 36.186282,
+  longitude: 118.166161,
+  name: "沂源县"
+}, {
+  code: "370400",
+  latitude: 34.856424,
+  longitude: 117.557964,
+  name: "枣庄市"
+}, {
+  code: "370402",
+  latitude: 34.856651,
+  longitude: 117.557281,
+  name: "市中区（枣庄市）"
+}, {
+  code: "370403",
+  latitude: 34.79789,
+  longitude: 117.265293,
+  name: "薛城区"
+}, {
+  code: "370404",
+  latitude: 34.767713,
+  longitude: 117.586316,
+  name: "峄城区"
+}, {
+  code: "370405",
+  latitude: 34.564815,
+  longitude: 117.734747,
+  name: "台儿庄区"
+}, {
+  code: "370406",
+  latitude: 35.096077,
+  longitude: 117.458968,
+  name: "山亭区"
+}, {
+  code: "370481",
+  latitude: 35.088498,
+  longitude: 117.162098,
+  name: "滕州市"
+}, {
+  code: "370500",
+  latitude: 37.434564,
+  longitude: 118.66471,
+  name: "东营市"
+}, {
+  code: "370502",
+  latitude: 37.461567,
+  longitude: 118.507543,
+  name: "东营区"
+}, {
+  code: "370503",
+  latitude: 37.886015,
+  longitude: 118.529613,
+  name: "河口区"
+}, {
+  code: "370505",
+  latitude: 37.588679,
+  longitude: 118.551314,
+  name: "垦利区"
+}, {
+  code: "370522",
+  latitude: 37.493365,
+  longitude: 118.248854,
+  name: "利津县"
+}, {
+  code: "370523",
+  latitude: 37.05161,
+  longitude: 118.407522,
+  name: "广饶县"
+}, {
+  code: "370600",
+  latitude: 37.539297,
+  longitude: 121.391382,
+  name: "烟台市"
+}, {
+  code: "370602",
+  latitude: 37.540925,
+  longitude: 121.385877,
+  name: "芝罘区"
+}, {
+  code: "370611",
+  latitude: 37.496875,
+  longitude: 121.264741,
+  name: "福山区"
+}, {
+  code: "370612",
+  latitude: 37.388356,
+  longitude: 121.60151,
+  name: "牟平区"
+}, {
+  code: "370613",
+  latitude: 37.473549,
+  longitude: 121.448866,
+  name: "莱山区"
+}, {
+  code: "370614",
+  latitude: 37.811045,
+  longitude: 120.759074,
+  name: "蓬莱区"
+}, {
+  code: "370681",
+  latitude: 37.648446,
+  longitude: 120.528328,
+  name: "龙口市"
+}, {
+  code: "370682",
+  latitude: 36.977037,
+  longitude: 120.711151,
+  name: "莱阳市"
+}, {
+  code: "370683",
+  latitude: 37.182725,
+  longitude: 119.942135,
+  name: "莱州市"
+}, {
+  code: "370685",
+  latitude: 37.364919,
+  longitude: 120.403142,
+  name: "招远市"
+}, {
+  code: "370686",
+  latitude: 37.305854,
+  longitude: 120.834097,
+  name: "栖霞市"
+}, {
+  code: "370687",
+  latitude: 36.780657,
+  longitude: 121.168392,
+  name: "海阳市"
+}, {
+  code: "370700",
+  latitude: 36.70925,
+  longitude: 119.107078,
+  name: "潍坊市"
+}, {
+  code: "370702",
+  latitude: 36.710062,
+  longitude: 119.103784,
+  name: "潍城区"
+}, {
+  code: "370703",
+  latitude: 36.772103,
+  longitude: 119.207866,
+  name: "寒亭区"
+}, {
+  code: "370704",
+  latitude: 36.654616,
+  longitude: 119.166326,
+  name: "坊子区"
+}, {
+  code: "370705",
+  latitude: 36.709494,
+  longitude: 119.137357,
+  name: "奎文区"
+}, {
+  code: "370724",
+  latitude: 36.516371,
+  longitude: 118.539876,
+  name: "临朐县"
+}, {
+  code: "370725",
+  latitude: 36.703253,
+  longitude: 118.839995,
+  name: "昌乐县"
+}, {
+  code: "370781",
+  latitude: 36.697855,
+  longitude: 118.484693,
+  name: "青州市"
+}, {
+  code: "370782",
+  latitude: 35.997093,
+  longitude: 119.403182,
+  name: "诸城市"
+}, {
+  code: "370783",
+  latitude: 36.874411,
+  longitude: 118.736451,
+  name: "寿光市"
+}, {
+  code: "370784",
+  latitude: 36.427417,
+  longitude: 119.206886,
+  name: "安丘市"
+}, {
+  code: "370785",
+  latitude: 36.37754,
+  longitude: 119.757033,
+  name: "高密市"
+}, {
+  code: "370786",
+  latitude: 36.854937,
+  longitude: 119.394502,
+  name: "昌邑市"
+}, {
+  code: "370800",
+  latitude: 35.415393,
+  longitude: 116.587245,
+  name: "济宁市"
+}, {
+  code: "370811",
+  latitude: 35.414828,
+  longitude: 116.595261,
+  name: "任城区"
+}, {
+  code: "370812",
+  latitude: 35.556445,
+  longitude: 116.828996,
+  name: "兖州区"
+}, {
+  code: "370826",
+  latitude: 34.809525,
+  longitude: 117.12861,
+  name: "微山县"
+}, {
+  code: "370827",
+  latitude: 34.997706,
+  longitude: 116.650023,
+  name: "鱼台县"
+}, {
+  code: "370828",
+  latitude: 35.06977,
+  longitude: 116.310364,
+  name: "金乡县"
+}, {
+  code: "370829",
+  latitude: 35.398098,
+  longitude: 116.342885,
+  name: "嘉祥县"
+}, {
+  code: "370830",
+  latitude: 35.721746,
+  longitude: 116.487146,
+  name: "汶上县"
+}, {
+  code: "370831",
+  latitude: 35.653216,
+  longitude: 117.273605,
+  name: "泗水县"
+}, {
+  code: "370832",
+  latitude: 35.801843,
+  longitude: 116.08963,
+  name: "梁山县"
+}, {
+  code: "370881",
+  latitude: 35.592788,
+  longitude: 116.991885,
+  name: "曲阜市"
+}, {
+  code: "370883",
+  latitude: 35.405259,
+  longitude: 116.96673,
+  name: "邹城市"
+}, {
+  code: "370900",
+  latitude: 36.194968,
+  longitude: 117.129063,
+  name: "泰安市"
+}, {
+  code: "370902",
+  latitude: 36.189313,
+  longitude: 117.129984,
+  name: "泰山区"
+}, {
+  code: "370911",
+  latitude: 36.1841,
+  longitude: 117.04353,
+  name: "岱岳区"
+}, {
+  code: "370921",
+  latitude: 35.76754,
+  longitude: 116.799297,
+  name: "宁阳县"
+}, {
+  code: "370923",
+  latitude: 35.930467,
+  longitude: 116.461052,
+  name: "东平县"
+}, {
+  code: "370982",
+  latitude: 35.910387,
+  longitude: 117.766092,
+  name: "新泰市"
+}, {
+  code: "370983",
+  latitude: 36.1856,
+  longitude: 116.763703,
+  name: "肥城市"
+}, {
+  code: "371000",
+  latitude: 37.509691,
+  longitude: 122.116394,
+  name: "威海市"
+}, {
+  code: "371002",
+  latitude: 37.510754,
+  longitude: 122.116189,
+  name: "环翠区"
+}, {
+  code: "371003",
+  latitude: 37.196211,
+  longitude: 122.057139,
+  name: "文登区"
+}, {
+  code: "371082",
+  latitude: 37.160134,
+  longitude: 122.422896,
+  name: "荣成市"
+}, {
+  code: "371083",
+  latitude: 36.919622,
+  longitude: 121.536346,
+  name: "乳山市"
+}, {
+  code: "371100",
+  latitude: 35.428588,
+  longitude: 119.461208,
+  name: "日照市"
+}, {
+  code: "371102",
+  latitude: 35.426152,
+  longitude: 119.457703,
+  name: "东港区"
+}, {
+  code: "371103",
+  latitude: 35.119794,
+  longitude: 119.315844,
+  name: "岚山区"
+}, {
+  code: "371121",
+  latitude: 35.751936,
+  longitude: 119.206745,
+  name: "五莲县"
+}, {
+  code: "371122",
+  latitude: 35.588115,
+  longitude: 118.832859,
+  name: "莒县"
+}, {
+  code: "371300",
+  latitude: 35.065282,
+  longitude: 118.326443,
+  name: "临沂市"
+}, {
+  code: "371302",
+  latitude: 35.061631,
+  longitude: 118.327667,
+  name: "兰山区"
+}, {
+  code: "371311",
+  latitude: 34.997204,
+  longitude: 118.284795,
+  name: "罗庄区"
+}, {
+  code: "371312",
+  latitude: 35.085004,
+  longitude: 118.398296,
+  name: "河东区"
+}, {
+  code: "371321",
+  latitude: 35.547002,
+  longitude: 118.455395,
+  name: "沂南县"
+}, {
+  code: "371322",
+  latitude: 34.614741,
+  longitude: 118.342963,
+  name: "郯城县"
+}, {
+  code: "371323",
+  latitude: 35.787029,
+  longitude: 118.634543,
+  name: "沂水县"
+}, {
+  code: "371324",
+  latitude: 34.855573,
+  longitude: 118.049968,
+  name: "兰陵县"
+}, {
+  code: "371325",
+  latitude: 35.269174,
+  longitude: 117.968869,
+  name: "费县"
+}, {
+  code: "371326",
+  latitude: 35.511519,
+  longitude: 117.631884,
+  name: "平邑县"
+}, {
+  code: "371327",
+  latitude: 35.175911,
+  longitude: 118.838322,
+  name: "莒南县"
+}, {
+  code: "371328",
+  latitude: 35.712435,
+  longitude: 117.943271,
+  name: "蒙阴县"
+}, {
+  code: "371329",
+  latitude: 34.917062,
+  longitude: 118.648379,
+  name: "临沭县"
+}, {
+  code: "371400",
+  latitude: 37.453968,
+  longitude: 116.307428,
+  name: "德州市"
+}, {
+  code: "371402",
+  latitude: 37.453923,
+  longitude: 116.307076,
+  name: "德城区"
+}, {
+  code: "371403",
+  latitude: 37.332848,
+  longitude: 116.574929,
+  name: "陵城区"
+}, {
+  code: "371422",
+  latitude: 37.649619,
+  longitude: 116.79372,
+  name: "宁津县"
+}, {
+  code: "371423",
+  latitude: 37.777724,
+  longitude: 117.390507,
+  name: "庆云县"
+}, {
+  code: "371424",
+  latitude: 37.192044,
+  longitude: 116.867028,
+  name: "临邑县"
+}, {
+  code: "371425",
+  latitude: 36.795497,
+  longitude: 116.758394,
+  name: "齐河县"
+}, {
+  code: "371426",
+  latitude: 37.164465,
+  longitude: 116.433904,
+  name: "平原县"
+}, {
+  code: "371427",
+  latitude: 36.950501,
+  longitude: 116.003816,
+  name: "夏津县"
+}, {
+  code: "371428",
+  latitude: 37.209527,
+  longitude: 116.078627,
+  name: "武城县"
+}, {
+  code: "371481",
+  latitude: 37.729115,
+  longitude: 117.216657,
+  name: "乐陵市"
+}, {
+  code: "371482",
+  latitude: 36.934485,
+  longitude: 116.642554,
+  name: "禹城市"
+}, {
+  code: "371500",
+  latitude: 36.456013,
+  longitude: 115.980367,
+  name: "聊城市"
+}, {
+  code: "371502",
+  latitude: 36.45606,
+  longitude: 115.980023,
+  name: "东昌府区"
+}, {
+  code: "371503",
+  latitude: 36.591934,
+  longitude: 116.25335,
+  name: "茌平区"
+}, {
+  code: "371521",
+  latitude: 36.113708,
+  longitude: 115.784287,
+  name: "阳谷县"
+}, {
+  code: "371522",
+  latitude: 36.237597,
+  longitude: 115.667291,
+  name: "莘县"
+}, {
+  code: "371524",
+  latitude: 36.336004,
+  longitude: 116.248855,
+  name: "东阿县"
+}, {
+  code: "371525",
+  latitude: 36.483753,
+  longitude: 115.444808,
+  name: "冠县"
+}, {
+  code: "371526",
+  latitude: 36.859755,
+  longitude: 116.229662,
+  name: "高唐县"
+}, {
+  code: "371581",
+  latitude: 36.842598,
+  longitude: 115.713462,
+  name: "临清市"
+}, {
+  code: "371600",
+  latitude: 37.383542,
+  longitude: 118.016974,
+  name: "滨州市"
+}, {
+  code: "371602",
+  latitude: 37.384842,
+  longitude: 118.020149,
+  name: "滨城区"
+}, {
+  code: "371603",
+  latitude: 37.698456,
+  longitude: 118.129902,
+  name: "沾化区"
+}, {
+  code: "371621",
+  latitude: 37.483876,
+  longitude: 117.508941,
+  name: "惠民县"
+}, {
+  code: "371622",
+  latitude: 37.640492,
+  longitude: 117.581326,
+  name: "阳信县"
+}, {
+  code: "371623",
+  latitude: 37.740848,
+  longitude: 117.616325,
+  name: "无棣县"
+}, {
+  code: "371625",
+  latitude: 37.147002,
+  longitude: 118.123096,
+  name: "博兴县"
+}, {
+  code: "371681",
+  latitude: 36.87803,
+  longitude: 117.736807,
+  name: "邹平市"
+}, {
+  code: "371700",
+  latitude: 35.246531,
+  longitude: 115.469381,
+  name: "菏泽市"
+}, {
+  code: "371702",
+  latitude: 35.24311,
+  longitude: 115.470946,
+  name: "牡丹区"
+}, {
+  code: "371703",
+  latitude: 35.072701,
+  longitude: 115.569601,
+  name: "定陶区"
+}, {
+  code: "371721",
+  latitude: 34.823253,
+  longitude: 115.549482,
+  name: "曹县"
+}, {
+  code: "371722",
+  latitude: 34.790851,
+  longitude: 116.08262,
+  name: "单县"
+}, {
+  code: "371723",
+  latitude: 34.947366,
+  longitude: 115.897349,
+  name: "成武县"
+}, {
+  code: "371724",
+  latitude: 35.390999,
+  longitude: 116.089341,
+  name: "巨野县"
+}, {
+  code: "371725",
+  latitude: 35.594773,
+  longitude: 115.93885,
+  name: "郓城县"
+}, {
+  code: "371726",
+  latitude: 35.560257,
+  longitude: 115.51434,
+  name: "鄄城县"
+}, {
+  code: "371728",
+  latitude: 35.289637,
+  longitude: 115.098412,
+  name: "东明县"
+}, {
+  code: "410100",
+  latitude: 34.757975,
+  longitude: 113.665412,
+  name: "郑州市"
+}, {
+  code: "410102",
+  latitude: 34.748286,
+  longitude: 113.611576,
+  name: "中原区"
+}, {
+  code: "410103",
+  latitude: 34.730936,
+  longitude: 113.645422,
+  name: "二七区"
+}, {
+  code: "410104",
+  latitude: 34.746453,
+  longitude: 113.685313,
+  name: "管城回族区"
+}, {
+  code: "410105",
+  latitude: 34.775838,
+  longitude: 113.686037,
+  name: "金水区"
+}, {
+  code: "410106",
+  latitude: 34.808689,
+  longitude: 113.298282,
+  name: "上街区"
+}, {
+  code: "410108",
+  latitude: 34.828591,
+  longitude: 113.61836,
+  name: "惠济区"
+}, {
+  code: "410122",
+  latitude: 34.721976,
+  longitude: 114.022521,
+  name: "中牟县"
+}, {
+  code: "410181",
+  latitude: 34.75218,
+  longitude: 112.98283,
+  name: "巩义市"
+}, {
+  code: "410182",
+  latitude: 34.789077,
+  longitude: 113.391523,
+  name: "荥阳市"
+}, {
+  code: "410183",
+  latitude: 34.537846,
+  longitude: 113.380616,
+  name: "新密市"
+}, {
+  code: "410184",
+  latitude: 34.394219,
+  longitude: 113.73967,
+  name: "新郑市"
+}, {
+  code: "410185",
+  latitude: 34.459939,
+  longitude: 113.037768,
+  name: "登封市"
+}, {
+  code: "410200",
+  latitude: 34.797049,
+  longitude: 114.341447,
+  name: "开封市"
+}, {
+  code: "410202",
+  latitude: 34.799833,
+  longitude: 114.353348,
+  name: "龙亭区"
+}, {
+  code: "410203",
+  latitude: 34.800459,
+  longitude: 114.364875,
+  name: "顺河回族区"
+}, {
+  code: "410204",
+  latitude: 34.792383,
+  longitude: 114.3485,
+  name: "鼓楼区（开封市）"
+}, {
+  code: "410205",
+  latitude: 34.779727,
+  longitude: 114.350246,
+  name: "禹王台区"
+}, {
+  code: "410212",
+  latitude: 34.756476,
+  longitude: 114.437622,
+  name: "祥符区"
+}, {
+  code: "410221",
+  latitude: 34.554585,
+  longitude: 114.770472,
+  name: "杞县"
+}, {
+  code: "410222",
+  latitude: 34.477302,
+  longitude: 114.467734,
+  name: "通许县"
+}, {
+  code: "410223",
+  latitude: 34.412256,
+  longitude: 114.193927,
+  name: "尉氏县"
+}, {
+  code: "410225",
+  latitude: 34.829899,
+  longitude: 114.820572,
+  name: "兰考县"
+}, {
+  code: "410300",
+  latitude: 34.663041,
+  longitude: 112.434468,
+  name: "洛阳市"
+}, {
+  code: "410302",
+  latitude: 34.682945,
+  longitude: 112.477298,
+  name: "老城区"
+}, {
+  code: "410303",
+  latitude: 34.667847,
+  longitude: 112.443232,
+  name: "西工区"
+}, {
+  code: "410304",
+  latitude: 34.684738,
+  longitude: 112.491625,
+  name: "瀍河回族区"
+}, {
+  code: "410305",
+  latitude: 34.654251,
+  longitude: 112.399243,
+  name: "涧西区"
+}, {
+  code: "410306",
+  latitude: 34.826485,
+  longitude: 112.443892,
+  name: "孟津区"
+}, {
+  code: "410311",
+  latitude: 34.618557,
+  longitude: 112.456634,
+  name: "洛龙区"
+}, {
+  code: "410323",
+  latitude: 34.728679,
+  longitude: 112.141403,
+  name: "新安县"
+}, {
+  code: "410324",
+  latitude: 33.783195,
+  longitude: 111.618386,
+  name: "栾川县"
+}, {
+  code: "410325",
+  latitude: 34.131563,
+  longitude: 112.087765,
+  name: "嵩县"
+}, {
+  code: "410326",
+  latitude: 34.15323,
+  longitude: 112.473789,
+  name: "汝阳县"
+}, {
+  code: "410327",
+  latitude: 34.516478,
+  longitude: 112.179989,
+  name: "宜阳县"
+}, {
+  code: "410328",
+  latitude: 34.387179,
+  longitude: 111.655399,
+  name: "洛宁县"
+}, {
+  code: "410329",
+  latitude: 34.423416,
+  longitude: 112.429384,
+  name: "伊川县"
+}, {
+  code: "410381",
+  latitude: 34.723042,
+  longitude: 112.787739,
+  name: "偃师区"
+}, {
+  code: "410400",
+  latitude: 33.735241,
+  longitude: 113.307718,
+  name: "平顶山市"
+}, {
+  code: "410402",
+  latitude: 33.737579,
+  longitude: 113.299061,
+  name: "新华区（平顶山市）"
+}, {
+  code: "410403",
+  latitude: 33.739285,
+  longitude: 113.310327,
+  name: "卫东区"
+}, {
+  code: "410404",
+  latitude: 33.901538,
+  longitude: 112.889885,
+  name: "石龙区"
+}, {
+  code: "410411",
+  latitude: 33.725681,
+  longitude: 113.320873,
+  name: "湛河区"
+}, {
+  code: "410421",
+  latitude: 33.866359,
+  longitude: 113.066812,
+  name: "宝丰县"
+}, {
+  code: "410422",
+  latitude: 33.621252,
+  longitude: 113.358298,
+  name: "叶县"
+}, {
+  code: "410423",
+  latitude: 33.740325,
+  longitude: 112.906703,
+  name: "鲁山县"
+}, {
+  code: "410425",
+  latitude: 33.971993,
+  longitude: 113.220451,
+  name: "郏县"
+}, {
+  code: "410481",
+  latitude: 33.302082,
+  longitude: 113.52625,
+  name: "舞钢市"
+}, {
+  code: "410482",
+  latitude: 34.167408,
+  longitude: 112.845336,
+  name: "汝州市"
+}, {
+  code: "410500",
+  latitude: 36.103442,
+  longitude: 114.352482,
+  name: "安阳市"
+}, {
+  code: "410502",
+  latitude: 36.098101,
+  longitude: 114.352562,
+  name: "文峰区"
+}, {
+  code: "410503",
+  latitude: 36.10978,
+  longitude: 114.352646,
+  name: "北关区"
+}, {
+  code: "410505",
+  latitude: 36.108974,
+  longitude: 114.300098,
+  name: "殷都区"
+}, {
+  code: "410506",
+  latitude: 36.095568,
+  longitude: 114.323522,
+  name: "龙安区"
+}, {
+  code: "410522",
+  latitude: 36.130585,
+  longitude: 114.130207,
+  name: "安阳县"
+}, {
+  code: "410523",
+  latitude: 35.922349,
+  longitude: 114.362357,
+  name: "汤阴县"
+}, {
+  code: "410526",
+  latitude: 35.574628,
+  longitude: 114.524,
+  name: "滑县"
+}, {
+  code: "410527",
+  latitude: 35.953702,
+  longitude: 114.904582,
+  name: "内黄县"
+}, {
+  code: "410581",
+  latitude: 36.063403,
+  longitude: 113.823767,
+  name: "林州市"
+}, {
+  code: "410600",
+  latitude: 35.748236,
+  longitude: 114.295444,
+  name: "鹤壁市"
+}, {
+  code: "410602",
+  latitude: 35.936128,
+  longitude: 114.166551,
+  name: "鹤山区"
+}, {
+  code: "410603",
+  latitude: 35.896058,
+  longitude: 114.184202,
+  name: "山城区"
+}, {
+  code: "410611",
+  latitude: 35.748382,
+  longitude: 114.293917,
+  name: "淇滨区"
+}, {
+  code: "410621",
+  latitude: 35.671282,
+  longitude: 114.550162,
+  name: "浚县"
+}, {
+  code: "410622",
+  latitude: 35.609478,
+  longitude: 114.200379,
+  name: "淇县"
+}, {
+  code: "410700",
+  latitude: 35.302616,
+  longitude: 113.883991,
+  name: "新乡市"
+}, {
+  code: "410702",
+  latitude: 35.302684,
+  longitude: 113.878158,
+  name: "红旗区"
+}, {
+  code: "410703",
+  latitude: 35.304905,
+  longitude: 113.866065,
+  name: "卫滨区"
+}, {
+  code: "410704",
+  latitude: 35.379855,
+  longitude: 113.906712,
+  name: "凤泉区"
+}, {
+  code: "410711",
+  latitude: 35.312974,
+  longitude: 113.89716,
+  name: "牧野区"
+}, {
+  code: "410721",
+  latitude: 35.190021,
+  longitude: 113.806186,
+  name: "新乡县"
+}, {
+  code: "410724",
+  latitude: 35.261685,
+  longitude: 113.657249,
+  name: "获嘉县"
+}, {
+  code: "410725",
+  latitude: 35.054001,
+  longitude: 113.965966,
+  name: "原阳县"
+}, {
+  code: "410726",
+  latitude: 35.149515,
+  longitude: 114.200982,
+  name: "延津县"
+}, {
+  code: "410727",
+  latitude: 35.04057,
+  longitude: 114.423405,
+  name: "封丘县"
+}, {
+  code: "410781",
+  latitude: 35.404295,
+  longitude: 114.065855,
+  name: "卫辉市"
+}, {
+  code: "410782",
+  latitude: 35.461318,
+  longitude: 113.802518,
+  name: "辉县市"
+}, {
+  code: "410783",
+  latitude: 35.19615,
+  longitude: 114.673807,
+  name: "长垣市"
+}, {
+  code: "410800",
+  latitude: 35.23904,
+  longitude: 113.238266,
+  name: "焦作市"
+}, {
+  code: "410802",
+  latitude: 35.241353,
+  longitude: 113.226126,
+  name: "解放区"
+}, {
+  code: "410803",
+  latitude: 35.236145,
+  longitude: 113.175485,
+  name: "中站区"
+}, {
+  code: "410804",
+  latitude: 35.265453,
+  longitude: 113.321703,
+  name: "马村区"
+}, {
+  code: "410811",
+  latitude: 35.21476,
+  longitude: 113.26766,
+  name: "山阳区"
+}, {
+  code: "410821",
+  latitude: 35.229923,
+  longitude: 113.447465,
+  name: "修武县"
+}, {
+  code: "410822",
+  latitude: 35.170351,
+  longitude: 113.069313,
+  name: "博爱县"
+}, {
+  code: "410823",
+  latitude: 35.09885,
+  longitude: 113.408334,
+  name: "武陟县"
+}, {
+  code: "410825",
+  latitude: 34.941233,
+  longitude: 113.079118,
+  name: "温县"
+}, {
+  code: "410882",
+  latitude: 35.08901,
+  longitude: 112.934538,
+  name: "沁阳市"
+}, {
+  code: "410883",
+  latitude: 34.90963,
+  longitude: 112.78708,
+  name: "孟州市"
+}, {
+  code: "410900",
+  latitude: 35.768234,
+  longitude: 115.041299,
+  name: "濮阳市"
+}, {
+  code: "410902",
+  latitude: 35.760473,
+  longitude: 115.03184,
+  name: "华龙区"
+}, {
+  code: "410922",
+  latitude: 35.902413,
+  longitude: 115.107287,
+  name: "清丰县"
+}, {
+  code: "410923",
+  latitude: 36.075204,
+  longitude: 115.204336,
+  name: "南乐县"
+}, {
+  code: "410926",
+  latitude: 35.851977,
+  longitude: 115.504212,
+  name: "范县"
+}, {
+  code: "410927",
+  latitude: 35.996474,
+  longitude: 115.855681,
+  name: "台前县"
+}, {
+  code: "410928",
+  latitude: 35.710349,
+  longitude: 115.023844,
+  name: "濮阳县"
+}, {
+  code: "411000",
+  latitude: 34.022956,
+  longitude: 113.826063,
+  name: "许昌市"
+}, {
+  code: "411002",
+  latitude: 34.02711,
+  longitude: 113.828307,
+  name: "魏都区"
+}, {
+  code: "411003",
+  latitude: 34.005018,
+  longitude: 113.842898,
+  name: "建安区"
+}, {
+  code: "411024",
+  latitude: 34.100502,
+  longitude: 114.188507,
+  name: "鄢陵县"
+}, {
+  code: "411025",
+  latitude: 33.855943,
+  longitude: 113.493166,
+  name: "襄城县"
+}, {
+  code: "411081",
+  latitude: 34.154403,
+  longitude: 113.471316,
+  name: "禹州市"
+}, {
+  code: "411082",
+  latitude: 34.219257,
+  longitude: 113.768912,
+  name: "长葛市"
+}, {
+  code: "411100",
+  latitude: 33.575855,
+  longitude: 114.026405,
+  name: "漯河市"
+}, {
+  code: "411102",
+  latitude: 33.565441,
+  longitude: 114.017948,
+  name: "源汇区"
+}, {
+  code: "411103",
+  latitude: 33.588897,
+  longitude: 114.016813,
+  name: "郾城区"
+}, {
+  code: "411104",
+  latitude: 33.567555,
+  longitude: 114.051686,
+  name: "召陵区"
+}, {
+  code: "411121",
+  latitude: 33.436278,
+  longitude: 113.610565,
+  name: "舞阳县"
+}, {
+  code: "411122",
+  latitude: 33.80609,
+  longitude: 113.938891,
+  name: "临颍县"
+}, {
+  code: "411200",
+  latitude: 34.777338,
+  longitude: 111.194099,
+  name: "三门峡市"
+}, {
+  code: "411202",
+  latitude: 34.77812,
+  longitude: 111.19487,
+  name: "湖滨区"
+}, {
+  code: "411203",
+  latitude: 34.720244,
+  longitude: 111.103851,
+  name: "陕州区"
+}, {
+  code: "411221",
+  latitude: 34.763487,
+  longitude: 111.762992,
+  name: "渑池县"
+}, {
+  code: "411224",
+  latitude: 34.053995,
+  longitude: 111.052649,
+  name: "卢氏县"
+}, {
+  code: "411281",
+  latitude: 34.746868,
+  longitude: 111.869417,
+  name: "义马市"
+}, {
+  code: "411282",
+  latitude: 34.521264,
+  longitude: 110.88577,
+  name: "灵宝市"
+}, {
+  code: "411300",
+  latitude: 32.999082,
+  longitude: 112.540918,
+  name: "南阳市"
+}, {
+  code: "411302",
+  latitude: 32.994857,
+  longitude: 112.544591,
+  name: "宛城区"
+}, {
+  code: "411303",
+  latitude: 32.989877,
+  longitude: 112.528789,
+  name: "卧龙区"
+}, {
+  code: "411321",
+  latitude: 33.488617,
+  longitude: 112.435583,
+  name: "南召县"
+}, {
+  code: "411322",
+  latitude: 33.255138,
+  longitude: 113.010933,
+  name: "方城县"
+}, {
+  code: "411323",
+  latitude: 33.302981,
+  longitude: 111.485772,
+  name: "西峡县"
+}, {
+  code: "411324",
+  latitude: 33.036651,
+  longitude: 112.232722,
+  name: "镇平县"
+}, {
+  code: "411325",
+  latitude: 33.046358,
+  longitude: 111.843801,
+  name: "内乡县"
+}, {
+  code: "411326",
+  latitude: 33.136106,
+  longitude: 111.489026,
+  name: "淅川县"
+}, {
+  code: "411327",
+  latitude: 33.056126,
+  longitude: 112.938279,
+  name: "社旗县"
+}, {
+  code: "411328",
+  latitude: 32.687892,
+  longitude: 112.838492,
+  name: "唐河县"
+}, {
+  code: "411329",
+  latitude: 32.524006,
+  longitude: 112.365624,
+  name: "新野县"
+}, {
+  code: "411330",
+  latitude: 32.367153,
+  longitude: 113.406059,
+  name: "桐柏县"
+}, {
+  code: "411381",
+  latitude: 32.681642,
+  longitude: 112.092716,
+  name: "邓州市"
+}, {
+  code: "411400",
+  latitude: 34.437054,
+  longitude: 115.650497,
+  name: "商丘市"
+}, {
+  code: "411402",
+  latitude: 34.436553,
+  longitude: 115.65459,
+  name: "梁园区"
+}, {
+  code: "411403",
+  latitude: 34.390536,
+  longitude: 115.653813,
+  name: "睢阳区"
+}, {
+  code: "411421",
+  latitude: 34.648455,
+  longitude: 115.148146,
+  name: "民权县"
+}, {
+  code: "411422",
+  latitude: 34.428433,
+  longitude: 115.070109,
+  name: "睢县"
+}, {
+  code: "411423",
+  latitude: 34.449299,
+  longitude: 115.320055,
+  name: "宁陵县"
+}, {
+  code: "411424",
+  latitude: 34.075277,
+  longitude: 115.307433,
+  name: "柘城县"
+}, {
+  code: "411425",
+  latitude: 34.399634,
+  longitude: 115.863811,
+  name: "虞城县"
+}, {
+  code: "411426",
+  latitude: 34.240894,
+  longitude: 116.13989,
+  name: "夏邑县"
+}, {
+  code: "411481",
+  latitude: 33.931318,
+  longitude: 116.449672,
+  name: "永城市"
+}, {
+  code: "411500",
+  latitude: 32.123274,
+  longitude: 114.075031,
+  name: "信阳市"
+}, {
+  code: "411502",
+  latitude: 32.123274,
+  longitude: 114.075031,
+  name: "浉河区"
+}, {
+  code: "411503",
+  latitude: 32.098395,
+  longitude: 114.126027,
+  name: "平桥区"
+}, {
+  code: "411521",
+  latitude: 32.203206,
+  longitude: 114.533414,
+  name: "罗山县"
+}, {
+  code: "411522",
+  latitude: 32.010398,
+  longitude: 114.903577,
+  name: "光山县"
+}, {
+  code: "411523",
+  latitude: 31.63515,
+  longitude: 114.87705,
+  name: "新县"
+}, {
+  code: "411524",
+  latitude: 31.799982,
+  longitude: 115.406297,
+  name: "商城县"
+}, {
+  code: "411525",
+  latitude: 32.183074,
+  longitude: 115.667328,
+  name: "固始县"
+}, {
+  code: "411526",
+  latitude: 32.134024,
+  longitude: 115.050123,
+  name: "潢川县"
+}, {
+  code: "411527",
+  latitude: 32.452639,
+  longitude: 115.415451,
+  name: "淮滨县"
+}, {
+  code: "411528",
+  latitude: 32.344744,
+  longitude: 114.740713,
+  name: "息县"
+}, {
+  code: "411600",
+  latitude: 33.620357,
+  longitude: 114.649653,
+  name: "周口市"
+}, {
+  code: "411602",
+  latitude: 33.614836,
+  longitude: 114.652136,
+  name: "川汇区"
+}, {
+  code: "411603",
+  latitude: 33.732547,
+  longitude: 114.870166,
+  name: "淮阳区"
+}, {
+  code: "411621",
+  latitude: 34.054061,
+  longitude: 114.392008,
+  name: "扶沟县"
+}, {
+  code: "411622",
+  latitude: 33.784378,
+  longitude: 114.530067,
+  name: "西华县"
+}, {
+  code: "411623",
+  latitude: 33.543845,
+  longitude: 114.60927,
+  name: "商水县"
+}, {
+  code: "411624",
+  latitude: 33.395514,
+  longitude: 115.078375,
+  name: "沈丘县"
+}, {
+  code: "411625",
+  latitude: 33.643852,
+  longitude: 115.189,
+  name: "郸城县"
+}, {
+  code: "411627",
+  latitude: 34.065312,
+  longitude: 114.853834,
+  name: "太康县"
+}, {
+  code: "411628",
+  latitude: 33.861067,
+  longitude: 115.486386,
+  name: "鹿邑县"
+}, {
+  code: "411681",
+  latitude: 33.443085,
+  longitude: 114.899521,
+  name: "项城市"
+}, {
+  code: "411700",
+  latitude: 32.980169,
+  longitude: 114.024736,
+  name: "驻马店市"
+}, {
+  code: "411702",
+  latitude: 32.977559,
+  longitude: 114.029149,
+  name: "驿城区"
+}, {
+  code: "411721",
+  latitude: 33.382315,
+  longitude: 114.026864,
+  name: "西平县"
+}, {
+  code: "411722",
+  latitude: 33.264719,
+  longitude: 114.266892,
+  name: "上蔡县"
+}, {
+  code: "411723",
+  latitude: 32.955626,
+  longitude: 114.637105,
+  name: "平舆县"
+}, {
+  code: "411724",
+  latitude: 32.601826,
+  longitude: 114.38948,
+  name: "正阳县"
+}, {
+  code: "411725",
+  latitude: 32.801538,
+  longitude: 114.026679,
+  name: "确山县"
+}, {
+  code: "411726",
+  latitude: 32.725129,
+  longitude: 113.32605,
+  name: "泌阳县"
+}, {
+  code: "411727",
+  latitude: 33.004535,
+  longitude: 114.359495,
+  name: "汝南县"
+}, {
+  code: "411728",
+  latitude: 33.14698,
+  longitude: 114.00371,
+  name: "遂平县"
+}, {
+  code: "411729",
+  latitude: 32.749948,
+  longitude: 114.975246,
+  name: "新蔡县"
+}, {
+  code: "419001",
+  latitude: 35.090378,
+  longitude: 112.590047,
+  name: "济源市"
+}, {
+  code: "420100",
+  latitude: 30.584355,
+  longitude: 114.298572,
+  name: "武汉市"
+}, {
+  code: "420102",
+  latitude: 30.594911,
+  longitude: 114.30304,
+  name: "江岸区"
+}, {
+  code: "420103",
+  latitude: 30.578771,
+  longitude: 114.283109,
+  name: "江汉区"
+}, {
+  code: "420104",
+  latitude: 30.57061,
+  longitude: 114.264568,
+  name: "硚口区"
+}, {
+  code: "420105",
+  latitude: 30.549326,
+  longitude: 114.265807,
+  name: "汉阳区"
+}, {
+  code: "420106",
+  latitude: 30.546536,
+  longitude: 114.307344,
+  name: "武昌区"
+}, {
+  code: "420107",
+  latitude: 30.634215,
+  longitude: 114.39707,
+  name: "青山区（武汉市）"
+}, {
+  code: "420111",
+  latitude: 30.504259,
+  longitude: 114.400718,
+  name: "洪山区"
+}, {
+  code: "420112",
+  latitude: 30.622467,
+  longitude: 114.142483,
+  name: "东西湖区"
+}, {
+  code: "420113",
+  latitude: 30.309637,
+  longitude: 114.08124,
+  name: "汉南区"
+}, {
+  code: "420114",
+  latitude: 30.582186,
+  longitude: 114.029341,
+  name: "蔡甸区"
+}, {
+  code: "420115",
+  latitude: 30.349045,
+  longitude: 114.313961,
+  name: "江夏区"
+}, {
+  code: "420116",
+  latitude: 30.874155,
+  longitude: 114.374025,
+  name: "黄陂区"
+}, {
+  code: "420117",
+  latitude: 30.842149,
+  longitude: 114.802108,
+  name: "新洲区"
+}, {
+  code: "420200",
+  latitude: 30.220074,
+  longitude: 115.077048,
+  name: "黄石市"
+}, {
+  code: "420202",
+  latitude: 30.212086,
+  longitude: 115.090164,
+  name: "黄石港区"
+}, {
+  code: "420203",
+  latitude: 30.205365,
+  longitude: 115.093354,
+  name: "西塞山区"
+}, {
+  code: "420204",
+  latitude: 30.177845,
+  longitude: 114.975755,
+  name: "下陆区"
+}, {
+  code: "420205",
+  latitude: 30.20601,
+  longitude: 114.901366,
+  name: "铁山区"
+}, {
+  code: "420222",
+  latitude: 29.841572,
+  longitude: 115.212883,
+  name: "阳新县"
+}, {
+  code: "420281",
+  latitude: 30.098804,
+  longitude: 114.974842,
+  name: "大冶市"
+}, {
+  code: "420300",
+  latitude: 32.646907,
+  longitude: 110.787916,
+  name: "十堰市"
+}, {
+  code: "420302",
+  latitude: 32.644463,
+  longitude: 110.78621,
+  name: "茅箭区"
+}, {
+  code: "420303",
+  latitude: 32.652516,
+  longitude: 110.772365,
+  name: "张湾区"
+}, {
+  code: "420304",
+  latitude: 32.838267,
+  longitude: 110.812099,
+  name: "郧阳区"
+}, {
+  code: "420322",
+  latitude: 32.991457,
+  longitude: 110.426472,
+  name: "郧西县"
+}, {
+  code: "420323",
+  latitude: 32.22586,
+  longitude: 110.2296,
+  name: "竹山县"
+}, {
+  code: "420324",
+  latitude: 32.315342,
+  longitude: 109.717196,
+  name: "竹溪县"
+}, {
+  code: "420325",
+  latitude: 32.055002,
+  longitude: 110.741966,
+  name: "房县"
+}, {
+  code: "420381",
+  latitude: 32.538839,
+  longitude: 111.513793,
+  name: "丹江口市"
+}, {
+  code: "420500",
+  latitude: 30.702636,
+  longitude: 111.290843,
+  name: "宜昌市"
+}, {
+  code: "420502",
+  latitude: 30.702476,
+  longitude: 111.295468,
+  name: "西陵区"
+}, {
+  code: "420503",
+  latitude: 30.679053,
+  longitude: 111.307215,
+  name: "伍家岗区"
+}, {
+  code: "420504",
+  latitude: 30.692322,
+  longitude: 111.268163,
+  name: "点军区"
+}, {
+  code: "420505",
+  latitude: 30.530744,
+  longitude: 111.427642,
+  name: "猇亭区"
+}, {
+  code: "420506",
+  latitude: 30.770199,
+  longitude: 111.326747,
+  name: "夷陵区"
+}, {
+  code: "420525",
+  latitude: 31.059626,
+  longitude: 111.64331,
+  name: "远安县"
+}, {
+  code: "420526",
+  latitude: 31.34795,
+  longitude: 110.754499,
+  name: "兴山县"
+}, {
+  code: "420527",
+  latitude: 30.823908,
+  longitude: 110.976785,
+  name: "秭归县"
+}, {
+  code: "420528",
+  latitude: 30.466534,
+  longitude: 111.198475,
+  name: "长阳土家族自治县"
+}, {
+  code: "420529",
+  latitude: 30.199252,
+  longitude: 110.674938,
+  name: "五峰土家族自治县"
+}, {
+  code: "420581",
+  latitude: 30.387234,
+  longitude: 111.454367,
+  name: "宜都市"
+}, {
+  code: "420582",
+  latitude: 30.824492,
+  longitude: 111.793419,
+  name: "当阳市"
+}, {
+  code: "420583",
+  latitude: 30.425364,
+  longitude: 111.751799,
+  name: "枝江市"
+}, {
+  code: "420600",
+  latitude: 32.042426,
+  longitude: 112.144146,
+  name: "襄阳市"
+}, {
+  code: "420602",
+  latitude: 32.015088,
+  longitude: 112.150327,
+  name: "襄城区"
+}, {
+  code: "420606",
+  latitude: 32.058589,
+  longitude: 112.13957,
+  name: "樊城区"
+}, {
+  code: "420607",
+  latitude: 32.085517,
+  longitude: 112.197378,
+  name: "襄州区"
+}, {
+  code: "420624",
+  latitude: 31.77692,
+  longitude: 111.844424,
+  name: "南漳县"
+}, {
+  code: "420625",
+  latitude: 32.262676,
+  longitude: 111.640147,
+  name: "谷城县"
+}, {
+  code: "420626",
+  latitude: 31.873507,
+  longitude: 111.262235,
+  name: "保康县"
+}, {
+  code: "420682",
+  latitude: 32.385438,
+  longitude: 111.675732,
+  name: "老河口市"
+}, {
+  code: "420683",
+  latitude: 32.123083,
+  longitude: 112.765268,
+  name: "枣阳市"
+}, {
+  code: "420684",
+  latitude: 31.709203,
+  longitude: 112.261441,
+  name: "宜城市"
+}, {
+  code: "420700",
+  latitude: 30.396536,
+  longitude: 114.890593,
+  name: "鄂州市"
+}, {
+  code: "420702",
+  latitude: 30.098191,
+  longitude: 114.681967,
+  name: "梁子湖区"
+}, {
+  code: "420703",
+  latitude: 30.534468,
+  longitude: 114.74148,
+  name: "华容区"
+}, {
+  code: "420704",
+  latitude: 30.39669,
+  longitude: 114.890012,
+  name: "鄂城区"
+}, {
+  code: "420800",
+  latitude: 31.03542,
+  longitude: 112.204251,
+  name: "荆门市"
+}, {
+  code: "420802",
+  latitude: 31.033461,
+  longitude: 112.204804,
+  name: "东宝区"
+}, {
+  code: "420804",
+  latitude: 30.980798,
+  longitude: 112.198413,
+  name: "掇刀区"
+}, {
+  code: "420822",
+  latitude: 30.70359,
+  longitude: 112.595218,
+  name: "沙洋县"
+}, {
+  code: "420881",
+  latitude: 31.165573,
+  longitude: 112.587267,
+  name: "钟祥市"
+}, {
+  code: "420882",
+  latitude: 31.022457,
+  longitude: 113.114595,
+  name: "京山市"
+}, {
+  code: "420900",
+  latitude: 30.926423,
+  longitude: 113.926655,
+  name: "孝感市"
+}, {
+  code: "420902",
+  latitude: 30.925966,
+  longitude: 113.925849,
+  name: "孝南区"
+}, {
+  code: "420921",
+  latitude: 31.251618,
+  longitude: 113.988964,
+  name: "孝昌县"
+}, {
+  code: "420922",
+  latitude: 31.565483,
+  longitude: 114.126249,
+  name: "大悟县"
+}, {
+  code: "420923",
+  latitude: 31.021691,
+  longitude: 113.750616,
+  name: "云梦县"
+}, {
+  code: "420981",
+  latitude: 30.939038,
+  longitude: 113.573842,
+  name: "应城市"
+}, {
+  code: "420982",
+  latitude: 31.26174,
+  longitude: 113.690401,
+  name: "安陆市"
+}, {
+  code: "420984",
+  latitude: 30.652165,
+  longitude: 113.835301,
+  name: "汉川市"
+}, {
+  code: "421000",
+  latitude: 30.326857,
+  longitude: 112.23813,
+  name: "荆州市"
+}, {
+  code: "421002",
+  latitude: 30.315895,
+  longitude: 112.257433,
+  name: "沙市区"
+}, {
+  code: "421003",
+  latitude: 30.350674,
+  longitude: 112.195354,
+  name: "荆州区"
+}, {
+  code: "421022",
+  latitude: 30.059065,
+  longitude: 112.230179,
+  name: "公安县"
+}, {
+  code: "421023",
+  latitude: 29.820079,
+  longitude: 112.904344,
+  name: "监利市"
+}, {
+  code: "421024",
+  latitude: 30.033919,
+  longitude: 112.41735,
+  name: "江陵县"
+}, {
+  code: "421081",
+  latitude: 29.716437,
+  longitude: 112.40887,
+  name: "石首市"
+}, {
+  code: "421083",
+  latitude: 29.81297,
+  longitude: 113.470304,
+  name: "洪湖市"
+}, {
+  code: "421087",
+  latitude: 30.176037,
+  longitude: 111.77818,
+  name: "松滋市"
+}, {
+  code: "421100",
+  latitude: 30.447711,
+  longitude: 114.879365,
+  name: "黄冈市"
+}, {
+  code: "421102",
+  latitude: 30.447435,
+  longitude: 114.878934,
+  name: "黄州区"
+}, {
+  code: "421121",
+  latitude: 30.63569,
+  longitude: 114.872029,
+  name: "团风县"
+}, {
+  code: "421122",
+  latitude: 31.284777,
+  longitude: 114.615095,
+  name: "红安县"
+}, {
+  code: "421123",
+  latitude: 30.781679,
+  longitude: 115.398984,
+  name: "罗田县"
+}, {
+  code: "421124",
+  latitude: 30.735794,
+  longitude: 115.67753,
+  name: "英山县"
+}, {
+  code: "421125",
+  latitude: 30.454837,
+  longitude: 115.26344,
+  name: "浠水县"
+}, {
+  code: "421126",
+  latitude: 30.234927,
+  longitude: 115.433964,
+  name: "蕲春县"
+}, {
+  code: "421127",
+  latitude: 30.075113,
+  longitude: 115.942548,
+  name: "黄梅县"
+}, {
+  code: "421181",
+  latitude: 31.177906,
+  longitude: 115.02541,
+  name: "麻城市"
+}, {
+  code: "421182",
+  latitude: 29.849342,
+  longitude: 115.56242,
+  name: "武穴市"
+}, {
+  code: "421200",
+  latitude: 29.832798,
+  longitude: 114.328963,
+  name: "咸宁市"
+}, {
+  code: "421202",
+  latitude: 29.824716,
+  longitude: 114.333894,
+  name: "咸安区"
+}, {
+  code: "421221",
+  latitude: 29.973363,
+  longitude: 113.921547,
+  name: "嘉鱼县"
+}, {
+  code: "421222",
+  latitude: 29.246076,
+  longitude: 113.814131,
+  name: "通城县"
+}, {
+  code: "421223",
+  latitude: 29.54101,
+  longitude: 114.049958,
+  name: "崇阳县"
+}, {
+  code: "421224",
+  latitude: 29.604455,
+  longitude: 114.493163,
+  name: "通山县"
+}, {
+  code: "421281",
+  latitude: 29.716879,
+  longitude: 113.88366,
+  name: "赤壁市"
+}, {
+  code: "421300",
+  latitude: 31.717497,
+  longitude: 113.37377,
+  name: "随州市"
+}, {
+  code: "421303",
+  latitude: 31.717521,
+  longitude: 113.374519,
+  name: "曾都区"
+}, {
+  code: "421321",
+  latitude: 31.854246,
+  longitude: 113.301384,
+  name: "随县"
+}, {
+  code: "421381",
+  latitude: 31.617731,
+  longitude: 113.826601,
+  name: "广水市"
+}, {
+  code: "422800",
+  latitude: 30.283114,
+  longitude: 109.48699,
+  name: "恩施土家族苗族自治州"
+}, {
+  code: "422801",
+  latitude: 30.282406,
+  longitude: 109.486761,
+  name: "恩施市"
+}, {
+  code: "422802",
+  latitude: 30.294247,
+  longitude: 108.943491,
+  name: "利川市"
+}, {
+  code: "422822",
+  latitude: 30.601632,
+  longitude: 109.723822,
+  name: "建始县"
+}, {
+  code: "422823",
+  latitude: 31.041403,
+  longitude: 110.336665,
+  name: "巴东县"
+}, {
+  code: "422825",
+  latitude: 29.98867,
+  longitude: 109.482819,
+  name: "宣恩县"
+}, {
+  code: "422826",
+  latitude: 29.678967,
+  longitude: 109.15041,
+  name: "咸丰县"
+}, {
+  code: "422827",
+  latitude: 29.506945,
+  longitude: 109.408328,
+  name: "来凤县"
+}, {
+  code: "422828",
+  latitude: 29.887298,
+  longitude: 110.033699,
+  name: "鹤峰县"
+}, {
+  code: "429004",
+  latitude: 30.364953,
+  longitude: 113.453974,
+  name: "仙桃市"
+}, {
+  code: "429005",
+  latitude: 30.421215,
+  longitude: 112.896866,
+  name: "潜江市"
+}, {
+  code: "429006",
+  latitude: 30.653061,
+  longitude: 113.165862,
+  name: "天门市"
+}, {
+  code: "429021",
+  latitude: 31.744449,
+  longitude: 110.671525,
+  name: "神农架林区"
+}, {
+  code: "430100",
+  latitude: 28.19409,
+  longitude: 112.982279,
+  name: "长沙市"
+}, {
+  code: "430102",
+  latitude: 28.193106,
+  longitude: 112.988094,
+  name: "芙蓉区"
+}, {
+  code: "430103",
+  latitude: 28.192375,
+  longitude: 112.97307,
+  name: "天心区"
+}, {
+  code: "430104",
+  latitude: 28.213044,
+  longitude: 112.911591,
+  name: "岳麓区"
+}, {
+  code: "430105",
+  latitude: 28.201336,
+  longitude: 112.985525,
+  name: "开福区"
+}, {
+  code: "430111",
+  latitude: 28.109937,
+  longitude: 113.016337,
+  name: "雨花区"
+}, {
+  code: "430112",
+  latitude: 28.347458,
+  longitude: 112.819549,
+  name: "望城区"
+}, {
+  code: "430121",
+  latitude: 28.237888,
+  longitude: 113.080098,
+  name: "长沙县"
+}, {
+  code: "430181",
+  latitude: 28.141112,
+  longitude: 113.633301,
+  name: "浏阳市"
+}, {
+  code: "430182",
+  latitude: 28.253928,
+  longitude: 112.553182,
+  name: "宁乡市"
+}, {
+  code: "430200",
+  latitude: 27.835806,
+  longitude: 113.151737,
+  name: "株洲市"
+}, {
+  code: "430202",
+  latitude: 27.833036,
+  longitude: 113.162548,
+  name: "荷塘区"
+}, {
+  code: "430203",
+  latitude: 27.827246,
+  longitude: 113.155169,
+  name: "芦淞区"
+}, {
+  code: "430204",
+  latitude: 27.871945,
+  longitude: 113.11295,
+  name: "石峰区"
+}, {
+  code: "430211",
+  latitude: 27.826909,
+  longitude: 113.136252,
+  name: "天元区"
+}, {
+  code: "430212",
+  latitude: 27.705844,
+  longitude: 113.146175,
+  name: "渌口区"
+}, {
+  code: "430223",
+  latitude: 27.000071,
+  longitude: 113.345774,
+  name: "攸县"
+}, {
+  code: "430224",
+  latitude: 26.789534,
+  longitude: 113.546509,
+  name: "茶陵县"
+}, {
+  code: "430225",
+  latitude: 26.489459,
+  longitude: 113.776884,
+  name: "炎陵县"
+}, {
+  code: "430281",
+  latitude: 27.657873,
+  longitude: 113.507157,
+  name: "醴陵市"
+}, {
+  code: "430300",
+  latitude: 27.82973,
+  longitude: 112.944052,
+  name: "湘潭市"
+}, {
+  code: "430302",
+  latitude: 27.86077,
+  longitude: 112.907427,
+  name: "雨湖区"
+}, {
+  code: "430304",
+  latitude: 27.828854,
+  longitude: 112.927707,
+  name: "岳塘区"
+}, {
+  code: "430321",
+  latitude: 27.778601,
+  longitude: 112.952829,
+  name: "湘潭县"
+}, {
+  code: "430381",
+  latitude: 27.734918,
+  longitude: 112.525217,
+  name: "湘乡市"
+}, {
+  code: "430382",
+  latitude: 27.922682,
+  longitude: 112.52848,
+  name: "韶山市"
+}, {
+  code: "430400",
+  latitude: 26.900358,
+  longitude: 112.607693,
+  name: "衡阳市"
+}, {
+  code: "430405",
+  latitude: 26.891063,
+  longitude: 112.626324,
+  name: "珠晖区"
+}, {
+  code: "430406",
+  latitude: 26.893694,
+  longitude: 112.612241,
+  name: "雁峰区"
+}, {
+  code: "430407",
+  latitude: 26.903908,
+  longitude: 112.607635,
+  name: "石鼓区"
+}, {
+  code: "430408",
+  latitude: 26.89087,
+  longitude: 112.570608,
+  name: "蒸湘区"
+}, {
+  code: "430412",
+  latitude: 27.240536,
+  longitude: 112.734147,
+  name: "南岳区"
+}, {
+  code: "430421",
+  latitude: 26.962388,
+  longitude: 112.379643,
+  name: "衡阳县"
+}, {
+  code: "430422",
+  latitude: 26.739973,
+  longitude: 112.677459,
+  name: "衡南县"
+}, {
+  code: "430423",
+  latitude: 27.234808,
+  longitude: 112.86971,
+  name: "衡山县"
+}, {
+  code: "430424",
+  latitude: 27.083531,
+  longitude: 112.950412,
+  name: "衡东县"
+}, {
+  code: "430426",
+  latitude: 26.787109,
+  longitude: 112.111192,
+  name: "祁东县"
+}, {
+  code: "430481",
+  latitude: 26.414162,
+  longitude: 112.847215,
+  name: "耒阳市"
+}, {
+  code: "430482",
+  latitude: 26.406773,
+  longitude: 112.396821,
+  name: "常宁市"
+}, {
+  code: "430500",
+  latitude: 27.237842,
+  longitude: 111.46923,
+  name: "邵阳市"
+}, {
+  code: "430502",
+  latitude: 27.240001,
+  longitude: 111.479756,
+  name: "双清区"
+}, {
+  code: "430503",
+  latitude: 27.233593,
+  longitude: 111.462968,
+  name: "大祥区"
+}, {
+  code: "430511",
+  latitude: 27.245688,
+  longitude: 111.452315,
+  name: "北塔区"
+}, {
+  code: "430522",
+  latitude: 27.311429,
+  longitude: 111.459762,
+  name: "新邵县"
+}, {
+  code: "430523",
+  latitude: 26.989713,
+  longitude: 111.2757,
+  name: "邵阳县"
+}, {
+  code: "430524",
+  latitude: 27.116002,
+  longitude: 111.038785,
+  name: "隆回县"
+}, {
+  code: "430525",
+  latitude: 27.062286,
+  longitude: 110.579212,
+  name: "洞口县"
+}, {
+  code: "430527",
+  latitude: 26.580622,
+  longitude: 110.155075,
+  name: "绥宁县"
+}, {
+  code: "430528",
+  latitude: 26.438912,
+  longitude: 110.859115,
+  name: "新宁县"
+}, {
+  code: "430529",
+  latitude: 26.363575,
+  longitude: 110.313226,
+  name: "城步苗族自治县"
+}, {
+  code: "430581",
+  latitude: 26.732086,
+  longitude: 110.636804,
+  name: "武冈市"
+}, {
+  code: "430582",
+  latitude: 27.257273,
+  longitude: 111.743168,
+  name: "邵东市"
+}, {
+  code: "430600",
+  latitude: 29.37029,
+  longitude: 113.132855,
+  name: "岳阳市"
+}, {
+  code: "430602",
+  latitude: 29.366784,
+  longitude: 113.120751,
+  name: "岳阳楼区"
+}, {
+  code: "430603",
+  latitude: 29.473395,
+  longitude: 113.27387,
+  name: "云溪区"
+}, {
+  code: "430611",
+  latitude: 29.438062,
+  longitude: 113.004082,
+  name: "君山区"
+}, {
+  code: "430621",
+  latitude: 29.144843,
+  longitude: 113.116073,
+  name: "岳阳县"
+}, {
+  code: "430623",
+  latitude: 29.524107,
+  longitude: 112.559369,
+  name: "华容县"
+}, {
+  code: "430624",
+  latitude: 28.677498,
+  longitude: 112.889748,
+  name: "湘阴县"
+}, {
+  code: "430626",
+  latitude: 28.701523,
+  longitude: 113.593751,
+  name: "平江县"
+}, {
+  code: "430681",
+  latitude: 28.803149,
+  longitude: 113.079419,
+  name: "汨罗市"
+}, {
+  code: "430682",
+  latitude: 29.471594,
+  longitude: 113.450809,
+  name: "临湘市"
+}, {
+  code: "430700",
+  latitude: 29.040225,
+  longitude: 111.691347,
+  name: "常德市"
+}, {
+  code: "430702",
+  latitude: 29.040477,
+  longitude: 111.690718,
+  name: "武陵区"
+}, {
+  code: "430703",
+  latitude: 29.014426,
+  longitude: 111.685327,
+  name: "鼎城区"
+}, {
+  code: "430721",
+  latitude: 29.414483,
+  longitude: 112.172289,
+  name: "安乡县"
+}, {
+  code: "430722",
+  latitude: 28.907319,
+  longitude: 111.968506,
+  name: "汉寿县"
+}, {
+  code: "430723",
+  latitude: 29.64264,
+  longitude: 111.761682,
+  name: "澧县"
+}, {
+  code: "430724",
+  latitude: 29.443217,
+  longitude: 111.645602,
+  name: "临澧县"
+}, {
+  code: "430725",
+  latitude: 28.902734,
+  longitude: 111.484503,
+  name: "桃源县"
+}, {
+  code: "430726",
+  latitude: 29.584703,
+  longitude: 111.379087,
+  name: "石门县"
+}, {
+  code: "430781",
+  latitude: 29.630867,
+  longitude: 111.879609,
+  name: "津市市"
+}, {
+  code: "430800",
+  latitude: 29.127401,
+  longitude: 110.479921,
+  name: "张家界市"
+}, {
+  code: "430802",
+  latitude: 29.125961,
+  longitude: 110.484559,
+  name: "永定区"
+}, {
+  code: "430811",
+  latitude: 29.347827,
+  longitude: 110.54758,
+  name: "武陵源区"
+}, {
+  code: "430821",
+  latitude: 29.423876,
+  longitude: 111.132702,
+  name: "慈利县"
+}, {
+  code: "430822",
+  latitude: 29.399939,
+  longitude: 110.164039,
+  name: "桑植县"
+}, {
+  code: "430900",
+  latitude: 28.570066,
+  longitude: 112.355042,
+  name: "益阳市"
+}, {
+  code: "430902",
+  latitude: 28.592771,
+  longitude: 112.33084,
+  name: "资阳区"
+}, {
+  code: "430903",
+  latitude: 28.568327,
+  longitude: 112.360946,
+  name: "赫山区"
+}, {
+  code: "430921",
+  latitude: 29.372181,
+  longitude: 112.410399,
+  name: "南县"
+}, {
+  code: "430922",
+  latitude: 28.520993,
+  longitude: 112.139732,
+  name: "桃江县"
+}, {
+  code: "430923",
+  latitude: 28.377421,
+  longitude: 111.221824,
+  name: "安化县"
+}, {
+  code: "430981",
+  latitude: 28.839713,
+  longitude: 112.361088,
+  name: "沅江市"
+}, {
+  code: "431000",
+  latitude: 25.793589,
+  longitude: 113.032067,
+  name: "郴州市"
+}, {
+  code: "431002",
+  latitude: 25.792628,
+  longitude: 113.032208,
+  name: "北湖区"
+}, {
+  code: "431003",
+  latitude: 25.793157,
+  longitude: 113.038698,
+  name: "苏仙区"
+}, {
+  code: "431021",
+  latitude: 25.737447,
+  longitude: 112.734466,
+  name: "桂阳县"
+}, {
+  code: "431022",
+  latitude: 25.394345,
+  longitude: 112.947884,
+  name: "宜章县"
+}, {
+  code: "431023",
+  latitude: 26.129392,
+  longitude: 113.114819,
+  name: "永兴县"
+}, {
+  code: "431024",
+  latitude: 25.587309,
+  longitude: 112.370618,
+  name: "嘉禾县"
+}, {
+  code: "431025",
+  latitude: 25.279119,
+  longitude: 112.564589,
+  name: "临武县"
+}, {
+  code: "431026",
+  latitude: 25.553759,
+  longitude: 113.685686,
+  name: "汝城县"
+}, {
+  code: "431027",
+  latitude: 26.073917,
+  longitude: 113.945879,
+  name: "桂东县"
+}, {
+  code: "431028",
+  latitude: 26.708625,
+  longitude: 113.27217,
+  name: "安仁县"
+}, {
+  code: "431081",
+  latitude: 25.974152,
+  longitude: 113.23682,
+  name: "资兴市"
+}, {
+  code: "431100",
+  latitude: 26.434516,
+  longitude: 111.608019,
+  name: "永州市"
+}, {
+  code: "431102",
+  latitude: 26.223347,
+  longitude: 111.626348,
+  name: "零陵区"
+}, {
+  code: "431103",
+  latitude: 26.434364,
+  longitude: 111.607156,
+  name: "冷水滩区"
+}, {
+  code: "431121",
+  latitude: 26.585929,
+  longitude: 111.85734,
+  name: "祁阳市"
+}, {
+  code: "431122",
+  latitude: 26.397278,
+  longitude: 111.313035,
+  name: "东安县"
+}, {
+  code: "431123",
+  latitude: 25.959397,
+  longitude: 111.662146,
+  name: "双牌县"
+}, {
+  code: "431124",
+  latitude: 25.518444,
+  longitude: 111.591614,
+  name: "道县"
+}, {
+  code: "431125",
+  latitude: 25.268154,
+  longitude: 111.346803,
+  name: "江永县"
+}, {
+  code: "431126",
+  latitude: 25.584112,
+  longitude: 111.944529,
+  name: "宁远县"
+}, {
+  code: "431127",
+  latitude: 25.375255,
+  longitude: 112.194195,
+  name: "蓝山县"
+}, {
+  code: "431128",
+  latitude: 25.906927,
+  longitude: 112.220341,
+  name: "新田县"
+}, {
+  code: "431129",
+  latitude: 25.182596,
+  longitude: 111.577276,
+  name: "江华瑶族自治县"
+}, {
+  code: "431200",
+  latitude: 27.550082,
+  longitude: 109.97824,
+  name: "怀化市"
+}, {
+  code: "431202",
+  latitude: 27.548474,
+  longitude: 109.982242,
+  name: "鹤城区"
+}, {
+  code: "431221",
+  latitude: 27.43736,
+  longitude: 109.948061,
+  name: "中方县"
+}, {
+  code: "431222",
+  latitude: 28.455554,
+  longitude: 110.399161,
+  name: "沅陵县"
+}, {
+  code: "431223",
+  latitude: 28.005474,
+  longitude: 110.196953,
+  name: "辰溪县"
+}, {
+  code: "431224",
+  latitude: 27.903802,
+  longitude: 110.593373,
+  name: "溆浦县"
+}, {
+  code: "431225",
+  latitude: 26.870789,
+  longitude: 109.720785,
+  name: "会同县"
+}, {
+  code: "431226",
+  latitude: 27.865991,
+  longitude: 109.802807,
+  name: "麻阳苗族自治县"
+}, {
+  code: "431227",
+  latitude: 27.359897,
+  longitude: 109.174443,
+  name: "新晃侗族自治县"
+}, {
+  code: "431228",
+  latitude: 27.437996,
+  longitude: 109.687777,
+  name: "芷江侗族自治县"
+}, {
+  code: "431229",
+  latitude: 26.573511,
+  longitude: 109.691159,
+  name: "靖州苗族侗族自治县"
+}, {
+  code: "431230",
+  latitude: 26.158349,
+  longitude: 109.783359,
+  name: "通道侗族自治县"
+}, {
+  code: "431281",
+  latitude: 27.201876,
+  longitude: 109.831765,
+  name: "洪江市"
+}, {
+  code: "431300",
+  latitude: 27.728136,
+  longitude: 112.008497,
+  name: "娄底市"
+}, {
+  code: "431302",
+  latitude: 27.726643,
+  longitude: 112.008486,
+  name: "娄星区"
+}, {
+  code: "431321",
+  latitude: 27.459126,
+  longitude: 112.198245,
+  name: "双峰县"
+}, {
+  code: "431322",
+  latitude: 27.737456,
+  longitude: 111.306747,
+  name: "新化县"
+}, {
+  code: "431381",
+  latitude: 27.685759,
+  longitude: 111.434674,
+  name: "冷水江市"
+}, {
+  code: "431382",
+  latitude: 27.692301,
+  longitude: 111.670847,
+  name: "涟源市"
+}, {
+  code: "433100",
+  latitude: 28.314296,
+  longitude: 109.739735,
+  name: "湘西土家族苗族自治州"
+}, {
+  code: "433101",
+  latitude: 28.314827,
+  longitude: 109.738273,
+  name: "吉首市"
+}, {
+  code: "433122",
+  latitude: 28.214516,
+  longitude: 110.214428,
+  name: "泸溪县"
+}, {
+  code: "433123",
+  latitude: 27.948308,
+  longitude: 109.599191,
+  name: "凤凰县"
+}, {
+  code: "433124",
+  latitude: 28.581352,
+  longitude: 109.479063,
+  name: "花垣县"
+}, {
+  code: "433125",
+  latitude: 28.709605,
+  longitude: 109.651445,
+  name: "保靖县"
+}, {
+  code: "433126",
+  latitude: 28.616973,
+  longitude: 109.949592,
+  name: "古丈县"
+}, {
+  code: "433127",
+  latitude: 28.998068,
+  longitude: 109.853292,
+  name: "永顺县"
+}, {
+  code: "433130",
+  latitude: 29.453438,
+  longitude: 109.441189,
+  name: "龙山县"
+}, {
+  code: "440100",
+  latitude: 23.125178,
+  longitude: 113.280637,
+  name: "广州市"
+}, {
+  code: "440103",
+  latitude: 23.124943,
+  longitude: 113.243038,
+  name: "荔湾区"
+}, {
+  code: "440104",
+  latitude: 23.125624,
+  longitude: 113.280714,
+  name: "越秀区"
+}, {
+  code: "440105",
+  latitude: 23.103131,
+  longitude: 113.262008,
+  name: "海珠区"
+}, {
+  code: "440106",
+  latitude: 23.13559,
+  longitude: 113.335367,
+  name: "天河区"
+}, {
+  code: "440111",
+  latitude: 23.162281,
+  longitude: 113.262831,
+  name: "白云区（广州市）"
+}, {
+  code: "440112",
+  latitude: 23.103239,
+  longitude: 113.450761,
+  name: "黄埔区"
+}, {
+  code: "440113",
+  latitude: 22.938582,
+  longitude: 113.364619,
+  name: "番禺区"
+}, {
+  code: "440114",
+  latitude: 23.39205,
+  longitude: 113.211184,
+  name: "花都区"
+}, {
+  code: "440115",
+  latitude: 22.794531,
+  longitude: 113.53738,
+  name: "南沙区"
+}, {
+  code: "440117",
+  latitude: 23.545283,
+  longitude: 113.587386,
+  name: "从化区"
+}, {
+  code: "440118",
+  latitude: 23.290497,
+  longitude: 113.829579,
+  name: "增城区"
+}, {
+  code: "440200",
+  latitude: 24.801322,
+  longitude: 113.591544,
+  name: "韶关市"
+}, {
+  code: "440203",
+  latitude: 24.80016,
+  longitude: 113.588289,
+  name: "武江区"
+}, {
+  code: "440204",
+  latitude: 24.803977,
+  longitude: 113.599224,
+  name: "浈江区"
+}, {
+  code: "440205",
+  latitude: 24.680195,
+  longitude: 113.605582,
+  name: "曲江区"
+}, {
+  code: "440222",
+  latitude: 24.948364,
+  longitude: 114.067205,
+  name: "始兴县"
+}, {
+  code: "440224",
+  latitude: 25.088226,
+  longitude: 113.748627,
+  name: "仁化县"
+}, {
+  code: "440229",
+  latitude: 24.353887,
+  longitude: 114.131289,
+  name: "翁源县"
+}, {
+  code: "440232",
+  latitude: 24.776109,
+  longitude: 113.278417,
+  name: "乳源瑶族自治县"
+}, {
+  code: "440233",
+  latitude: 24.055412,
+  longitude: 114.207034,
+  name: "新丰县"
+}, {
+  code: "440281",
+  latitude: 25.128445,
+  longitude: 113.352413,
+  name: "乐昌市"
+}, {
+  code: "440282",
+  latitude: 25.115328,
+  longitude: 114.311231,
+  name: "南雄市"
+}, {
+  code: "440300",
+  latitude: 22.547,
+  longitude: 114.085947,
+  name: "深圳市"
+}, {
+  code: "440303",
+  latitude: 22.555341,
+  longitude: 114.123885,
+  name: "罗湖区"
+}, {
+  code: "440304",
+  latitude: 22.541009,
+  longitude: 114.05096,
+  name: "福田区"
+}, {
+  code: "440305",
+  latitude: 22.531221,
+  longitude: 113.92943,
+  name: "南山区（深圳市）"
+}, {
+  code: "440306",
+  latitude: 22.754741,
+  longitude: 113.828671,
+  name: "宝安区"
+}, {
+  code: "440307",
+  latitude: 22.721511,
+  longitude: 114.251372,
+  name: "龙岗区"
+}, {
+  code: "440308",
+  latitude: 22.555069,
+  longitude: 114.235366,
+  name: "盐田区"
+}, {
+  code: "440309",
+  latitude: 22.691963,
+  longitude: 114.044346,
+  name: "龙华区"
+}, {
+  code: "440310",
+  latitude: 22.69423,
+  longitude: 114.338441,
+  name: "坪山区"
+}, {
+  code: "440311",
+  latitude: 22.748816,
+  longitude: 113.935895,
+  name: "光明区"
+}, {
+  code: "440400",
+  latitude: 22.224979,
+  longitude: 113.553986,
+  name: "珠海市"
+}, {
+  code: "440402",
+  latitude: 22.271249,
+  longitude: 113.55027,
+  name: "香洲区"
+}, {
+  code: "440403",
+  latitude: 22.209117,
+  longitude: 113.297739,
+  name: "斗门区"
+}, {
+  code: "440404",
+  latitude: 22.139122,
+  longitude: 113.345071,
+  name: "金湾区"
+}, {
+  code: "440500",
+  latitude: 23.37102,
+  longitude: 116.708463,
+  name: "汕头市"
+}, {
+  code: "440507",
+  latitude: 23.373754,
+  longitude: 116.732015,
+  name: "龙湖区"
+}, {
+  code: "440511",
+  latitude: 23.367071,
+  longitude: 116.703583,
+  name: "金平区"
+}, {
+  code: "440512",
+  latitude: 23.279345,
+  longitude: 116.729528,
+  name: "濠江区"
+}, {
+  code: "440513",
+  latitude: 23.262336,
+  longitude: 116.602602,
+  name: "潮阳区"
+}, {
+  code: "440514",
+  latitude: 23.249798,
+  longitude: 116.423607,
+  name: "潮南区"
+}, {
+  code: "440515",
+  latitude: 23.46844,
+  longitude: 116.76336,
+  name: "澄海区"
+}, {
+  code: "440523",
+  latitude: 23.419562,
+  longitude: 117.027105,
+  name: "南澳县"
+}, {
+  code: "440600",
+  latitude: 23.028762,
+  longitude: 113.122717,
+  name: "佛山市"
+}, {
+  code: "440604",
+  latitude: 23.019643,
+  longitude: 113.112414,
+  name: "禅城区"
+}, {
+  code: "440605",
+  latitude: 23.031562,
+  longitude: 113.145577,
+  name: "南海区"
+}, {
+  code: "440606",
+  latitude: 22.75851,
+  longitude: 113.281826,
+  name: "顺德区"
+}, {
+  code: "440607",
+  latitude: 23.16504,
+  longitude: 112.899414,
+  name: "三水区"
+}, {
+  code: "440608",
+  latitude: 22.893855,
+  longitude: 112.882123,
+  name: "高明区"
+}, {
+  code: "440700",
+  latitude: 22.590431,
+  longitude: 113.094942,
+  name: "江门市"
+}, {
+  code: "440703",
+  latitude: 22.59677,
+  longitude: 113.07859,
+  name: "蓬江区"
+}, {
+  code: "440704",
+  latitude: 22.572211,
+  longitude: 113.120601,
+  name: "江海区"
+}, {
+  code: "440705",
+  latitude: 22.520247,
+  longitude: 113.038584,
+  name: "新会区"
+}, {
+  code: "440781",
+  latitude: 22.250713,
+  longitude: 112.793414,
+  name: "台山市"
+}, {
+  code: "440783",
+  latitude: 22.366286,
+  longitude: 112.692262,
+  name: "开平市"
+}, {
+  code: "440784",
+  latitude: 22.768104,
+  longitude: 112.961795,
+  name: "鹤山市"
+}, {
+  code: "440785",
+  latitude: 22.182956,
+  longitude: 112.314051,
+  name: "恩平市"
+}, {
+  code: "440800",
+  latitude: 21.274898,
+  longitude: 110.364977,
+  name: "湛江市"
+}, {
+  code: "440802",
+  latitude: 21.273365,
+  longitude: 110.361634,
+  name: "赤坎区"
+}, {
+  code: "440803",
+  latitude: 21.194229,
+  longitude: 110.406382,
+  name: "霞山区"
+}, {
+  code: "440804",
+  latitude: 21.24441,
+  longitude: 110.455632,
+  name: "坡头区"
+}, {
+  code: "440811",
+  latitude: 21.265997,
+  longitude: 110.329167,
+  name: "麻章区"
+}, {
+  code: "440823",
+  latitude: 21.376915,
+  longitude: 110.255321,
+  name: "遂溪县"
+}, {
+  code: "440825",
+  latitude: 20.326083,
+  longitude: 110.175718,
+  name: "徐闻县"
+}, {
+  code: "440881",
+  latitude: 21.611281,
+  longitude: 110.284961,
+  name: "廉江市"
+}, {
+  code: "440882",
+  latitude: 20.908523,
+  longitude: 110.088275,
+  name: "雷州市"
+}, {
+  code: "440883",
+  latitude: 21.428453,
+  longitude: 110.780508,
+  name: "吴川市"
+}, {
+  code: "440900",
+  latitude: 21.659751,
+  longitude: 110.919229,
+  name: "茂名市"
+}, {
+  code: "440902",
+  latitude: 21.660425,
+  longitude: 110.920542,
+  name: "茂南区"
+}, {
+  code: "440904",
+  latitude: 21.507219,
+  longitude: 111.007264,
+  name: "电白区"
+}, {
+  code: "440981",
+  latitude: 21.915153,
+  longitude: 110.853251,
+  name: "高州市"
+}, {
+  code: "440982",
+  latitude: 21.654953,
+  longitude: 110.63839,
+  name: "化州市"
+}, {
+  code: "440983",
+  latitude: 22.352681,
+  longitude: 110.941656,
+  name: "信宜市"
+}, {
+  code: "441200",
+  latitude: 23.051546,
+  longitude: 112.472529,
+  name: "肇庆市"
+}, {
+  code: "441202",
+  latitude: 23.052662,
+  longitude: 112.472329,
+  name: "端州区"
+}, {
+  code: "441203",
+  latitude: 23.155822,
+  longitude: 112.565249,
+  name: "鼎湖区"
+}, {
+  code: "441204",
+  latitude: 23.027694,
+  longitude: 112.460846,
+  name: "高要区"
+}, {
+  code: "441223",
+  latitude: 23.631486,
+  longitude: 112.440419,
+  name: "广宁县"
+}, {
+  code: "441224",
+  latitude: 23.913072,
+  longitude: 112.182466,
+  name: "怀集县"
+}, {
+  code: "441225",
+  latitude: 23.434731,
+  longitude: 111.502973,
+  name: "封开县"
+}, {
+  code: "441226",
+  latitude: 23.141711,
+  longitude: 111.78156,
+  name: "德庆县"
+}, {
+  code: "441284",
+  latitude: 23.340324,
+  longitude: 112.695028,
+  name: "四会市"
+}, {
+  code: "441300",
+  latitude: 23.079404,
+  longitude: 114.412599,
+  name: "惠州市"
+}, {
+  code: "441302",
+  latitude: 23.079883,
+  longitude: 114.413978,
+  name: "惠城区"
+}, {
+  code: "441303",
+  latitude: 22.78851,
+  longitude: 114.469444,
+  name: "惠阳区"
+}, {
+  code: "441322",
+  latitude: 23.167575,
+  longitude: 114.284254,
+  name: "博罗县"
+}, {
+  code: "441323",
+  latitude: 22.983036,
+  longitude: 114.723092,
+  name: "惠东县"
+}, {
+  code: "441324",
+  latitude: 23.723894,
+  longitude: 114.259986,
+  name: "龙门县"
+}, {
+  code: "441400",
+  latitude: 24.299112,
+  longitude: 116.117582,
+  name: "梅州市"
+}, {
+  code: "441402",
+  latitude: 24.302593,
+  longitude: 116.12116,
+  name: "梅江区"
+}, {
+  code: "441403",
+  latitude: 24.267825,
+  longitude: 116.083482,
+  name: "梅县区"
+}, {
+  code: "441422",
+  latitude: 24.351587,
+  longitude: 116.69552,
+  name: "大埔县"
+}, {
+  code: "441423",
+  latitude: 23.752771,
+  longitude: 116.184419,
+  name: "丰顺县"
+}, {
+  code: "441424",
+  latitude: 23.925424,
+  longitude: 115.775004,
+  name: "五华县"
+}, {
+  code: "441426",
+  latitude: 24.569651,
+  longitude: 115.891729,
+  name: "平远县"
+}, {
+  code: "441427",
+  latitude: 24.653313,
+  longitude: 116.170531,
+  name: "蕉岭县"
+}, {
+  code: "441481",
+  latitude: 24.138077,
+  longitude: 115.731648,
+  name: "兴宁市"
+}, {
+  code: "441500",
+  latitude: 22.774485,
+  longitude: 115.364238,
+  name: "汕尾市"
+}, {
+  code: "441502",
+  latitude: 22.776227,
+  longitude: 115.363667,
+  name: "城区（汕尾市）"
+}, {
+  code: "441521",
+  latitude: 22.971042,
+  longitude: 115.337324,
+  name: "海丰县"
+}, {
+  code: "441523",
+  latitude: 23.302682,
+  longitude: 115.657565,
+  name: "陆河县"
+}, {
+  code: "441581",
+  latitude: 22.946104,
+  longitude: 115.644203,
+  name: "陆丰市"
+}, {
+  code: "441600",
+  latitude: 23.746266,
+  longitude: 114.697802,
+  name: "河源市"
+}, {
+  code: "441602",
+  latitude: 23.746255,
+  longitude: 114.696828,
+  name: "源城区"
+}, {
+  code: "441621",
+  latitude: 23.633744,
+  longitude: 115.184383,
+  name: "紫金县"
+}, {
+  code: "441622",
+  latitude: 24.101174,
+  longitude: 115.256415,
+  name: "龙川县"
+}, {
+  code: "441623",
+  latitude: 24.364227,
+  longitude: 114.495952,
+  name: "连平县"
+}, {
+  code: "441624",
+  latitude: 24.44318,
+  longitude: 114.941473,
+  name: "和平县"
+}, {
+  code: "441625",
+  latitude: 23.789093,
+  longitude: 114.742711,
+  name: "东源县"
+}, {
+  code: "441700",
+  latitude: 21.859222,
+  longitude: 111.975107,
+  name: "阳江市"
+}, {
+  code: "441702",
+  latitude: 21.859182,
+  longitude: 111.968909,
+  name: "江城区"
+}, {
+  code: "441704",
+  latitude: 21.864728,
+  longitude: 112.011267,
+  name: "阳东区"
+}, {
+  code: "441721",
+  latitude: 21.75367,
+  longitude: 111.617556,
+  name: "阳西县"
+}, {
+  code: "441781",
+  latitude: 22.169598,
+  longitude: 111.7905,
+  name: "阳春市"
+}, {
+  code: "441800",
+  latitude: 23.685022,
+  longitude: 113.051227,
+  name: "清远市"
+}, {
+  code: "441802",
+  latitude: 23.688976,
+  longitude: 113.048698,
+  name: "清城区"
+}, {
+  code: "441803",
+  latitude: 23.736949,
+  longitude: 113.015203,
+  name: "清新区"
+}, {
+  code: "441821",
+  latitude: 23.866739,
+  longitude: 113.534094,
+  name: "佛冈县"
+}, {
+  code: "441823",
+  latitude: 24.470286,
+  longitude: 112.634019,
+  name: "阳山县"
+}, {
+  code: "441825",
+  latitude: 24.567271,
+  longitude: 112.086555,
+  name: "连山壮族瑶族自治县"
+}, {
+  code: "441826",
+  latitude: 24.719097,
+  longitude: 112.290808,
+  name: "连南瑶族自治县"
+}, {
+  code: "441881",
+  latitude: 24.18612,
+  longitude: 113.405404,
+  name: "英德市"
+}, {
+  code: "441882",
+  latitude: 24.783966,
+  longitude: 112.379271,
+  name: "连州市"
+}, {
+  code: "441900",
+  latitude: 23.046237,
+  longitude: 113.746262,
+  name: "东莞市"
+}, {
+  code: "442000",
+  latitude: 22.521113,
+  longitude: 113.382391,
+  name: "中山市"
+}, {
+  code: "445100",
+  latitude: 23.661701,
+  longitude: 116.632301,
+  name: "潮州市"
+}, {
+  code: "445102",
+  latitude: 23.664675,
+  longitude: 116.63365,
+  name: "湘桥区"
+}, {
+  code: "445103",
+  latitude: 23.461012,
+  longitude: 116.67931,
+  name: "潮安区"
+}, {
+  code: "445122",
+  latitude: 23.668171,
+  longitude: 117.00205,
+  name: "饶平县"
+}, {
+  code: "445200",
+  latitude: 23.543778,
+  longitude: 116.355733,
+  name: "揭阳市"
+}, {
+  code: "445202",
+  latitude: 23.535524,
+  longitude: 116.357045,
+  name: "榕城区"
+}, {
+  code: "445203",
+  latitude: 23.569887,
+  longitude: 116.412947,
+  name: "揭东区"
+}, {
+  code: "445222",
+  latitude: 23.4273,
+  longitude: 115.838708,
+  name: "揭西县"
+}, {
+  code: "445224",
+  latitude: 23.029834,
+  longitude: 116.295832,
+  name: "惠来县"
+}, {
+  code: "445281",
+  latitude: 23.29788,
+  longitude: 116.165082,
+  name: "普宁市"
+}, {
+  code: "445300",
+  latitude: 22.929801,
+  longitude: 112.044439,
+  name: "云浮市"
+}, {
+  code: "445302",
+  latitude: 22.930827,
+  longitude: 112.04471,
+  name: "云城区"
+}, {
+  code: "445303",
+  latitude: 23.073152,
+  longitude: 112.005609,
+  name: "云安区"
+}, {
+  code: "445321",
+  latitude: 22.703204,
+  longitude: 112.23083,
+  name: "新兴县"
+}, {
+  code: "445322",
+  latitude: 23.237709,
+  longitude: 111.535921,
+  name: "郁南县"
+}, {
+  code: "445381",
+  latitude: 22.765415,
+  longitude: 111.578201,
+  name: "罗定市"
+}, {
+  code: "450100",
+  latitude: 22.82402,
+  longitude: 108.320004,
+  name: "南宁市"
+}, {
+  code: "450102",
+  latitude: 22.819511,
+  longitude: 108.320189,
+  name: "兴宁区"
+}, {
+  code: "450103",
+  latitude: 22.816614,
+  longitude: 108.346113,
+  name: "青秀区"
+}, {
+  code: "450105",
+  latitude: 22.799593,
+  longitude: 108.310478,
+  name: "江南区"
+}, {
+  code: "450107",
+  latitude: 22.832779,
+  longitude: 108.306903,
+  name: "西乡塘区"
+}, {
+  code: "450108",
+  latitude: 22.75909,
+  longitude: 108.322102,
+  name: "良庆区"
+}, {
+  code: "450109",
+  latitude: 22.756598,
+  longitude: 108.484251,
+  name: "邕宁区"
+}, {
+  code: "450110",
+  latitude: 23.157163,
+  longitude: 108.280717,
+  name: "武鸣区"
+}, {
+  code: "450123",
+  latitude: 23.174763,
+  longitude: 107.688661,
+  name: "隆安县"
+}, {
+  code: "450124",
+  latitude: 23.711758,
+  longitude: 108.172903,
+  name: "马山县"
+}, {
+  code: "450125",
+  latitude: 23.431769,
+  longitude: 108.603937,
+  name: "上林县"
+}, {
+  code: "450126",
+  latitude: 23.216884,
+  longitude: 108.816735,
+  name: "宾阳县"
+}, {
+  code: "450127",
+  latitude: 22.68743,
+  longitude: 109.270987,
+  name: "横州市"
+}, {
+  code: "450200",
+  latitude: 24.314617,
+  longitude: 109.411703,
+  name: "柳州市"
+}, {
+  code: "450202",
+  latitude: 24.312324,
+  longitude: 109.411749,
+  name: "城中区（柳州市）"
+}, {
+  code: "450203",
+  latitude: 24.303848,
+  longitude: 109.415364,
+  name: "鱼峰区"
+}, {
+  code: "450204",
+  latitude: 24.287013,
+  longitude: 109.395936,
+  name: "柳南区"
+}, {
+  code: "450205",
+  latitude: 24.359145,
+  longitude: 109.406577,
+  name: "柳北区"
+}, {
+  code: "450206",
+  latitude: 24.257512,
+  longitude: 109.334503,
+  name: "柳江区"
+}, {
+  code: "450222",
+  latitude: 24.655121,
+  longitude: 109.245812,
+  name: "柳城县"
+}, {
+  code: "450223",
+  latitude: 24.483405,
+  longitude: 109.740805,
+  name: "鹿寨县"
+}, {
+  code: "450224",
+  latitude: 25.214703,
+  longitude: 109.403621,
+  name: "融安县"
+}, {
+  code: "450225",
+  latitude: 25.068812,
+  longitude: 109.252744,
+  name: "融水苗族自治县"
+}, {
+  code: "450226",
+  latitude: 25.78553,
+  longitude: 109.614846,
+  name: "三江侗族自治县"
+}, {
+  code: "450300",
+  latitude: 25.274215,
+  longitude: 110.299121,
+  name: "桂林市"
+}, {
+  code: "450302",
+  latitude: 25.278544,
+  longitude: 110.292445,
+  name: "秀峰区"
+}, {
+  code: "450303",
+  latitude: 25.301334,
+  longitude: 110.300783,
+  name: "叠彩区"
+}, {
+  code: "450304",
+  latitude: 25.261986,
+  longitude: 110.284882,
+  name: "象山区"
+}, {
+  code: "450305",
+  latitude: 25.254339,
+  longitude: 110.317577,
+  name: "七星区"
+}, {
+  code: "450311",
+  latitude: 25.077646,
+  longitude: 110.305667,
+  name: "雁山区"
+}, {
+  code: "450312",
+  latitude: 25.246257,
+  longitude: 110.205487,
+  name: "临桂区"
+}, {
+  code: "450321",
+  latitude: 24.77534,
+  longitude: 110.494699,
+  name: "阳朔县"
+}, {
+  code: "450323",
+  latitude: 25.408541,
+  longitude: 110.325712,
+  name: "灵川县"
+}, {
+  code: "450324",
+  latitude: 25.929897,
+  longitude: 111.072989,
+  name: "全州县"
+}, {
+  code: "450325",
+  latitude: 25.609554,
+  longitude: 110.670783,
+  name: "兴安县"
+}, {
+  code: "450326",
+  latitude: 24.986692,
+  longitude: 109.989208,
+  name: "永福县"
+}, {
+  code: "450327",
+  latitude: 25.489098,
+  longitude: 111.160248,
+  name: "灌阳县"
+}, {
+  code: "450328",
+  latitude: 25.796428,
+  longitude: 110.009423,
+  name: "龙胜各族自治县"
+}, {
+  code: "450329",
+  latitude: 26.0342,
+  longitude: 110.642587,
+  name: "资源县"
+}, {
+  code: "450330",
+  latitude: 24.632216,
+  longitude: 110.642821,
+  name: "平乐县"
+}, {
+  code: "450332",
+  latitude: 24.833612,
+  longitude: 110.82952,
+  name: "恭城瑶族自治县"
+}, {
+  code: "450381",
+  latitude: 24.497786,
+  longitude: 110.400149,
+  name: "荔浦市"
+}, {
+  code: "450400",
+  latitude: 23.474803,
+  longitude: 111.297604,
+  name: "梧州市"
+}, {
+  code: "450403",
+  latitude: 23.471318,
+  longitude: 111.315817,
+  name: "万秀区"
+}, {
+  code: "450405",
+  latitude: 23.4777,
+  longitude: 111.275678,
+  name: "长洲区"
+}, {
+  code: "450406",
+  latitude: 23.40996,
+  longitude: 111.246035,
+  name: "龙圩区"
+}, {
+  code: "450421",
+  latitude: 23.845097,
+  longitude: 111.544008,
+  name: "苍梧县"
+}, {
+  code: "450422",
+  latitude: 23.373963,
+  longitude: 110.931826,
+  name: "藤县"
+}, {
+  code: "450423",
+  latitude: 24.199829,
+  longitude: 110.5226,
+  name: "蒙山县"
+}, {
+  code: "450481",
+  latitude: 22.918406,
+  longitude: 110.998114,
+  name: "岑溪市"
+}, {
+  code: "450500",
+  latitude: 21.473343,
+  longitude: 109.119254,
+  name: "北海市"
+}, {
+  code: "450502",
+  latitude: 21.468443,
+  longitude: 109.107529,
+  name: "海城区"
+}, {
+  code: "450503",
+  latitude: 21.444909,
+  longitude: 109.118707,
+  name: "银海区"
+}, {
+  code: "450512",
+  latitude: 21.5928,
+  longitude: 109.450573,
+  name: "铁山港区"
+}, {
+  code: "450521",
+  latitude: 21.663554,
+  longitude: 109.200695,
+  name: "合浦县"
+}, {
+  code: "450600",
+  latitude: 21.614631,
+  longitude: 108.345478,
+  name: "防城港市"
+}, {
+  code: "450602",
+  latitude: 21.614406,
+  longitude: 108.346281,
+  name: "港口区"
+}, {
+  code: "450603",
+  latitude: 21.764758,
+  longitude: 108.358426,
+  name: "防城区"
+}, {
+  code: "450621",
+  latitude: 22.151423,
+  longitude: 107.982139,
+  name: "上思县"
+}, {
+  code: "450681",
+  latitude: 21.541172,
+  longitude: 107.97017,
+  name: "东兴市"
+}, {
+  code: "450700",
+  latitude: 21.967127,
+  longitude: 108.624175,
+  name: "钦州市"
+}, {
+  code: "450702",
+  latitude: 21.966808,
+  longitude: 108.626629,
+  name: "钦南区"
+}, {
+  code: "450703",
+  latitude: 22.132761,
+  longitude: 108.44911,
+  name: "钦北区"
+}, {
+  code: "450721",
+  latitude: 22.418041,
+  longitude: 109.293468,
+  name: "灵山县"
+}, {
+  code: "450722",
+  latitude: 22.268335,
+  longitude: 109.556341,
+  name: "浦北县"
+}, {
+  code: "450800",
+  latitude: 23.0936,
+  longitude: 109.602146,
+  name: "贵港市"
+}, {
+  code: "450802",
+  latitude: 23.107677,
+  longitude: 109.59481,
+  name: "港北区"
+}, {
+  code: "450803",
+  latitude: 23.067516,
+  longitude: 109.604665,
+  name: "港南区"
+}, {
+  code: "450804",
+  latitude: 23.132815,
+  longitude: 109.415697,
+  name: "覃塘区"
+}, {
+  code: "450821",
+  latitude: 23.544546,
+  longitude: 110.397485,
+  name: "平南县"
+}, {
+  code: "450881",
+  latitude: 23.382473,
+  longitude: 110.074668,
+  name: "桂平市"
+}, {
+  code: "450900",
+  latitude: 22.63136,
+  longitude: 110.154393,
+  name: "玉林市"
+}, {
+  code: "450902",
+  latitude: 22.632132,
+  longitude: 110.154912,
+  name: "玉州区"
+}, {
+  code: "450903",
+  latitude: 22.58163,
+  longitude: 110.054155,
+  name: "福绵区"
+}, {
+  code: "450921",
+  latitude: 22.856435,
+  longitude: 110.552467,
+  name: "容县"
+}, {
+  code: "450922",
+  latitude: 22.321054,
+  longitude: 110.264842,
+  name: "陆川县"
+}, {
+  code: "450923",
+  latitude: 22.271285,
+  longitude: 109.980004,
+  name: "博白县"
+}, {
+  code: "450924",
+  latitude: 22.74187,
+  longitude: 109.877768,
+  name: "兴业县"
+}, {
+  code: "450981",
+  latitude: 22.701648,
+  longitude: 110.348052,
+  name: "北流市"
+}, {
+  code: "451000",
+  latitude: 23.897742,
+  longitude: 106.616285,
+  name: "百色市"
+}, {
+  code: "451002",
+  latitude: 23.897675,
+  longitude: 106.615727,
+  name: "右江区"
+}, {
+  code: "451003",
+  latitude: 23.736079,
+  longitude: 106.904315,
+  name: "田阳区"
+}, {
+  code: "451022",
+  latitude: 23.600444,
+  longitude: 107.12426,
+  name: "田东县"
+}, {
+  code: "451024",
+  latitude: 23.321464,
+  longitude: 106.618164,
+  name: "德保县"
+}, {
+  code: "451026",
+  latitude: 23.400785,
+  longitude: 105.833553,
+  name: "那坡县"
+}, {
+  code: "451027",
+  latitude: 24.345643,
+  longitude: 106.56487,
+  name: "凌云县"
+}, {
+  code: "451028",
+  latitude: 24.782204,
+  longitude: 106.559638,
+  name: "乐业县"
+}, {
+  code: "451029",
+  latitude: 24.290262,
+  longitude: 106.235047,
+  name: "田林县"
+}, {
+  code: "451030",
+  latitude: 24.492041,
+  longitude: 105.095025,
+  name: "西林县"
+}, {
+  code: "451031",
+  latitude: 24.774318,
+  longitude: 105.342363,
+  name: "隆林各族自治县"
+}, {
+  code: "451081",
+  latitude: 23.134766,
+  longitude: 106.417549,
+  name: "靖西市"
+}, {
+  code: "451082",
+  latitude: 23.320479,
+  longitude: 107.580403,
+  name: "平果市"
+}, {
+  code: "451100",
+  latitude: 24.414141,
+  longitude: 111.552056,
+  name: "贺州市"
+}, {
+  code: "451102",
+  latitude: 24.412446,
+  longitude: 111.551991,
+  name: "八步区"
+}, {
+  code: "451103",
+  latitude: 24.417148,
+  longitude: 111.524014,
+  name: "平桂区"
+}, {
+  code: "451121",
+  latitude: 24.172958,
+  longitude: 110.810865,
+  name: "昭平县"
+}, {
+  code: "451122",
+  latitude: 24.528566,
+  longitude: 111.303629,
+  name: "钟山县"
+}, {
+  code: "451123",
+  latitude: 24.81896,
+  longitude: 111.277228,
+  name: "富川瑶族自治县"
+}, {
+  code: "451200",
+  latitude: 24.695899,
+  longitude: 108.062105,
+  name: "河池市"
+}, {
+  code: "451202",
+  latitude: 24.695625,
+  longitude: 108.062131,
+  name: "金城江区"
+}, {
+  code: "451203",
+  latitude: 24.492193,
+  longitude: 108.653965,
+  name: "宜州区"
+}, {
+  code: "451221",
+  latitude: 24.983192,
+  longitude: 107.546605,
+  name: "南丹县"
+}, {
+  code: "451222",
+  latitude: 24.985964,
+  longitude: 107.174939,
+  name: "天峨县"
+}, {
+  code: "451223",
+  latitude: 24.544561,
+  longitude: 107.044592,
+  name: "凤山县"
+}, {
+  code: "451224",
+  latitude: 24.509367,
+  longitude: 107.373696,
+  name: "东兰县"
+}, {
+  code: "451225",
+  latitude: 24.779327,
+  longitude: 108.902453,
+  name: "罗城仫佬族自治县"
+}, {
+  code: "451226",
+  latitude: 24.827628,
+  longitude: 108.258669,
+  name: "环江毛南族自治县"
+}, {
+  code: "451227",
+  latitude: 24.139538,
+  longitude: 107.253126,
+  name: "巴马瑶族自治县"
+}, {
+  code: "451228",
+  latitude: 23.934964,
+  longitude: 108.102761,
+  name: "都安瑶族自治县"
+}, {
+  code: "451229",
+  latitude: 23.739596,
+  longitude: 107.9945,
+  name: "大化瑶族自治县"
+}, {
+  code: "451300",
+  latitude: 23.733766,
+  longitude: 109.229772,
+  name: "来宾市"
+}, {
+  code: "451302",
+  latitude: 23.732926,
+  longitude: 109.230541,
+  name: "兴宾区"
+}, {
+  code: "451321",
+  latitude: 24.064779,
+  longitude: 108.667361,
+  name: "忻城县"
+}, {
+  code: "451322",
+  latitude: 23.959824,
+  longitude: 109.684555,
+  name: "象州县"
+}, {
+  code: "451323",
+  latitude: 23.604162,
+  longitude: 109.66287,
+  name: "武宣县"
+}, {
+  code: "451324",
+  latitude: 24.134941,
+  longitude: 110.188556,
+  name: "金秀瑶族自治县"
+}, {
+  code: "451381",
+  latitude: 23.81311,
+  longitude: 108.88858,
+  name: "合山市"
+}, {
+  code: "451400",
+  latitude: 22.404108,
+  longitude: 107.353926,
+  name: "崇左市"
+}, {
+  code: "451402",
+  latitude: 22.40469,
+  longitude: 107.354443,
+  name: "江州区"
+}, {
+  code: "451421",
+  latitude: 22.635821,
+  longitude: 107.911533,
+  name: "扶绥县"
+}, {
+  code: "451422",
+  latitude: 22.131353,
+  longitude: 107.067616,
+  name: "宁明县"
+}, {
+  code: "451423",
+  latitude: 22.343716,
+  longitude: 106.857502,
+  name: "龙州县"
+}, {
+  code: "451424",
+  latitude: 22.833369,
+  longitude: 107.200803,
+  name: "大新县"
+}, {
+  code: "451425",
+  latitude: 23.082484,
+  longitude: 107.142441,
+  name: "天等县"
+}, {
+  code: "451481",
+  latitude: 22.108882,
+  longitude: 106.759038,
+  name: "凭祥市"
+}, {
+  code: "460100",
+  latitude: 20.031971,
+  longitude: 110.33119,
+  name: "海口市"
+}, {
+  code: "460105",
+  latitude: 20.008145,
+  longitude: 110.282393,
+  name: "秀英区"
+}, {
+  code: "460106",
+  latitude: 20.031026,
+  longitude: 110.330373,
+  name: "龙华区"
+}, {
+  code: "460107",
+  latitude: 20.001051,
+  longitude: 110.354722,
+  name: "琼山区"
+}, {
+  code: "460108",
+  latitude: 20.03074,
+  longitude: 110.356566,
+  name: "美兰区"
+}, {
+  code: "460200",
+  latitude: 18.247872,
+  longitude: 109.508268,
+  name: "三亚市"
+}, {
+  code: "460202",
+  latitude: 18.407516,
+  longitude: 109.760778,
+  name: "海棠区"
+}, {
+  code: "460203",
+  latitude: 18.247436,
+  longitude: 109.512081,
+  name: "吉阳区"
+}, {
+  code: "460204",
+  latitude: 18.24734,
+  longitude: 109.506357,
+  name: "天涯区"
+}, {
+  code: "460205",
+  latitude: 18.352192,
+  longitude: 109.174306,
+  name: "崖州区"
+}, {
+  code: "460300",
+  latitude: 16.831039,
+  longitude: 112.34882,
+  name: "三沙市"
+}, {
+  code: "460301",
+  latitude: 16.8310066,
+  longitude: 112.3386402,
+  name: "西沙区"
+}, {
+  code: "460302",
+  latitude: 9.543575,
+  longitude: 112.891018,
+  name: "南沙区"
+}, {
+  code: "460400",
+  latitude: 19.517486,
+  longitude: 109.576782,
+  name: "儋州市"
+}, {
+  code: "469001",
+  latitude: 18.776921,
+  longitude: 109.516662,
+  name: "五指山市"
+}, {
+  code: "469002",
+  latitude: 19.246011,
+  longitude: 110.466785,
+  name: "琼海市"
+}, {
+  code: "469005",
+  latitude: 19.612986,
+  longitude: 110.753975,
+  name: "文昌市"
+}, {
+  code: "469006",
+  latitude: 18.796216,
+  longitude: 110.388793,
+  name: "万宁市"
+}, {
+  code: "469007",
+  latitude: 19.10198,
+  longitude: 108.653789,
+  name: "东方市"
+}, {
+  code: "469021",
+  latitude: 19.684966,
+  longitude: 110.349235,
+  name: "定安县"
+}, {
+  code: "469022",
+  latitude: 19.362916,
+  longitude: 110.102773,
+  name: "屯昌县"
+}, {
+  code: "469023",
+  latitude: 19.737095,
+  longitude: 110.007147,
+  name: "澄迈县"
+}, {
+  code: "469024",
+  latitude: 19.908293,
+  longitude: 109.687697,
+  name: "临高县"
+}, {
+  code: "469025",
+  latitude: 19.224584,
+  longitude: 109.452606,
+  name: "白沙黎族自治县"
+}, {
+  code: "469026",
+  latitude: 19.260968,
+  longitude: 109.053351,
+  name: "昌江黎族自治县"
+}, {
+  code: "469027",
+  latitude: 18.74758,
+  longitude: 109.175444,
+  name: "乐东黎族自治县"
+}, {
+  code: "469028",
+  latitude: 18.505006,
+  longitude: 110.037218,
+  name: "陵水黎族自治县"
+}, {
+  code: "469029",
+  latitude: 18.636371,
+  longitude: 109.70245,
+  name: "保亭黎族苗族自治县"
+}, {
+  code: "469030",
+  latitude: 19.03557,
+  longitude: 109.839996,
+  name: "琼中黎族苗族自治县"
+}, {
+  code: "500101",
+  latitude: 30.807807,
+  longitude: 108.380246,
+  name: "万州区"
+}, {
+  code: "500102",
+  latitude: 29.703652,
+  longitude: 107.394905,
+  name: "涪陵区"
+}, {
+  code: "500103",
+  latitude: 29.556742,
+  longitude: 106.56288,
+  name: "渝中区"
+}, {
+  code: "500104",
+  latitude: 29.481002,
+  longitude: 106.48613,
+  name: "大渡口区"
+}, {
+  code: "500105",
+  latitude: 29.575352,
+  longitude: 106.532844,
+  name: "江北区（重庆市）"
+}, {
+  code: "500106",
+  latitude: 29.541224,
+  longitude: 106.4542,
+  name: "沙坪坝区"
+}, {
+  code: "500107",
+  latitude: 29.523492,
+  longitude: 106.480989,
+  name: "九龙坡区"
+}, {
+  code: "500108",
+  latitude: 29.523992,
+  longitude: 106.560813,
+  name: "南岸区"
+}, {
+  code: "500109",
+  latitude: 29.82543,
+  longitude: 106.437868,
+  name: "北碚区"
+}, {
+  code: "500110",
+  latitude: 29.028091,
+  longitude: 106.651417,
+  name: "綦江区"
+}, {
+  code: "500111",
+  latitude: 29.700498,
+  longitude: 105.715319,
+  name: "大足区"
+}, {
+  code: "500112",
+  latitude: 29.601451,
+  longitude: 106.512851,
+  name: "渝北区"
+}, {
+  code: "500113",
+  latitude: 29.381919,
+  longitude: 106.519423,
+  name: "巴南区"
+}, {
+  code: "500114",
+  latitude: 29.527548,
+  longitude: 108.782577,
+  name: "黔江区"
+}, {
+  code: "500115",
+  latitude: 29.833671,
+  longitude: 107.074854,
+  name: "长寿区"
+}, {
+  code: "500116",
+  latitude: 29.283387,
+  longitude: 106.253156,
+  name: "江津区"
+}, {
+  code: "500117",
+  latitude: 29.990993,
+  longitude: 106.265554,
+  name: "合川区"
+}, {
+  code: "500118",
+  latitude: 29.348748,
+  longitude: 105.894714,
+  name: "永川区"
+}, {
+  code: "500119",
+  latitude: 29.156646,
+  longitude: 107.098153,
+  name: "南川区"
+}, {
+  code: "500120",
+  latitude: 29.593581,
+  longitude: 106.231126,
+  name: "璧山区"
+}, {
+  code: "500151",
+  latitude: 29.839944,
+  longitude: 106.054948,
+  name: "铜梁区"
+}, {
+  code: "500152",
+  latitude: 30.189554,
+  longitude: 105.841818,
+  name: "潼南区"
+}, {
+  code: "500153",
+  latitude: 29.403627,
+  longitude: 105.594061,
+  name: "荣昌区"
+}, {
+  code: "500154",
+  latitude: 31.167735,
+  longitude: 108.413317,
+  name: "开州区"
+}, {
+  code: "500155",
+  latitude: 30.672168,
+  longitude: 107.800034,
+  name: "梁平区"
+}, {
+  code: "500156",
+  latitude: 29.32376,
+  longitude: 107.75655,
+  name: "武隆区"
+}, {
+  code: "500229",
+  latitude: 31.946293,
+  longitude: 108.6649,
+  name: "城口县"
+}, {
+  code: "500230",
+  latitude: 29.866424,
+  longitude: 107.73248,
+  name: "丰都县"
+}, {
+  code: "500231",
+  latitude: 30.330012,
+  longitude: 107.348692,
+  name: "垫江县"
+}, {
+  code: "500233",
+  latitude: 30.291537,
+  longitude: 108.037518,
+  name: "忠县"
+}, {
+  code: "500235",
+  latitude: 30.930529,
+  longitude: 108.697698,
+  name: "云阳县"
+}, {
+  code: "500236",
+  latitude: 31.019967,
+  longitude: 109.465774,
+  name: "奉节县"
+}, {
+  code: "500237",
+  latitude: 31.074843,
+  longitude: 109.878928,
+  name: "巫山县"
+}, {
+  code: "500238",
+  latitude: 31.3966,
+  longitude: 109.628912,
+  name: "巫溪县"
+}, {
+  code: "500240",
+  latitude: 29.99853,
+  longitude: 108.112448,
+  name: "石柱土家族自治县"
+}, {
+  code: "500241",
+  latitude: 28.444772,
+  longitude: 108.996043,
+  name: "秀山土家族苗族自治县"
+}, {
+  code: "500242",
+  latitude: 28.839828,
+  longitude: 108.767201,
+  name: "酉阳土家族苗族自治县"
+}, {
+  code: "500243",
+  latitude: 29.293856,
+  longitude: 108.166551,
+  name: "彭水苗族土家族自治县"
+}, {
+  code: "510100",
+  latitude: 30.659462,
+  longitude: 104.065735,
+  name: "成都市"
+}, {
+  code: "510104",
+  latitude: 30.657689,
+  longitude: 104.080989,
+  name: "锦江区"
+}, {
+  code: "510105",
+  latitude: 30.667648,
+  longitude: 104.055731,
+  name: "青羊区"
+}, {
+  code: "510106",
+  latitude: 30.692058,
+  longitude: 104.043487,
+  name: "金牛区"
+}, {
+  code: "510107",
+  latitude: 30.630862,
+  longitude: 104.05167,
+  name: "武侯区"
+}, {
+  code: "510108",
+  latitude: 30.660275,
+  longitude: 104.103077,
+  name: "成华区"
+}, {
+  code: "510112",
+  latitude: 30.56065,
+  longitude: 104.269181,
+  name: "龙泉驿区"
+}, {
+  code: "510113",
+  latitude: 30.883438,
+  longitude: 104.25494,
+  name: "青白江区"
+}, {
+  code: "510114",
+  latitude: 30.824223,
+  longitude: 104.16022,
+  name: "新都区"
+}, {
+  code: "510115",
+  latitude: 30.697996,
+  longitude: 103.836776,
+  name: "温江区"
+}, {
+  code: "510116",
+  latitude: 30.573243,
+  longitude: 103.922706,
+  name: "双流区"
+}, {
+  code: "510117",
+  latitude: 30.808752,
+  longitude: 103.887842,
+  name: "郫都区"
+}, {
+  code: "510118",
+  latitude: 30.414284,
+  longitude: 103.812449,
+  name: "新津区"
+}, {
+  code: "510121",
+  latitude: 30.858417,
+  longitude: 104.415604,
+  name: "金堂县"
+}, {
+  code: "510129",
+  latitude: 30.586602,
+  longitude: 103.522397,
+  name: "大邑县"
+}, {
+  code: "510131",
+  latitude: 30.194359,
+  longitude: 103.511541,
+  name: "蒲江县"
+}, {
+  code: "510181",
+  latitude: 30.99114,
+  longitude: 103.627898,
+  name: "都江堰市"
+}, {
+  code: "510182",
+  latitude: 30.985161,
+  longitude: 103.941173,
+  name: "彭州市"
+}, {
+  code: "510183",
+  latitude: 30.413271,
+  longitude: 103.46143,
+  name: "邛崃市"
+}, {
+  code: "510184",
+  latitude: 30.631478,
+  longitude: 103.671049,
+  name: "崇州市"
+}, {
+  code: "510185",
+  latitude: 30.390666,
+  longitude: 104.550339,
+  name: "简阳市"
+}, {
+  code: "510300",
+  latitude: 29.352765,
+  longitude: 104.773447,
+  name: "自贡市"
+}, {
+  code: "510302",
+  latitude: 29.343231,
+  longitude: 104.778188,
+  name: "自流井区"
+}, {
+  code: "510303",
+  latitude: 29.345675,
+  longitude: 104.714372,
+  name: "贡井区"
+}, {
+  code: "510304",
+  latitude: 29.367136,
+  longitude: 104.783229,
+  name: "大安区"
+}, {
+  code: "510311",
+  latitude: 29.272521,
+  longitude: 104.876417,
+  name: "沿滩区"
+}, {
+  code: "510321",
+  latitude: 29.454851,
+  longitude: 104.423932,
+  name: "荣县"
+}, {
+  code: "510322",
+  latitude: 29.181282,
+  longitude: 104.984256,
+  name: "富顺县"
+}, {
+  code: "510400",
+  latitude: 26.580446,
+  longitude: 101.716007,
+  name: "攀枝花市"
+}, {
+  code: "510402",
+  latitude: 26.580887,
+  longitude: 101.715134,
+  name: "东区"
+}, {
+  code: "510403",
+  latitude: 26.596776,
+  longitude: 101.637969,
+  name: "西区"
+}, {
+  code: "510411",
+  latitude: 26.497185,
+  longitude: 101.737916,
+  name: "仁和区"
+}, {
+  code: "510421",
+  latitude: 26.887474,
+  longitude: 102.109877,
+  name: "米易县"
+}, {
+  code: "510422",
+  latitude: 26.677619,
+  longitude: 101.851848,
+  name: "盐边县"
+}, {
+  code: "510500",
+  latitude: 28.889138,
+  longitude: 105.443348,
+  name: "泸州市"
+}, {
+  code: "510502",
+  latitude: 28.882889,
+  longitude: 105.445131,
+  name: "江阳区"
+}, {
+  code: "510503",
+  latitude: 28.77631,
+  longitude: 105.37721,
+  name: "纳溪区"
+}, {
+  code: "510504",
+  latitude: 28.897572,
+  longitude: 105.435228,
+  name: "龙马潭区"
+}, {
+  code: "510521",
+  latitude: 29.151288,
+  longitude: 105.376335,
+  name: "泸县"
+}, {
+  code: "510522",
+  latitude: 28.810325,
+  longitude: 105.834098,
+  name: "合江县"
+}, {
+  code: "510524",
+  latitude: 28.167919,
+  longitude: 105.437775,
+  name: "叙永县"
+}, {
+  code: "510525",
+  latitude: 28.03948,
+  longitude: 105.813359,
+  name: "古蔺县"
+}, {
+  code: "510600",
+  latitude: 31.127991,
+  longitude: 104.398651,
+  name: "德阳市"
+}, {
+  code: "510603",
+  latitude: 31.130428,
+  longitude: 104.389648,
+  name: "旌阳区"
+}, {
+  code: "510604",
+  latitude: 31.303281,
+  longitude: 104.507126,
+  name: "罗江区"
+}, {
+  code: "510623",
+  latitude: 31.03681,
+  longitude: 104.677831,
+  name: "中江县"
+}, {
+  code: "510681",
+  latitude: 30.97715,
+  longitude: 104.281903,
+  name: "广汉市"
+}, {
+  code: "510682",
+  latitude: 31.126881,
+  longitude: 104.173653,
+  name: "什邡市"
+}, {
+  code: "510683",
+  latitude: 31.343084,
+  longitude: 104.200162,
+  name: "绵竹市"
+}, {
+  code: "510700",
+  latitude: 31.46402,
+  longitude: 104.741722,
+  name: "绵阳市"
+}, {
+  code: "510703",
+  latitude: 31.463557,
+  longitude: 104.740971,
+  name: "涪城区"
+}, {
+  code: "510704",
+  latitude: 31.484772,
+  longitude: 104.770006,
+  name: "游仙区"
+}, {
+  code: "510705",
+  latitude: 31.53894,
+  longitude: 104.560341,
+  name: "安州区"
+}, {
+  code: "510722",
+  latitude: 31.090909,
+  longitude: 105.090316,
+  name: "三台县"
+}, {
+  code: "510723",
+  latitude: 31.22318,
+  longitude: 105.391991,
+  name: "盐亭县"
+}, {
+  code: "510725",
+  latitude: 31.635225,
+  longitude: 105.16353,
+  name: "梓潼县"
+}, {
+  code: "510726",
+  latitude: 31.615863,
+  longitude: 104.468069,
+  name: "北川羌族自治县"
+}, {
+  code: "510727",
+  latitude: 32.407588,
+  longitude: 104.530555,
+  name: "平武县"
+}, {
+  code: "510781",
+  latitude: 31.776386,
+  longitude: 104.744431,
+  name: "江油市"
+}, {
+  code: "510800",
+  latitude: 32.433668,
+  longitude: 105.829757,
+  name: "广元市"
+}, {
+  code: "510802",
+  latitude: 32.432276,
+  longitude: 105.826194,
+  name: "利州区"
+}, {
+  code: "510811",
+  latitude: 32.322788,
+  longitude: 105.964121,
+  name: "昭化区"
+}, {
+  code: "510812",
+  latitude: 32.642632,
+  longitude: 105.88917,
+  name: "朝天区"
+}, {
+  code: "510821",
+  latitude: 32.22833,
+  longitude: 106.290426,
+  name: "旺苍县"
+}, {
+  code: "510822",
+  latitude: 32.585655,
+  longitude: 105.238847,
+  name: "青川县"
+}, {
+  code: "510823",
+  latitude: 32.286517,
+  longitude: 105.527035,
+  name: "剑阁县"
+}, {
+  code: "510824",
+  latitude: 31.732251,
+  longitude: 105.939706,
+  name: "苍溪县"
+}, {
+  code: "510900",
+  latitude: 30.513311,
+  longitude: 105.571331,
+  name: "遂宁市"
+}, {
+  code: "510903",
+  latitude: 30.502647,
+  longitude: 105.582215,
+  name: "船山区"
+}, {
+  code: "510904",
+  latitude: 30.346121,
+  longitude: 105.459383,
+  name: "安居区"
+}, {
+  code: "510921",
+  latitude: 30.774883,
+  longitude: 105.713699,
+  name: "蓬溪县"
+}, {
+  code: "510923",
+  latitude: 30.581571,
+  longitude: 105.252187,
+  name: "大英县"
+}, {
+  code: "510981",
+  latitude: 30.868752,
+  longitude: 105.381849,
+  name: "射洪市"
+}, {
+  code: "511000",
+  latitude: 29.58708,
+  longitude: 105.066138,
+  name: "内江市"
+}, {
+  code: "511002",
+  latitude: 29.585265,
+  longitude: 105.065467,
+  name: "市中区（内江市）"
+}, {
+  code: "511011",
+  latitude: 29.600107,
+  longitude: 105.067203,
+  name: "东兴区"
+}, {
+  code: "511024",
+  latitude: 29.52686,
+  longitude: 104.668327,
+  name: "威远县"
+}, {
+  code: "511025",
+  latitude: 29.775295,
+  longitude: 104.852463,
+  name: "资中县"
+}, {
+  code: "511083",
+  latitude: 29.338162,
+  longitude: 105.288074,
+  name: "隆昌市"
+}, {
+  code: "511100",
+  latitude: 29.582024,
+  longitude: 103.761263,
+  name: "乐山市"
+}, {
+  code: "511102",
+  latitude: 29.588327,
+  longitude: 103.75539,
+  name: "市中区（乐山市）"
+}, {
+  code: "511111",
+  latitude: 29.416536,
+  longitude: 103.549961,
+  name: "沙湾区"
+}, {
+  code: "511112",
+  latitude: 29.406186,
+  longitude: 103.816837,
+  name: "五通桥区"
+}, {
+  code: "511113",
+  latitude: 29.24602,
+  longitude: 103.077831,
+  name: "金口河区"
+}, {
+  code: "511123",
+  latitude: 29.209782,
+  longitude: 103.944266,
+  name: "犍为县"
+}, {
+  code: "511124",
+  latitude: 29.651645,
+  longitude: 104.06885,
+  name: "井研县"
+}, {
+  code: "511126",
+  latitude: 29.741019,
+  longitude: 103.578862,
+  name: "夹江县"
+}, {
+  code: "511129",
+  latitude: 28.956338,
+  longitude: 103.90211,
+  name: "沐川县"
+}, {
+  code: "511132",
+  latitude: 29.230271,
+  longitude: 103.262148,
+  name: "峨边彝族自治县"
+}, {
+  code: "511133",
+  latitude: 28.838933,
+  longitude: 103.546851,
+  name: "马边彝族自治县"
+}, {
+  code: "511181",
+  latitude: 29.597478,
+  longitude: 103.492488,
+  name: "峨眉山市"
+}, {
+  code: "511300",
+  latitude: 30.795281,
+  longitude: 106.082974,
+  name: "南充市"
+}, {
+  code: "511302",
+  latitude: 30.795572,
+  longitude: 106.084091,
+  name: "顺庆区"
+}, {
+  code: "511303",
+  latitude: 30.781809,
+  longitude: 106.108996,
+  name: "高坪区"
+}, {
+  code: "511304",
+  latitude: 30.762976,
+  longitude: 106.067027,
+  name: "嘉陵区"
+}, {
+  code: "511321",
+  latitude: 31.349407,
+  longitude: 106.061138,
+  name: "南部县"
+}, {
+  code: "511322",
+  latitude: 31.075907,
+  longitude: 106.564893,
+  name: "营山县"
+}, {
+  code: "511323",
+  latitude: 31.027978,
+  longitude: 106.413488,
+  name: "蓬安县"
+}, {
+  code: "511324",
+  latitude: 31.271261,
+  longitude: 106.297083,
+  name: "仪陇县"
+}, {
+  code: "511325",
+  latitude: 30.994616,
+  longitude: 105.893021,
+  name: "西充县"
+}, {
+  code: "511381",
+  latitude: 31.580466,
+  longitude: 105.975266,
+  name: "阆中市"
+}, {
+  code: "511400",
+  latitude: 30.048318,
+  longitude: 103.831788,
+  name: "眉山市"
+}, {
+  code: "511402",
+  latitude: 30.048128,
+  longitude: 103.831553,
+  name: "东坡区"
+}, {
+  code: "511403",
+  latitude: 30.192298,
+  longitude: 103.8701,
+  name: "彭山区"
+}, {
+  code: "511421",
+  latitude: 29.996721,
+  longitude: 104.147646,
+  name: "仁寿县"
+}, {
+  code: "511423",
+  latitude: 29.904867,
+  longitude: 103.375006,
+  name: "洪雅县"
+}, {
+  code: "511424",
+  latitude: 30.012751,
+  longitude: 103.518333,
+  name: "丹棱县"
+}, {
+  code: "511425",
+  latitude: 29.831469,
+  longitude: 103.846131,
+  name: "青神县"
+}, {
+  code: "511500",
+  latitude: 28.760189,
+  longitude: 104.630825,
+  name: "宜宾市"
+}, {
+  code: "511502",
+  latitude: 28.760179,
+  longitude: 104.630231,
+  name: "翠屏区"
+}, {
+  code: "511503",
+  latitude: 28.839806,
+  longitude: 104.981133,
+  name: "南溪区"
+}, {
+  code: "511504",
+  latitude: 28.695678,
+  longitude: 104.541489,
+  name: "叙州区"
+}, {
+  code: "511523",
+  latitude: 28.728102,
+  longitude: 105.068697,
+  name: "江安县"
+}, {
+  code: "511524",
+  latitude: 28.577271,
+  longitude: 104.921116,
+  name: "长宁县"
+}, {
+  code: "511525",
+  latitude: 28.435676,
+  longitude: 104.519187,
+  name: "高县"
+}, {
+  code: "511526",
+  latitude: 28.449041,
+  longitude: 104.712268,
+  name: "珙县"
+}, {
+  code: "511527",
+  latitude: 28.162017,
+  longitude: 104.507848,
+  name: "筠连县"
+}, {
+  code: "511528",
+  latitude: 28.302988,
+  longitude: 105.236549,
+  name: "兴文县"
+}, {
+  code: "511529",
+  latitude: 28.64237,
+  longitude: 104.162617,
+  name: "屏山县"
+}, {
+  code: "511600",
+  latitude: 30.456398,
+  longitude: 106.633369,
+  name: "广安市"
+}, {
+  code: "511602",
+  latitude: 30.456462,
+  longitude: 106.632907,
+  name: "广安区"
+}, {
+  code: "511603",
+  latitude: 30.4963,
+  longitude: 106.893277,
+  name: "前锋区"
+}, {
+  code: "511621",
+  latitude: 30.533538,
+  longitude: 106.444451,
+  name: "岳池县"
+}, {
+  code: "511622",
+  latitude: 30.344291,
+  longitude: 106.292473,
+  name: "武胜县"
+}, {
+  code: "511623",
+  latitude: 30.334323,
+  longitude: 106.934968,
+  name: "邻水县"
+}, {
+  code: "511681",
+  latitude: 30.380574,
+  longitude: 106.777882,
+  name: "华蓥市"
+}, {
+  code: "511700",
+  latitude: 31.209484,
+  longitude: 107.502262,
+  name: "达州市"
+}, {
+  code: "511702",
+  latitude: 31.213522,
+  longitude: 107.501062,
+  name: "通川区"
+}, {
+  code: "511703",
+  latitude: 31.199062,
+  longitude: 107.507926,
+  name: "达川区"
+}, {
+  code: "511722",
+  latitude: 31.355025,
+  longitude: 107.722254,
+  name: "宣汉县"
+}, {
+  code: "511723",
+  latitude: 31.085537,
+  longitude: 107.864135,
+  name: "开江县"
+}, {
+  code: "511724",
+  latitude: 30.736289,
+  longitude: 107.20742,
+  name: "大竹县"
+}, {
+  code: "511725",
+  latitude: 30.836348,
+  longitude: 106.970746,
+  name: "渠县"
+}, {
+  code: "511781",
+  latitude: 32.06777,
+  longitude: 108.037548,
+  name: "万源市"
+}, {
+  code: "511800",
+  latitude: 29.987722,
+  longitude: 103.001033,
+  name: "雅安市"
+}, {
+  code: "511802",
+  latitude: 29.981831,
+  longitude: 103.003398,
+  name: "雨城区"
+}, {
+  code: "511803",
+  latitude: 30.084718,
+  longitude: 103.112214,
+  name: "名山区"
+}, {
+  code: "511822",
+  latitude: 29.795529,
+  longitude: 102.844674,
+  name: "荥经县"
+}, {
+  code: "511823",
+  latitude: 29.349915,
+  longitude: 102.677145,
+  name: "汉源县"
+}, {
+  code: "511824",
+  latitude: 29.234063,
+  longitude: 102.35962,
+  name: "石棉县"
+}, {
+  code: "511825",
+  latitude: 30.059955,
+  longitude: 102.763462,
+  name: "天全县"
+}, {
+  code: "511826",
+  latitude: 30.152907,
+  longitude: 102.924016,
+  name: "芦山县"
+}, {
+  code: "511827",
+  latitude: 30.369026,
+  longitude: 102.813377,
+  name: "宝兴县"
+}, {
+  code: "511900",
+  latitude: 31.858809,
+  longitude: 106.753669,
+  name: "巴中市"
+}, {
+  code: "511902",
+  latitude: 31.858366,
+  longitude: 106.753671,
+  name: "巴州区"
+}, {
+  code: "511903",
+  latitude: 31.816336,
+  longitude: 106.486515,
+  name: "恩阳区"
+}, {
+  code: "511921",
+  latitude: 31.91212,
+  longitude: 107.247621,
+  name: "通江县"
+}, {
+  code: "511922",
+  latitude: 32.353164,
+  longitude: 106.843418,
+  name: "南江县"
+}, {
+  code: "511923",
+  latitude: 31.562814,
+  longitude: 107.101937,
+  name: "平昌县"
+}, {
+  code: "512000",
+  latitude: 30.122211,
+  longitude: 104.641917,
+  name: "资阳市"
+}, {
+  code: "512002",
+  latitude: 30.121686,
+  longitude: 104.642338,
+  name: "雁江区"
+}, {
+  code: "512021",
+  latitude: 30.099206,
+  longitude: 105.336764,
+  name: "安岳县"
+}, {
+  code: "512022",
+  latitude: 30.275619,
+  longitude: 105.031142,
+  name: "乐至县"
+}, {
+  code: "513200",
+  latitude: 31.899792,
+  longitude: 102.221374,
+  name: "阿坝藏族羌族自治州"
+}, {
+  code: "513201",
+  latitude: 31.899761,
+  longitude: 102.221187,
+  name: "马尔康市"
+}, {
+  code: "513221",
+  latitude: 31.47463,
+  longitude: 103.580675,
+  name: "汶川县"
+}, {
+  code: "513222",
+  latitude: 31.436764,
+  longitude: 103.165486,
+  name: "理县"
+}, {
+  code: "513223",
+  latitude: 31.680407,
+  longitude: 103.850684,
+  name: "茂县"
+}, {
+  code: "513224",
+  latitude: 32.63838,
+  longitude: 103.599177,
+  name: "松潘县"
+}, {
+  code: "513225",
+  latitude: 33.262097,
+  longitude: 104.236344,
+  name: "九寨沟县"
+}, {
+  code: "513226",
+  latitude: 31.476356,
+  longitude: 102.064647,
+  name: "金川县"
+}, {
+  code: "513227",
+  latitude: 30.999016,
+  longitude: 102.363193,
+  name: "小金县"
+}, {
+  code: "513228",
+  latitude: 32.061721,
+  longitude: 102.990805,
+  name: "黑水县"
+}, {
+  code: "513230",
+  latitude: 32.264887,
+  longitude: 100.979136,
+  name: "壤塘县"
+}, {
+  code: "513231",
+  latitude: 32.904223,
+  longitude: 101.700985,
+  name: "阿坝县"
+}, {
+  code: "513232",
+  latitude: 33.575934,
+  longitude: 102.963726,
+  name: "若尔盖县"
+}, {
+  code: "513233",
+  latitude: 32.793902,
+  longitude: 102.544906,
+  name: "红原县"
+}, {
+  code: "513300",
+  latitude: 30.050663,
+  longitude: 101.963815,
+  name: "甘孜藏族自治州"
+}, {
+  code: "513301",
+  latitude: 30.050738,
+  longitude: 101.964057,
+  name: "康定市"
+}, {
+  code: "513322",
+  latitude: 29.912482,
+  longitude: 102.233225,
+  name: "泸定县"
+}, {
+  code: "513323",
+  latitude: 30.877083,
+  longitude: 101.886125,
+  name: "丹巴县"
+}, {
+  code: "513324",
+  latitude: 29.001975,
+  longitude: 101.506942,
+  name: "九龙县"
+}, {
+  code: "513325",
+  latitude: 30.03225,
+  longitude: 101.015735,
+  name: "雅江县"
+}, {
+  code: "513326",
+  latitude: 30.978767,
+  longitude: 101.123327,
+  name: "道孚县"
+}, {
+  code: "513327",
+  latitude: 31.392674,
+  longitude: 100.679495,
+  name: "炉霍县"
+}, {
+  code: "513328",
+  latitude: 31.61975,
+  longitude: 99.991753,
+  name: "甘孜县"
+}, {
+  code: "513329",
+  latitude: 30.93896,
+  longitude: 100.312094,
+  name: "新龙县"
+}, {
+  code: "513330",
+  latitude: 31.806729,
+  longitude: 98.57999,
+  name: "德格县"
+}, {
+  code: "513331",
+  latitude: 31.208805,
+  longitude: 98.824343,
+  name: "白玉县"
+}, {
+  code: "513332",
+  latitude: 32.975302,
+  longitude: 98.100887,
+  name: "石渠县"
+}, {
+  code: "513333",
+  latitude: 32.268777,
+  longitude: 100.331657,
+  name: "色达县"
+}, {
+  code: "513334",
+  latitude: 29.991807,
+  longitude: 100.269862,
+  name: "理塘县"
+}, {
+  code: "513335",
+  latitude: 30.005723,
+  longitude: 99.109037,
+  name: "巴塘县"
+}, {
+  code: "513336",
+  latitude: 28.930855,
+  longitude: 99.799943,
+  name: "乡城县"
+}, {
+  code: "513337",
+  latitude: 29.037544,
+  longitude: 100.296689,
+  name: "稻城县"
+}, {
+  code: "513338",
+  latitude: 28.71134,
+  longitude: 99.288036,
+  name: "得荣县"
+}, {
+  code: "513400",
+  latitude: 27.886762,
+  longitude: 102.258746,
+  name: "凉山彝族自治州"
+}, {
+  code: "513401",
+  latitude: 27.885786,
+  longitude: 102.258758,
+  name: "西昌市"
+}, {
+  code: "513422",
+  latitude: 27.926859,
+  longitude: 101.280184,
+  name: "木里藏族自治县"
+}, {
+  code: "513423",
+  latitude: 27.423415,
+  longitude: 101.508909,
+  name: "盐源县"
+}, {
+  code: "513424",
+  latitude: 27.403827,
+  longitude: 102.178845,
+  name: "德昌县"
+}, {
+  code: "513425",
+  latitude: 26.658702,
+  longitude: 102.249548,
+  name: "会理市"
+}, {
+  code: "513426",
+  latitude: 26.630713,
+  longitude: 102.578985,
+  name: "会东县"
+}, {
+  code: "513427",
+  latitude: 27.065205,
+  longitude: 102.757374,
+  name: "宁南县"
+}, {
+  code: "513428",
+  latitude: 27.376828,
+  longitude: 102.541082,
+  name: "普格县"
+}, {
+  code: "513429",
+  latitude: 27.709062,
+  longitude: 102.808801,
+  name: "布拖县"
+}, {
+  code: "513430",
+  latitude: 27.695916,
+  longitude: 103.248704,
+  name: "金阳县"
+}, {
+  code: "513431",
+  latitude: 28.010554,
+  longitude: 102.843991,
+  name: "昭觉县"
+}, {
+  code: "513432",
+  latitude: 28.305486,
+  longitude: 102.412342,
+  name: "喜德县"
+}, {
+  code: "513433",
+  latitude: 28.550844,
+  longitude: 102.170046,
+  name: "冕宁县"
+}, {
+  code: "513434",
+  latitude: 28.639632,
+  longitude: 102.508875,
+  name: "越西县"
+}, {
+  code: "513435",
+  latitude: 28.977094,
+  longitude: 102.775924,
+  name: "甘洛县"
+}, {
+  code: "513436",
+  latitude: 28.327946,
+  longitude: 103.132007,
+  name: "美姑县"
+}, {
+  code: "513437",
+  latitude: 28.262946,
+  longitude: 103.571584,
+  name: "雷波县"
+}, {
+  code: "520100",
+  latitude: 26.578343,
+  longitude: 106.713478,
+  name: "贵阳市"
+}, {
+  code: "520102",
+  latitude: 26.573743,
+  longitude: 106.715963,
+  name: "南明区"
+}, {
+  code: "520103",
+  latitude: 26.58301,
+  longitude: 106.713397,
+  name: "云岩区"
+}, {
+  code: "520111",
+  latitude: 26.410464,
+  longitude: 106.670791,
+  name: "花溪区"
+}, {
+  code: "520112",
+  latitude: 26.630928,
+  longitude: 106.762123,
+  name: "乌当区"
+}, {
+  code: "520113",
+  latitude: 26.676849,
+  longitude: 106.633037,
+  name: "白云区（贵阳市）"
+}, {
+  code: "520115",
+  latitude: 26.646358,
+  longitude: 106.626323,
+  name: "观山湖区"
+}, {
+  code: "520121",
+  latitude: 27.056793,
+  longitude: 106.969438,
+  name: "开阳县"
+}, {
+  code: "520122",
+  latitude: 27.092665,
+  longitude: 106.737693,
+  name: "息烽县"
+}, {
+  code: "520123",
+  latitude: 26.840672,
+  longitude: 106.599218,
+  name: "修文县"
+}, {
+  code: "520181",
+  latitude: 26.551289,
+  longitude: 106.470278,
+  name: "清镇市"
+}, {
+  code: "520200",
+  latitude: 26.584643,
+  longitude: 104.846743,
+  name: "六盘水市"
+}, {
+  code: "520201",
+  latitude: 26.584805,
+  longitude: 104.846244,
+  name: "钟山区"
+}, {
+  code: "520203",
+  latitude: 26.210662,
+  longitude: 105.474235,
+  name: "六枝特区"
+}, {
+  code: "520221",
+  latitude: 26.540478,
+  longitude: 104.95685,
+  name: "水城区"
+}, {
+  code: "520281",
+  latitude: 25.706966,
+  longitude: 104.468367,
+  name: "盘州市"
+}, {
+  code: "520300",
+  latitude: 27.706626,
+  longitude: 106.937265,
+  name: "遵义市"
+}, {
+  code: "520302",
+  latitude: 27.694395,
+  longitude: 106.943784,
+  name: "红花岗区"
+}, {
+  code: "520303",
+  latitude: 27.706626,
+  longitude: 106.937265,
+  name: "汇川区"
+}, {
+  code: "520304",
+  latitude: 27.535288,
+  longitude: 106.831668,
+  name: "播州区"
+}, {
+  code: "520322",
+  latitude: 28.131559,
+  longitude: 106.826591,
+  name: "桐梓县"
+}, {
+  code: "520323",
+  latitude: 27.951342,
+  longitude: 107.191024,
+  name: "绥阳县"
+}, {
+  code: "520324",
+  latitude: 28.550337,
+  longitude: 107.441872,
+  name: "正安县"
+}, {
+  code: "520325",
+  latitude: 28.880088,
+  longitude: 107.605342,
+  name: "道真仡佬族苗族自治县"
+}, {
+  code: "520326",
+  latitude: 28.521567,
+  longitude: 107.887857,
+  name: "务川仡佬族苗族自治县"
+}, {
+  code: "520327",
+  latitude: 27.960858,
+  longitude: 107.722021,
+  name: "凤冈县"
+}, {
+  code: "520328",
+  latitude: 27.765839,
+  longitude: 107.485723,
+  name: "湄潭县"
+}, {
+  code: "520329",
+  latitude: 27.221552,
+  longitude: 107.892566,
+  name: "余庆县"
+}, {
+  code: "520330",
+  latitude: 28.327826,
+  longitude: 106.200954,
+  name: "习水县"
+}, {
+  code: "520381",
+  latitude: 28.587057,
+  longitude: 105.698116,
+  name: "赤水市"
+}, {
+  code: "520382",
+  latitude: 27.803377,
+  longitude: 106.412476,
+  name: "仁怀市"
+}, {
+  code: "520400",
+  latitude: 26.245544,
+  longitude: 105.932188,
+  name: "安顺市"
+}, {
+  code: "520402",
+  latitude: 26.248323,
+  longitude: 105.946169,
+  name: "西秀区"
+}, {
+  code: "520403",
+  latitude: 26.40608,
+  longitude: 106.259942,
+  name: "平坝区"
+}, {
+  code: "520422",
+  latitude: 26.305794,
+  longitude: 105.745609,
+  name: "普定县"
+}, {
+  code: "520423",
+  latitude: 26.056096,
+  longitude: 105.768656,
+  name: "镇宁布依族苗族自治县"
+}, {
+  code: "520424",
+  latitude: 25.944248,
+  longitude: 105.618454,
+  name: "关岭布依族苗族自治县"
+}, {
+  code: "520425",
+  latitude: 25.751567,
+  longitude: 106.084515,
+  name: "紫云苗族布依族自治县"
+}, {
+  code: "520500",
+  latitude: 27.301693,
+  longitude: 105.28501,
+  name: "毕节市"
+}, {
+  code: "520502",
+  latitude: 27.302085,
+  longitude: 105.284852,
+  name: "七星关区"
+}, {
+  code: "520521",
+  latitude: 27.143521,
+  longitude: 105.609254,
+  name: "大方县"
+}, {
+  code: "520522",
+  latitude: 27.024923,
+  longitude: 106.038299,
+  name: "黔西市"
+}, {
+  code: "520523",
+  latitude: 27.459693,
+  longitude: 106.222103,
+  name: "金沙县"
+}, {
+  code: "520524",
+  latitude: 26.668497,
+  longitude: 105.768997,
+  name: "织金县"
+}, {
+  code: "520525",
+  latitude: 26.769875,
+  longitude: 105.375322,
+  name: "纳雍县"
+}, {
+  code: "520526",
+  latitude: 26.859099,
+  longitude: 104.286523,
+  name: "威宁彝族回族苗族自治县"
+}, {
+  code: "520527",
+  latitude: 27.119243,
+  longitude: 104.726438,
+  name: "赫章县"
+}, {
+  code: "520600",
+  latitude: 27.718346,
+  longitude: 109.191555,
+  name: "铜仁市"
+}, {
+  code: "520602",
+  latitude: 27.718745,
+  longitude: 109.192117,
+  name: "碧江区"
+}, {
+  code: "520603",
+  latitude: 27.51903,
+  longitude: 109.21199,
+  name: "万山区"
+}, {
+  code: "520621",
+  latitude: 27.691904,
+  longitude: 108.848427,
+  name: "江口县"
+}, {
+  code: "520622",
+  latitude: 27.238024,
+  longitude: 108.917882,
+  name: "玉屏侗族自治县"
+}, {
+  code: "520623",
+  latitude: 27.519386,
+  longitude: 108.229854,
+  name: "石阡县"
+}, {
+  code: "520624",
+  latitude: 27.941331,
+  longitude: 108.255827,
+  name: "思南县"
+}, {
+  code: "520625",
+  latitude: 27.997976,
+  longitude: 108.405517,
+  name: "印江土家族苗族自治县"
+}, {
+  code: "520626",
+  latitude: 28.26094,
+  longitude: 108.117317,
+  name: "德江县"
+}, {
+  code: "520627",
+  latitude: 28.560487,
+  longitude: 108.495746,
+  name: "沿河土家族自治县"
+}, {
+  code: "520628",
+  latitude: 28.165419,
+  longitude: 109.202627,
+  name: "松桃苗族自治县"
+}, {
+  code: "522300",
+  latitude: 25.08812,
+  longitude: 104.897971,
+  name: "黔西南布依族苗族自治州"
+}, {
+  code: "522301",
+  latitude: 25.088599,
+  longitude: 104.897982,
+  name: "兴义市"
+}, {
+  code: "522302",
+  latitude: 25.431378,
+  longitude: 105.192778,
+  name: "兴仁市"
+}, {
+  code: "522323",
+  latitude: 25.786404,
+  longitude: 104.955347,
+  name: "普安县"
+}, {
+  code: "522324",
+  latitude: 25.832881,
+  longitude: 105.218773,
+  name: "晴隆县"
+}, {
+  code: "522325",
+  latitude: 25.385752,
+  longitude: 105.650133,
+  name: "贞丰县"
+}, {
+  code: "522326",
+  latitude: 25.166667,
+  longitude: 106.091563,
+  name: "望谟县"
+}, {
+  code: "522327",
+  latitude: 24.983338,
+  longitude: 105.81241,
+  name: "册亨县"
+}, {
+  code: "522328",
+  latitude: 25.108959,
+  longitude: 105.471498,
+  name: "安龙县"
+}, {
+  code: "522600",
+  latitude: 26.583352,
+  longitude: 107.977488,
+  name: "黔东南苗族侗族自治州"
+}, {
+  code: "522601",
+  latitude: 26.582964,
+  longitude: 107.977541,
+  name: "凯里市"
+}, {
+  code: "522622",
+  latitude: 26.896973,
+  longitude: 107.901337,
+  name: "黄平县"
+}, {
+  code: "522623",
+  latitude: 27.034657,
+  longitude: 108.12678,
+  name: "施秉县"
+}, {
+  code: "522624",
+  latitude: 26.959884,
+  longitude: 108.681121,
+  name: "三穗县"
+}, {
+  code: "522625",
+  latitude: 27.050233,
+  longitude: 108.423656,
+  name: "镇远县"
+}, {
+  code: "522626",
+  latitude: 27.173244,
+  longitude: 108.816459,
+  name: "岑巩县"
+}, {
+  code: "522627",
+  latitude: 26.909684,
+  longitude: 109.212798,
+  name: "天柱县"
+}, {
+  code: "522628",
+  latitude: 26.680625,
+  longitude: 109.20252,
+  name: "锦屏县"
+}, {
+  code: "522629",
+  latitude: 26.727349,
+  longitude: 108.440499,
+  name: "剑河县"
+}, {
+  code: "522630",
+  latitude: 26.669138,
+  longitude: 108.314637,
+  name: "台江县"
+}, {
+  code: "522631",
+  latitude: 26.230636,
+  longitude: 109.136504,
+  name: "黎平县"
+}, {
+  code: "522632",
+  latitude: 25.931085,
+  longitude: 108.521026,
+  name: "榕江县"
+}, {
+  code: "522633",
+  latitude: 25.747058,
+  longitude: 108.912648,
+  name: "从江县"
+}, {
+  code: "522634",
+  latitude: 26.381027,
+  longitude: 108.079613,
+  name: "雷山县"
+}, {
+  code: "522635",
+  latitude: 26.494803,
+  longitude: 107.593172,
+  name: "麻江县"
+}, {
+  code: "522636",
+  latitude: 26.199497,
+  longitude: 107.794808,
+  name: "丹寨县"
+}, {
+  code: "522700",
+  latitude: 26.258219,
+  longitude: 107.517156,
+  name: "黔南布依族苗族自治州"
+}, {
+  code: "522701",
+  latitude: 26.258205,
+  longitude: 107.517021,
+  name: "都匀市"
+}, {
+  code: "522702",
+  latitude: 26.702508,
+  longitude: 107.513508,
+  name: "福泉市"
+}, {
+  code: "522722",
+  latitude: 25.412239,
+  longitude: 107.8838,
+  name: "荔波县"
+}, {
+  code: "522723",
+  latitude: 26.580807,
+  longitude: 107.233588,
+  name: "贵定县"
+}, {
+  code: "522725",
+  latitude: 27.066339,
+  longitude: 107.478417,
+  name: "瓮安县"
+}, {
+  code: "522726",
+  latitude: 25.826283,
+  longitude: 107.542757,
+  name: "独山县"
+}, {
+  code: "522727",
+  latitude: 25.831803,
+  longitude: 107.32405,
+  name: "平塘县"
+}, {
+  code: "522728",
+  latitude: 25.429894,
+  longitude: 106.750006,
+  name: "罗甸县"
+}, {
+  code: "522729",
+  latitude: 26.022116,
+  longitude: 106.447376,
+  name: "长顺县"
+}, {
+  code: "522730",
+  latitude: 26.448809,
+  longitude: 106.977733,
+  name: "龙里县"
+}, {
+  code: "522731",
+  latitude: 26.128637,
+  longitude: 106.657848,
+  name: "惠水县"
+}, {
+  code: "522732",
+  latitude: 25.985183,
+  longitude: 107.87747,
+  name: "三都水族自治县"
+}, {
+  code: "530100",
+  latitude: 25.040609,
+  longitude: 102.712251,
+  name: "昆明市"
+}, {
+  code: "530102",
+  latitude: 25.042165,
+  longitude: 102.704412,
+  name: "五华区"
+}, {
+  code: "530103",
+  latitude: 25.070239,
+  longitude: 102.729044,
+  name: "盘龙区"
+}, {
+  code: "530111",
+  latitude: 25.021211,
+  longitude: 102.723437,
+  name: "官渡区"
+}, {
+  code: "530112",
+  latitude: 25.02436,
+  longitude: 102.705904,
+  name: "西山区"
+}, {
+  code: "530113",
+  latitude: 26.08349,
+  longitude: 103.182,
+  name: "东川区"
+}, {
+  code: "530114",
+  latitude: 24.889275,
+  longitude: 102.801382,
+  name: "呈贡区"
+}, {
+  code: "530115",
+  latitude: 24.666944,
+  longitude: 102.594987,
+  name: "晋宁区"
+}, {
+  code: "530124",
+  latitude: 25.219667,
+  longitude: 102.497888,
+  name: "富民县"
+}, {
+  code: "530125",
+  latitude: 24.918215,
+  longitude: 103.145989,
+  name: "宜良县"
+}, {
+  code: "530126",
+  latitude: 24.754545,
+  longitude: 103.271962,
+  name: "石林彝族自治县"
+}, {
+  code: "530127",
+  latitude: 25.335087,
+  longitude: 103.038777,
+  name: "嵩明县"
+}, {
+  code: "530128",
+  latitude: 25.556533,
+  longitude: 102.46905,
+  name: "禄劝彝族苗族自治县"
+}, {
+  code: "530129",
+  latitude: 25.559474,
+  longitude: 103.257588,
+  name: "寻甸回族彝族自治县"
+}, {
+  code: "530181",
+  latitude: 24.921785,
+  longitude: 102.485544,
+  name: "安宁市"
+}, {
+  code: "530300",
+  latitude: 25.501557,
+  longitude: 103.797851,
+  name: "曲靖市"
+}, {
+  code: "530302",
+  latitude: 25.501269,
+  longitude: 103.798054,
+  name: "麒麟区"
+}, {
+  code: "530303",
+  latitude: 25.600878,
+  longitude: 103.819262,
+  name: "沾益区"
+}, {
+  code: "530304",
+  latitude: 25.429451,
+  longitude: 103.578755,
+  name: "马龙区"
+}, {
+  code: "530322",
+  latitude: 25.022878,
+  longitude: 103.655233,
+  name: "陆良县"
+}, {
+  code: "530323",
+  latitude: 24.825681,
+  longitude: 103.993808,
+  name: "师宗县"
+}, {
+  code: "530324",
+  latitude: 24.885708,
+  longitude: 104.309263,
+  name: "罗平县"
+}, {
+  code: "530325",
+  latitude: 25.67064,
+  longitude: 104.25692,
+  name: "富源县"
+}, {
+  code: "530326",
+  latitude: 26.412861,
+  longitude: 103.300041,
+  name: "会泽县"
+}, {
+  code: "530381",
+  latitude: 26.227777,
+  longitude: 104.09554,
+  name: "宣威市"
+}, {
+  code: "530400",
+  latitude: 24.350461,
+  longitude: 102.543907,
+  name: "玉溪市"
+}, {
+  code: "530402",
+  latitude: 24.350753,
+  longitude: 102.543468,
+  name: "红塔区"
+}, {
+  code: "530403",
+  latitude: 24.291006,
+  longitude: 102.749839,
+  name: "江川区"
+}, {
+  code: "530423",
+  latitude: 24.112205,
+  longitude: 102.760039,
+  name: "通海县"
+}, {
+  code: "530424",
+  latitude: 24.189807,
+  longitude: 102.928982,
+  name: "华宁县"
+}, {
+  code: "530425",
+  latitude: 24.669598,
+  longitude: 102.16211,
+  name: "易门县"
+}, {
+  code: "530426",
+  latitude: 24.173256,
+  longitude: 102.404358,
+  name: "峨山彝族自治县"
+}, {
+  code: "530427",
+  latitude: 24.0664,
+  longitude: 101.990903,
+  name: "新平彝族傣族自治县"
+}, {
+  code: "530428",
+  latitude: 23.597618,
+  longitude: 101.999658,
+  name: "元江哈尼族彝族傣族自治县"
+}, {
+  code: "530481",
+  latitude: 24.669679,
+  longitude: 102.916652,
+  name: "澄江市"
+}, {
+  code: "530500",
+  latitude: 25.111802,
+  longitude: 99.167133,
+  name: "保山市"
+}, {
+  code: "530502",
+  latitude: 25.112144,
+  longitude: 99.165825,
+  name: "隆阳区"
+}, {
+  code: "530521",
+  latitude: 24.730847,
+  longitude: 99.183758,
+  name: "施甸县"
+}, {
+  code: "530523",
+  latitude: 24.591912,
+  longitude: 98.693567,
+  name: "龙陵县"
+}, {
+  code: "530524",
+  latitude: 24.823662,
+  longitude: 99.612344,
+  name: "昌宁县"
+}, {
+  code: "530581",
+  latitude: 25.01757,
+  longitude: 98.497292,
+  name: "腾冲市"
+}, {
+  code: "530600",
+  latitude: 27.336999,
+  longitude: 103.717216,
+  name: "昭通市"
+}, {
+  code: "530602",
+  latitude: 27.336636,
+  longitude: 103.717267,
+  name: "昭阳区"
+}, {
+  code: "530621",
+  latitude: 27.191637,
+  longitude: 103.549333,
+  name: "鲁甸县"
+}, {
+  code: "530622",
+  latitude: 26.9117,
+  longitude: 102.929284,
+  name: "巧家县"
+}, {
+  code: "530623",
+  latitude: 28.106923,
+  longitude: 104.23506,
+  name: "盐津县"
+}, {
+  code: "530624",
+  latitude: 27.747114,
+  longitude: 103.891608,
+  name: "大关县"
+}, {
+  code: "530625",
+  latitude: 28.231526,
+  longitude: 103.63732,
+  name: "永善县"
+}, {
+  code: "530626",
+  latitude: 28.599953,
+  longitude: 103.961095,
+  name: "绥江县"
+}, {
+  code: "530627",
+  latitude: 27.436267,
+  longitude: 104.873055,
+  name: "镇雄县"
+}, {
+  code: "530628",
+  latitude: 27.627425,
+  longitude: 104.048492,
+  name: "彝良县"
+}, {
+  code: "530629",
+  latitude: 27.843381,
+  longitude: 105.04869,
+  name: "威信县"
+}, {
+  code: "530681",
+  latitude: 28.629688,
+  longitude: 104.415376,
+  name: "水富市"
+}, {
+  code: "530700",
+  latitude: 26.872108,
+  longitude: 100.233026,
+  name: "丽江市"
+}, {
+  code: "530702",
+  latitude: 26.872229,
+  longitude: 100.234412,
+  name: "古城区"
+}, {
+  code: "530721",
+  latitude: 26.830593,
+  longitude: 100.238312,
+  name: "玉龙纳西族自治县"
+}, {
+  code: "530722",
+  latitude: 26.685623,
+  longitude: 100.750901,
+  name: "永胜县"
+}, {
+  code: "530723",
+  latitude: 26.628834,
+  longitude: 101.267796,
+  name: "华坪县"
+}, {
+  code: "530724",
+  latitude: 27.281109,
+  longitude: 100.852427,
+  name: "宁蒗彝族自治县"
+}, {
+  code: "530800",
+  latitude: 22.777321,
+  longitude: 100.972344,
+  name: "普洱市"
+}, {
+  code: "530802",
+  latitude: 22.776595,
+  longitude: 100.973227,
+  name: "思茅区"
+}, {
+  code: "530821",
+  latitude: 23.062507,
+  longitude: 101.04524,
+  name: "宁洱哈尼族彝族自治县"
+}, {
+  code: "530822",
+  latitude: 23.428165,
+  longitude: 101.687606,
+  name: "墨江哈尼族自治县"
+}, {
+  code: "530823",
+  latitude: 24.448523,
+  longitude: 100.840011,
+  name: "景东彝族自治县"
+}, {
+  code: "530824",
+  latitude: 23.500278,
+  longitude: 100.701425,
+  name: "景谷傣族彝族自治县"
+}, {
+  code: "530825",
+  latitude: 24.005712,
+  longitude: 101.108512,
+  name: "镇沅彝族哈尼族拉祜族自治县"
+}, {
+  code: "530826",
+  latitude: 22.58336,
+  longitude: 101.859144,
+  name: "江城哈尼族彝族自治县"
+}, {
+  code: "530827",
+  latitude: 22.325924,
+  longitude: 99.585406,
+  name: "孟连傣族拉祜族佤族自治县"
+}, {
+  code: "530828",
+  latitude: 22.553083,
+  longitude: 99.931201,
+  name: "澜沧拉祜族自治县"
+}, {
+  code: "530829",
+  latitude: 22.644423,
+  longitude: 99.594372,
+  name: "西盟佤族自治县"
+}, {
+  code: "530900",
+  latitude: 23.886567,
+  longitude: 100.08697,
+  name: "临沧市"
+}, {
+  code: "530902",
+  latitude: 23.886562,
+  longitude: 100.086486,
+  name: "临翔区"
+}, {
+  code: "530921",
+  latitude: 24.592738,
+  longitude: 99.91871,
+  name: "凤庆县"
+}, {
+  code: "530922",
+  latitude: 24.439026,
+  longitude: 100.125637,
+  name: "云县"
+}, {
+  code: "530923",
+  latitude: 24.028159,
+  longitude: 99.253679,
+  name: "永德县"
+}, {
+  code: "530924",
+  latitude: 23.761415,
+  longitude: 98.82743,
+  name: "镇康县"
+}, {
+  code: "530925",
+  latitude: 23.477476,
+  longitude: 99.824419,
+  name: "双江拉祜族佤族布朗族傣族自治县"
+}, {
+  code: "530926",
+  latitude: 23.534579,
+  longitude: 99.402495,
+  name: "耿马傣族佤族自治县"
+}, {
+  code: "530927",
+  latitude: 23.146887,
+  longitude: 99.2474,
+  name: "沧源佤族自治县"
+}, {
+  code: "532300",
+  latitude: 25.041988,
+  longitude: 101.546046,
+  name: "楚雄彝族自治州"
+}, {
+  code: "532301",
+  latitude: 25.040912,
+  longitude: 101.546145,
+  name: "楚雄市"
+}, {
+  code: "532322",
+  latitude: 24.685094,
+  longitude: 101.63824,
+  name: "双柏县"
+}, {
+  code: "532323",
+  latitude: 25.312111,
+  longitude: 101.543044,
+  name: "牟定县"
+}, {
+  code: "532324",
+  latitude: 25.192408,
+  longitude: 101.274991,
+  name: "南华县"
+}, {
+  code: "532325",
+  latitude: 25.505403,
+  longitude: 101.238399,
+  name: "姚安县"
+}, {
+  code: "532326",
+  latitude: 25.722348,
+  longitude: 101.323602,
+  name: "大姚县"
+}, {
+  code: "532327",
+  latitude: 26.056316,
+  longitude: 101.671175,
+  name: "永仁县"
+}, {
+  code: "532328",
+  latitude: 25.703313,
+  longitude: 101.870837,
+  name: "元谋县"
+}, {
+  code: "532329",
+  latitude: 25.5301,
+  longitude: 102.406785,
+  name: "武定县"
+}, {
+  code: "532331",
+  latitude: 25.14327,
+  longitude: 102.075694,
+  name: "禄丰市"
+}, {
+  code: "532500",
+  latitude: 23.366775,
+  longitude: 103.384182,
+  name: "红河哈尼族彝族自治州"
+}, {
+  code: "532501",
+  latitude: 23.360383,
+  longitude: 103.154752,
+  name: "个旧市"
+}, {
+  code: "532502",
+  latitude: 23.713832,
+  longitude: 103.258679,
+  name: "开远市"
+}, {
+  code: "532503",
+  latitude: 23.366843,
+  longitude: 103.385005,
+  name: "蒙自市"
+}, {
+  code: "532504",
+  latitude: 24.40837,
+  longitude: 103.436988,
+  name: "弥勒市"
+}, {
+  code: "532523",
+  latitude: 22.987013,
+  longitude: 103.687229,
+  name: "屏边苗族自治县"
+}, {
+  code: "532524",
+  latitude: 23.618387,
+  longitude: 102.820493,
+  name: "建水县"
+}, {
+  code: "532525",
+  latitude: 23.712569,
+  longitude: 102.484469,
+  name: "石屏县"
+}, {
+  code: "532527",
+  latitude: 24.532368,
+  longitude: 103.759622,
+  name: "泸西县"
+}, {
+  code: "532528",
+  latitude: 23.219773,
+  longitude: 102.837056,
+  name: "元阳县"
+}, {
+  code: "532529",
+  latitude: 23.369191,
+  longitude: 102.42121,
+  name: "红河县"
+}, {
+  code: "532530",
+  latitude: 22.779982,
+  longitude: 103.228359,
+  name: "金平苗族瑶族傣族自治县"
+}, {
+  code: "532531",
+  latitude: 22.99352,
+  longitude: 102.39286,
+  name: "绿春县"
+}, {
+  code: "532532",
+  latitude: 22.507563,
+  longitude: 103.961593,
+  name: "河口瑶族自治县"
+}, {
+  code: "532600",
+  latitude: 23.36951,
+  longitude: 104.24401,
+  name: "文山壮族苗族自治州"
+}, {
+  code: "532601",
+  latitude: 23.369216,
+  longitude: 104.244277,
+  name: "文山市"
+}, {
+  code: "532622",
+  latitude: 23.612301,
+  longitude: 104.343989,
+  name: "砚山县"
+}, {
+  code: "532623",
+  latitude: 23.437439,
+  longitude: 104.675711,
+  name: "西畴县"
+}, {
+  code: "532624",
+  latitude: 23.124202,
+  longitude: 104.701899,
+  name: "麻栗坡县"
+}, {
+  code: "532625",
+  latitude: 23.011723,
+  longitude: 104.398619,
+  name: "马关县"
+}, {
+  code: "532626",
+  latitude: 24.040982,
+  longitude: 104.194366,
+  name: "丘北县"
+}, {
+  code: "532627",
+  latitude: 24.050272,
+  longitude: 105.056684,
+  name: "广南县"
+}, {
+  code: "532628",
+  latitude: 23.626494,
+  longitude: 105.62856,
+  name: "富宁县"
+}, {
+  code: "532800",
+  latitude: 22.001724,
+  longitude: 100.797941,
+  name: "西双版纳傣族自治州"
+}, {
+  code: "532801",
+  latitude: 22.002087,
+  longitude: 100.797947,
+  name: "景洪市"
+}, {
+  code: "532822",
+  latitude: 21.955866,
+  longitude: 100.448288,
+  name: "勐海县"
+}, {
+  code: "532823",
+  latitude: 21.479449,
+  longitude: 101.567051,
+  name: "勐腊县"
+}, {
+  code: "532900",
+  latitude: 25.589449,
+  longitude: 100.225668,
+  name: "大理白族自治州"
+}, {
+  code: "532901",
+  latitude: 25.593067,
+  longitude: 100.241369,
+  name: "大理市"
+}, {
+  code: "532922",
+  latitude: 25.669543,
+  longitude: 99.95797,
+  name: "漾濞彝族自治县"
+}, {
+  code: "532923",
+  latitude: 25.477072,
+  longitude: 100.554025,
+  name: "祥云县"
+}, {
+  code: "532924",
+  latitude: 25.825904,
+  longitude: 100.578957,
+  name: "宾川县"
+}, {
+  code: "532925",
+  latitude: 25.342594,
+  longitude: 100.490669,
+  name: "弥渡县"
+}, {
+  code: "532926",
+  latitude: 25.041279,
+  longitude: 100.518683,
+  name: "南涧彝族自治县"
+}, {
+  code: "532927",
+  latitude: 25.230909,
+  longitude: 100.30793,
+  name: "巍山彝族回族自治县"
+}, {
+  code: "532928",
+  latitude: 25.461281,
+  longitude: 99.533536,
+  name: "永平县"
+}, {
+  code: "532929",
+  latitude: 25.884955,
+  longitude: 99.369402,
+  name: "云龙县"
+}, {
+  code: "532930",
+  latitude: 26.111184,
+  longitude: 99.951708,
+  name: "洱源县"
+}, {
+  code: "532931",
+  latitude: 26.530066,
+  longitude: 99.905887,
+  name: "剑川县"
+}, {
+  code: "532932",
+  latitude: 26.55839,
+  longitude: 100.173375,
+  name: "鹤庆县"
+}, {
+  code: "533100",
+  latitude: 24.436694,
+  longitude: 98.578363,
+  name: "德宏傣族景颇族自治州"
+}, {
+  code: "533102",
+  latitude: 24.010734,
+  longitude: 97.855883,
+  name: "瑞丽市"
+}, {
+  code: "533103",
+  latitude: 24.436699,
+  longitude: 98.577608,
+  name: "芒市"
+}, {
+  code: "533122",
+  latitude: 24.80742,
+  longitude: 98.298196,
+  name: "梁河县"
+}, {
+  code: "533123",
+  latitude: 24.709541,
+  longitude: 97.93393,
+  name: "盈江县"
+}, {
+  code: "533124",
+  latitude: 24.184065,
+  longitude: 97.794441,
+  name: "陇川县"
+}, {
+  code: "533300",
+  latitude: 25.850949,
+  longitude: 98.854304,
+  name: "怒江傈僳族自治州"
+}, {
+  code: "533301",
+  latitude: 25.851142,
+  longitude: 98.854063,
+  name: "泸水市"
+}, {
+  code: "533323",
+  latitude: 26.902738,
+  longitude: 98.867413,
+  name: "福贡县"
+}, {
+  code: "533324",
+  latitude: 27.738054,
+  longitude: 98.666141,
+  name: "贡山独龙族怒族自治县"
+}, {
+  code: "533325",
+  latitude: 26.453839,
+  longitude: 99.421378,
+  name: "兰坪白族普米族自治县"
+}, {
+  code: "533400",
+  latitude: 27.826853,
+  longitude: 99.706463,
+  name: "迪庆藏族自治州"
+}, {
+  code: "533401",
+  latitude: 27.825804,
+  longitude: 99.708667,
+  name: "香格里拉市"
+}, {
+  code: "533422",
+  latitude: 28.483272,
+  longitude: 98.91506,
+  name: "德钦县"
+}, {
+  code: "533423",
+  latitude: 27.180948,
+  longitude: 99.286355,
+  name: "维西傈僳族自治县"
+}, {
+  code: "540100",
+  latitude: 29.660361,
+  longitude: 91.132212,
+  name: "拉萨市"
+}, {
+  code: "540102",
+  latitude: 29.659472,
+  longitude: 91.132911,
+  name: "城关区（拉萨市）"
+}, {
+  code: "540103",
+  latitude: 29.647347,
+  longitude: 91.002823,
+  name: "堆龙德庆区"
+}, {
+  code: "540104",
+  latitude: 29.670314,
+  longitude: 91.350976,
+  name: "达孜区"
+}, {
+  code: "540121",
+  latitude: 29.895754,
+  longitude: 91.261842,
+  name: "林周县"
+}, {
+  code: "540122",
+  latitude: 30.474819,
+  longitude: 91.103551,
+  name: "当雄县"
+}, {
+  code: "540123",
+  latitude: 29.431346,
+  longitude: 90.165545,
+  name: "尼木县"
+}, {
+  code: "540124",
+  latitude: 29.349895,
+  longitude: 90.738051,
+  name: "曲水县"
+}, {
+  code: "540127",
+  latitude: 29.834657,
+  longitude: 91.731158,
+  name: "墨竹工卡县"
+}, {
+  code: "540200",
+  latitude: 29.267519,
+  longitude: 88.885148,
+  name: "日喀则市"
+}, {
+  code: "540202",
+  latitude: 29.267003,
+  longitude: 88.88667,
+  name: "桑珠孜区"
+}, {
+  code: "540221",
+  latitude: 29.680459,
+  longitude: 89.099434,
+  name: "南木林县"
+}, {
+  code: "540222",
+  latitude: 28.908845,
+  longitude: 89.605044,
+  name: "江孜县"
+}, {
+  code: "540223",
+  latitude: 28.656667,
+  longitude: 87.123887,
+  name: "定日县"
+}, {
+  code: "540224",
+  latitude: 28.901077,
+  longitude: 88.023007,
+  name: "萨迦县"
+}, {
+  code: "540225",
+  latitude: 29.085136,
+  longitude: 87.63743,
+  name: "拉孜县"
+}, {
+  code: "540226",
+  latitude: 29.294758,
+  longitude: 87.23578,
+  name: "昂仁县"
+}, {
+  code: "540227",
+  latitude: 29.431597,
+  longitude: 88.260517,
+  name: "谢通门县"
+}, {
+  code: "540228",
+  latitude: 29.106627,
+  longitude: 89.263618,
+  name: "白朗县"
+}, {
+  code: "540229",
+  latitude: 29.230299,
+  longitude: 89.843207,
+  name: "仁布县"
+}, {
+  code: "540230",
+  latitude: 28.554719,
+  longitude: 89.683406,
+  name: "康马县"
+}, {
+  code: "540231",
+  latitude: 28.36409,
+  longitude: 87.767723,
+  name: "定结县"
+}, {
+  code: "540232",
+  latitude: 29.768336,
+  longitude: 84.032826,
+  name: "仲巴县"
+}, {
+  code: "540233",
+  latitude: 27.482772,
+  longitude: 88.906806,
+  name: "亚东县"
+}, {
+  code: "540234",
+  latitude: 28.852416,
+  longitude: 85.298349,
+  name: "吉隆县"
+}, {
+  code: "540235",
+  latitude: 28.15595,
+  longitude: 85.981953,
+  name: "聂拉木县"
+}, {
+  code: "540236",
+  latitude: 29.328194,
+  longitude: 85.234622,
+  name: "萨嘎县"
+}, {
+  code: "540237",
+  latitude: 28.274371,
+  longitude: 88.518903,
+  name: "岗巴县"
+}, {
+  code: "540300",
+  latitude: 31.136875,
+  longitude: 97.178452,
+  name: "昌都市"
+}, {
+  code: "540302",
+  latitude: 31.137035,
+  longitude: 97.178255,
+  name: "卡若区"
+}, {
+  code: "540321",
+  latitude: 31.499534,
+  longitude: 98.218351,
+  name: "江达县"
+}, {
+  code: "540322",
+  latitude: 30.859206,
+  longitude: 98.271191,
+  name: "贡觉县"
+}, {
+  code: "540323",
+  latitude: 31.213048,
+  longitude: 96.601259,
+  name: "类乌齐县"
+}, {
+  code: "540324",
+  latitude: 31.410681,
+  longitude: 95.597748,
+  name: "丁青县"
+}, {
+  code: "540325",
+  latitude: 30.653038,
+  longitude: 97.565701,
+  name: "察雅县"
+}, {
+  code: "540326",
+  latitude: 30.053408,
+  longitude: 96.917893,
+  name: "八宿县"
+}, {
+  code: "540327",
+  latitude: 29.671335,
+  longitude: 97.840532,
+  name: "左贡县"
+}, {
+  code: "540328",
+  latitude: 29.686615,
+  longitude: 98.596444,
+  name: "芒康县"
+}, {
+  code: "540329",
+  latitude: 30.741947,
+  longitude: 95.823418,
+  name: "洛隆县"
+}, {
+  code: "540330",
+  latitude: 30.933849,
+  longitude: 94.707504,
+  name: "边坝县"
+}, {
+  code: "540400",
+  latitude: 29.654693,
+  longitude: 94.362348,
+  name: "林芝市"
+}, {
+  code: "540402",
+  latitude: 29.653732,
+  longitude: 94.360987,
+  name: "巴宜区"
+}, {
+  code: "540421",
+  latitude: 29.88447,
+  longitude: 93.246515,
+  name: "工布江达县"
+}, {
+  code: "540422",
+  latitude: 29.213811,
+  longitude: 94.213679,
+  name: "米林县"
+}, {
+  code: "540423",
+  latitude: 29.32573,
+  longitude: 95.332245,
+  name: "墨脱县"
+}, {
+  code: "540424",
+  latitude: 29.858771,
+  longitude: 95.768151,
+  name: "波密县"
+}, {
+  code: "540425",
+  latitude: 28.660244,
+  longitude: 97.465002,
+  name: "察隅县"
+}, {
+  code: "540426",
+  latitude: 29.0446,
+  longitude: 93.073429,
+  name: "朗县"
+}, {
+  code: "540500",
+  latitude: 29.236023,
+  longitude: 91.766529,
+  name: "山南市"
+}, {
+  code: "540502",
+  latitude: 29.236106,
+  longitude: 91.76525,
+  name: "乃东区"
+}, {
+  code: "540521",
+  latitude: 29.246476,
+  longitude: 91.338,
+  name: "扎囊县"
+}, {
+  code: "540522",
+  latitude: 29.289078,
+  longitude: 90.985271,
+  name: "贡嘎县"
+}, {
+  code: "540523",
+  latitude: 29.259774,
+  longitude: 92.015732,
+  name: "桑日县"
+}, {
+  code: "540524",
+  latitude: 29.025242,
+  longitude: 91.683753,
+  name: "琼结县"
+}, {
+  code: "540525",
+  latitude: 29.063656,
+  longitude: 92.201066,
+  name: "曲松县"
+}, {
+  code: "540526",
+  latitude: 28.437353,
+  longitude: 91.432347,
+  name: "措美县"
+}, {
+  code: "540527",
+  latitude: 28.385765,
+  longitude: 90.858243,
+  name: "洛扎县"
+}, {
+  code: "540528",
+  latitude: 29.140921,
+  longitude: 92.591043,
+  name: "加查县"
+}, {
+  code: "540529",
+  latitude: 28.408548,
+  longitude: 92.463309,
+  name: "隆子县"
+}, {
+  code: "540530",
+  latitude: 27.991707,
+  longitude: 91.960132,
+  name: "错那县"
+}, {
+  code: "540531",
+  latitude: 28.96836,
+  longitude: 90.398747,
+  name: "浪卡子县"
+}, {
+  code: "540600",
+  latitude: 31.476004,
+  longitude: 92.060214,
+  name: "那曲市"
+}, {
+  code: "540602",
+  latitude: 31.475756,
+  longitude: 92.061862,
+  name: "色尼区"
+}, {
+  code: "540621",
+  latitude: 30.640846,
+  longitude: 93.232907,
+  name: "嘉黎县"
+}, {
+  code: "540622",
+  latitude: 31.479917,
+  longitude: 93.68044,
+  name: "比如县"
+}, {
+  code: "540623",
+  latitude: 32.107855,
+  longitude: 92.303659,
+  name: "聂荣县"
+}, {
+  code: "540624",
+  latitude: 32.260299,
+  longitude: 91.681879,
+  name: "安多县"
+}, {
+  code: "540625",
+  latitude: 30.929056,
+  longitude: 88.709777,
+  name: "申扎县"
+}, {
+  code: "540626",
+  latitude: 31.886173,
+  longitude: 93.784964,
+  name: "索县"
+}, {
+  code: "540627",
+  latitude: 31.394578,
+  longitude: 90.011822,
+  name: "班戈县"
+}, {
+  code: "540628",
+  latitude: 31.918691,
+  longitude: 94.054049,
+  name: "巴青县"
+}, {
+  code: "540629",
+  latitude: 31.784979,
+  longitude: 87.236646,
+  name: "尼玛县"
+}, {
+  code: "540630",
+  latitude: 33.18698,
+  longitude: 88.838578,
+  name: "双湖县"
+}, {
+  code: "542500",
+  latitude: 32.503187,
+  longitude: 80.105498,
+  name: "阿里地区"
+}, {
+  code: "542521",
+  latitude: 30.291896,
+  longitude: 81.177588,
+  name: "普兰县"
+}, {
+  code: "542522",
+  latitude: 31.478587,
+  longitude: 79.803191,
+  name: "札达县"
+}, {
+  code: "542523",
+  latitude: 32.503373,
+  longitude: 80.105005,
+  name: "噶尔县"
+}, {
+  code: "542524",
+  latitude: 33.382454,
+  longitude: 79.731937,
+  name: "日土县"
+}, {
+  code: "542525",
+  latitude: 32.389192,
+  longitude: 81.142896,
+  name: "革吉县"
+}, {
+  code: "542526",
+  latitude: 32.302076,
+  longitude: 84.062384,
+  name: "改则县"
+}, {
+  code: "542527",
+  latitude: 31.016774,
+  longitude: 85.159254,
+  name: "措勤县"
+}, {
+  code: "610100",
+  latitude: 34.263161,
+  longitude: 108.948024,
+  name: "西安市"
+}, {
+  code: "610102",
+  latitude: 34.26927,
+  longitude: 108.959903,
+  name: "新城区（西安市）"
+}, {
+  code: "610103",
+  latitude: 34.251061,
+  longitude: 108.946994,
+  name: "碑林区"
+}, {
+  code: "610104",
+  latitude: 34.2656,
+  longitude: 108.933194,
+  name: "莲湖区"
+}, {
+  code: "610111",
+  latitude: 34.267453,
+  longitude: 109.067261,
+  name: "灞桥区"
+}, {
+  code: "610112",
+  latitude: 34.30823,
+  longitude: 108.946022,
+  name: "未央区"
+}, {
+  code: "610113",
+  latitude: 34.213389,
+  longitude: 108.926593,
+  name: "雁塔区"
+}, {
+  code: "610114",
+  latitude: 34.662141,
+  longitude: 109.22802,
+  name: "阎良区"
+}, {
+  code: "610115",
+  latitude: 34.372065,
+  longitude: 109.213986,
+  name: "临潼区"
+}, {
+  code: "610116",
+  latitude: 34.157097,
+  longitude: 108.941579,
+  name: "长安区（西安市）"
+}, {
+  code: "610117",
+  latitude: 34.535065,
+  longitude: 109.088896,
+  name: "高陵区"
+}, {
+  code: "610118",
+  latitude: 34.108668,
+  longitude: 108.607385,
+  name: "鄠邑区"
+}, {
+  code: "610122",
+  latitude: 34.156189,
+  longitude: 109.317634,
+  name: "蓝田县"
+}, {
+  code: "610124",
+  latitude: 34.161532,
+  longitude: 108.216465,
+  name: "周至县"
+}, {
+  code: "610200",
+  latitude: 34.916582,
+  longitude: 108.979608,
+  name: "铜川市"
+}, {
+  code: "610202",
+  latitude: 35.069098,
+  longitude: 109.075862,
+  name: "王益区"
+}, {
+  code: "610203",
+  latitude: 35.111927,
+  longitude: 109.100814,
+  name: "印台区"
+}, {
+  code: "610204",
+  latitude: 34.910206,
+  longitude: 108.962538,
+  name: "耀州区"
+}, {
+  code: "610222",
+  latitude: 35.398766,
+  longitude: 109.118278,
+  name: "宜君县"
+}, {
+  code: "610300",
+  latitude: 34.369315,
+  longitude: 107.14487,
+  name: "宝鸡市"
+}, {
+  code: "610302",
+  latitude: 34.371008,
+  longitude: 107.144467,
+  name: "渭滨区"
+}, {
+  code: "610303",
+  latitude: 34.375192,
+  longitude: 107.149943,
+  name: "金台区"
+}, {
+  code: "610304",
+  latitude: 34.352747,
+  longitude: 107.383645,
+  name: "陈仓区"
+}, {
+  code: "610322",
+  latitude: 34.521668,
+  longitude: 107.400577,
+  name: "凤翔区"
+}, {
+  code: "610323",
+  latitude: 34.44296,
+  longitude: 107.624464,
+  name: "岐山县"
+}, {
+  code: "610324",
+  latitude: 34.375497,
+  longitude: 107.891419,
+  name: "扶风县"
+}, {
+  code: "610326",
+  latitude: 34.272137,
+  longitude: 107.752371,
+  name: "眉县"
+}, {
+  code: "610327",
+  latitude: 34.893262,
+  longitude: 106.857066,
+  name: "陇县"
+}, {
+  code: "610328",
+  latitude: 34.642584,
+  longitude: 107.132987,
+  name: "千阳县"
+}, {
+  code: "610329",
+  latitude: 34.677714,
+  longitude: 107.796608,
+  name: "麟游县"
+}, {
+  code: "610330",
+  latitude: 33.912464,
+  longitude: 106.525212,
+  name: "凤县"
+}, {
+  code: "610331",
+  latitude: 34.059215,
+  longitude: 107.316533,
+  name: "太白县"
+}, {
+  code: "610400",
+  latitude: 34.333439,
+  longitude: 108.705117,
+  name: "咸阳市"
+}, {
+  code: "610402",
+  latitude: 34.329801,
+  longitude: 108.698636,
+  name: "秦都区"
+}, {
+  code: "610403",
+  latitude: 34.27135,
+  longitude: 108.086348,
+  name: "杨陵区"
+}, {
+  code: "610404",
+  latitude: 34.336847,
+  longitude: 108.730957,
+  name: "渭城区"
+}, {
+  code: "610422",
+  latitude: 34.613996,
+  longitude: 108.943481,
+  name: "三原县"
+}, {
+  code: "610423",
+  latitude: 34.528493,
+  longitude: 108.83784,
+  name: "泾阳县"
+}, {
+  code: "610424",
+  latitude: 34.527261,
+  longitude: 108.247406,
+  name: "乾县"
+}, {
+  code: "610425",
+  latitude: 34.482583,
+  longitude: 108.428317,
+  name: "礼泉县"
+}, {
+  code: "610426",
+  latitude: 34.692619,
+  longitude: 108.143129,
+  name: "永寿县"
+}, {
+  code: "610428",
+  latitude: 35.206122,
+  longitude: 107.795835,
+  name: "长武县"
+}, {
+  code: "610429",
+  latitude: 35.112234,
+  longitude: 108.337231,
+  name: "旬邑县"
+}, {
+  code: "610430",
+  latitude: 34.79797,
+  longitude: 108.581173,
+  name: "淳化县"
+}, {
+  code: "610431",
+  latitude: 34.259732,
+  longitude: 108.212857,
+  name: "武功县"
+}, {
+  code: "610481",
+  latitude: 34.297134,
+  longitude: 108.488493,
+  name: "兴平市"
+}, {
+  code: "610482",
+  latitude: 35.034233,
+  longitude: 108.083674,
+  name: "彬州市"
+}, {
+  code: "610500",
+  latitude: 34.499381,
+  longitude: 109.502882,
+  name: "渭南市"
+}, {
+  code: "610502",
+  latitude: 34.501271,
+  longitude: 109.503299,
+  name: "临渭区"
+}, {
+  code: "610503",
+  latitude: 34.511958,
+  longitude: 109.76141,
+  name: "华州区"
+}, {
+  code: "610522",
+  latitude: 34.544515,
+  longitude: 110.24726,
+  name: "潼关县"
+}, {
+  code: "610523",
+  latitude: 34.795011,
+  longitude: 109.943123,
+  name: "大荔县"
+}, {
+  code: "610524",
+  latitude: 35.237098,
+  longitude: 110.147979,
+  name: "合阳县"
+}, {
+  code: "610525",
+  latitude: 35.184,
+  longitude: 109.937609,
+  name: "澄城县"
+}, {
+  code: "610526",
+  latitude: 34.956034,
+  longitude: 109.589653,
+  name: "蒲城县"
+}, {
+  code: "610527",
+  latitude: 35.177291,
+  longitude: 109.594309,
+  name: "白水县"
+}, {
+  code: "610528",
+  latitude: 34.746679,
+  longitude: 109.187174,
+  name: "富平县"
+}, {
+  code: "610581",
+  latitude: 35.475238,
+  longitude: 110.452391,
+  name: "韩城市"
+}, {
+  code: "610582",
+  latitude: 34.565359,
+  longitude: 110.08952,
+  name: "华阴市"
+}, {
+  code: "610600",
+  latitude: 36.596537,
+  longitude: 109.49081,
+  name: "延安市"
+}, {
+  code: "610602",
+  latitude: 36.596291,
+  longitude: 109.49069,
+  name: "宝塔区"
+}, {
+  code: "610603",
+  latitude: 36.86441,
+  longitude: 109.325341,
+  name: "安塞区"
+}, {
+  code: "610621",
+  latitude: 36.578306,
+  longitude: 110.012961,
+  name: "延长县"
+}, {
+  code: "610622",
+  latitude: 36.882066,
+  longitude: 110.190314,
+  name: "延川县"
+}, {
+  code: "610625",
+  latitude: 36.823031,
+  longitude: 108.768898,
+  name: "志丹县"
+}, {
+  code: "610626",
+  latitude: 36.924852,
+  longitude: 108.176976,
+  name: "吴起县"
+}, {
+  code: "610627",
+  latitude: 36.277729,
+  longitude: 109.34961,
+  name: "甘泉县"
+}, {
+  code: "610628",
+  latitude: 35.996495,
+  longitude: 109.384136,
+  name: "富县"
+}, {
+  code: "610629",
+  latitude: 35.762133,
+  longitude: 109.435712,
+  name: "洛川县"
+}, {
+  code: "610630",
+  latitude: 36.050391,
+  longitude: 110.175537,
+  name: "宜川县"
+}, {
+  code: "610631",
+  latitude: 35.583276,
+  longitude: 109.83502,
+  name: "黄龙县"
+}, {
+  code: "610632",
+  latitude: 35.580165,
+  longitude: 109.262469,
+  name: "黄陵县"
+}, {
+  code: "610681",
+  latitude: 37.14207,
+  longitude: 109.675968,
+  name: "子长市"
+}, {
+  code: "610700",
+  latitude: 33.077668,
+  longitude: 107.028621,
+  name: "汉中市"
+}, {
+  code: "610702",
+  latitude: 33.077674,
+  longitude: 107.028233,
+  name: "汉台区"
+}, {
+  code: "610703",
+  latitude: 33.003341,
+  longitude: 106.942393,
+  name: "南郑区"
+}, {
+  code: "610722",
+  latitude: 33.153098,
+  longitude: 107.329887,
+  name: "城固县"
+}, {
+  code: "610723",
+  latitude: 33.223283,
+  longitude: 107.549962,
+  name: "洋县"
+}, {
+  code: "610724",
+  latitude: 32.987961,
+  longitude: 107.765858,
+  name: "西乡县"
+}, {
+  code: "610725",
+  latitude: 33.155618,
+  longitude: 106.680175,
+  name: "勉县"
+}, {
+  code: "610726",
+  latitude: 32.830806,
+  longitude: 106.25739,
+  name: "宁强县"
+}, {
+  code: "610727",
+  latitude: 33.329638,
+  longitude: 106.153899,
+  name: "略阳县"
+}, {
+  code: "610728",
+  latitude: 32.535854,
+  longitude: 107.89531,
+  name: "镇巴县"
+}, {
+  code: "610729",
+  latitude: 33.61334,
+  longitude: 106.924377,
+  name: "留坝县"
+}, {
+  code: "610730",
+  latitude: 33.520745,
+  longitude: 107.988582,
+  name: "佛坪县"
+}, {
+  code: "610800",
+  latitude: 38.290162,
+  longitude: 109.741193,
+  name: "榆林市"
+}, {
+  code: "610802",
+  latitude: 38.299267,
+  longitude: 109.74791,
+  name: "榆阳区"
+}, {
+  code: "610803",
+  latitude: 37.964048,
+  longitude: 109.292596,
+  name: "横山区"
+}, {
+  code: "610822",
+  latitude: 39.029243,
+  longitude: 111.069645,
+  name: "府谷县"
+}, {
+  code: "610824",
+  latitude: 37.596084,
+  longitude: 108.80567,
+  name: "靖边县"
+}, {
+  code: "610825",
+  latitude: 37.59523,
+  longitude: 107.601284,
+  name: "定边县"
+}, {
+  code: "610826",
+  latitude: 37.507701,
+  longitude: 110.265377,
+  name: "绥德县"
+}, {
+  code: "610827",
+  latitude: 37.759081,
+  longitude: 110.178683,
+  name: "米脂县"
+}, {
+  code: "610828",
+  latitude: 38.021597,
+  longitude: 110.493367,
+  name: "佳县"
+}, {
+  code: "610829",
+  latitude: 37.451925,
+  longitude: 110.739315,
+  name: "吴堡县"
+}, {
+  code: "610830",
+  latitude: 37.087702,
+  longitude: 110.12146,
+  name: "清涧县"
+}, {
+  code: "610831",
+  latitude: 37.611573,
+  longitude: 110.03457,
+  name: "子洲县"
+}, {
+  code: "610881",
+  latitude: 38.835641,
+  longitude: 110.497005,
+  name: "神木市"
+}, {
+  code: "610900",
+  latitude: 32.6903,
+  longitude: 109.029273,
+  name: "安康市"
+}, {
+  code: "610902",
+  latitude: 32.690817,
+  longitude: 109.029098,
+  name: "汉滨区"
+}, {
+  code: "610921",
+  latitude: 32.891121,
+  longitude: 108.510946,
+  name: "汉阴县"
+}, {
+  code: "610922",
+  latitude: 33.038512,
+  longitude: 108.250512,
+  name: "石泉县"
+}, {
+  code: "610923",
+  latitude: 33.312184,
+  longitude: 108.313714,
+  name: "宁陕县"
+}, {
+  code: "610924",
+  latitude: 32.520176,
+  longitude: 108.537788,
+  name: "紫阳县"
+}, {
+  code: "610925",
+  latitude: 32.31069,
+  longitude: 108.900663,
+  name: "岚皋县"
+}, {
+  code: "610926",
+  latitude: 32.387933,
+  longitude: 109.361865,
+  name: "平利县"
+}, {
+  code: "610927",
+  latitude: 31.883395,
+  longitude: 109.526437,
+  name: "镇坪县"
+}, {
+  code: "610928",
+  latitude: 32.833567,
+  longitude: 109.368149,
+  name: "旬阳市"
+}, {
+  code: "610929",
+  latitude: 32.809484,
+  longitude: 110.114186,
+  name: "白河县"
+}, {
+  code: "611000",
+  latitude: 33.868319,
+  longitude: 109.939776,
+  name: "商洛市"
+}, {
+  code: "611002",
+  latitude: 33.869208,
+  longitude: 109.937685,
+  name: "商州区"
+}, {
+  code: "611021",
+  latitude: 34.088502,
+  longitude: 110.145716,
+  name: "洛南县"
+}, {
+  code: "611022",
+  latitude: 33.694711,
+  longitude: 110.33191,
+  name: "丹凤县"
+}, {
+  code: "611023",
+  latitude: 33.526367,
+  longitude: 110.885437,
+  name: "商南县"
+}, {
+  code: "611024",
+  latitude: 33.530411,
+  longitude: 109.880435,
+  name: "山阳县"
+}, {
+  code: "611025",
+  latitude: 33.423981,
+  longitude: 109.151075,
+  name: "镇安县"
+}, {
+  code: "611026",
+  latitude: 33.682773,
+  longitude: 109.111249,
+  name: "柞水县"
+}, {
+  code: "620100",
+  latitude: 36.058039,
+  longitude: 103.823557,
+  name: "兰州市"
+}, {
+  code: "620102",
+  latitude: 36.049115,
+  longitude: 103.841032,
+  name: "城关区（兰州市）"
+}, {
+  code: "620103",
+  latitude: 36.06673,
+  longitude: 103.784326,
+  name: "七里河区"
+}, {
+  code: "620104",
+  latitude: 36.100369,
+  longitude: 103.622331,
+  name: "西固区"
+}, {
+  code: "620105",
+  latitude: 36.10329,
+  longitude: 103.724038,
+  name: "安宁区"
+}, {
+  code: "620111",
+  latitude: 36.344177,
+  longitude: 102.861814,
+  name: "红古区"
+}, {
+  code: "620121",
+  latitude: 36.734428,
+  longitude: 103.262203,
+  name: "永登县"
+}, {
+  code: "620122",
+  latitude: 36.331254,
+  longitude: 103.94933,
+  name: "皋兰县"
+}, {
+  code: "620123",
+  latitude: 35.84443,
+  longitude: 104.114975,
+  name: "榆中县"
+}, {
+  code: "620200",
+  latitude: 39.786529,
+  longitude: 98.277304,
+  name: "嘉峪关市"
+}, {
+  code: "620300",
+  latitude: 38.514238,
+  longitude: 102.187888,
+  name: "金昌市"
+}, {
+  code: "620302",
+  latitude: 38.513793,
+  longitude: 102.187683,
+  name: "金川区"
+}, {
+  code: "620321",
+  latitude: 38.247354,
+  longitude: 101.971957,
+  name: "永昌县"
+}, {
+  code: "620400",
+  latitude: 36.54568,
+  longitude: 104.173606,
+  name: "白银市"
+}, {
+  code: "620402",
+  latitude: 36.545649,
+  longitude: 104.17425,
+  name: "白银区"
+}, {
+  code: "620403",
+  latitude: 36.72921,
+  longitude: 104.819207,
+  name: "平川区"
+}, {
+  code: "620421",
+  latitude: 36.561424,
+  longitude: 104.686972,
+  name: "靖远县"
+}, {
+  code: "620422",
+  latitude: 35.692486,
+  longitude: 105.054337,
+  name: "会宁县"
+}, {
+  code: "620423",
+  latitude: 37.193519,
+  longitude: 104.066394,
+  name: "景泰县"
+}, {
+  code: "620500",
+  latitude: 34.578529,
+  longitude: 105.724998,
+  name: "天水市"
+}, {
+  code: "620502",
+  latitude: 34.578645,
+  longitude: 105.724477,
+  name: "秦州区"
+}, {
+  code: "620503",
+  latitude: 34.563504,
+  longitude: 105.897631,
+  name: "麦积区"
+}, {
+  code: "620521",
+  latitude: 34.75287,
+  longitude: 106.139878,
+  name: "清水县"
+}, {
+  code: "620522",
+  latitude: 34.862354,
+  longitude: 105.6733,
+  name: "秦安县"
+}, {
+  code: "620523",
+  latitude: 34.747327,
+  longitude: 105.332347,
+  name: "甘谷县"
+}, {
+  code: "620524",
+  latitude: 34.721955,
+  longitude: 104.891696,
+  name: "武山县"
+}, {
+  code: "620525",
+  latitude: 34.993237,
+  longitude: 106.212416,
+  name: "张家川回族自治县"
+}, {
+  code: "620600",
+  latitude: 37.929996,
+  longitude: 102.634697,
+  name: "武威市"
+}, {
+  code: "620602",
+  latitude: 37.93025,
+  longitude: 102.634492,
+  name: "凉州区"
+}, {
+  code: "620621",
+  latitude: 38.624621,
+  longitude: 103.090654,
+  name: "民勤县"
+}, {
+  code: "620622",
+  latitude: 37.470571,
+  longitude: 102.898047,
+  name: "古浪县"
+}, {
+  code: "620623",
+  latitude: 36.971678,
+  longitude: 103.142034,
+  name: "天祝藏族自治县"
+}, {
+  code: "620700",
+  latitude: 38.932897,
+  longitude: 100.455472,
+  name: "张掖市"
+}, {
+  code: "620702",
+  latitude: 38.931774,
+  longitude: 100.454862,
+  name: "甘州区"
+}, {
+  code: "620721",
+  latitude: 38.837269,
+  longitude: 99.617086,
+  name: "肃南裕固族自治县"
+}, {
+  code: "620722",
+  latitude: 38.434454,
+  longitude: 100.816623,
+  name: "民乐县"
+}, {
+  code: "620723",
+  latitude: 39.152151,
+  longitude: 100.166333,
+  name: "临泽县"
+}, {
+  code: "620724",
+  latitude: 39.376308,
+  longitude: 99.81665,
+  name: "高台县"
+}, {
+  code: "620725",
+  latitude: 38.784839,
+  longitude: 101.088442,
+  name: "山丹县"
+}, {
+  code: "620800",
+  latitude: 35.54279,
+  longitude: 106.684691,
+  name: "平凉市"
+}, {
+  code: "620802",
+  latitude: 35.54173,
+  longitude: 106.684223,
+  name: "崆峒区"
+}, {
+  code: "620821",
+  latitude: 35.335283,
+  longitude: 107.365218,
+  name: "泾川县"
+}, {
+  code: "620822",
+  latitude: 35.064009,
+  longitude: 107.620587,
+  name: "灵台县"
+}, {
+  code: "620823",
+  latitude: 35.304533,
+  longitude: 107.031253,
+  name: "崇信县"
+}, {
+  code: "620825",
+  latitude: 35.203428,
+  longitude: 106.041979,
+  name: "庄浪县"
+}, {
+  code: "620826",
+  latitude: 35.525243,
+  longitude: 105.733489,
+  name: "静宁县"
+}, {
+  code: "620881",
+  latitude: 35.215341,
+  longitude: 106.649308,
+  name: "华亭市"
+}, {
+  code: "620900",
+  latitude: 39.744023,
+  longitude: 98.510795,
+  name: "酒泉市"
+}, {
+  code: "620902",
+  latitude: 39.743858,
+  longitude: 98.511155,
+  name: "肃州区"
+}, {
+  code: "620921",
+  latitude: 39.983036,
+  longitude: 98.902959,
+  name: "金塔县"
+}, {
+  code: "620922",
+  latitude: 40.516525,
+  longitude: 95.780591,
+  name: "瓜州县"
+}, {
+  code: "620923",
+  latitude: 39.51224,
+  longitude: 94.87728,
+  name: "肃北蒙古族自治县"
+}, {
+  code: "620924",
+  latitude: 39.631642,
+  longitude: 94.337642,
+  name: "阿克塞哈萨克族自治县"
+}, {
+  code: "620981",
+  latitude: 40.28682,
+  longitude: 97.037206,
+  name: "玉门市"
+}, {
+  code: "620982",
+  latitude: 40.141119,
+  longitude: 94.664279,
+  name: "敦煌市"
+}, {
+  code: "621000",
+  latitude: 35.734218,
+  longitude: 107.638372,
+  name: "庆阳市"
+}, {
+  code: "621002",
+  latitude: 35.733713,
+  longitude: 107.638824,
+  name: "西峰区"
+}, {
+  code: "621021",
+  latitude: 36.013504,
+  longitude: 107.885664,
+  name: "庆城县"
+}, {
+  code: "621022",
+  latitude: 36.569322,
+  longitude: 107.308754,
+  name: "环县"
+}, {
+  code: "621023",
+  latitude: 36.457304,
+  longitude: 107.986288,
+  name: "华池县"
+}, {
+  code: "621024",
+  latitude: 35.819005,
+  longitude: 108.019865,
+  name: "合水县"
+}, {
+  code: "621025",
+  latitude: 35.490642,
+  longitude: 108.361068,
+  name: "正宁县"
+}, {
+  code: "621026",
+  latitude: 35.50201,
+  longitude: 107.921182,
+  name: "宁县"
+}, {
+  code: "621027",
+  latitude: 35.677806,
+  longitude: 107.195706,
+  name: "镇原县"
+}, {
+  code: "621100",
+  latitude: 35.579578,
+  longitude: 104.626294,
+  name: "定西市"
+}, {
+  code: "621102",
+  latitude: 35.579764,
+  longitude: 104.62577,
+  name: "安定区"
+}, {
+  code: "621121",
+  latitude: 35.208922,
+  longitude: 105.250102,
+  name: "通渭县"
+}, {
+  code: "621122",
+  latitude: 35.003409,
+  longitude: 104.637554,
+  name: "陇西县"
+}, {
+  code: "621123",
+  latitude: 35.133023,
+  longitude: 104.211742,
+  name: "渭源县"
+}, {
+  code: "621124",
+  latitude: 35.376233,
+  longitude: 103.862186,
+  name: "临洮县"
+}, {
+  code: "621125",
+  latitude: 34.848642,
+  longitude: 104.466756,
+  name: "漳县"
+}, {
+  code: "621126",
+  latitude: 34.439105,
+  longitude: 104.039882,
+  name: "岷县"
+}, {
+  code: "621200",
+  latitude: 33.388598,
+  longitude: 104.929379,
+  name: "陇南市"
+}, {
+  code: "621202",
+  latitude: 33.388155,
+  longitude: 104.929866,
+  name: "武都区"
+}, {
+  code: "621221",
+  latitude: 33.739863,
+  longitude: 105.734434,
+  name: "成县"
+}, {
+  code: "621222",
+  latitude: 32.942171,
+  longitude: 104.682448,
+  name: "文县"
+}, {
+  code: "621223",
+  latitude: 34.042655,
+  longitude: 104.394475,
+  name: "宕昌县"
+}, {
+  code: "621224",
+  latitude: 33.328266,
+  longitude: 105.609534,
+  name: "康县"
+}, {
+  code: "621225",
+  latitude: 34.013718,
+  longitude: 105.299737,
+  name: "西和县"
+}, {
+  code: "621226",
+  latitude: 34.189387,
+  longitude: 105.181616,
+  name: "礼县"
+}, {
+  code: "621227",
+  latitude: 33.767785,
+  longitude: 106.085632,
+  name: "徽县"
+}, {
+  code: "621228",
+  latitude: 33.910729,
+  longitude: 106.306959,
+  name: "两当县"
+}, {
+  code: "622900",
+  latitude: 35.599446,
+  longitude: 103.212006,
+  name: "临夏回族自治州"
+}, {
+  code: "622901",
+  latitude: 35.59941,
+  longitude: 103.211634,
+  name: "临夏市"
+}, {
+  code: "622921",
+  latitude: 35.49236,
+  longitude: 102.993873,
+  name: "临夏县"
+}, {
+  code: "622922",
+  latitude: 35.371906,
+  longitude: 103.709852,
+  name: "康乐县"
+}, {
+  code: "622923",
+  latitude: 35.938933,
+  longitude: 103.319871,
+  name: "永靖县"
+}, {
+  code: "622924",
+  latitude: 35.481688,
+  longitude: 103.576188,
+  name: "广河县"
+}, {
+  code: "622925",
+  latitude: 35.425971,
+  longitude: 103.350357,
+  name: "和政县"
+}, {
+  code: "622926",
+  latitude: 35.66383,
+  longitude: 103.389568,
+  name: "东乡族自治县"
+}, {
+  code: "622927",
+  latitude: 35.712906,
+  longitude: 102.877473,
+  name: "积石山保安族东乡族撒拉族自治县"
+}, {
+  code: "623000",
+  latitude: 34.986354,
+  longitude: 102.911008,
+  name: "甘南藏族自治州"
+}, {
+  code: "623001",
+  latitude: 34.985973,
+  longitude: 102.91149,
+  name: "合作市"
+}, {
+  code: "623021",
+  latitude: 34.69164,
+  longitude: 103.353054,
+  name: "临潭县"
+}, {
+  code: "623022",
+  latitude: 34.588165,
+  longitude: 103.508508,
+  name: "卓尼县"
+}, {
+  code: "623023",
+  latitude: 33.782964,
+  longitude: 104.370271,
+  name: "舟曲县"
+}, {
+  code: "623024",
+  latitude: 34.055348,
+  longitude: 103.221009,
+  name: "迭部县"
+}, {
+  code: "623025",
+  latitude: 33.998068,
+  longitude: 102.075767,
+  name: "玛曲县"
+}, {
+  code: "623026",
+  latitude: 34.589591,
+  longitude: 102.488495,
+  name: "碌曲县"
+}, {
+  code: "623027",
+  latitude: 35.200853,
+  longitude: 102.520743,
+  name: "夏河县"
+}, {
+  code: "630100",
+  latitude: 36.623178,
+  longitude: 101.778916,
+  name: "西宁市"
+}, {
+  code: "630102",
+  latitude: 36.616043,
+  longitude: 101.796095,
+  name: "城东区"
+}, {
+  code: "630103",
+  latitude: 36.621181,
+  longitude: 101.784554,
+  name: "城中区（西宁市）"
+}, {
+  code: "630104",
+  latitude: 36.628323,
+  longitude: 101.763649,
+  name: "城西区"
+}, {
+  code: "630105",
+  latitude: 36.648448,
+  longitude: 101.761297,
+  name: "城北区"
+}, {
+  code: "630106",
+  latitude: 36.500419,
+  longitude: 101.569475,
+  name: "湟中区"
+}, {
+  code: "630121",
+  latitude: 36.931343,
+  longitude: 101.684183,
+  name: "大通回族土族自治县"
+}, {
+  code: "630123",
+  latitude: 36.684818,
+  longitude: 101.263435,
+  name: "湟源县"
+}, {
+  code: "630200",
+  latitude: 36.502916,
+  longitude: 102.10327,
+  name: "海东市"
+}, {
+  code: "630202",
+  latitude: 36.480291,
+  longitude: 102.402431,
+  name: "乐都区"
+}, {
+  code: "630203",
+  latitude: 36.502714,
+  longitude: 102.104295,
+  name: "平安区"
+}, {
+  code: "630222",
+  latitude: 36.329451,
+  longitude: 102.804209,
+  name: "民和回族土族自治县"
+}, {
+  code: "630223",
+  latitude: 36.83994,
+  longitude: 101.956734,
+  name: "互助土族自治县"
+}, {
+  code: "630224",
+  latitude: 36.098322,
+  longitude: 102.262329,
+  name: "化隆回族自治县"
+}, {
+  code: "630225",
+  latitude: 35.847247,
+  longitude: 102.486534,
+  name: "循化撒拉族自治县"
+}, {
+  code: "632200",
+  latitude: 36.959435,
+  longitude: 100.901059,
+  name: "海北藏族自治州"
+}, {
+  code: "632221",
+  latitude: 37.376627,
+  longitude: 101.618461,
+  name: "门源回族自治县"
+}, {
+  code: "632222",
+  latitude: 38.175409,
+  longitude: 100.249778,
+  name: "祁连县"
+}, {
+  code: "632223",
+  latitude: 36.959542,
+  longitude: 100.90049,
+  name: "海晏县"
+}, {
+  code: "632224",
+  latitude: 37.326263,
+  longitude: 100.138417,
+  name: "刚察县"
+}, {
+  code: "632300",
+  latitude: 35.517744,
+  longitude: 102.019988,
+  name: "黄南藏族自治州"
+}, {
+  code: "632301",
+  latitude: 35.516337,
+  longitude: 102.017604,
+  name: "同仁市"
+}, {
+  code: "632322",
+  latitude: 35.938205,
+  longitude: 102.031953,
+  name: "尖扎县"
+}, {
+  code: "632323",
+  latitude: 35.036842,
+  longitude: 101.469343,
+  name: "泽库县"
+}, {
+  code: "632324",
+  latitude: 34.734522,
+  longitude: 101.611877,
+  name: "河南蒙古族自治县"
+}, {
+  code: "632500",
+  latitude: 36.280353,
+  longitude: 100.619542,
+  name: "海南藏族自治州"
+}, {
+  code: "632521",
+  latitude: 36.280286,
+  longitude: 100.619597,
+  name: "共和县"
+}, {
+  code: "632522",
+  latitude: 35.254492,
+  longitude: 100.579465,
+  name: "同德县"
+}, {
+  code: "632523",
+  latitude: 36.040456,
+  longitude: 101.431856,
+  name: "贵德县"
+}, {
+  code: "632524",
+  latitude: 35.58909,
+  longitude: 99.986963,
+  name: "兴海县"
+}, {
+  code: "632525",
+  latitude: 35.587085,
+  longitude: 100.74792,
+  name: "贵南县"
+}, {
+  code: "632600",
+  latitude: 34.4736,
+  longitude: 100.242143,
+  name: "果洛藏族自治州"
+}, {
+  code: "632621",
+  latitude: 34.473386,
+  longitude: 100.243531,
+  name: "玛沁县"
+}, {
+  code: "632622",
+  latitude: 32.931589,
+  longitude: 100.737955,
+  name: "班玛县"
+}, {
+  code: "632623",
+  latitude: 33.966987,
+  longitude: 99.902589,
+  name: "甘德县"
+}, {
+  code: "632624",
+  latitude: 33.753259,
+  longitude: 99.651715,
+  name: "达日县"
+}, {
+  code: "632625",
+  latitude: 33.430217,
+  longitude: 101.484884,
+  name: "久治县"
+}, {
+  code: "632626",
+  latitude: 34.91528,
+  longitude: 98.211343,
+  name: "玛多县"
+}, {
+  code: "632700",
+  latitude: 33.004049,
+  longitude: 97.008522,
+  name: "玉树藏族自治州"
+}, {
+  code: "632701",
+  latitude: 33.00393,
+  longitude: 97.008762,
+  name: "玉树市"
+}, {
+  code: "632722",
+  latitude: 32.891886,
+  longitude: 95.293423,
+  name: "杂多县"
+}, {
+  code: "632723",
+  latitude: 33.367884,
+  longitude: 97.110893,
+  name: "称多县"
+}, {
+  code: "632724",
+  latitude: 33.852322,
+  longitude: 95.616843,
+  name: "治多县"
+}, {
+  code: "632725",
+  latitude: 32.203206,
+  longitude: 96.479797,
+  name: "囊谦县"
+}, {
+  code: "632726",
+  latitude: 34.12654,
+  longitude: 95.800674,
+  name: "曲麻莱县"
+}, {
+  code: "632800",
+  latitude: 37.374663,
+  longitude: 97.370785,
+  name: "海西蒙古族藏族自治州"
+}, {
+  code: "632801",
+  latitude: 36.401541,
+  longitude: 94.905777,
+  name: "格尔木市"
+}, {
+  code: "632802",
+  latitude: 37.374555,
+  longitude: 97.370143,
+  name: "德令哈市"
+}, {
+  code: "632803",
+  latitude: 38.247117,
+  longitude: 90.855955,
+  name: "茫崖市"
+}, {
+  code: "632821",
+  latitude: 36.930389,
+  longitude: 98.479852,
+  name: "乌兰县"
+}, {
+  code: "632822",
+  latitude: 36.298553,
+  longitude: 98.089161,
+  name: "都兰县"
+}, {
+  code: "632823",
+  latitude: 37.29906,
+  longitude: 99.02078,
+  name: "天峻县"
+}, {
+  code: "640100",
+  latitude: 38.46637,
+  longitude: 106.278179,
+  name: "银川市"
+}, {
+  code: "640104",
+  latitude: 38.46747,
+  longitude: 106.278393,
+  name: "兴庆区"
+}, {
+  code: "640105",
+  latitude: 38.492424,
+  longitude: 106.132116,
+  name: "西夏区"
+}, {
+  code: "640106",
+  latitude: 38.477353,
+  longitude: 106.228486,
+  name: "金凤区"
+}, {
+  code: "640121",
+  latitude: 38.28043,
+  longitude: 106.253781,
+  name: "永宁县"
+}, {
+  code: "640122",
+  latitude: 38.554563,
+  longitude: 106.345904,
+  name: "贺兰县"
+}, {
+  code: "640181",
+  latitude: 38.094058,
+  longitude: 106.334701,
+  name: "灵武市"
+}, {
+  code: "640200",
+  latitude: 39.01333,
+  longitude: 106.376173,
+  name: "石嘴山市"
+}, {
+  code: "640202",
+  latitude: 39.014158,
+  longitude: 106.376651,
+  name: "大武口区"
+}, {
+  code: "640205",
+  latitude: 39.230094,
+  longitude: 106.775513,
+  name: "惠农区"
+}, {
+  code: "640221",
+  latitude: 38.90674,
+  longitude: 106.54489,
+  name: "平罗县"
+}, {
+  code: "640300",
+  latitude: 37.986165,
+  longitude: 106.199409,
+  name: "吴忠市"
+}, {
+  code: "640302",
+  latitude: 37.985967,
+  longitude: 106.199419,
+  name: "利通区"
+}, {
+  code: "640303",
+  latitude: 37.421616,
+  longitude: 106.067315,
+  name: "红寺堡区"
+}, {
+  code: "640323",
+  latitude: 37.784222,
+  longitude: 107.40541,
+  name: "盐池县"
+}, {
+  code: "640324",
+  latitude: 36.9829,
+  longitude: 105.914764,
+  name: "同心县"
+}, {
+  code: "640381",
+  latitude: 38.021509,
+  longitude: 106.075395,
+  name: "青铜峡市"
+}, {
+  code: "640400",
+  latitude: 36.004561,
+  longitude: 106.285241,
+  name: "固原市"
+}, {
+  code: "640402",
+  latitude: 36.005337,
+  longitude: 106.28477,
+  name: "原州区"
+}, {
+  code: "640422",
+  latitude: 35.965384,
+  longitude: 105.731801,
+  name: "西吉县"
+}, {
+  code: "640423",
+  latitude: 35.618234,
+  longitude: 106.12344,
+  name: "隆德县"
+}, {
+  code: "640424",
+  latitude: 35.49344,
+  longitude: 106.338674,
+  name: "泾源县"
+}, {
+  code: "640425",
+  latitude: 35.849975,
+  longitude: 106.641512,
+  name: "彭阳县"
+}, {
+  code: "640500",
+  latitude: 37.514951,
+  longitude: 105.189568,
+  name: "中卫市"
+}, {
+  code: "640502",
+  latitude: 37.514564,
+  longitude: 105.190536,
+  name: "沙坡头区"
+}, {
+  code: "640521",
+  latitude: 37.489736,
+  longitude: 105.675784,
+  name: "中宁县"
+}, {
+  code: "640522",
+  latitude: 36.562007,
+  longitude: 105.647323,
+  name: "海原县"
+}, {
+  code: "650100",
+  latitude: 43.792818,
+  longitude: 87.617733,
+  name: "乌鲁木齐市"
+}, {
+  code: "650102",
+  latitude: 43.796428,
+  longitude: 87.620116,
+  name: "天山区"
+}, {
+  code: "650103",
+  latitude: 43.788872,
+  longitude: 87.596639,
+  name: "沙依巴克区"
+}, {
+  code: "650104",
+  latitude: 43.870882,
+  longitude: 87.560653,
+  name: "新市区"
+}, {
+  code: "650105",
+  latitude: 43.816747,
+  longitude: 87.613093,
+  name: "水磨沟区"
+}, {
+  code: "650106",
+  latitude: 43.876053,
+  longitude: 87.425823,
+  name: "头屯河区"
+}, {
+  code: "650107",
+  latitude: 43.36181,
+  longitude: 88.30994,
+  name: "达坂城区"
+}, {
+  code: "650109",
+  latitude: 43.960982,
+  longitude: 87.691801,
+  name: "米东区"
+}, {
+  code: "650121",
+  latitude: 43.982546,
+  longitude: 87.505603,
+  name: "乌鲁木齐县"
+}, {
+  code: "650200",
+  latitude: 45.595886,
+  longitude: 84.873946,
+  name: "克拉玛依市"
+}, {
+  code: "650202",
+  latitude: 44.327207,
+  longitude: 84.882267,
+  name: "独山子区"
+}, {
+  code: "650203",
+  latitude: 45.600477,
+  longitude: 84.868918,
+  name: "克拉玛依区"
+}, {
+  code: "650204",
+  latitude: 45.689021,
+  longitude: 85.129882,
+  name: "白碱滩区"
+}, {
+  code: "650205",
+  latitude: 46.08776,
+  longitude: 85.697767,
+  name: "乌尔禾区"
+}, {
+  code: "650400",
+  latitude: 42.947613,
+  longitude: 89.184078,
+  name: "吐鲁番市"
+}, {
+  code: "650402",
+  latitude: 42.947627,
+  longitude: 89.182324,
+  name: "高昌区"
+}, {
+  code: "650421",
+  latitude: 42.865503,
+  longitude: 90.212692,
+  name: "鄯善县"
+}, {
+  code: "650422",
+  latitude: 42.793536,
+  longitude: 88.655771,
+  name: "托克逊县"
+}, {
+  code: "650500",
+  latitude: 42.833248,
+  longitude: 93.51316,
+  name: "哈密市"
+}, {
+  code: "650502",
+  latitude: 42.833888,
+  longitude: 93.509174,
+  name: "伊州区"
+}, {
+  code: "650521",
+  latitude: 43.599032,
+  longitude: 93.021795,
+  name: "巴里坤哈萨克自治县"
+}, {
+  code: "650522",
+  latitude: 43.252012,
+  longitude: 94.692773,
+  name: "伊吾县"
+}, {
+  code: "652300",
+  latitude: 44.014577,
+  longitude: 87.304012,
+  name: "昌吉回族自治州"
+}, {
+  code: "652301",
+  latitude: 44.013183,
+  longitude: 87.304112,
+  name: "昌吉市"
+}, {
+  code: "652302",
+  latitude: 44.152153,
+  longitude: 87.98384,
+  name: "阜康市"
+}, {
+  code: "652323",
+  latitude: 44.189342,
+  longitude: 86.888613,
+  name: "呼图壁县"
+}, {
+  code: "652324",
+  latitude: 44.305625,
+  longitude: 86.217687,
+  name: "玛纳斯县"
+}, {
+  code: "652325",
+  latitude: 44.021996,
+  longitude: 89.591437,
+  name: "奇台县"
+}, {
+  code: "652327",
+  latitude: 43.997162,
+  longitude: 89.181288,
+  name: "吉木萨尔县"
+}, {
+  code: "652328",
+  latitude: 43.832442,
+  longitude: 90.282833,
+  name: "木垒哈萨克自治县"
+}, {
+  code: "652700",
+  latitude: 44.903258,
+  longitude: 82.074778,
+  name: "博尔塔拉蒙古自治州"
+}, {
+  code: "652701",
+  latitude: 44.903087,
+  longitude: 82.072237,
+  name: "博乐市"
+}, {
+  code: "652702",
+  latitude: 45.16777,
+  longitude: 82.569389,
+  name: "阿拉山口市"
+}, {
+  code: "652722",
+  latitude: 44.605645,
+  longitude: 82.892938,
+  name: "精河县"
+}, {
+  code: "652723",
+  latitude: 44.973751,
+  longitude: 81.03099,
+  name: "温泉县"
+}, {
+  code: "652800",
+  latitude: 41.768552,
+  longitude: 86.150969,
+  name: "巴音郭楞蒙古自治州"
+}, {
+  code: "652801",
+  latitude: 41.763122,
+  longitude: 86.145948,
+  name: "库尔勒市"
+}, {
+  code: "652822",
+  latitude: 41.781266,
+  longitude: 84.248542,
+  name: "轮台县"
+}, {
+  code: "652823",
+  latitude: 41.337428,
+  longitude: 86.263412,
+  name: "尉犁县"
+}, {
+  code: "652824",
+  latitude: 39.023807,
+  longitude: 88.168807,
+  name: "若羌县"
+}, {
+  code: "652825",
+  latitude: 38.138562,
+  longitude: 85.532629,
+  name: "且末县"
+}, {
+  code: "652826",
+  latitude: 42.064349,
+  longitude: 86.5698,
+  name: "焉耆回族自治县"
+}, {
+  code: "652827",
+  latitude: 42.31716,
+  longitude: 86.391067,
+  name: "和静县"
+}, {
+  code: "652828",
+  latitude: 42.268863,
+  longitude: 86.864947,
+  name: "和硕县"
+}, {
+  code: "652829",
+  latitude: 41.980166,
+  longitude: 86.631576,
+  name: "博湖县"
+}, {
+  code: "652900",
+  latitude: 41.170712,
+  longitude: 80.265068,
+  name: "阿克苏地区"
+}, {
+  code: "652901",
+  latitude: 41.171272,
+  longitude: 80.2629,
+  name: "阿克苏市"
+}, {
+  code: "652902",
+  latitude: 41.717141,
+  longitude: 82.96304,
+  name: "库车市"
+}, {
+  code: "652922",
+  latitude: 41.272995,
+  longitude: 80.243273,
+  name: "温宿县"
+}, {
+  code: "652924",
+  latitude: 41.226268,
+  longitude: 82.78077,
+  name: "沙雅县"
+}, {
+  code: "652925",
+  latitude: 41.551176,
+  longitude: 82.610828,
+  name: "新和县"
+}, {
+  code: "652926",
+  latitude: 41.796101,
+  longitude: 81.869881,
+  name: "拜城县"
+}, {
+  code: "652927",
+  latitude: 41.21587,
+  longitude: 79.230805,
+  name: "乌什县"
+}, {
+  code: "652928",
+  latitude: 40.638422,
+  longitude: 80.378426,
+  name: "阿瓦提县"
+}, {
+  code: "652929",
+  latitude: 40.50624,
+  longitude: 79.04785,
+  name: "柯坪县"
+}, {
+  code: "653000",
+  latitude: 39.713431,
+  longitude: 76.172825,
+  name: "克孜勒苏柯尔克孜自治州"
+}, {
+  code: "653001",
+  latitude: 39.712898,
+  longitude: 76.173939,
+  name: "阿图什市"
+}, {
+  code: "653022",
+  latitude: 39.147079,
+  longitude: 75.945159,
+  name: "阿克陶县"
+}, {
+  code: "653023",
+  latitude: 40.937567,
+  longitude: 78.450164,
+  name: "阿合奇县"
+}, {
+  code: "653024",
+  latitude: 39.716633,
+  longitude: 75.25969,
+  name: "乌恰县"
+}, {
+  code: "653100",
+  latitude: 39.467664,
+  longitude: 75.989138,
+  name: "喀什地区"
+}, {
+  code: "653101",
+  latitude: 39.467861,
+  longitude: 75.98838,
+  name: "喀什市"
+}, {
+  code: "653121",
+  latitude: 39.378306,
+  longitude: 75.863075,
+  name: "疏附县"
+}, {
+  code: "653122",
+  latitude: 39.399461,
+  longitude: 76.053653,
+  name: "疏勒县"
+}, {
+  code: "653123",
+  latitude: 38.929839,
+  longitude: 76.174292,
+  name: "英吉沙县"
+}, {
+  code: "653124",
+  latitude: 38.191217,
+  longitude: 77.273593,
+  name: "泽普县"
+}, {
+  code: "653125",
+  latitude: 38.414499,
+  longitude: 77.248884,
+  name: "莎车县"
+}, {
+  code: "653126",
+  latitude: 37.884679,
+  longitude: 77.420353,
+  name: "叶城县"
+}, {
+  code: "653127",
+  latitude: 38.903384,
+  longitude: 77.651538,
+  name: "麦盖提县"
+}, {
+  code: "653128",
+  latitude: 39.235248,
+  longitude: 76.7724,
+  name: "岳普湖县"
+}, {
+  code: "653129",
+  latitude: 39.494325,
+  longitude: 76.741982,
+  name: "伽师县"
+}, {
+  code: "653130",
+  latitude: 39.783479,
+  longitude: 78.55041,
+  name: "巴楚县"
+}, {
+  code: "653131",
+  latitude: 37.775437,
+  longitude: 75.228068,
+  name: "塔什库尔干塔吉克自治县"
+}, {
+  code: "653200",
+  latitude: 37.110687,
+  longitude: 79.92533,
+  name: "和田地区"
+}, {
+  code: "653201",
+  latitude: 37.108944,
+  longitude: 79.927542,
+  name: "和田市"
+}, {
+  code: "653221",
+  latitude: 37.120031,
+  longitude: 79.81907,
+  name: "和田县"
+}, {
+  code: "653222",
+  latitude: 37.271511,
+  longitude: 79.736629,
+  name: "墨玉县"
+}, {
+  code: "653223",
+  latitude: 37.616332,
+  longitude: 78.282301,
+  name: "皮山县"
+}, {
+  code: "653224",
+  latitude: 37.074377,
+  longitude: 80.184038,
+  name: "洛浦县"
+}, {
+  code: "653225",
+  latitude: 37.001672,
+  longitude: 80.803572,
+  name: "策勒县"
+}, {
+  code: "653226",
+  latitude: 36.854628,
+  longitude: 81.667845,
+  name: "于田县"
+}, {
+  code: "653227",
+  latitude: 37.064909,
+  longitude: 82.692354,
+  name: "民丰县"
+}, {
+  code: "654000",
+  latitude: 43.92186,
+  longitude: 81.317946,
+  name: "伊犁哈萨克自治州"
+}, {
+  code: "654002",
+  latitude: 43.922209,
+  longitude: 81.316343,
+  name: "伊宁市"
+}, {
+  code: "654003",
+  latitude: 44.423445,
+  longitude: 84.901602,
+  name: "奎屯市"
+}, {
+  code: "654004",
+  latitude: 44.201669,
+  longitude: 80.420759,
+  name: "霍尔果斯市"
+}, {
+  code: "654021",
+  latitude: 43.977876,
+  longitude: 81.524671,
+  name: "伊宁县"
+}, {
+  code: "654022",
+  latitude: 43.838883,
+  longitude: 81.150874,
+  name: "察布查尔锡伯自治县"
+}, {
+  code: "654023",
+  latitude: 44.049912,
+  longitude: 80.872508,
+  name: "霍城县"
+}, {
+  code: "654024",
+  latitude: 43.481618,
+  longitude: 82.227044,
+  name: "巩留县"
+}, {
+  code: "654025",
+  latitude: 43.434249,
+  longitude: 83.258493,
+  name: "新源县"
+}, {
+  code: "654026",
+  latitude: 43.157765,
+  longitude: 81.126029,
+  name: "昭苏县"
+}, {
+  code: "654027",
+  latitude: 43.214861,
+  longitude: 81.840058,
+  name: "特克斯县"
+}, {
+  code: "654028",
+  latitude: 43.789737,
+  longitude: 82.504119,
+  name: "尼勒克县"
+}, {
+  code: "654200",
+  latitude: 46.746301,
+  longitude: 82.985732,
+  name: "塔城地区"
+}, {
+  code: "654201",
+  latitude: 46.746281,
+  longitude: 82.983988,
+  name: "塔城市"
+}, {
+  code: "654202",
+  latitude: 44.430115,
+  longitude: 84.677624,
+  name: "乌苏市"
+}, {
+  code: "654221",
+  latitude: 46.522555,
+  longitude: 83.622118,
+  name: "额敏县"
+}, {
+  code: "654223",
+  latitude: 44.329544,
+  longitude: 85.622508,
+  name: "沙湾市"
+}, {
+  code: "654224",
+  latitude: 45.935863,
+  longitude: 83.60469,
+  name: "托里县"
+}, {
+  code: "654225",
+  latitude: 46.202781,
+  longitude: 82.982157,
+  name: "裕民县"
+}, {
+  code: "654226",
+  latitude: 46.793001,
+  longitude: 85.733551,
+  name: "和布克赛尔蒙古自治县"
+}, {
+  code: "654300",
+  latitude: 47.848393,
+  longitude: 88.13963,
+  name: "阿勒泰地区"
+}, {
+  code: "654301",
+  latitude: 47.848911,
+  longitude: 88.138743,
+  name: "阿勒泰市"
+}, {
+  code: "654321",
+  latitude: 47.70453,
+  longitude: 86.86186,
+  name: "布尔津县"
+}, {
+  code: "654322",
+  latitude: 46.993106,
+  longitude: 89.524993,
+  name: "富蕴县"
+}, {
+  code: "654323",
+  latitude: 47.113128,
+  longitude: 87.494569,
+  name: "福海县"
+}, {
+  code: "654324",
+  latitude: 48.059284,
+  longitude: 86.418964,
+  name: "哈巴河县"
+}, {
+  code: "654325",
+  latitude: 46.672446,
+  longitude: 90.381561,
+  name: "青河县"
+}, {
+  code: "654326",
+  latitude: 47.434633,
+  longitude: 85.876064,
+  name: "吉木乃县"
+}, {
+  code: "659001",
+  latitude: 44.305886,
+  longitude: 86.041075,
+  name: "石河子市"
+}, {
+  code: "659002",
+  latitude: 40.541914,
+  longitude: 81.285884,
+  name: "阿拉尔市"
+}, {
+  code: "659003",
+  latitude: 39.867316,
+  longitude: 79.077978,
+  name: "图木舒克市"
+}, {
+  code: "659004",
+  latitude: 44.167401,
+  longitude: 87.526884,
+  name: "五家渠市"
+}, {
+  code: "659005",
+  latitude: 47.353177,
+  longitude: 87.824932,
+  name: "北屯市"
+}, {
+  code: "659006",
+  latitude: 41.827251,
+  longitude: 85.501218,
+  name: "铁门关市"
+}, {
+  code: "659007",
+  latitude: 44.840524,
+  longitude: 82.353656,
+  name: "双河市"
+}, {
+  code: "659008",
+  latitude: 43.6832,
+  longitude: 80.63579,
+  name: "可克达拉市"
+}, {
+  code: "659009",
+  latitude: 37.207994,
+  longitude: 79.287372,
+  name: "昆玉市"
+}, {
+  code: "659010",
+  latitude: 44.69288853,
+  longitude: 84.8275959,
+  name: "胡杨河市"
+}, {
+  code: "710100",
+  latitude: 25.0375198,
+  longitude: 121.5636796,
+  name: "台北市"
+}, {
+  code: "710200",
+  latitude: 22.6203348,
+  longitude: 120.3120375,
+  name: "高雄市"
+}, {
+  code: "710300",
+  latitude: 25.011997,
+  longitude: 121.4656619,
+  name: "新北市"
+}, {
+  code: "710400",
+  latitude: 24.163162,
+  longitude: 120.6478282,
+  name: "台中市"
+}, {
+  code: "710500",
+  latitude: 22.9912348,
+  longitude: 120.184982,
+  name: "台南市"
+}, {
+  code: "710600",
+  latitude: 24.9929995,
+  longitude: 121.3010003,
+  name: "桃园市"
+}, {
+  code: "719001",
+  latitude: 25.1317232,
+  longitude: 121.744652,
+  name: "基隆市"
+}, {
+  code: "719002",
+  latitude: 24.8066333,
+  longitude: 120.9686833,
+  name: "新竹市"
+}, {
+  code: "719003",
+  latitude: 23.4811089,
+  longitude: 120.4535412,
+  name: "嘉义市"
+}, {
+  code: "719021",
+  latitude: 24.7302791,
+  longitude: 121.7631149,
+  name: "宜兰县"
+}, {
+  code: "719022",
+  latitude: 24.8267,
+  longitude: 121.0128333,
+  name: "新竹县"
+}, {
+  code: "719023",
+  latitude: 24.5647667,
+  longitude: 120.8205167,
+  name: "苗栗县"
+}, {
+  code: "719024",
+  latitude: 24.0755667,
+  longitude: 120.5444667,
+  name: "彰化县"
+}, {
+  code: "719025",
+  latitude: 23.90235,
+  longitude: 120.6909167,
+  name: "南投县"
+}, {
+  code: "719026",
+  latitude: 23.6990775,
+  longitude: 120.5245511,
+  name: "云林县"
+}, {
+  code: "719027",
+  latitude: 23.4591664,
+  longitude: 120.2930004,
+  name: "嘉义县"
+}, {
+  code: "719028",
+  latitude: 22.6828017,
+  longitude: 120.487928,
+  name: "屏东县"
+}, {
+  code: "719029",
+  latitude: 22.7553667,
+  longitude: 121.1506,
+  name: "台东县"
+}, {
+  code: "719030",
+  latitude: 23.9913421,
+  longitude: 121.6197276,
+  name: "花莲县"
+}, {
+  code: "719031",
+  latitude: 23.569694,
+  longitude: 119.5664543,
+  name: "澎湖县"
+}]

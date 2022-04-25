@@ -1,6 +1,7 @@
 import { Guess } from "./guess";
 
-const MAX_DISTANCE_ON_EARTH = 20_000_000;
+//const MAX_DISTANCE_ON_EARTH = 20_000_000;
+const MAX_DISTANCE_ON_EARTH = 2_000_000;
 
 export type Direction =
   | "S"

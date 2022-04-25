@@ -6,9 +6,10 @@ import { Infos } from "./components/panels/Infos";
 import { useTranslation } from "react-i18next";
 import { InfosFr } from "./components/panels/InfosFr";
 import { InfosHu } from "./components/panels/InfosHu";
+import { InfosZh } from "./components/panels/InfosZh";
 import { Settings } from "./components/panels/Settings";
 import { useSettings } from "./hooks/useSettings";
-import { Worldle } from "./components/Worldle";
+import { Worldle, Chinale } from "./components/Worldle";
 import { Stats } from "./components/panels/Stats";
 import { useReactPWAInstall } from "@teuteuf/react-pwa-install";
 import { InstallButton } from "./components/InstallButton";
@@ -63,14 +64,11 @@ function App({
 
   let InfosComponent;
   switch (i18n.resolvedLanguage) {
-    case "fr":
-      InfosComponent = InfosFr;
-      break;
-    case "hu":
-      InfosComponent = InfosHu;
+    case "zh":
+      InfosComponent = InfosZh;
       break;
     default:
-      InfosComponent = Infos;
+      InfosComponent = InfosZh;
   }
 
   return (
@@ -113,7 +111,7 @@ function App({
               <InstallButton pwaInstall={pwaInstall} />
             )}
             <h1 className="text-4xl font-bold uppercase tracking-wide text-center my-1 flex-auto">
-              Wor<span className="text-green-600">l</span>dle
+              <span className="text-red-600">舆</span>鉴
             </h1>
             <button
               className="ml-3 text-xl"
@@ -132,35 +130,7 @@ function App({
           </header>
           <Game settingsData={settingsData} updateSettings={updateSettings} />
           <footer className="flex justify-center items-center text-sm mt-8 mb-1">
-            <Twemoji
-              text="❤️"
-              className="flex items-center justify-center mr-1"
-            />{" "}
-            <Worldle />? -
-            {country && supportLink[country.code] != null ? (
-              <a
-                className="underline pl-1"
-                href={supportLink[country.code]}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="w-max">{t(`support.${country.code}`)}</div>
-              </a>
-            ) : (
-              <a
-                className="underline pl-1"
-                href="https://www.ko-fi.com/teuteuf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="w-max">
-                  <Twemoji
-                    text={t("buyMeACoffee")}
-                    options={{ className: "inline-block" }}
-                  />
-                </div>
-              </a>
-            )}
+            <Chinale />{" "}MADE BY 欧琳的吟颂
           </footer>
         </div>
       </div>

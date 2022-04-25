@@ -1,24 +1,35 @@
-# WOR**L**DLE
+# 舆鉴 / **CHINA**LE
 
-Play this geographical wordle here: https://worldle.teuteuf.fr !
+中国地理版本的 WORDLE：https://heliumjt.gitee.io/chinale
 
-## Contributions & PR
+A Chinese geographical wordle game: https://heliumjt.gitee.io/chinale
 
-Even if there are many more users than I could ever imagine on Worldle, it was originally a small pet project that I started in order to  practice code and have fun.
+## 关于 / About
 
-So, I prefer to continue to manage it personally and do all the design and the code by myself.  :)
+在 6 次尝试以内猜出一个市县的名称，其轮廓会给出作为提示。
 
-Therefore, I'm not looking for contributors or PR! I could accept PR for specific things, for instance to add support for your native language or to fix something, but please, don't hesitate to contact me first!
+舆鉴是 WORLDLE 的一个本地化版本，对 WORLDLE 的修改限于以下几方面：
 
-If you'd like to make a suggestion, don't hesitate to open an issue!
+- 将游戏内容由猜测世界国家改为猜测中国行政区划。
+- 考虑到国内网络环境，对部分外链进行了本地化处理。
 
-Otherwise, feel free to fork the project, customize it and play with it on your side! <3
+感谢 WORLDLE 的原作者 [@teuteuf](https://github.com/teuteuf/worldle)。
 
-## Resources used:
+Guess a Chinese county/city in 6 guesses.
 
-- Countries with long/lat => https://developers.google.com/public-data/docs/canonical/countries_csv
-- Country area => https://github.com/samayo/country-json/blob/master/src/country-by-surface-area.json
-- French country names => https://fr.wikipedia.org/wiki/ISO_3166
-- Country images => https://github.com/djaiss/mapsicon
-- Fixed images => http://www.amcharts.com/svg-maps/ & Wikipedia
-- Emojis & World icon => https://github.com/twitter/twemoji
+CHINALE is a localized version of WORLDLE, and the modifacations to WORLDLE are limited to the following points:
+
+- Change the game content from guessing the countries over the world to guessing the administrative divisions of China.
+- Considering the network environment in China, some external links have been localized.
+
+Thanks for WORLDLE's original author [@teuteuf](https://github.com/teuteuf/worldle).
+
+## 资源列表 / Resource List
+
+- Worldle：
+  - https://github.com/teuteuf/worldle
+- 行政区划边界资料 / Administrative divsion boundary information：
+  - http://datav.aliyun.com/portal/school/atlas/area_selector
+  - https://data.gov.tw/dataset/7442
+- 项目图标 / Icon：
+  - https://www.flaticon.com/premium-icon/china_2755851

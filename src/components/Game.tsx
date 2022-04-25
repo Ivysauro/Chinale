@@ -205,9 +205,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
             />
             <a
               className="underline w-full text-center block mt-4"
-              href={`https://www.google.com/maps?q=${countryName}+${country.code.toUpperCase()}&hl=${
-                i18n.resolvedLanguage
-              }`}
+              href={`https://ditu.amap.com/search?query=${countryName}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -218,7 +216,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
             </a>
             <a
               className="underline w-full text-center block mt-4"
-              href={`https://${i18n.resolvedLanguage}.wikipedia.org/wiki/${countryName}`}
+              href={`https://baike.baidu.com/item/${countryName}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -241,7 +239,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
                 type="submit"
               >
                 <Twemoji
-                  text="🌍"
+                  text="🤔"
                   options={{ className: "inline-block" }}
                   className="flex items-center justify-center"
                 />{" "}

@@ -4,6 +4,11 @@ import Autosuggest from "react-autosuggest";
 import { useTranslation } from "react-i18next";
 import { getCountryName, sanitizeCountryName } from "../domain/countries";
 import { countries } from "../domain/countries.position";
+import { getSettings } from "../hooks/useSettings";
+import {
+  bigEnoughCountriesWithImage,
+  smallEnoughCountriesWithImage
+} from "../domain/countries";
 
 interface CountryInputProps {
   inputRef: React.RefObject<HTMLInputElement>;
@@ -20,12 +25,19 @@ export function CountryInput({
 
   const { i18n } = useTranslation();
 
+  const settingsData = getSettings();
+
+  const countrySelection =
+  settingsData.countyMode
+    ? smallEnoughCountriesWithImage
+    : bigEnoughCountriesWithImage;
+
   return (
     <Autosuggest
       suggestions={suggestions}
       onSuggestionsFetchRequested={({ value }) =>
         setSuggestions(
-          countries
+          countrySelection
             .map((c) => getCountryName(i18n.resolvedLanguage, c).toUpperCase())
             .filter((countryName) =>
               sanitizeCountryName(countryName).includes(

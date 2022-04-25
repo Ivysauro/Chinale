@@ -36,8 +36,8 @@ export function Settings({
               updateSettings({ distanceUnit: e.target.value as "km" | "miles" })
             }
           >
-            <option value="km">KM</option>
-            <option value="miles">Miles</option>
+            <option value="km">公里</option>
+            <option value="miles">英里</option>
           </select>
           <label
             className="flex-1 ml-2 flex items-center"
@@ -75,6 +75,17 @@ export function Settings({
             {t("settings.startingNextDay")}
           </div>
         </header>
+        <div className="flex p-1">
+          <input
+            type="checkbox"
+            id="setting-countyMode"
+            checked={settingsData.countyMode}
+            onChange={(e) => updateSettings({ countyMode: e.target.checked })}
+          />
+          <label className="flex-1 ml-2" htmlFor="setting-countyMode">
+            {t("settings.countyMode")}
+          </label>
+        </div>
         <div className="flex p-1">
           <input
             type="checkbox"

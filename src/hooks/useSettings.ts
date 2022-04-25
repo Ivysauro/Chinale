@@ -3,6 +3,7 @@ import { useCallback, useState } from "react";
 export interface SettingsData {
   noImageMode: boolean;
   rotationMode: boolean;
+  countyMode: boolean;
   distanceUnit: "km" | "miles";
   theme: "light" | "dark";
   shiftDayCount: number;
@@ -12,6 +13,7 @@ export interface SettingsData {
 const defaultSettingsData: SettingsData = {
   noImageMode: false,
   rotationMode: false,
+  countyMode: false,
   distanceUnit: "km",
   theme: window.matchMedia("(prefers-color-scheme: dark)").matches
     ? "dark"
@@ -27,6 +29,12 @@ function loadSettings(): SettingsData {
     ...defaultSettingsData,
     ...settingsData,
   };
+}
+
+export function getSettings(): SettingsData {
+  const storedSettings = localStorage.getItem("settings");
+  const settingsData = storedSettings != null ? JSON.parse(storedSettings) : {};
+  return settingsData;
 }
 
 export function useSettings(): [

@@ -3,12 +3,14 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import seedrandom from "seedrandom";
 import {
   bigEnoughCountriesWithImage,
+  smallEnoughCountriesWithImage,
   countriesWithImage,
   Country,
   smallCountryLimit,
 } from "../domain/countries";
 import { areas } from "../domain/countries.area";
 import { Guess, loadAllGuesses, saveGuesses } from "../domain/guess";
+import { getSettings } from "./useSettings";
 
 const forcedCountries: Record<string, string> = {
   "2022-02-02": "TD",
@@ -17,6 +19,7 @@ const forcedCountries: Record<string, string> = {
   "2022-03-22": "MC",
   "2022-03-23": "PR",
   "2022-03-24": "MX",
+  "2022-04-22": "110105",
 };
 
 export function getDayString(shiftDayCount?: number) {
@@ -83,7 +86,8 @@ function getCountry(dayString: string) {
   do {
     smallCountryCooldown--;
 
-    const pickingDateString = pickingDate.toFormat("yyyy-MM-dd");
+    //const pickingDateString = pickingDate.toFormat("yyyy-MM-dd");
+    const pickingDateString = Math.random().toString(); // for test
 
     const forcedCountryCode = forcedCountries[dayString];
     const forcedCountry =
@@ -92,10 +96,12 @@ function getCountry(dayString: string) {
             (country) => country.code === forcedCountryCode
           )
         : undefined;
+       
+    const settingsData = getSettings();
 
     const countrySelection =
-      smallCountryCooldown < 0
-        ? countriesWithImage
+      settingsData.countyMode
+        ? smallEnoughCountriesWithImage
         : bigEnoughCountriesWithImage;
 
     pickedCountry =
