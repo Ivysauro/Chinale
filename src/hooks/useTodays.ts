@@ -11,6 +11,7 @@ import {
 import { areas } from "../domain/countries.area";
 import { Guess, loadAllGuesses, saveGuesses } from "../domain/guess";
 import { getSettings } from "./useSettings";
+import { isUsingMode } from "../hooks/useMode";
 
 const forcedCountries: Record<string, string> = {
   "2022-02-02": "TD",
@@ -96,11 +97,11 @@ function getCountry(dayString: string) {
             (country) => country.code === forcedCountryCode
           )
         : undefined;
-       
-    const settingsData = getSettings();
+
+        const countyMode = isUsingMode("countyMode", dayString);
 
     const countrySelection =
-      settingsData.countyMode
+      countyMode
         ? smallEnoughCountriesWithImage
         : bigEnoughCountriesWithImage;
 

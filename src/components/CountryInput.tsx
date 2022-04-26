@@ -1,10 +1,11 @@
 import { t } from "i18next";
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import Autosuggest from "react-autosuggest";
 import { useTranslation } from "react-i18next";
 import { getCountryName, sanitizeCountryName } from "../domain/countries";
-import { countries } from "../domain/countries.position";
 import { getSettings } from "../hooks/useSettings";
+import { isUsingMode, useMode } from "../hooks/useMode";
+import { getDayString } from "../hooks/useTodays";
 import {
   bigEnoughCountriesWithImage,
   smallEnoughCountriesWithImage
@@ -24,11 +25,17 @@ export function CountryInput({
   const [suggestions, setSuggestions] = useState<string[]>([]);
 
   const { i18n } = useTranslation();
-
+  
   const settingsData = getSettings();
 
+  const dayString = useMemo(
+    () => getDayString(settingsData.shiftDayCount),
+    [settingsData.shiftDayCount]
+  );
+  const countyMode = isUsingMode("countyMode", dayString);
+
   const countrySelection =
-  settingsData.countyMode
+  countyMode
     ? smallEnoughCountriesWithImage
     : bigEnoughCountriesWithImage;
 

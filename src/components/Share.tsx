@@ -20,6 +20,7 @@ interface ShareProps {
   settingsData: SettingsData;
   hideImageMode: boolean;
   rotationMode: boolean;
+  countyMode: boolean
 }
 
 export function Share({
@@ -28,6 +29,7 @@ export function Share({
   settingsData,
   hideImageMode,
   rotationMode,
+  countyMode
 }: ShareProps) {
   const { t } = useTranslation();
   const { theme } = settingsData;
@@ -45,6 +47,8 @@ export function Share({
       ? " 🙈"
       : rotationMode
       ? " 🌀"
+      : countyMode
+      ? " 县级"
       : "";
     const bestPercent = `(${computeProximityPercent(
       bestDistance
@@ -71,7 +75,7 @@ export function Share({
         format: "text/plain",
       }}
     >
-      <button className="rounded font-bold border-2 p-1 uppercase bg-yellow-600 hover:bg-yellow-500 active:bg-yellow-700 text-white w-full">
+      <button className="rounded font-bold border-2 p-1 uppercase bg-yellow-300 hover:bg-yellow-200 active:bg-yellow-400 text-white w-full">
         {t("share")}
       </button>
     </CopyToClipboard>

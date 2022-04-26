@@ -17,7 +17,10 @@ import { SettingsData } from "../hooks/useSettings";
 import { useMode } from "../hooks/useMode";
 import { getDayString, useTodays } from "../hooks/useTodays";
 import { Twemoji } from "@teuteuf/react-emoji-render";
-import { countries } from "../domain/countries.position";
+import {
+  bigEnoughCountriesWithImage,
+  smallEnoughCountriesWithImage
+} from "../domain/countries";
 
 const MAX_TRY_COUNT = 6;
 
@@ -53,6 +56,11 @@ export function Game({ settingsData, updateSettings }: GameProps) {
     dayString,
     settingsData.rotationMode
   );
+  const [countyMode, setCountyMode] = useMode(
+    "countyMode",
+    dayString,
+    settingsData.countyMode
+  );
 
   const gameEnded =
     guesses.length === MAX_TRY_COUNT ||
@@ -64,7 +72,13 @@ export function Game({ settingsData, updateSettings }: GameProps) {
         return;
       }
       e.preventDefault();
-      const guessedCountry = countries.find(
+
+      const countrySelection =
+      countyMode
+        ? smallEnoughCountriesWithImage
+        : bigEnoughCountriesWithImage;
+
+      const guessedCountry = countrySelection.find(
         (country) =>
           sanitizeCountryName(
             getCountryName(i18n.resolvedLanguage, country)
@@ -202,6 +216,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
               settingsData={settingsData}
               hideImageMode={hideImageMode}
               rotationMode={rotationMode}
+              countyMode={countyMode}
             />
             <a
               className="underline w-full text-center block mt-4"
