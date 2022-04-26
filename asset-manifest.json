@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./chinale/static/css/main.fc0e3585.css",
-    "main.js": "./chinale/static/js/main.cb5c98c9.js",
-    "static/js/787.b1990627.chunk.js": "./chinale/static/js/787.b1990627.chunk.js",
-    "service-worker.js": "./chinale/service-worker.js",
-    "index.html": "./chinale/index.html",
-    "main.fc0e3585.css.map": "./chinale/static/css/main.fc0e3585.css.map",
-    "main.cb5c98c9.js.map": "./chinale/static/js/main.cb5c98c9.js.map",
-    "787.b1990627.chunk.js.map": "./chinale/static/js/787.b1990627.chunk.js.map"
+    "main.css": "./static/css/main.fc0e3585.css",
+    "main.js": "./static/js/main.ccbce39c.js",
+    "static/js/787.b1990627.chunk.js": "./static/js/787.b1990627.chunk.js",
+    "service-worker.js": "./service-worker.js",
+    "index.html": "./index.html",
+    "main.fc0e3585.css.map": "./static/css/main.fc0e3585.css.map",
+    "main.ccbce39c.js.map": "./static/js/main.ccbce39c.js.map",
+    "787.b1990627.chunk.js.map": "./static/js/787.b1990627.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc0e3585.css",
-    "static/js/main.cb5c98c9.js"
+    "static/js/main.ccbce39c.js"
   ]
 }
