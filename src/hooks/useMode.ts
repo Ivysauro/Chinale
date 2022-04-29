@@ -2,7 +2,7 @@
  * @Author: dx3906
  * @Date: 2022-04-21 08:18:16
  * @LastEditors: dx3906
- * @LastEditTime: 2022-04-26 16:22:37
+ * @LastEditTime: 2022-04-29 11:23:58
  */
 import { useEffect, useState } from "react";
 
@@ -38,9 +38,16 @@ export function useMode(
 
 export function isUsingMode(
   modeName: string,
-  dayString: string
+  dayString: string,
+  defaultValue: boolean
 ) {
-  const storedModeValues = localStorage.getItem(modeName);
-  const modeData = storedModeValues != null ? JSON.parse(storedModeValues) : {};
+  localStorage.setItem(
+    modeName,
+    JSON.stringify({
+      [dayString]: defaultValue,
+      ...loadAllModeValues(modeName),
+    })
+  );
+  const modeData = loadAllModeValues(modeName);
   return modeData[dayString];
 }

@@ -10,7 +10,7 @@ import {
 } from "../domain/countries";
 import { areas } from "../domain/countries.area";
 import { Guess, loadAllGuesses, saveGuesses } from "../domain/guess";
-import { getSettings } from "./useSettings";
+import { getSettings } from "../hooks/useSettings";
 import { isUsingMode } from "../hooks/useMode";
 
 const forcedCountries: Record<string, string> = {
@@ -83,7 +83,8 @@ function getCountry(dayString: string) {
   let pickingDate = DateTime.fromFormat("2022-03-21", "yyyy-MM-dd");
   let smallCountryCooldown = 0;
   let pickedCountry: Country | null = null;
-
+  const settingsData = getSettings();
+  const countyMode = isUsingMode("countyMode", dayString, settingsData.countyMode);
   do {
     smallCountryCooldown--;
 
@@ -98,27 +99,30 @@ function getCountry(dayString: string) {
           )
         : undefined;
 
-        const countyMode = isUsingMode("countyMode", dayString);
-
+    
     const countrySelection =
       countyMode
         ? smallEnoughCountriesWithImage
         : bigEnoughCountriesWithImage;
 
+    let seedModifier = "";
+    do {
     pickedCountry =
       forcedCountry ??
       countrySelection[
         Math.floor(
-          seedrandom.alea(pickingDateString)() * countrySelection.length
+          seedrandom.alea(pickingDateString + seedModifier)() * countrySelection.length
         )
       ];
-
+      if (Math.floor(seedrandom.alea(pickingDateString + seedModifier)() * countrySelection.length) != Math.floor(seedrandom.alea(pickingDate.minus({ day: 1 }).toFormat("yyyy-MM-dd"))() * countrySelection.length)) break;
+      seedModifier += '114514';
+    } while(114514);
     if (areas[pickedCountry.code] < smallCountryLimit) {
       smallCountryCooldown = 7;
     }
 
     pickingDate = pickingDate.plus({ day: 1 });
   } while (pickingDate <= currentDayDate);
-
+  
   return pickedCountry;
 }

@@ -1,3 +1,9 @@
+/*
+ * @Author: dx3906
+ * @Date: 2022-04-26 17:47:52
+ * @LastEditors: dx3906
+ * @LastEditTime: 2022-04-29 11:11:41
+ */
 import { t } from "i18next";
 import React, { useState, useMemo } from "react";
 import Autosuggest from "react-autosuggest";
@@ -32,7 +38,7 @@ export function CountryInput({
     () => getDayString(settingsData.shiftDayCount),
     [settingsData.shiftDayCount]
   );
-  const countyMode = isUsingMode("countyMode", dayString);
+  const countyMode = isUsingMode("countyMode", dayString, settingsData.countyMode);
 
   const countrySelection =
   countyMode
