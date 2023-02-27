@@ -13,7 +13,7 @@ import { Worldle, Chinale } from "./components/Worldle";
 import { Stats } from "./components/panels/Stats";
 import { useReactPWAInstall } from "@teuteuf/react-pwa-install";
 import { InstallButton } from "./components/InstallButton";
-import { Twemoji } from "@teuteuf/react-emoji-render";
+import { Twemoji } from "react-emoji-render";
 import { getDayString, useTodays } from "./hooks/useTodays";
 import {
   LocalStoragePersistenceService,

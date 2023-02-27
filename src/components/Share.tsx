@@ -47,13 +47,14 @@ export function Share({
       ? " 🙈"
       : rotationMode
       ? " 🌀"
-      : countyMode
-      ? " 县级"
       : "";
+    const countyModifierEmoji = countyMode
+      ? "·县邑"
+      : "·州府";
     const bestPercent = `(${computeProximityPercent(
       bestDistance
     ).toString()}%)`;
-    const title = `#舆鉴# 第${dayCount}天 ${guessCount}/6 ${bestPercent}${difficultyModifierEmoji}`;
+    const title = `#舆鉴#${countyModifierEmoji} 第${dayCount}天 ${guessCount}/6 ${bestPercent}${difficultyModifierEmoji}`;
 
     const guessString = guesses
       .map((guess) => {

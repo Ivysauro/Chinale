@@ -10,7 +10,7 @@ import React from "react";
 import { Worldle, Chinale } from "../Worldle";
 import { formatDistance } from "../../domain/geography";
 import { SettingsData } from "../../hooks/useSettings";
-import { Twemoji } from "@teuteuf/react-emoji-render";
+import { Twemoji } from "react-emoji-render";
 
 interface InfosProps {
   isOpen: boolean;
@@ -97,7 +97,7 @@ export function InfosZh({ isOpen, close, settingsData }: InfosProps) {
           请前往{" "}
           <a
             className="underline"
-            href="https://placeholder.com"
+            href="https://github.com/HeliumOctahelide/Chinale/issues"
             target="_blank"
             rel="noopener noreferrer"
           >
