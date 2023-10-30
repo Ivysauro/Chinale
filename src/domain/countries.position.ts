@@ -89,7 +89,7 @@ export const countries: Country[] = [{
   code: "120102",
   latitude: 39.122125,
   longitude: 117.226568,
-  name: "河东区"
+  name: "河东区（天津市）"
 }, {
   code: "120103",
   latitude: 39.101897,
@@ -5964,7 +5964,7 @@ export const countries: Country[] = [{
   code: "350803",
   latitude: 24.720442,
   longitude: 116.732691,
-  name: "永定区"
+  name: "永定区（龙岩市）"
 }, {
   code: "350821",
   latitude: 25.842278,
@@ -7114,7 +7114,7 @@ export const countries: Country[] = [{
   code: "371312",
   latitude: 35.085004,
   longitude: 118.398296,
-  name: "河东区"
+  name: "河东区（临沂市）"
 }, {
   code: "371321",
   latitude: 35.547002,
@@ -9174,7 +9174,7 @@ export const countries: Country[] = [{
   code: "430802",
   latitude: 29.125961,
   longitude: 110.484559,
-  name: "永定区"
+  name: "永定区（张家界市）"
 }, {
   code: "430811",
   latitude: 29.347827,
@@ -9534,7 +9534,7 @@ export const countries: Country[] = [{
   code: "440115",
   latitude: 22.794531,
   longitude: 113.53738,
-  name: "南沙区"
+  name: "南沙区（广州市）"
 }, {
   code: "440117",
   latitude: 23.545283,
@@ -9639,7 +9639,7 @@ export const countries: Country[] = [{
   code: "440309",
   latitude: 22.691963,
   longitude: 114.044346,
-  name: "龙华区"
+  name: "龙华区（深圳市）"
 }, {
   code: "440310",
   latitude: 22.69423,
@@ -10839,7 +10839,7 @@ export const countries: Country[] = [{
   code: "460106",
   latitude: 20.031026,
   longitude: 110.330373,
-  name: "龙华区"
+  name: "龙华区（海口市）"
 }, {
   code: "460107",
   latitude: 20.001051,
@@ -10881,15 +10881,15 @@ export const countries: Country[] = [{
   longitude: 112.34882,
   name: "三沙市"
 }, {
-  code: "460301",
+  code: "460302",
   latitude: 16.8310066,
   longitude: 112.3386402,
   name: "西沙区"
 }, {
-  code: "460302",
+  code: "460303",
   latitude: 9.543575,
   longitude: 112.891018,
-  name: "南沙区"
+  name: "南沙区（三沙市）"
 }, {
   code: "460400",
   latitude: 19.517486,
